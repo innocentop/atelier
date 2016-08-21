@@ -1,0 +1,7 @@
+NAME=$1
+echo $NAME
+FILE=${NAME/\.gabc/}
+echo $FILE
+mv $FILE.pdf ../pdf
+mv $FILE.gabc ../final
+mv $FILE.* $FILE-main.* ../out

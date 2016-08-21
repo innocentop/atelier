@@ -1,0 +1,37 @@
+
+\documentclass[10pt, letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+\usepackage{palatino}
+\usepackage{gregoriotex}
+\usepackage{color}
+\usepackage{ifthen}
+\usepackage[margin=0.75in, paperwidth=6in, paperheight=9in]{geometry}
+\pagestyle{empty}
+\begin{document}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\begin{center}\begin{huge}\textsc{Dilexisti}\end{huge}\end{center}
+\begin{center}1950 Graduale (Suarez), page(s) 56*\end{center}
+
+\setspaceafterinitial{3.2mm plus 0em minus 0em}
+\setspacebeforeinitial{3.2mm plus 0em minus 0em}
+
+\def\greinitialformat#1{%
+{\fontsize{31}{31}\selectfont #1}%
+}
+
+\gresetfirstlineaboveinitial{\small \textbf{}}{\small \textbf{}}
+\gresetsecondannotation{\small \textsc{\textbf{VIII.}}}
+\commentary{{\small \emph{}}}
+
+\setgrefactor{17}
+\grespaceabovelines=3mm
+\GreLoadSpaceConf{smith}
+
+\includescore{re_dilexisti.tex}
+
+\end{document}
+
+

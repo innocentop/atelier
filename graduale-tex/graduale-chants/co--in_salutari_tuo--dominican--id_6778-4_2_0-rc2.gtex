@@ -8,7 +8,7 @@
 \GreHeader{book}{Graduale O.P. (Suarez), 1950, p. 346}%
 \GreHeader{transcriber}{Andrew Hinkley}%
 \GreEndHeaders %
-\GreBeginScore{888e1c570d2552003fbb5c646a309c104f746057}{12}{5}{0}{0}{}{4}%
+\GreBeginScore{a3b5d9b83914f423b72dfc437a2824f54742500b}{12}{5}{0}{0}{}{4}%
 \GreMode{\GreModeNumber{1}}{}{}%
 \GreScoreOpening{%
 }{%
@@ -234,7 +234,7 @@
 \GreGlyphHeights{10}{9}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{}{e}{s}{e}{s}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{14}{}{%
+\GreSyllable{\GreSetThisSyllable{}{e}{s}{e}{s}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{12}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
 {%
@@ -244,7 +244,7 @@
 %
 \GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{d}{e}{}{d}{e}}{}{0}{}{%
 \GreSyllableNoteCount{0}%
-\GreDominica{3}{0}{}%
+\GreDivisioMinor{0}{}%
 }%
 %
 \GreSyllable{\GreSetThisSyllable{d}{e}{}{d}{e}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{p}{e}{r}{p}{er}}{}{0}{}{%
@@ -291,17 +291,12 @@
 }{}{}%
 }%
 %
-\GreSyllable{\GreSetThisSyllable{m}{e}{}{m}{e}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{12}{}{%
+\GreSyllable{\GreSetThisSyllable{m}{e}{}{m}{e}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{i}{u}{}{i}{u}}{}{8}{}{%
 \GreSyllableNoteCount{2}%
 \GreGlyph{\GreCPPesOneNothing}{9}{\GreNextCustos{8}{}}{0}%
 {%
 \GreGlyphHeights{10}{9}%
 }{}{}%
-}%
-%
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{i}{u}{}{i}{u}}{}{8}{}{%
-\GreSyllableNoteCount{0}%
-\GreDivisioMinor{0}{}%
 }%
 %
 \GreSyllable{\GreSetThisSyllable{i}{u}{}{i}{u}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{d}{í}{}{d}{í}}{}{0}{}{%

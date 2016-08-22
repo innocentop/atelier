@@ -6,13 +6,13 @@
 \GreHeader{office-part}{Alleluia}%
 \GreHeader{mode}{2}%
 \GreHeader{book}{Graduale Romanum, 1908, p. 328}%
-\GreHeader{transcriber}{Andrew Hinkley; ed. Smith to adapt quarter bars; I've also removed quilismas}%
+\GreHeader{transcriber}{Andrew Hinkley; ed. Smith to adapt quarter bars}%
 \GreEndHeaders %
-\GreBeginScore{9482c8fc5c7197e855da9248ba2a8dc430f9ebee}{13}{7}{0}{0}{}{4}%
+\GreBeginScore{d44de297fe0bfea76c30c13293678203d9d72228}{13}{7}{0}{0}{}{4}%
 \GreMode{\GreModeNumber{2}}{}{}%
 \GreScoreOpening{%
 }{%
-\GreSetInitialClef{f}{3}{3}{c}{0}{3}{1}%
+\GreSetInitialClef{c}{3}{3}{c}{0}{3}{1}%
 }{%
 }{\GreSyllable}{\GreSetFirstSyllableText{A}{l}{}{{}{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{l}}}}{}}{{}{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{A}}}}{\GreFirstWord{\GreFirstSyllable{l}}}}{}}{}{\GreFirstWord}{0}{\GreSetNextSyllable{\GreFirstWord{l}}{\GreFirstWord{e}}{}{\GreFirstWord{l}}{\GreFirstWord{e}}}{}{0}{}{%
 \GreSyllableNoteCount{3}%
@@ -118,7 +118,7 @@
 \GreGlyphHeights{8}{8}%
 }{}{}%
 \GreEndOfGlyph{1}%
-\GreGlyph{\GreCPPesOneNothing}{9}{\GreNextCustos{11}{}}{0}%
+\GreGlyph{\GreCPPesQuilismaOneNothing}{9}{\GreNextCustos{11}{}}{4}%
 {%
 \GreGlyphHeights{10}{9}%
 }{}{}%
@@ -171,7 +171,7 @@
 \GreGlyphHeights{9}{9}%
 }{}{}%
 \GreEndOfGlyph{1}%
-\GreGlyph{\GreCPPesOneNothing}{10}{\GreNextCustos{12}{}}{0}%
+\GreGlyph{\GreCPPesQuilismaOneNothing}{10}{\GreNextCustos{12}{}}{4}%
 {%
 \GreGlyphHeights{11}{10}%
 }{}{}%
@@ -297,7 +297,7 @@
 \GreGlyphHeights{7}{7}%
 }{}{}%
 \GreEndOfGlyph{1}%
-\GreGlyph{\GreCPPesOneNothing}{8}{\GreNextCustos{9}{}}{0}%
+\GreGlyph{\GreCPPesQuilismaOneNothing}{8}{\GreNextCustos{9}{}}{4}%
 {%
 \GreGlyphHeights{9}{8}%
 }{}{}%
@@ -315,7 +315,7 @@
 \GreGlyphHeights{8}{8}%
 }{}{}%
 \GreEndOfGlyph{1}%
-\GreGlyph{\GreCPPesOneNothing}{9}{\GreNextCustos{9}{}}{0}%
+\GreGlyph{\GreCPPesQuilismaOneNothing}{9}{\GreNextCustos{9}{}}{4}%
 {%
 \GreGlyphHeights{10}{9}%
 }{}{}%
@@ -398,7 +398,7 @@
 \GreGlyphHeights{12}{8}%
 }{}{}%
 \GreEndOfGlyph{1}%
-\GreGlyph{\GreCPPunctum}{12}{\GreNextCustos{13}{}}{0}%
+\GreGlyph{\GreCPQuilisma}{12}{\GreNextCustos{13}{}}{4}%
 {%
 \GreGlyphHeights{12}{12}%
 }{}{}%
@@ -618,7 +618,7 @@
 \GreGlyphHeights{8}{7}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{l}{o}{}{l}{o}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{\GreStar{}}{}{\GreStar{}}{}}{}{12}{}{%
+\GreSyllable{\GreSetThisSyllable{l}{o}{}{l}{o}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{\GreStar{}}{}{\GreStar{}}{}}{}{14}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{8}{\GreNextCustos{7}{}}{0}%
 {%
@@ -628,7 +628,7 @@
 %
 \GreBarSyllable{\GreSetThisSyllable{}{\GreStar{}}{}{\GreStar{}}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{b}{á}{r}{b}{ár}}{}{0}{}{%
 \GreSyllableNoteCount{0}%
-\GreDivisioMinor{1}{}%
+\GreDominica{3}{1}{}%
 }%
 %
 \GreSyllable{\GreSetThisSyllable{b}{á}{r}{b}{ár}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{b}{a}{}{b}{a}}{}{0}{}{%
@@ -705,7 +705,7 @@
 \GreGlyphHeights{8}{8}%
 }{}{}%
 \GreEndOfGlyph{1}%
-\GreGlyph{\GreCPPesOneNothing}{9}{\GreNextCustos{11}{}}{0}%
+\GreGlyph{\GreCPPesQuilismaOneNothing}{9}{\GreNextCustos{11}{}}{4}%
 {%
 \GreGlyphHeights{10}{9}%
 }{}{}%
@@ -758,7 +758,7 @@
 \GreGlyphHeights{9}{9}%
 }{}{}%
 \GreEndOfGlyph{1}%
-\GreGlyph{\GreCPPesOneNothing}{10}{\GreNextCustos{12}{}}{0}%
+\GreGlyph{\GreCPPesQuilismaOneNothing}{10}{\GreNextCustos{12}{}}{4}%
 {%
 \GreGlyphHeights{11}{10}%
 }{}{}%

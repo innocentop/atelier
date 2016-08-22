@@ -8,7 +8,7 @@
 \GreHeader{book}{Graduale O.P. (Suarez), 1950, p. 344}%
 \GreHeader{transcriber}{Andrew Hinkley; extensively edited by Innocent Smith in light of the mss; this particularly includes moving the text wording in the verse}%
 \GreEndHeaders %
-\GreBeginScore{d0e90be72e60fae91546d247720c04ea24b29033}{13}{6}{0}{0}{}{4}%
+\GreBeginScore{5bf993d4f703186123e9cf528c6dab63143fc4e7}{13}{6}{0}{0}{}{4}%
 \GreMode{\GreModeNumber{2}}{}{}%
 \GreScoreOpening{%
 }{%
@@ -677,17 +677,12 @@
 \GreGlyphHeights{12}{12}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{t}{e}{s}{t}{es}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{13}{}{%
+\GreSyllable{\GreSetThisSyllable{t}{e}{s}{t}{es}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{f}{í}{}{f}{í}}{}{1}{}{%
 \GreSyllableNoteCount{2}%
 \GreGlyph{\GreCPFlexusLongqueueOneNothing}{12}{\GreNextCustos{13}{}}{8}%
 {%
 \GreGlyphHeights{12}{11}%
 }{}{}%
-}%
-%
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{f}{í}{}{f}{í}}{}{1}{}{%
-\GreSyllableNoteCount{0}%
-\GreDivisioMaior{0}{}%
 }%
 %
 \GreSyllable{\GreSetThisSyllable{f}{í}{}{f}{í}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{}{e}{}{e}{}}{}{0}{}{%
@@ -719,12 +714,17 @@
 \GreGlyphHeights{11}{11}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{r}{e}{nt,}{r}{ent,}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{au}{t}{a}{ut}}{}{0}{}{%
+\GreSyllable{\GreSetThisSyllable{r}{e}{nt,}{r}{ent,}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{13}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{11}{\GreNextCustos{11}{}}{0}%
 {%
 \GreGlyphHeights{11}{11}%
 }{}{}%
+}%
+%
+\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{au}{t}{a}{ut}}{}{0}{}{%
+\GreSyllableNoteCount{0}%
+\GreDivisioMaior{0}{}%
 }%
 %
 \GreSyllable{\GreSetThisSyllable{}{au}{t}{a}{ut}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{f}{o}{r}{f}{or}}{}{0}{}{%

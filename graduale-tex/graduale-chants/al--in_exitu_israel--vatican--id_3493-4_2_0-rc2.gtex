@@ -8,7 +8,7 @@
 \GreHeader{book}{Graduale Romanum, 1908, p. 328}%
 \GreHeader{transcriber}{Andrew Hinkley; ed. Smith to adapt quarter bars}%
 \GreEndHeaders %
-\GreBeginScore{d44de297fe0bfea76c30c13293678203d9d72228}{13}{7}{0}{0}{}{4}%
+\GreBeginScore{1fd6b63617e0b57d70c08fe48cc4d5077e7a8a72}{13}{7}{0}{0}{}{4}%
 \GreMode{\GreModeNumber{2}}{}{}%
 \GreScoreOpening{%
 }{%
@@ -654,8 +654,10 @@
 \GreSyllableNoteCount{9}%
 \GreGlyph{\GreCPVirga}{9}{\GreNextCustos{8}{}}{0}%
 {%
-\GreGlyphHeights{9}{9}%
-}{}{}%
+\GreGlyphHeights{10}{9}%
+}{%
+\GreHEpisema{10}{\GreOCaseInitialVirga}{0}{0}{f}{10}{}{}{0}%
+}{}%
 \GreEndOfElement{1}{0}{1}%
 \GreGlyph{\GreCPPesThreeNothing}{8}{\GreNextCustos{10}{}}{0}%
 {%

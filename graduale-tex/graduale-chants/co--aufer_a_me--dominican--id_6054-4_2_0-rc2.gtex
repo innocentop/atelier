@@ -8,7 +8,7 @@
 \GreHeader{book}{Graduale O.P. (Suarez), 1950, p. 333}%
 \GreHeader{transcriber}{Andrew Hinkley; edited Innocent Smith}%
 \GreEndHeaders %
-\GreBeginScore{5e78c530d32a8d433de4c46a4b1a7245553bf539}{12}{5}{0}{0}{}{4}%
+\GreBeginScore{f4bd0bc39f06bc7cbe67b02b644206ffc8ba5d87}{12}{5}{0}{0}{}{4}%
 \GreMode{\GreModeNumber{1}}{}{}%
 \GreScoreOpening{%
 }{%
@@ -37,7 +37,7 @@
 }{}{}%
 }%
 %
-\GreSyllable{\GreSetThisSyllable{m}{e}{}{m}{e}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{\GreStar{}}{}{\GreStar{}}{}}{}{16}{}{%
+\GreSyllable{\GreSetThisSyllable{m}{e}{}{m}{e}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{\GreStar{}}{}{\GreStar{}}{}}{}{12}{}{%
 \GreSyllableNoteCount{5}%
 \GreGlyph{\GreCPPesOneNothing}{8}{\GreNextCustos{10}{}}{0}%
 {%
@@ -55,8 +55,9 @@
 }{}{}%
 }%
 %
-\GreNoNoteSyllable{\GreSetThisSyllable{}{\GreStar{}}{}{\GreStar{}}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{o}{p}{o}{p}}{}{0}{}{%
+\GreBarSyllable{\GreSetThisSyllable{}{\GreStar{}}{}{\GreStar{}}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{o}{p}{o}{p}}{}{0}{}{%
 \GreSyllableNoteCount{0}%
+\GreDivisioMinor{1}{}%
 }%
 %
 \GreSyllable{\GreSetThisSyllable{}{o}{p}{o}{p}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{pr}{ó}{}{p}{ró}}{}{0}{}{%
@@ -88,7 +89,7 @@
 }{}{}%
 }%
 %
-\GreSyllable{\GreSetThisSyllable{}{e}{t}{e}{t}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{c}{o}{n}{c}{on}}{}{9}{}{%
+\GreSyllable{\GreSetThisSyllable{}{e}{t}{e}{t}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{c}{o}{n}{c}{on}}{}{0}{}{%
 \GreSyllableNoteCount{2}%
 \GreGlyph{\GreCPPesTwoNothing}{8}{\GreNextCustos{9}{}}{0}%
 {%
@@ -97,10 +98,10 @@
 }%
 %
 \GreSyllable{\GreSetThisSyllable{c}{o}{n}{c}{on}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{t}{é}{mp}{t}{émp}}{}{0}{}{%
-\GreSyllableNoteCount{2}%
-\GreGlyph{\GreCPFlexusOneDeminutus}{9}{\GreNextCustos{9}{}}{9}%
+\GreSyllableNoteCount{1}%
+\GreGlyph{\GreCPVirgaReversaDescendens}{9}{\GreNextCustos{9}{}}{0}%
 {%
-\GreGlyphHeights{9}{8}%
+\GreGlyphHeights{9}{9}%
 }{}{}%
 }%
 \GreSyllable{\GreSetThisSyllable{t}{é}{mp}{t}{émp}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{t}{u}{m,}{t}{um,}}{}{0}{}{%

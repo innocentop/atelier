@@ -8,7 +8,7 @@
 \GreHeader{book}{Graduale O.P. (Suarez), 1950, p. 336}%
 \GreHeader{transcriber}{Andrew Hinkley}%
 \GreEndHeaders %
-\GreBeginScore{8328a86a641b223f32fbf8dbe222c796e2c82833}{12}{5}{0}{0}{}{4}%
+\GreBeginScore{7668fa673c7e6cbb08a8110b414df22218182b8f}{12}{5}{0}{0}{}{4}%
 \GreMode{\GreModeNumber{1}}{}{}%
 \GreScoreOpening{%
 }{%
@@ -78,8 +78,8 @@
 \GreDivisioMinor{1}{}%
 }%
 %
-\GreSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{14}{}{%
-\GreSyllableNoteCount{5}%
+\GreSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{15}{}{%
+\GreSyllableNoteCount{24}%
 \GreGlyph{\GreCPPesTwoNothing}{7}{\GreNextCustos{10}{}}{0}%
 {%
 \GreGlyphHeights{9}{7}%
@@ -89,25 +89,17 @@
 {%
 \GreGlyphHeights{10}{9}%
 }{}{}%
-}%
-%
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{0}{}{%
-\GreSyllableNoteCount{0}%
-\GreDominica{4}{0}{}%
-}%
-%
-\GreSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{12}{}{%
-\GreSyllableNoteCount{8}%
+\GreInDominica{4}{0}{}%
 \GreGlyph{\GreCPTorculusTwoOneNothing}{8}{\GreNextCustos{10}{}}{0}%
 {%
 \GreGlyphHeights{10}{8}%
 }{}{}%
-\GreEndOfElement{1}{0}{3}%
+\GreEndOfElement{0}{0}{8}%
 \GreGlyph{\GreCPFlexusLongqueueTwoNothing}{10}{\GreNextCustos{8}{}}{1}%
 {%
 \GreGlyphHeights{10}{8}%
 }{}{}%
-\GreEndOfElement{0}{0}{5}%
+\GreEndOfElement{0}{0}{10}%
 \GreGlyph{\GreCPVirgaLongqueue}{8}{\GreNextCustos{7}{}}{0}%
 {%
 \GreGlyphHeights{8}{8}%
@@ -122,15 +114,7 @@
 {%
 \GreGlyphHeights{5}{5}%
 }{}{}%
-}%
-%
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{0}{}{%
-\GreSyllableNoteCount{0}%
-\GreDivisioMinor{0}{}%
-}%
-%
-\GreSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{14}{}{%
-\GreSyllableNoteCount{3}%
+\GreInDivisioMinor{0}{}%
 \GreGlyph{\GreCPPunctum}{6}{\GreNextCustos{8}{}}{0}%
 {%
 \GreGlyphHeights{6}{6}%
@@ -140,15 +124,7 @@
 {%
 \GreGlyphHeights{9}{8}%
 }{}{}%
-}%
-%
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{0}{}{%
-\GreSyllableNoteCount{0}%
-\GreDominica{4}{0}{}%
-}%
-%
-\GreSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{15}{}{%
-\GreSyllableNoteCount{8}%
+\GreInDominica{4}{0}{}%
 \GreGlyph{\GreCPPesTwoNothing}{7}{\GreNextCustos{8}{}}{0}%
 {%
 \GreGlyphHeights{9}{7}%
@@ -168,7 +144,7 @@
 {%
 \GreGlyphHeights{6}{6}%
 }{}{}%
-\GreEndOfElement{1}{0}{5}%
+\GreEndOfElement{1}{0}{21}%
 \GreGlyph{\GreCPPunctum}{8}{\GreNextCustos{8}{}}{0}%
 {%
 \GreGlyphHeights{8}{8}%

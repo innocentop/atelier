@@ -6,9 +6,9 @@
 \GreHeader{office-part}{Offertorium}%
 \GreHeader{mode}{1}%
 \GreHeader{book}{Graduale O.P. (Suarez), 1950, p. 349}%
-\GreHeader{transcriber}{Andrew Hinkley}%
+\GreHeader{transcriber}{Andrew Hinkley; edited Innocent Smith}%
 \GreEndHeaders %
-\GreBeginScore{c542c1579ffdd6048f3ec69692c6ae1a5c5834e8}{13}{5}{0}{0}{}{4}%
+\GreBeginScore{c2df9f03a1838e3b7a5473ba810a8e15dc417744}{13}{5}{0}{0}{}{4}%
 \GreMode{\GreModeNumber{1}}{}{}%
 \GreScoreOpening{%
 }{%
@@ -246,17 +246,9 @@
 }{}{}%
 }%
 %
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{e}{t}{e}{t}}{}{0}{}{%
+\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{d}{a}{}{d}{a}}{}{0}{}{%
 \GreSyllableNoteCount{0}%
 \GreDivisioMaior{0}{}%
-}%
-%
-\GreSyllable{\GreSetThisSyllable{}{e}{t}{e}{t}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{d}{a}{}{d}{a}}{}{0}{}{%
-\GreSyllableNoteCount{1}%
-\GreGlyph{\GreCPPunctum}{6}{\GreNextCustos{6}{}}{0}%
-{%
-\GreGlyphHeights{6}{6}%
-}{}{}%
 }%
 %
 \GreSyllable{\GreSetThisSyllable{d}{a}{}{d}{a}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{s}{e}{r}{s}{er}}{}{0}{}{%
@@ -346,7 +338,7 @@
 }{}{}%
 }%
 %
-\GreSyllable{\GreSetThisSyllable{}{o}{s}{o}{s}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{m}{e}{}{m}{e}}{}{40}{}{%
+\GreSyllable{\GreSetThisSyllable{}{o}{s}{o}{s}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{m}{e}{}{m}{e}}{}{0}{}{%
 \GreSyllableNoteCount{2}%
 \GreGlyph{\GreCPPunctum}{12}{\GreNextCustos{12}{}}{0}%
 {%
@@ -361,10 +353,6 @@
 %
 \GreSyllable{\GreSetThisSyllable{m}{e}{}{m}{e}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{}{u}{m,}{u}{m,}}{}{0}{}{%
 \GreSyllableNoteCount{5}%
-\GreNatural{11}{0}%
-{%
-\GreGlyphHeights{11}{11}%
-}{}{}%
 \GreGlyph{\GreCPPesOneNothing}{12}{\GreNextCustos{12}{}}{0}%
 {%
 \GreGlyphHeights{13}{12}%
@@ -399,10 +387,10 @@
 }%
 %
 \GreSyllable{\GreSetThisSyllable{}{u}{t}{u}{t}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{pl}{á}{}{p}{lá}}{}{0}{}{%
-\GreSyllableNoteCount{2}%
-\GreGlyph{\GreCPPesTwoDeminutus}{8}{\GreNextCustos{10}{}}{0}%
+\GreSyllableNoteCount{1}%
+\GreGlyph{\GreCPVirgaReversaLongqueueAscendens}{8}{\GreNextCustos{10}{}}{0}%
 {%
-\GreGlyphHeights{10}{8}%
+\GreGlyphHeights{8}{8}%
 }{}{}%
 }%
 %
@@ -504,8 +492,8 @@
 \GreGlyphHeights{6}{6}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{}{a}{}{a}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{14}{}{%
-\GreSyllableNoteCount{4}%
+\GreSyllable{\GreSetThisSyllable{}{a}{}{a}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{13}{}{%
+\GreSyllableNoteCount{12}%
 \GreGlyph{\GreCPPunctum}{6}{\GreNextCustos{8}{}}{0}%
 {%
 \GreGlyphHeights{6}{6}%
@@ -516,27 +504,19 @@
 \GreGlyphHeights{8}{8}%
 }{}{}%
 \GreEndOfGlyph{0}%
-\GreGlyph{\GreCPFlexusLongqueueTwoNothing}{8}{\GreNextCustos{7}{}}{1}%
+\GreGlyph{\GreCPFlexusLongqueueTwoNothing}{8}{\GreNextCustos{8}{}}{1}%
 {%
 \GreGlyphHeights{8}{6}%
 }{}{}%
-}%
-%
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{0}{}{%
-\GreSyllableNoteCount{0}%
-\GreDominica{4}{0}{}%
-}%
-%
-\GreSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{13}{}{%
-\GreSyllableNoteCount{8}%
-\GreGlyph{\GreCPTorculusOneTwoNothing}{7}{\GreNextCustos{7}{}}{0}%
+\GreInDominica{4}{0}{}%
+\GreGlyph{\GreCPTorculusOneTwoNothing}{8}{\GreNextCustos{8}{}}{0}%
 {%
-\GreGlyphHeights{8}{6}%
+\GreGlyphHeights{9}{7}%
 }{}{}%
-\GreEndOfElement{1}{0}{3}%
-\GreGlyph{\GreCPPesOneNothing}{7}{\GreNextCustos{6}{}}{0}%
+\GreEndOfElement{1}{0}{7}%
+\GreGlyph{\GreCPPesOneNothing}{8}{\GreNextCustos{6}{}}{0}%
 {%
-\GreGlyphHeights{8}{7}%
+\GreGlyphHeights{9}{8}%
 }{}{}%
 \GreEndOfGlyph{9}%
 \GreGlyph{\GreCPDescendensPunctumInclinatum}{6}{\GreNextCustos{5}{}}{6}%

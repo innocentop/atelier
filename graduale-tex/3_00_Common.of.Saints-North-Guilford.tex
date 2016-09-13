@@ -1,0 +1,145 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+ 
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx} 
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+ 
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[Common of Saints]{Graduale O.P.}
+
+\newpage
+
+            
+%%Combination     
+
+\section{Common of Apostles}
+ \subsection{Officium}  \greannotation{II} \index[Officium]{Mihi autem} \label{Mihi autem (Officium)} \grecommentary[0pt]{Ps 138:17; \Vbar. 1} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/in--mihi_autem_nimis--dominican--id_4899} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{To me Your friends, O God, are made exceedingly honorable; their principality is exceedingly strengthened. \Vbar. Lord, You have proved me, and known me; You have known when I sit and when I stand.} 
+ \subsection{Communio}  \greannotation{I} \index[Communio]{Vos qui secuti ... tribus Israel} \label{Vos qui secuti ... tribus Israel (Communio)} \grecommentary[0pt]{Mt 19:28} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--vos_qui_secuti--dominican--id_5171} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{You who have followed Me shall sit on seats judging the twelve tribes of Israel.} 
+\newpage \section{Common of Martyrs}
+ \subsection{Officium}  \greannotation{I} \index[Officium]{Sapientiam sanctorum} \label{Sapientiam sanctorum (Officium)} \grecommentary[2pt]{Sir 44:15, 14; \Vbar. Ps 32:1} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/in--sapientiam--dominican--id_5872} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Let the people show forth the wisdom of the saints, and the Church declare their praise; and their names shall live unto generation and generation. \Vbar. Rejoice in the Lord, you just: praise becomes the upright.} 
+ \subsection{Communio}  \greannotation{VII} \index[Communio]{Redime me Deus} \label{Redime me Deus (Communio)} \grecommentary[0pt]{Ps 24:22} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--redime_me--dominican--id_6994} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Redeem me, O God of Israel, from all my tribulations.} 
+\newpage \section{Common of Pastors}
+ \subsection{Officium}  \greannotation{VI} \index[Officium]{Omnes gentes} \label{Omnes gentes (Officium)} \grecommentary[0pt]{Ps 46:2; \Vbar. 4} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/in--omnes_gentes--dominican--id_5326} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Clap your hands, all you nations; shout to God with the voice of joy, alleluia, alleluia, alleluia! \Vbar. He has subdued the people under us; and the nations under our feet.} 
+ \subsection{Communio}  \greannotation{I} \index[Communio]{Revelabitur} \label{Revelabitur (Communio)} \grecommentary[0pt]{Cf. Is 40:5} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--revelabitur--dominican--id_7068} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{The glory of the Lord shall be revealed, and all flesh shall see the salvation of our God.} 
+\newpage \section{Common of Virgins}
+ \subsection{Officium}  \greannotation{III} \index[Officium]{Tibi dixit cor meum} \label{Tibi dixit cor meum (Officium)} \grecommentary[4pt]{Ps 26:8, 9; \Vbar. 1} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/in--tibi_dixit--dominican--id_5182} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{My heart has said to You: I have sought Your face; Your face, O Lord, will I seek: turn not away Your face from me. \Vbar. The Lord is my light and my salvation; whom shall I fear?} 
+ \subsection{Communio}  \greannotation{I} \index[Communio]{Passer invenit} \label{Passer invenit (Communio)} \grecommentary[0pt]{Ps 83:4, 5} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--passer_invenit--dominican--id_6674} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{The sparrow has found herself a house, and the turtle a nest where she may lay her young ones: Your altars, O Lord of Hosts, my King, and my God. Blessed are they who dwell in Your house; they shall praise You forever and ever.} 
+\newpage \section{Common of Holy Men and Women}
+ \subsection{Officium}  \greannotation{I} \index[Officium]{Dominus secus mare} \label{Dominus secus mare (Officium)} \grecommentary[4pt]{Mt 4:18, 19; \Vbar. 20} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/in--dominus_secus_mare--dominican--id_4298} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{The Lord, walking by the sea of Galilee, saw two brothers, Peter and Andrew, and he called out to them: ``Follow me, and I will make you fishers of men.'' \Vbar. And they immediately left their nets and boats and followed him.} 
+ \subsection{Communio}  \greannotation{VIII} \index[Communio]{Primum quærite} \label{Primum quærite (Communio)} \grecommentary[0pt]{Mt 6:33} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--primum_quaerite--dominican--id_5473} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Seek first the kingdom of God, and all things shall be added unto you, says the Lord.} 
+ 
+\end{document}

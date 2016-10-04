@@ -25,10 +25,9 @@
 
 \usepackage[autocompile,allowdeprecated=false]{gregoriotex}
 \usepackage{gregoriosyms}
-\gresetgregoriofont{greciliae}
+\gresetgregoriofont[op]{greciliae}
 
-%\grechangeglyph{VirgaReversaLongqueueAscendens}{innocentsmithplica}%
-%{VirgaReversaLongqueueAscendens}%
+
 
 
 %%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
@@ -38,7 +37,7 @@
 \usepackage[compact,nobottomtitles*]{titlesec}
 \titlespacing*{\chapter}{0pt}{*0}{*1}
 \titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsection}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
 \titlespacing*{\subsubsection}{0pt}{10pt}{*0}
 \titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
 \titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
@@ -127,14 +126,11 @@
 
 
 %%Combination
- \subsection{Officium}  \greannotation{III} \index[Officium]{Si iniquitates} \label{Si iniquitates (Officium)} \grecommentary[7pt]{Ps 129:3, 4; \Vbar. 1, 2} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--si_iniquitates--dominican--id_6130}  \vspace{5pt} \par{If You shall observe iniquities, O Lord, Lord, who shall endure it? For with You is propitiation, O God of Israel. \Vbar. Out of the depths I have cried to You, O Lord; Lord, hear my voice.}
- \subsection{Responsorium}  \greannotation{I} \index[Responsorium]{Ecce quam bonum} \label{Ecce quam bonum (Responsorium)} \grecommentary[0pt]{Ps 132:1; \Vbar. 2} \gresetinitiallines{1}  \gregorioscore{graduale-chants/gr--ecce_quam_bonum_v_sicut--dominican--id_6309}  \vspace{5pt} \par{Behold how good and how pleasant it is for brethren to dwell together in unity. \Vbar. It is like the precious ointment on the head, that ran down over the beard, the beard of Aaron.}
-
- \subsection{Alleluia}  \greannotation{I} \index[Alleluia]{Qui timent Dominum} \label{Qui timent Dominum (Alleluia)} \grecommentary[0pt]{Ps 113:11} \gresetinitiallines{1}  \gregorioscore{graduale-chants/al--qui_timent_dominum--dominican--id_6493}  \vspace{5pt} \par{They who fear the Lord, let them hope in Him; He is their helper and protector.}
- \subsection{Offertorium}  \greannotation{I} \index[Offertorium]{Recordare mei} \label{Recordare mei (Offertorium)} \grecommentary[0pt]{Esth 14:12, 13} \gresetinitiallines{1}  \gregorioscore{graduale-chants/of--recordare_mei--dominican--id_5756}  \vspace{5pt} \par{Remember me, O Lord, You who rule above all power; and give a well-ordered speech in my mouth, that my words may be pleasing in the sight of the prince.}
+ \subsection{Officium}  \greannotation{III} \index[Officium]{Si iniquitates} \label{Si iniquitates (Officium)} \grecommentary[7pt]{Ps 129:3, 4; \Vbar. 1, 2} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--si_iniquitates--dominican--id_6130}  \vspace{5pt} \par{If You shall observe iniquities, O Lord, Lord, who shall endure it? For with You is propitiation, O God of Israel. \Vbar. Out of the depths I have cried to You, O Lord; Lord, hear my voice.} \newpage
+ \subsection{Responsorium}  \greannotation{I} \index[Responsorium]{Ecce quam bonum} \label{Ecce quam bonum (Responsorium)} \grecommentary[0pt]{Ps 132:1; \Vbar. 2} \gresetinitiallines{1}  \gregorioscore{graduale-chants/gr--ecce_quam_bonum_v_sicut--dominican--id_6309}  \vspace{5pt} \par{Behold how good and how pleasant it is for brethren to dwell together in unity. \Vbar. It is like the precious ointment on the head, that ran down over the beard, the beard of Aaron.} \newpage
+ \subsection{Alleluia}  \greannotation{I} \index[Alleluia]{Qui timent Dominum} \label{Qui timent Dominum (Alleluia)} \grecommentary[0pt]{Ps 113:11} \gresetinitiallines{1}  \gregorioscore{graduale-chants/al--qui_timent_dominum--dominican--id_6493}  \vspace{5pt} \par{They who fear the Lord, let them hope in Him; He is their helper and protector.} \newpage
+ \subsection{Offertorium}  \greannotation{I} \index[Offertorium]{Recordare mei} \label{Recordare mei (Offertorium)} \grecommentary[0pt]{Esth 14:12, 13} \gresetinitiallines{1}  \gregorioscore{graduale-chants/of--recordare_mei--dominican--id_5756}  \vspace{5pt} \par{Remember me, O Lord, You who rule above all power; give a well-ordered speech in my mouth, that my words may be pleasing in the sight of the prince.} \newpage
  \subsection{Communio}  \greannotation{II} \index[Communio]{Aufer a me} \label{Aufer a me (Communio)} \grecommentary[0pt]{Ps 118:22, 24} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--aufer_a_me--dominican--id_6054} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Remove from me reproach and contempt, because I have sought out Your commandments, O Lord; for Your testimonies are my meditation.}
-
-
 
 
 

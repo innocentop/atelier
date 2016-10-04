@@ -84,6 +84,7 @@ INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-nabc.tex
 INPUT /usr/local/texlive/texmf-local/tex/lualatex/gregoriotex/gregoriosyms.sty
 INPUT /usr/local/texlive/texmf-local/tex/lualatex/gregoriotex/gregoriosyms.sty
+INPUT /Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-op.luc
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/imakeidx/imakeidx.sty

@@ -230,6 +230,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT graduale-chants/gr--si_ambulem--dominican--id_6258.gabc
+INPUT ./graduale-chants/gr--si_ambulem--dominican--id_6258-4_2_0-rc2.gtex
 INPUT graduale-chants/gr--ecce_quam_bonum_v_sicut--dominican--id_6309.gabc
 INPUT ./graduale-chants/gr--ecce_quam_bonum_v_sicut--dominican--id_6309-4_2_0-rc2.gtex
 INPUT graduale-chants/al--qui_timent_dominum--dominican--id_6493.gabc

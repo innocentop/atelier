@@ -230,6 +230,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT graduale-chants/gr--salvum_fac_populum--dominican--id_5230.gabc
+INPUT ./graduale-chants/gr--salvum_fac_populum--dominican--id_5230-4_2_0-rc2.gtex
 INPUT graduale-chants/al--lauda_anima_mea--solesmes.gabc
 INPUT ./graduale-chants/al--lauda_anima_mea--solesmes-4_2_0-rc2.gtex
 INPUT graduale-chants/of--meditabor--dominican--id_6142.gabc

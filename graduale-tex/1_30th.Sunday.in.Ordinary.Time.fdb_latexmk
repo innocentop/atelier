@@ -1,9 +1,10 @@
 # Fdb version 3
-["makeindex incipit.idx"] 1476557805 "incipit.idx" "incipit.ind" "incipit" 1476557813
-  "incipit.idx" 1476557809 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1476557805 "incipit.idx" "incipit.ind" "incipit" 1476558323
+  "incipit.idx" 1476558318 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
+  "incipit.ilg"
   "incipit.ind"
-["pdflatex"] 1476557805 "1_30th.Sunday.in.Ordinary.Time.tex" "1_30th.Sunday.in.Ordinary.Time.pdf" "1_30th.Sunday.in.Ordinary.Time" 1476557813
+["pdflatex"] 1476558311 "1_30th.Sunday.in.Ordinary.Time.tex" "1_30th.Sunday.in.Ordinary.Time.pdf" "1_30th.Sunday.in.Ordinary.Time" 1476558323
   "/Users/misericordia/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-op.luc" 1467906590 773605 6521d1d09bf278ce8cf94544ba408610 ""
   "/Users/misericordia/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc" 1467904002 773838 cc44393909e93482ef92dd0c25b1d1b2 ""
   "/Users/misericordia/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greextra.luc" 1467904002 12576 32908c9629a158b1d6b8f72113f78aaa ""
@@ -138,10 +139,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1467745091 2168 0ec6421f85722e9694fd148012e6d4a6 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1467745091 8164 d5b73f64920b1c884601386aefe32c3a ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1467745091 22497 65dacddaa409f84a9362432df76598f3 ""
-  "1_30th.Sunday.in.Ordinary.Time.aux" 1476557812 2024 abb1546b1985b0c83f107829d858cba3 ""
-  "1_30th.Sunday.in.Ordinary.Time.gaux" 1476557741 2033 e26f046c7bcecc858032d2cedd0893cf ""
-  "1_30th.Sunday.in.Ordinary.Time.out" 1476557812 491 4057fba1a00075afb8c4b24ad1a02cf9 ""
-  "1_30th.Sunday.in.Ordinary.Time.tex" 1476557701 5345 047875109645e240c91c0ffd5293654b ""
+  "1_30th.Sunday.in.Ordinary.Time.aux" 1476558322 2024 ae1af888e7a40f5c14df1981b2c5aa45 ""
+  "1_30th.Sunday.in.Ordinary.Time.gaux" 1476558307 2047 ecd8f22c60f3d04f9d1fc27cd241a0f0 ""
+  "1_30th.Sunday.in.Ordinary.Time.out" 1476558322 491 4057fba1a00075afb8c4b24ad1a02cf9 ""
+  "1_30th.Sunday.in.Ordinary.Time.tex" 1476558287 6144 a26915e2b8b06b37766ff15be7532486 ""
   "graduale-chants/al--lauda_ierusalem--vatican-4_2_0-rc2.gtex" 1476557740 14690 252d4177c0b0a8878cf647194f8e6195 ""
   "graduale-chants/al--lauda_ierusalem--vatican.gabc" 1476557092 475 08a08a17816c9eeb9955b6db003d7083 ""
   "graduale-chants/co--laetabimur--dominican--id_6160-4_2_0-rc2.gtex" 1476557741 11010 3435000ee7d1245e061f0826e10400b0 ""
@@ -150,15 +151,18 @@
   "graduale-chants/gr--clamaverunt--vatican.gabc" 1476557427 1008 913511fe549361f444a1112948ea054f ""
   "graduale-chants/gr--unam_petii_v_ut_videam--dominican--id_4740-4_2_0-rc2.gtex" 1476557739 28081 58c3ca5cb0bfa52a4217ce688d823c42 ""
   "graduale-chants/gr--unam_petii_v_ut_videam--dominican--id_4740.gabc" 1476557080 841 65137271e7e4c07a34d94e39e88ed5d2 ""
-  "graduale-chants/in--laetetur_cor--dominican--id_6129-4_2_0-rc2.gtex" 1476557739 31162 f205c3853c8e845fe92d87b9fcedb86f ""
-  "graduale-chants/in--laetetur_cor--dominican--id_6129.gabc" 1476555429 993 af1b8d76f048362ea6dd669801a26f4d ""
+  "graduale-chants/in--laetetur_cor--dominican--id_6129-4_2_0-rc2.gtex" 1476558302 31188 5cc374706eb981447292b257a695f73f ""
+  "graduale-chants/in--laetetur_cor--dominican--id_6129.gabc" 1476557837 1006 1dc2ee657c0ec6c9d411c6e22e124ffe ""
   "graduale-chants/of--domine_vivifica--dominican--id_4306-4_2_0-rc2.gtex" 1476557740 10403 9c2894d1b9be65482082c6a0e1303bf7 ""
   "graduale-chants/of--domine_vivifica--dominican--id_4306.gabc" 1476557601 430 2b6e46e3e80385cf5c784e58a4896d34 ""
   "incipit.ind" 1476557805 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
+  "1_30th.Sunday.in.Ordinary.Time.log"
+  "/Users/misericordia/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
   "1_30th.Sunday.in.Ordinary.Time.out"
   "1_30th.Sunday.in.Ordinary.Time.aux"
-  "/Users/misericordia/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
-  "1_30th.Sunday.in.Ordinary.Time.pdf"
+  "graduale-chants/in--laetetur_cor--dominican--id_6129-4_2_0-rc2.gtex"
   "incipit.idx"
-  "1_30th.Sunday.in.Ordinary.Time.log"
+  "graduale-chants/in--laetetur_cor--dominican--id_6129-4_2_0-rc2.glog"
+  "1_30th.Sunday.in.Ordinary.Time.gaux"
+  "1_30th.Sunday.in.Ordinary.Time.pdf"

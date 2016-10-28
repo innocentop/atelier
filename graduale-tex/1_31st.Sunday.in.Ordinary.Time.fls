@@ -232,6 +232,10 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT graduale-chants/in--misereris_omnium--dominican--id_4279.gabc
 INPUT ./graduale-chants/in--misereris_omnium--dominican--id_4279-4_2_0-rc2.gtex
+INPUT graduale-chants/gr--suscepimus_deus--dominican--id_6094.gabc
+INPUT ./graduale-chants/gr--suscepimus_deus--dominican--id_6094-4_2_0-rc2.gtex
+INPUT graduale-chants/al--verbo_domini--vatican.gabc
+INPUT ./graduale-chants/al--verbo_domini--vatican-4_2_0-rc2.gtex
 INPUT graduale-chants/al--o_quam_bonus--vatican.gabc
 INPUT ./graduale-chants/al--o_quam_bonus--vatican-4_2_0-rc2.gtex
 INPUT graduale-chants/of--benedic_anima_mea--dominican--id_4303.gabc

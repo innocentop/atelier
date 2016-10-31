@@ -225,6 +225,8 @@ INPUT graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288-verses-
 INPUT ./graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288-verses-only-4_2_0-rc2.gtex
 INPUT graduale-chants/al--iudicabunt_sancti--dominican.gabc
 INPUT ./graduale-chants/al--iudicabunt_sancti--dominican-4_2_0-rc2.gtex
+INPUT graduale-chants/of--mirabilis_deus--dominican--id_4790.gabc
+INPUT ./graduale-chants/of--mirabilis_deus--dominican--id_4790-4_2_0-rc2.gtex
 INPUT graduale-chants/co--gaudete_iusti__alleluia--dominican.gabc
 INPUT ./graduale-chants/co--gaudete_iusti__alleluia--dominican-4_2_0-rc2.gtex
 INPUT ./1_S_11.01--omnium_sanctorum.aux

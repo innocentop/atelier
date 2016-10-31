@@ -210,8 +210,8 @@ INPUT ./1_S_11.01--omnium_sanctorum.out
 OUTPUT 1_S_11.01--omnium_sanctorum.pdf
 INPUT ./1_S_11.01--omnium_sanctorum.out
 OUTPUT 1_S_11.01--omnium_sanctorum.out
-INPUT graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288.gabc
-INPUT ./graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288-4_2_0-rc2.gtex
+INPUT graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288-antiphon-only.gabc
+INPUT ./graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288-antiphon-only-4_2_0-rc2.gtex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -221,6 +221,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288-verses-only.gabc
+INPUT ./graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288-verses-only-4_2_0-rc2.gtex
 INPUT graduale-chants/al--iudicabunt_sancti--dominican.gabc
 INPUT ./graduale-chants/al--iudicabunt_sancti--dominican-4_2_0-rc2.gtex
 INPUT graduale-chants/co--gaudete_iusti__alleluia--dominican.gabc

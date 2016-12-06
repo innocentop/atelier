@@ -1,10 +1,10 @@
 # Fdb version 3
-["makeindex incipit.idx"] 1480522247 "incipit.idx" "incipit.ind" "incipit" 1480957285
-  "incipit.idx" 1480957283 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1480522247 "incipit.idx" "incipit.ind" "incipit" 1481032481
+  "incipit.idx" 1480957297 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"
-["pdflatex"] 1480957281 "1_T.1_Advent2.tex" "1_T.1_Advent2.pdf" "1_T.1_Advent2" 1480957285
+["pdflatex"] 1480957281 "1_T.1_Advent2.tex" "1_T.1_Advent2.pdf" "1_T.1_Advent2" 1481032481
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-op.luc" 1467761811 773575 91aa6a13bb9d28e3026a78b41d36b773 ""
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc" 1467753292 773808 39f05ecb4b3b9abed4b6719d5a59dac4 ""
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greextra.luc" 1467753292 12546 be30cff81db75369d7fbc2f8bdd7275b ""
@@ -156,21 +156,21 @@
   "graduale-chants/of--deus_tu_convertens--dominican--id_4305.gabc" 1480530573 699 51a7dbad126c2b31f82de4ef70b9e0b7 ""
   "incipit.ind" 1480955107 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "/Users/Officium/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
-  "graduale-chants/al--laetatus_sum--dominican--id_6365-4_2_0-rc2.glog"
-  "graduale-chants/in--populus_sion--dominican--id_4278-4_2_0-rc2.glog"
-  "graduale-chants/gr--ex_sion_species--dominican--id_6456-4_2_0-rc2.glog"
-  "/Users/misericordia/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
-  "graduale-chants/co--ierusalem_surge--dominican--id_6773-4_2_0-rc2.glog"
-  "graduale-chants/in--populus_sion--dominican--id_4278-4_2_0-rc2.gtex"
-  "1_T.1_Advent2.gaux"
-  "graduale-chants/of--deus_tu_convertens--dominican--id_4305-4_2_0-rc2.glog"
-  "incipit.idx"
+  "graduale-chants/co--ierusalem_surge--dominican--id_6773-4_2_0-rc2.gtex"
   "1_T.1_Advent2.out"
   "graduale-chants/gr--ex_sion_species--dominican--id_6456-4_2_0-rc2.gtex"
-  "1_T.1_Advent2.log"
-  "graduale-chants/co--ierusalem_surge--dominican--id_6773-4_2_0-rc2.gtex"
-  "1_T.1_Advent2.aux"
+  "graduale-chants/gr--ex_sion_species--dominican--id_6456-4_2_0-rc2.glog"
   "1_T.1_Advent2.pdf"
+  "graduale-chants/of--deus_tu_convertens--dominican--id_4305-4_2_0-rc2.glog"
+  "graduale-chants/in--populus_sion--dominican--id_4278-4_2_0-rc2.glog"
   "graduale-chants/al--laetatus_sum--dominican--id_6365-4_2_0-rc2.gtex"
+  "graduale-chants/al--laetatus_sum--dominican--id_6365-4_2_0-rc2.glog"
+  "graduale-chants/in--populus_sion--dominican--id_4278-4_2_0-rc2.gtex"
+  "incipit.idx"
+  "1_T.1_Advent2.gaux"
+  "/Users/Officium/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
+  "1_T.1_Advent2.aux"
+  "/Users/misericordia/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
+  "graduale-chants/co--ierusalem_surge--dominican--id_6773-4_2_0-rc2.glog"
   "graduale-chants/of--deus_tu_convertens--dominican--id_4305-4_2_0-rc2.gtex"
+  "1_T.1_Advent2.log"

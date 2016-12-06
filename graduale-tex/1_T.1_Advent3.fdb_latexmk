@@ -1,10 +1,10 @@
 # Fdb version 3
-["makeindex incipit.idx"] 1480955107 "incipit.idx" "incipit.ind" "incipit" 1481042206
+["makeindex incipit.idx"] 1480955107 "incipit.idx" "incipit.ind" "incipit" 1481052909
   "incipit.idx" 1481042203 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ilg"
   "incipit.ind"
-["pdflatex"] 1481042200 "1_T.1_Advent3.tex" "1_T.1_Advent3.pdf" "1_T.1_Advent3" 1481042206
+  "incipit.ilg"
+["pdflatex"] 1481042200 "1_T.1_Advent3.tex" "1_T.1_Advent3.pdf" "1_T.1_Advent3" 1481052909
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-op.luc" 1467761811 773575 91aa6a13bb9d28e3026a78b41d36b773 ""
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc" 1467753292 773808 39f05ecb4b3b9abed4b6719d5a59dac4 ""
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greextra.luc" 1467753292 12546 be30cff81db75369d7fbc2f8bdd7275b ""
@@ -158,22 +158,22 @@
   "graduale-chants/of--benedixisti_domine--dominican--id_4304.gabc" 1481042190 585 a96744456f88f1222c0e0bf20196a977 ""
   "incipit.ind" 1481040503 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "graduale-chants/of--benedixisti_domine--dominican--id_4304-4_2_0-rc2.glog"
-  "graduale-chants/gr--qui_sedes_domine--dominican--id_6651-4_2_0-rc2.gtex"
-  "graduale-chants/al--excita_domine--dominican--id_5097-4_2_0-rc2.glog"
-  "1_T.1_Advent3.log"
+  "graduale-chants/in--gaudete_in_domino--dominican--id_4287-4_2_0-rc2.glog"
+  "graduale-chants/of--benedixisti_domine--dominican--id_4304-4_2_0-rc2.gtex"
+  "incipit.idx"
   "graduale-chants/gr--fuit_homo--dominican-4_2_0-rc2.glog"
   "graduale-chants/co--dicite_pusillanimes--dominican--id_5719-4_2_0-rc2.gtex"
   "1_T.1_Advent3.aux"
-  "/Users/Officium/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
-  "graduale-chants/in--gaudete_in_domino--dominican--id_4287-4_2_0-rc2.glog"
-  "graduale-chants/co--dicite_pusillanimes--dominican--id_5719-4_2_0-rc2.glog"
-  "graduale-chants/al--excita_domine--dominican--id_5097-4_2_0-rc2.gtex"
-  "graduale-chants/in--gaudete_in_domino--dominican--id_4287-4_2_0-rc2.gtex"
   "1_T.1_Advent3.gaux"
-  "graduale-chants/of--benedixisti_domine--dominican--id_4304-4_2_0-rc2.gtex"
   "1_T.1_Advent3.pdf"
-  "incipit.idx"
   "graduale-chants/gr--fuit_homo--dominican-4_2_0-rc2.gtex"
+  "graduale-chants/of--benedixisti_domine--dominican--id_4304-4_2_0-rc2.glog"
+  "graduale-chants/co--dicite_pusillanimes--dominican--id_5719-4_2_0-rc2.glog"
+  "graduale-chants/in--gaudete_in_domino--dominican--id_4287-4_2_0-rc2.gtex"
   "1_T.1_Advent3.out"
+  "graduale-chants/gr--qui_sedes_domine--dominican--id_6651-4_2_0-rc2.gtex"
   "graduale-chants/gr--qui_sedes_domine--dominican--id_6651-4_2_0-rc2.glog"
+  "1_T.1_Advent3.log"
+  "graduale-chants/al--excita_domine--dominican--id_5097-4_2_0-rc2.glog"
+  "/Users/Officium/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
+  "graduale-chants/al--excita_domine--dominican--id_5097-4_2_0-rc2.gtex"

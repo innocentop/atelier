@@ -231,6 +231,8 @@ INPUT graduale-chants/of--laetentur_caeli--dominican--id_7062.gabc
 INPUT ./graduale-chants/of--laetentur_caeli--dominican--id_7062-4_2_0-rc2.gtex
 INPUT graduale-chants/co--in_splendoribus--dominican--id_7236.gabc
 INPUT ./graduale-chants/co--in_splendoribus--dominican--id_7236-4_2_0-rc2.gtex
+INPUT graduale-chants/ps--109-mode6-psalmtone.gabc
+INPUT ./graduale-chants/ps--109-mode6-psalmtone-4_2_0-rc2.gtex
 INPUT ./1_T.2_Christmas_2_Mass_in_the_Night.aux
 INPUT ./1_T.2_Christmas_2_Mass_in_the_Night.out
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

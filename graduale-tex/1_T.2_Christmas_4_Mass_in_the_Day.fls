@@ -223,6 +223,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT graduale-chants/gr--viderunt_omnes--dominican--id_5602.gabc
 INPUT ./graduale-chants/gr--viderunt_omnes--dominican--id_5602-4_2_0-rc2.gtex
+INPUT graduale-chants/se--laetabundus_1985_version--dominican--id_4215.gabc
+INPUT ./graduale-chants/se--laetabundus_1985_version--dominican--id_4215-4_2_0-rc2.gtex
 INPUT graduale-chants/al--dies_sanctificatus--dominican--id_6593.gabc
 INPUT ./graduale-chants/al--dies_sanctificatus--dominican--id_6593-4_2_0-rc2.gtex
 INPUT graduale-chants/of--tui_sunt_caeli--dominican.gabc

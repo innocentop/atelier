@@ -1,0 +1,136 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+\chapter[Solemnity of Mary, the Holy Mother of God]{Graduale O.P.}
+\subsection{1 January}
+\section{Solemnity of Mary, \\ the Holy Mother of God}
+
+\newpage
+
+%%Combination
+ \subsection{Officium}  \greannotation{II} \index[Officium]{Salve sancta Parens} \label{Salve sancta Parens (Officium)} \grecommentary[0pt]{Sedulius; Ps 44:2, 11, 12} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--salve_sancta_parens--dominican--id_6966}  \vspace{5pt} \par{Hail, holy parent, who did bring forth the king, who rules heaven and earth forever. \Vbar. After childbirth you remained a virgin. O mother of God, intercede for us.} \newpage
+ \subsection{Officium} Vel: \greannotation{VIII} \index[Officium]{Lux fulgebit} \label{Lux fulgebit (Officium)} \grecommentary[0pt]{Cf. Is 9:2, 6; Lc 1:33; Ps 92:1} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--lux_fulgebit--dominican--id_6395}  \vspace{5pt} \par{A light shall shine upon us this day, for our Lord is born to us; and He shall be called Wonderful, God, the Prince of peace, the Father of the world to come: of whose reign there shall be no end. \Vbar. The Lord has reigned, He is clothed with beauty; the Lord is clothed with strength, and has girded Himself.} \newpage
+ \subsection{Responsorium}  \greannotation{V} \index[Responsorium]{Diffusa est} \label{Diffusa est (Responsorium)} \grecommentary[0pt]{Ps 44:3; \Vbar. 5} \gresetinitiallines{1}  \gregorioscore{graduale-chants/gr--diffusa_est--vatican}  \vspace{5pt} \par{Grace is poured out upon your lips; therefore has God blessed you for ever. \Vbar. For the cause of truth and goodness and righteousness, your right hand shall lead you wonderfully.} \newpage
+ \subsection{Alleluia}  \greannotation{VII} \index[Alleluia]{Multifarie} \label{Multifarie (Alleluia)} \grecommentary[0pt]{Hebr 1:2–2} \gresetinitiallines{1}  \gregorioscore{graduale-chants/al--multifarie--dominican--id_4775}  \vspace{5pt} \par{God who at various times and in different modes spoke in times past to the fathers by the prophets, last of all in these days, has spoken to us by His Son.} \newpage
+ \subsection{Offertorium}  \greannotation{I} \index[Offertorium]{Felix namque} \label{Felix namque (Offertorium)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1}  \gregorioscore{graduale-chants/of--felix_namque--dominican}  \vspace{5pt} \par{For you are happy, O holy virgin Mary, and most worthy of all praise, because from you arose the sun of justice, Christ our Lord.} \newpage
+ \subsection{Communio}  \greannotation{IV} \index[Communio]{Exsulta filia Sion} \label{Exsulta filia Sion (Communio)} \grecommentary[0pt]{Zach 9:9} \gresetinitiallines{1}  \gregorioscore{graduale-chants/co--exsulta_filia--dominican--id_6171}  \vspace{5pt} \par{Rejoice greatly, O daughter of Sion, shout for joy, O daughter of Jerusalem; behold your king comes, the holy one, and the Savior of the world.} \newpage
+
+
+\end{document}

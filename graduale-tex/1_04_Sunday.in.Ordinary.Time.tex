@@ -1,0 +1,136 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[4\textsuperscript{th} Sunday in Ordinary Time]{Graduale O.P.}
+\section{4\textsuperscript{th} Sunday in Ordinary Time}
+
+\newpage
+
+
+%%Combination
+\subsection{Officium}  \greannotation{II} \index[Officium]{Lætetur cor} \label{Lætetur cor (Officium)} \grecommentary[0pt]{Ps 104:3, 4; \Vbar. 1} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--laetetur_cor--dominican--id_6129}  \vspace{5pt} \par{Let the hearts of those who seek the Lord rejoice. Seek the Lord, and be strengthened; seek His face evermore. \Vbar. Give glory to the Lord, and call upon His name; declare His deeds among the Gentiles.} \newpage
+\subsection{Responsorium}  \greannotation{V} \index[Responsorium]{Quis sicut Dominus} \label{Quis sicut Dominus (Responsorium)} \grecommentary[0pt]{Ps 112:5, 6; \Vbar. 7} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/gr--quis_sicut_dominus--dominican--id_5616} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Who is like the Lord our God, who dwells on high, and looks down on the low things in heaven and in earth? \Vbar. Raising up the needy from the earth, and lifting up the poor out of the dunghill.} \newpage
+\subsection{Alleluia}  \greannotation{VII} \index[Alleluia]{Adorabo ad templum} \label{Adorabo ad templum (Alleluia)} \grecommentary[0pt]{Ps 137:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/al--adorabo--dominican--id_5217} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{I will bow down toward Your holy temple and give glory to Your name.} \newpage
+\subsection{Offertorium}  \greannotation{VIII} \index[Offertorium]{Bonum est confiteri} \label{Bonum est confiteri (Offertorium)} \grecommentary[0pt]{Ps 91:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/of--bonum_est_confiteri--dominican--id_7242} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{It is good to give praise to the Lord and to sing to Your name, O Most High.} \newpage
+\subsection{Communio} Dom. anno A: \greannotation{I} \index[Communio]{Beati mundo corde} \label{Beati mundo corde (Communio)} \grecommentary[0pt]{Mt 5:8, 9, 10 [GR]} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--beati_mundo_corde--vatican} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Blessed are the pure in heart, for they shall see God; blessed are the peacemakers, for they shall be called sons of God; blessed are those who suffer persecution for the sake of justice, for theirs is the kingdom of heaven.} \newpage
+\subsection{Communio} Dom. annis B et C: \greannotation{I} \index[Communio]{Illumina faciem tuam} \label{Illumina faciem tuam (Communio)} \grecommentary[0pt]{Ps 30:17, 18} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--illumina_faciem--dominican--id_4792} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Let Your face shine upon Your servant, and save me in Your mercy; let me not be confounded, O Lord, for I have called upon You.} \newpage
+
+\end{document}

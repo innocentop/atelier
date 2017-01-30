@@ -1,0 +1,137 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[5\textsuperscript{th} Sunday in Ordinary Time]{Graduale O.P.}
+\section{5\textsuperscript{th} Sunday in Ordinary Time}
+
+\newpage
+
+
+%%Combination
+\subsection{Officium}  \greannotation{II} \index[Officium]{Venite adoremus Deum} \label{Venite adoremus Deum (Officium)} \grecommentary[0pt]{Ps 94:6, 7 et 1} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--venite_adoremus--dominican--id_5307}  \vspace{5pt} \par{Come, let us adore God, and fall down before the Lord; let us weep before Him who made us; for He is the Lord our God. \Vbar. Come, let us praise the Lord with joy; let us joyfully sing to God our Savior.} \newpage
+\subsection{Responsorium} Dom. anno A: \greannotation{II} \index[Responsorium]{Dispersit} \label{Dispersit (Responsorium)} \grecommentary[0pt]{Ps 111:9; \Vbar. 2} \gresetinitiallines{1}  \gregorioscore{graduale-chants/gr--dispersit--dominican--id_5366}  \vspace{5pt} \par{He has distributed, he has given to the poor; his justice remains forever and ever. \Vbar. His seed shall he mighty upon earth; the generation of the righteous shall be blessed.} \newpage
+\subsection{Responsorium} Dom. annis B et C: \greannotation{V} \index[Responsorium]{Tollite} \label{Tollite (Responsorium)} \grecommentary[0pt]{Ps 95:8, 9; \Vbar. Ps 28:9} \gresetinitiallines{1}  \gregorioscore{graduale-chants/gr--tollite_hostias--dominican--id_6741}  \vspace{5pt} \par{Bring up sacrifices, and come into His courts; adore the Lord in His holy court. \Vbar. The Lord will discover the thick woods; and in His temple all shall speak His glory.} \newpage
+\subsection{Alleluia}  \greannotation{II} \index[Alleluia]{Laudate Dominum} \label{Laudate Dominum (Alleluia)} \grecommentary[0pt]{Ps 116:1} \gresetinitiallines{1}  \gregorioscore{graduale-chants/al--laudate_dominum--dominican--id_6552}  \vspace{5pt} \par{O praise the Lord all you nations, and praise him together all you people.} \newpage
+\subsection{Offertorium}  \greannotation{IV} \index[Offertorium]{Perfice} \label{Perfice (Offertorium)} \grecommentary[0pt]{Ps 16:5, 6, 7} \gresetinitiallines{1}  \gregorioscore{graduale-chants/of--perfice_gressus--dominican--id_6795}  \vspace{5pt} \par{Secure my footsteps in Your paths, that my footsteps be not moved. Incline Your ear and hear my words. Show forth Your wonderful mercies, You who save those who trust in You, O Lord.} \newpage
+\subsection{Communio} Dom. annis A et C: \greannotation{VIII} \index[Communio]{Introibo} \label{Introibo (Communio)} \grecommentary[0pt]{Ps 42:4} \gresetinitiallines{1}  \gregorioscore{graduale-chants/co--introibo_ad_altare--dominican--id_4851}  \vspace{5pt} \par{I will go to the altar of God; to God, the joy of my youth.} \newpage
+\subsection{Communio} Dom. anno B: \greannotation{II} \index[Communio]{Multitudo languentium} \label{Multitudo languentium (Communio)} \grecommentary[0pt]{Lc 6:17, 18, 19} \gresetinitiallines{1}  \gregorioscore{graduale-chants/co--multitudo_languentium--dominican}  \vspace{5pt} \par{A multitude of sick, and those who were troubled with unclean spirits, came to him: for power went forth from Him and healed all.} \newpage
+
+\end{document}

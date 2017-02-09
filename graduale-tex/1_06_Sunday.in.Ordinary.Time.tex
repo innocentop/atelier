@@ -1,0 +1,135 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[6\textsuperscript{th} Sunday in Ordinary Time]{Graduale O.P.}
+\section{6\textsuperscript{th} Sunday in Ordinary Time}
+
+\newpage
+
+
+%%Combination
+\subsection{Officium}  \greannotation{VI} \index[Officium]{Esto mihi} \label{Esto mihi (Officium)} \grecommentary[0pt]{Ps 30:3, 4; \Vbar. 2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/in--esto_mihi--dominican--id_4916} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Be unto me a protecting God and a house of refuge, to save me; for You are my strength and my refuge; and for Your name's sake You will lead me and nourish me. \Vbar. In You, O Lord, have I hoped, let me never be confounded; deliver me in Your justice, and set me free.} \newpage
+\subsection{Responsorium}  \greannotation{III} \index[Responsorium]{Tu es Deus} \label{Tu es Deus (Responsorium)} \grecommentary[5pt]{Ps 76:15; \Vbar. 16} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/gr--tu_es_deus--dominican--id_4883} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{You are the God who alone does wonders. You have made Your power known among the nations. \Vbar. With Your arm You have redeemed Your people, the children of Israel and of Joseph.} \newpage
+\subsection{Alleluia}  \greannotation{I} \index[Alleluia]{Cantate Domino (d-a)} \label{Cantate Domino (d-a) (Alleluia)} \grecommentary[3pt]{Ps 97:1 [GR]} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/al--cantate_domino_altera_melodia--solesmes} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Sing to the Lord a new song; for the Lord has accomplished wondrous deeds.} \newpage
+\subsection{Offertorium}  \greannotation{III} \index[Offertorium]{Benedictus es... in labiis} \label{Benedictus es... in labiis (Offertorium)} \grecommentary[0pt]{Ps 118:12, 13} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/of--benedictus_es_in_labiis--dominican--id_6310} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Blessed are You, O Lord, teach me Your justifications. With my lips I have pronounced all the judgments of Your mouth.} \newpage
+\subsection{Communio}  \greannotation{I} \index[Communio]{Manducaverunt} \label{Manducaverunt (Communio)} \grecommentary[0pt]{Ps 77:29, 30} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--manducaverunt--dominican--id_5897} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{They ate and were filled exceedingly, and the Lord gave them their desire; they were not defrauded of that which they craved.} \newpage
+
+\end{document}

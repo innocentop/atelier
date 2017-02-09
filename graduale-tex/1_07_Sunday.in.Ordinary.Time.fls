@@ -236,6 +236,12 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT graduale-chants/gr--ego_dixi--vatican.gabc
 INPUT ./graduale-chants/gr--ego_dixi--vatican-5_0_0-beta1.gtex
+INPUT graduale-chants/al--verba_mea--vatican.gabc
+INPUT ./graduale-chants/al--verba_mea--vatican-5_0_0-beta1.gtex
+INPUT graduale-chants/of--intende_voci--dominican--id_5467.gabc
+INPUT ./graduale-chants/of--intende_voci--dominican--id_5467-5_0_0-beta1.gtex
+INPUT graduale-chants/co--narrabo_omnia--dominican--id_6592.gabc
+INPUT ./graduale-chants/co--narrabo_omnia--dominican--id_6592-5_0_0-beta1.gtex
 INPUT ./1_07_Sunday.in.Ordinary.Time.aux
 INPUT ./1_07_Sunday.in.Ordinary.Time.out
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

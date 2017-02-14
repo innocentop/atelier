@@ -1,0 +1,139 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[For the Celebration of Marriage]{Graduale O.P.}
+\subsection{Ritual Masses}
+\section{For the Celebration of Marriage}
+
+
+
+\newpage
+
+%%Combination
+\subsection{Officium}  \greannotation{I} \index[Officium]{Deus Israel} \label{Deus Israel (Officium)} \grecommentary[5pt]{Tob 7, 15; 8, 19; \Vbar. Ps 127:1} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--deus_israel--dominican--id_4300}  \vspace{5pt} \par{May the God of Israel join you together, and may He be with you, who took pity on two only children; and now, Lord, make them bless You more fully. \Vbar. Blessed are all who fear the Lord, who walk in His ways.} \newpage
+\subsection{Responsorium}  \greannotation{II} \index[Responsorium]{Uxor tua} \label{Uxor tua (Responsorium)} \grecommentary[0pt]{Ps 127:3} \gresetinitiallines{1}  \gregorioscore{graduale-chants/gr--uxor_tua--dominican--id_6249}  \vspace{5pt} \par{Your wife as a fruitful vine on the sides of your house. \Vbar. Your children as olive plants round about your table.} \newpage
+\subsection{Alleluia}  \greannotation{I} \index[Alleluia]{Mittat vobis} \label{Mittat vobis (Alleluia)} \grecommentary[0pt]{Ps 19:3} \gresetinitiallines{1}  \gregorioscore{graduale-chants/al--mittat_vobis--dominican--id_5742}  \vspace{5pt} \par{May the Lord send you help from the sanctuary, and defend you out of Zion.} \newpage
+\subsection{Tractus}  \greannotation{VIII} \index[Tractus]{Ecce sic} \label{Ecce sic (Tractus)} \grecommentary[4pt]{Ps 127:4-6} \gresetinitiallines{1}  \gregorioscore{graduale-chants/tr--ecce_sic_benedicetur--dominican--id_5644}  \vspace{5pt} \par{Behold, thus shall the man be blessed who fears the Lord. \Vbar. May the Lord bless you out of Zion; and may you see the good things of Jerusalem all the days of your life. \Vbar. And may you see your children's children: peace upon Israel.} \newpage
+\subsection{Alleluia} \emph{Tempore Paschali dicitur II. Alleluia, sequens:} \greannotation{I} \index[Alleluia]{Benedicat vobis} \label{Benedicat vobis (Alleluia)} \grecommentary[0pt]{Ps 133:1} \gresetinitiallines{1}  \gregorioscore{graduale-chants/al--benedicat_vobis--dominican--id_5811}  \vspace{5pt} \par{May the Lord out of Zion bless you; He who made heaven and earth.} \newpage
+\subsection{Offertorium}  \greannotation{II} \index[Offertorium]{In te speravi} \label{In te speravi (Offertorium)} \grecommentary[0pt]{Ps 30:15, 16} \gresetinitiallines{1}  \gregorioscore{graduale-chants/of--in_te_speravi--dominican--id_6005}  \vspace{5pt} \par{In You, O Lord, have I hoped. I said, ``You are my God, my times are in Your hands."} \newpage
+\subsection{Communio}  \greannotation{VII} \index[Communio]{Ecce sic} \label{Ecce sic (Communio)} \grecommentary[5pt]{Ps 127:4, 6} \gresetinitiallines{1}  \gregorioscore{graduale-chants/co--ecce_sic_benedicetur--dominican--id_5537}  \vspace{5pt} \par{Behold, thus shall every man be blessed who fears the Lord; and may you see your children's children; peace upon Israel.} \newpage
+
+\end{document}

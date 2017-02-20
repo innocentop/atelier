@@ -1,0 +1,145 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[Ash Wednesday]{Graduale O.P.}
+\section{Ash Wednesday}
+
+
+
+\newpage
+
+%%Combination
+
+\section{Ad ritus initiales et liturgiam verbi}
+\subsection{Officium}  \greannotation{I} \index[Officium]{Misereris omnium} \label{Misereris omnium (Officium)} \grecommentary[2pt]{Sap 11:24–25, 27; \Vbar. Ps 56} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--misereris_omnium--dominican--id_4279}  \vspace{5pt} \par{You have mercy upon all, O Lord, and hate none of the things which You have made, and overlook the sins of men for the sake of repentance and spare them for You are the Lord our God. \Vbar. Have mercy on me; O God, have mercy on me, for my soul trusts in You.} \newpage
+\subsection{Responsorium}  \greannotation{I} \index[Responsorium]{Miserere mei} \label{Miserere mei (Responsorium)} \grecommentary[0pt]{Ps 56:2; \Vbar. 4} \gresetinitiallines{1}  \gregorioscore{graduale-chants/gr--miserere_mei_deus--dominican--id_5398}  \vspace{5pt} \par{Have mercy on me; O God, have mercy on me, for my soul trusts in You. \Vbar. He has sent forth from heaven and delivered me; He has made them a reproach who trod upon me.} \newpage
+\subsection{Tractus}  \greannotation{II} \index[Tractus]{Domine non secundum} \label{Domine non secundum (Tractus)} \grecommentary[0pt]{Ps 102:10; Ps 78:8–9} \gresetinitiallines{1}  \gregorioscore{graduale-chants/tr--domine_non_secundum--dominican--id_6453}  \vspace{5pt} \par{Deal not with us, O Lord, according to our sins; nor reward us according to our iniquities. \Vbar. Remember not, O Lord, our former iniquities; let Your mercies speedily prevent us, for we are becoming very poor. \Vbar. Help us, O God our Savior, and for the glory of Your name, O Lord, deliver us, and forgive us our sins for Your name's sake.} \newpage
+\section{Ad benedictionem et impositionem cinerum}
+ \emph{Dum celebrans principalis imponit cineres, cantantur:}
+\subsection{Antiphona}  \greannotation{I} \index[Antiphona]{Immutemur habitu} \label{Immutemur habitu (Antiphona)} \grecommentary[0pt]{Cf. Ioel 2:13} \gresetinitiallines{1}  \gregorioscore{graduale-chants/an--immutemur_habitu--dominican--id_5601}  \vspace{5pt} \par{Let us change our garments for ashes and sackcloth; let us fast and lament before the Lord; for our God is plenteous in mercy to forgive our sins.} \newpage
+\subsection{Antiphona}  \greannotation{IV} \index[Antiphona]{Iuxta vestibulum} \label{Iuxta vestibulum (Antiphona)} \grecommentary[0pt]{Ioel 2:7; Est 13:17} \gresetinitiallines{1}  \gregorioscore{graduale-chants/an--iuxta_vestibulum--dominican}  \vspace{5pt} \par{Between the porch and the altar the priests and the Levites, the ministers of the Lord, shall weep and shall say: "Spare, O Lord, spare Your people, and shut not the mouths of those who cry to You, O Lord."} \newpage
+\subsection{Responsorium} \emph{Vel:} \greannotation{II} \index[Responsorium]{Emendemus in melius} \label{Emendemus in melius (Responsorium)} \grecommentary[0pt]{Cf. Bar 3:2; \Vbar. Ps 78:9} \gresetinitiallines{1}  \gregorioscore{graduale-chants/re--emendemus_in_melius--dominican--id_5915}  \vspace{5pt} \par{Between the porch and the altar the priests and the Levites, the ministers of the Lord, shall weep and shall say: "Spare, O Lord, spare Your people, and shut not the mouths of those who cry to You, O Lord."} \newpage
+\section{Ad liturgiam Eucharisticam}
+\subsection{Offertorium}  \greannotation{III} \index[Offertorium]{Exaltabo te} \label{Exaltabo te (Offertorium)} \grecommentary[0pt]{Ps 29:2; \Vbar. 3, 4} \gresetinitiallines{1}  \gregorioscore{graduale-chants/of--exaltabo_te--dominican--id_7207}  \vspace{5pt} \par{I will extol You, O Lord, for You have upheld me and have not made my enemies rejoice over me. O Lord, I have cried to You and You have healed me.} \newpage
+\subsection{Communio}  \greannotation{III} \index[Communio]{Qui meditabitur} \label{Qui meditabitur (Communio)} \grecommentary[0pt]{Ps 1:2–3} \gresetinitiallines{1}  \gregorioscore{graduale-chants/co--qui_meditabitur--dominican--id_6589}  \vspace{5pt} \par{He who shall meditate upon the law of the Lord, day and night, shall bring forth his fruit in due season.} \newpage
+
+
+\end{document}

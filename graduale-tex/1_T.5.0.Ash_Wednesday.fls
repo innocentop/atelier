@@ -235,6 +235,8 @@ INPUT graduale-chants/an--iuxta_vestibulum--dominican.gabc
 INPUT ./graduale-chants/an--iuxta_vestibulum--dominican-5_0_0-beta1.gtex
 INPUT graduale-chants/re--emendemus_in_melius--dominican--id_5915.gabc
 INPUT ./graduale-chants/re--emendemus_in_melius--dominican--id_5915-5_0_0-beta1.gtex
+INPUT graduale-chants/an--exaudi_nos--dominican--id_4802.gabc
+INPUT ./graduale-chants/an--exaudi_nos--dominican--id_4802-5_0_0-beta1.gtex
 INPUT graduale-chants/of--exaltabo_te--dominican--id_7207.gabc
 INPUT ./graduale-chants/of--exaltabo_te--dominican--id_7207-5_0_0-beta1.gtex
 INPUT graduale-chants/co--qui_meditabitur--dominican--id_6589.gabc

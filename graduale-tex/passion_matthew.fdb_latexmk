@@ -1,10 +1,10 @@
 # Fdb version 3
-["makeindex incipit.idx"] 1488664557 "incipit.idx" "incipit.ind" "incipit" 1488665609
-  "incipit.idx" 1488665594 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1488664557 "incipit.idx" "incipit.ind" "incipit" 1488665896
+  "incipit.idx" 1488665879 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
-["pdflatex"] 1488665588 "passion_matthew.tex" "passion_matthew.pdf" "passion_matthew" 1488665609
+  "incipit.ind"
+["pdflatex"] 1488665866 "passion_matthew.tex" "passion_matthew.pdf" "passion_matthew" 1488665896
   "/Users/misericordia/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1487628502 761424 cdb855e7fbfbe863921317771cfd4e5c ""
   "/Users/misericordia/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1487628501 756838 5b8055661bf85a41801815b52e27cedf ""
   "/Users/misericordia/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-op-hole.luc" 1487628512 761501 f4e8fb005d90edd0a1470c72a82ce46a ""
@@ -128,20 +128,20 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1485887664 2175 c13fd18baab7ef42a09439db8e87da49 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1485887664 8166 5949f4b3d1e5187166301e00e7ed73ce ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1485887664 23755 ba898fe17686fbc8c1386ba8ba76045e ""
-  "graduale-chants/passion_according_to_matthew_op-5_0_0-beta1.gtex" 1488665571 954794 bd5103862dbd01a11ea5988e77d7b8ee ""
-  "graduale-chants/passion_according_to_matthew_op.gabc" 1488665550 29145 e607e9b469f80f300b05d5268e004796 ""
+  "graduale-chants/passion_according_to_matthew_op-5_0_0-beta1.gtex" 1488665827 954900 c8afa424f78712fc334708710ba6d50b ""
+  "graduale-chants/passion_according_to_matthew_op.gabc" 1488665789 29155 41cfc80c576b9c9de41c4690c696f7ed ""
   "incipit.ind" 1488664557 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "passion_matthew.aux" 1488665605 1286 85c1f171e06ab49842a165e183f1a8ca ""
-  "passion_matthew.gaux" 1488665585 9209 fd950196303cf92d2bb5dcf5ff9e4c27 ""
-  "passion_matthew.out" 1488665605 251 a0342f412371d8703339cdeb994c29fe ""
+  "passion_matthew.aux" 1488665892 1286 85c1f171e06ab49842a165e183f1a8ca ""
+  "passion_matthew.gaux" 1488665859 9209 8f81408b33bb5928ba330bd0a1948eb7 ""
+  "passion_matthew.out" 1488665892 251 a0342f412371d8703339cdeb994c29fe ""
   "passion_matthew.tex" 1488664953 3981 66f9649b34d9736c05660b1d02b4203f ""
   (generated)
-  "graduale-chants/passion_according_to_matthew_op-5_0_0-beta1.glog"
   "passion_matthew.aux"
-  "passion_matthew.out"
-  "passion_matthew.gaux"
-  "passion_matthew.pdf"
-  "passion_matthew.log"
-  "/Users/misericordia/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
-  "graduale-chants/passion_according_to_matthew_op-5_0_0-beta1.gtex"
   "incipit.idx"
+  "passion_matthew.gaux"
+  "graduale-chants/passion_according_to_matthew_op-5_0_0-beta1.gtex"
+  "passion_matthew.log"
+  "graduale-chants/passion_according_to_matthew_op-5_0_0-beta1.glog"
+  "/Users/misericordia/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
+  "passion_matthew.out"
+  "passion_matthew.pdf"

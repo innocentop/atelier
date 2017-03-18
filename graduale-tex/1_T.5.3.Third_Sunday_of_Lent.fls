@@ -225,8 +225,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT graduale-chants/in--dum_sanctificatus--vatican-op.gabc
-INPUT ./graduale-chants/in--dum_sanctificatus--vatican-op-5_0_0-beta1.gtex
 INPUT graduale-chants/of--iustitiae_domini--dominican--id_6109.gabc
 INPUT ./graduale-chants/of--iustitiae_domini--dominican--id_6109-5_0_0-beta1.gtex
 INPUT graduale-chants/co--qui_biberit--dominican--id_4868.gabc

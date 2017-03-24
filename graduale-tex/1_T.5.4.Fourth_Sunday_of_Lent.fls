@@ -214,8 +214,8 @@ INPUT ./1_T.5.4.Fourth_Sunday_of_Lent.out
 OUTPUT 1_T.5.4.Fourth_Sunday_of_Lent.pdf
 INPUT ./1_T.5.4.Fourth_Sunday_of_Lent.out
 OUTPUT 1_T.5.4.Fourth_Sunday_of_Lent.out
-INPUT graduale-chants/of--laudate_dominum--dominican--id_5285.gabc
-INPUT ./graduale-chants/of--laudate_dominum--dominican--id_5285-5_0_0-beta1.gtex
+INPUT graduale-chants/in--laetare_ierusalem--dominican--id_5261.gabc
+INPUT ./graduale-chants/in--laetare_ierusalem--dominican--id_5261-5_0_0-beta1.gtex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -225,6 +225,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT graduale-chants/of--laudate_dominum--dominican--id_5285.gabc
+INPUT ./graduale-chants/of--laudate_dominum--dominican--id_5285-5_0_0-beta1.gtex
 INPUT graduale-chants/of--illumina--dominican--id_5998.gabc
 INPUT ./graduale-chants/of--illumina--dominican--id_5998-5_0_0-beta1.gtex
 INPUT graduale-chants/co--lutum_fecit--dominican--id_6341.gabc

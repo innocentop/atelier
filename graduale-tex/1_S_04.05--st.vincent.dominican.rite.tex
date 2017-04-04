@@ -1,0 +1,141 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[5 April — St. Vincent Ferrer]{Graduale O.P.}
+\subsection{5 April}
+\section{St. Vincent Ferrer}
+\subsection{Solemnity}
+
+
+
+\newpage
+
+%%Combination
+\subsection{Officium}  \greannotation{VI} \index[Officium]{In medio Ecclesiæ (T.P. Alleluia, alleluia.)} \label{In medio Ecclesiæ (T.P. Alleluia, alleluia.) (Officium)} \grecommentary[0pt]{Sir 15:5; \Vbar. 6} \gresetinitiallines{1}  \gregorioscore{graduale-chants/in--in_medio--dominican--id_6549}  \vspace{5pt} \par{In the midst of the Church the Lord opened his mouth, and filled him with the spirit of wisdom and understanding; He clothed him with a robe of glory. \emph{T.P.} Alleluia, alleluia, alleluia. \Vbar. He heaped upon him a treasure of joy and gladness.} \newpage
+\subsection{Responsorium}  \greannotation{I} \index[Responsorium]{Os iusti} \label{Os iusti (Responsorium)} \grecommentary[4pt]{Ps 36:30; \Vbar. 31} \gresetinitiallines{1}  \gregorioscore{graduale-chants/gr--os_iusti--dominican--id_4733}  \vspace{5pt} \par{The mouth of the just man shall meditate wisdom, and his tongue shall speak judgment. \Vbar. The law of his God is in his heart, and his steps shall not be supplanted.} \newpage
+\subsection{Tractus}  \greannotation{VII} \index[Tractus]{Quasi stella} \label{Quasi stella (Tractus)} \grecommentary[5pt]{Sir 50:6-9} \gresetinitiallines{1} \grechangedim{spaceabovelines}{0.6cm}{scalable} \gregorioscore{graduale-chants/tr--quasi_stella--dominican--id_7081} \grechangedim{spaceabovelines}{0 cm}{scalable} \vspace{5pt} \par{He shone in his days as the morning star in the midst of a cloud, and as the full moon. \Vbar. And as the sun when it shines, so did he shine in the temple of God. \Vbar. And as the rainbow appearing in the cloudy sky, and as the flower of roses in the springtime. \Vbar. And as the lilies that are on the brink of the water, and as the sweet-smelling frankincense in summertime. \Vbar. As a bright fire, and frankincense burning in the fire. \Vbar. As a massive vessel of gold, adorned with every precious stone.} \newpage
+
+
+\subsection{Offertorium}  \greannotation{VI} \index[Offertorium]{Desiderium} \label{Desiderium (Offertorium)} \grecommentary[0pt]{Ps 20:2, 3, 4} \gresetinitiallines{1}  \gregorioscore{graduale-chants/of--desiderium_animae--dominican--id_6021}  \vspace{5pt} \par{You have given him, O Lord, his heart's desire; and have not withheld from him the request of his lips; You have set on his head a crown of precious stones. \emph{T.P.} Alleluia.} \newpage
+\subsection{Communio}  \greannotation{VI} \index[Communio]{Vincenti dabo} \label{Vincenti dabo (Communio)} \grecommentary[8pt]{Apoc 2:7} \gresetinitiallines{1}  \gregorioscore{graduale-chants/co--vincenti_dabo--dominican--id_6089}  \vspace{5pt} \par{To Vincent I will give to eat of the tree of life, which is in the paradise of my God. \emph{T.P.} Alleluia.} \newpage
+
+
+\end{document}

@@ -1,0 +1,161 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[Palm Sunday of the Lord's Passion]{Graduale O.P.}
+\section{Palm Sunday of the Lord's Passion}
+
+
+
+\newpage
+
+\subsection{Antiphona}  \greannotation{VII} \index[Antiphona]{Hosanna filio David} \label{Hosanna filio David (Antiphona)} \grecommentary[0pt]{Mt 21:9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/an--hosanna_filio_david--dominican--id_5587} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Hosanna to the Son of David: Blessed is he who comes in the Name of the Lord! } \newpage
+
+
+
+
+
+
+
+
+
+\subsection{Antiphona}  \greannotation{I f} \index[Antiphona]{Pueri Hebræorum tollentes} \label{Pueri Hebræorum tollentes (Antiphona)} \grecommentary[0pt]{Cf. Jn 12:13} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/an--pueri_hebraeorum_tollentes--dominican--id_6640} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{The Hebrew children, taking up olive branches, met the Lord, crying out and saying: ``Hosanna in the highest."}
+
+
+
+\subsection{Antiphona}  \greannotation{I f} \index[Antiphona]{Pueri Hebræorum vestimenta} \label{Pueri Hebræorum vestimenta (Antiphona)} \grecommentary[0pt]{Cf. Mt 21:15, 8, 9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/an--pueri_hebraeorum_vestimenta--dominican--id_6173} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{The Hebrew children spread their garments in the way, and cried out, saying: ``Hosanna to the son of David; Blessed is He who comes in the name of the Lord."} \newpage
+
+
+
+
+
+
+\subsection{Responsorium}  \greannotation{II} \index[Responsorium]{Ingrediente Domino} \label{Ingrediente Domino (Responsorium)} \grecommentary[0pt]{Ecclesia [GR]} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/re--ingrediente_domino--vatican-op} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{As the Lord entered the Holy City, the children of the Hebrews proclaimed the resurrection of life, $\star$ and, waving olive branches, they loudly praised the Lord: ``Hosanna in the highest." \Vbar. When the people heard that Jesus was entering Jerusalem, they went to meet him $\star$ and, waving olive branches, they loudly praised the Lord: ``Hosanna in the highest."} \newpage
+
+\subsection{Officium}  \greannotation{VIII} \index[Officium]{Domine ne longe} \label{Domine ne longe (Officium)} \grecommentary[5pt]{Ps 21:20, 22 et 2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/in--domine_ne_longe--dominican--id_6256} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Lord, let not Your help be far from me. Look to my defence; deliver me from the lion's mouth, and my lowliness from the horns of the unicorns. \Vbar. O God, my God, look on me! Why have You forsaken me? The voice of my sins keeps salvation far from me.} \newpage
+
+
+
+
+
+
+\subsection{Communio}  \greannotation{VIII} \index[Communio]{Pater si non potest} \label{Pater si non potest (Communio)} \grecommentary[0pt]{Mt 26:42} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \gregorioscore{graduale-chants/co--pater_si_non_potest--dominican--id_4841} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \vspace{5pt} \par{Father, if this cup cannot pass away unless I drink it, Your will be done.} \newpage
+
+\end{document}

@@ -1,10 +1,10 @@
 # Fdb version 3
-["makeindex incipit.idx"] 1492108547 "incipit.idx" "incipit.ind" "incipit" 1492108569
-  "incipit.idx" 1492108562 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1492108547 "incipit.idx" "incipit.ind" "incipit" 1492117235
+  "incipit.idx" 1492117228 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
-["pdflatex"] 1492108560 "10_Good_Friday_Improperia.tex" "10_Good_Friday_Improperia.pdf" "10_Good_Friday_Improperia" 1492108569
+  "incipit.ind"
+["pdflatex"] 1492117225 "10_Good_Friday_Improperia.tex" "10_Good_Friday_Improperia.pdf" "10_Good_Friday_Improperia" 1492117235
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1491934460 762742 49e66f3a3ac6deed2a2e3008464dd773 ""
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1491934460 758466 f7f8c29ca2dbedd3829c4b7b961fcc79 ""
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-op-hole.luc" 1491934463 762735 464cb1346056e3e3c20f1fe9240b217a ""
@@ -130,19 +130,19 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1491352305 2173 9b2a6cd3d1da38e2372aa4a7498340ae ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1491352305 8179 eb4f2cd33e31580188989c685f339453 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1491352305 23755 ba898fe17686fbc8c1386ba8ba76045e ""
-  "10_Good_Friday_Improperia.aux" 1492108567 915 a51e23db8a4a7c3b4bdebc9f3ac622df ""
-  "10_Good_Friday_Improperia.gaux" 1492108547 1264 8e11d4aac94576e5abcc90fa83c85053 ""
-  "10_Good_Friday_Improperia.out" 1492108567 49 82a553069fa77b4fdc7cf4dcf026f390 ""
+  "10_Good_Friday_Improperia.aux" 1492117233 915 a51e23db8a4a7c3b4bdebc9f3ac622df ""
+  "10_Good_Friday_Improperia.gaux" 1492117225 1264 24671c1925f64c50d0e4d09e6d8f9bb1 ""
+  "10_Good_Friday_Improperia.out" 1492117233 49 82a553069fa77b4fdc7cf4dcf026f390 ""
   "10_Good_Friday_Improperia.tex" 1492108558 3510 649cfae7e44f3e705670afe11003c976 ""
-  "graduale-chants/improperia--popule_meus.tex" 1492108157 4454 9176fccee07f070171ec94c5a2ba50c5 ""
+  "graduale-chants/improperia--popule_meus.tex" 1492114581 4456 2a30bb26e7c05b675c02677bd1eb2d39 ""
   "incipit.ind" 1492108547 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "10_Good_Friday_Improperia.aux"
-  "incipit.idx"
-  "10_Good_Friday_Improperia.log"
   "/Users/Officium/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
-  "10_Good_Friday_Improperia.gaux"
   "10_Good_Friday_Improperia.out"
-  "10_Good_Friday_Improperia.pdf"
   "10_Good_Friday_Improperia.gsniplog"
   "10_Good_Friday_Improperia.gsnippet"
+  "10_Good_Friday_Improperia.log"
+  "10_Good_Friday_Improperia.gaux"
+  "10_Good_Friday_Improperia.pdf"
+  "10_Good_Friday_Improperia.aux"
+  "incipit.idx"

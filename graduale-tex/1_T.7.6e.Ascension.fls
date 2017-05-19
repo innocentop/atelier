@@ -233,8 +233,13 @@ INPUT ./graduale-chants/al--dominus_in_sina--dominican--id_6865-5_0_0-rc1.gtex
 INPUT graduale-chants/of--viri_galilaei--dominican--id_4934.gabc
 INPUT ./graduale-chants/of--viri_galilaei--dominican--id_4934-5_0_0-rc1.gtex
 INPUT graduale-chants/of--ascendit_deus--dominican--id_6403.gabc
-OUTPUT graduale-chants/of--ascendit_deus--dominican--id_6403-5_0_0-rc1.gtex
-OUTPUT graduale-chants/of--ascendit_deus--dominican--id_6403-5_0_0-rc1.glog
 INPUT ./graduale-chants/of--ascendit_deus--dominican--id_6403-5_0_0-rc1.gtex
 INPUT graduale-chants/co--data_est_mihi--dominican--id_7085.gabc
 INPUT ./graduale-chants/co--data_est_mihi--dominican--id_7085-5_0_0-rc1.gtex
+INPUT graduale-chants/co--signa_eos--vatican-op.gabc
+INPUT ./graduale-chants/co--signa_eos--vatican-op-5_0_0-rc1.gtex
+INPUT graduale-chants/co--psallite_domino--dominican--id_5669.gabc
+INPUT ./graduale-chants/co--psallite_domino--dominican--id_5669-5_0_0-rc1.gtex
+INPUT ./1_T.7.6e.Ascension.aux
+INPUT ./1_T.7.6e.Ascension.out
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

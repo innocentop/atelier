@@ -228,8 +228,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT graduale-chants/al--pascha_nostrum--dominican--id_7076.gabc
 INPUT ./graduale-chants/al--pascha_nostrum--dominican--id_7076-5_0_0-rc1.gtex
-INPUT graduale-chants/se--victimae_paschali_laudes--dominican--id_4209.gabc
-INPUT ./graduale-chants/se--victimae_paschali_laudes--dominican--id_4209-5_0_0-rc1.gtex
+INPUT graduale-chants/se--victimae_paschali_laudes--dominican.gabc
+INPUT ./graduale-chants/se--victimae_paschali_laudes--dominican-5_0_0-rc1.gtex
 INPUT graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies.gabc
 INPUT ./graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies-5_0_0-rc1.gtex
 INPUT graduale-chants/of--terra_tremuit--dominican--id_5651.gabc

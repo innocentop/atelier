@@ -227,15 +227,10 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT graduale-chants/gr--oculi_omnium--dominican--id_5738.gabc
+OUTPUT graduale-chants/gr--oculi_omnium--dominican--id_5738-5_0_0-rc1.gtex
+OUTPUT graduale-chants/gr--oculi_omnium--dominican--id_5738-5_0_0-rc1.glog
 INPUT ./graduale-chants/gr--oculi_omnium--dominican--id_5738-5_0_0-rc1.gtex
 INPUT graduale-chants/al--caro_mea--dominican--id_4939.gabc
 INPUT ./graduale-chants/al--caro_mea--dominican--id_4939-5_0_0-rc1.gtex
 INPUT graduale-chants/se--lauda_sion--dominican--id_4211.gabc
 INPUT ./graduale-chants/se--lauda_sion--dominican--id_4211-5_0_0-rc1.gtex
-INPUT graduale-chants/of--sacerdotes_domini--dominican--id_6619.gabc
-INPUT ./graduale-chants/of--sacerdotes_domini--dominican--id_6619-5_0_0-rc1.gtex
-INPUT graduale-chants/co--quotiescumque--dominican--id_4700.gabc
-INPUT ./graduale-chants/co--quotiescumque--dominican--id_4700-5_0_0-rc1.gtex
-INPUT ./1_SD_Corpus_Christi_Dominican_Rite.aux
-INPUT ./1_SD_Corpus_Christi_Dominican_Rite.out
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

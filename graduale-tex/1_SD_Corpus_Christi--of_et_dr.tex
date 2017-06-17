@@ -1,0 +1,143 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[In festo SS. Corporis Christi]{Graduale O.P.}
+\section{The Most Holy Body and Blood of Christ}
+\subsection{(Corpus Christi)}
+
+
+\newpage
+
+%%Combination
+
+\subsection{Officium}  \greannotation{II} \index[Officium]{Cibavit eos} \label{Cibavit eos (Officium)} \grecommentary[0pt]{Ps 80:17; \Vbar. 2} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--cibavit_eos_frumenti_alleluia--dominican--id_5062--drop-cap} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{He fed them with the fat of wheat, alleluia, and filled them with honey out of the rock, alleluia, alleluia, alleluia. \Vbar. Rejoice in God our helper; sing joyfully to the God of Jacob.} \newpage
+\subsection{Responsorium}  \greannotation{VII} \index[Responsorium]{Oculi omnium} \label{Oculi omnium (Responsorium)} \grecommentary[0pt]{Ps 144:15; \Vbar. 16} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--oculi_omnium--dominican--id_5738}  \vspace{5pt} \par{The eyes of all hope in You, O Lord; and You give them meat in due season. \Vbar. You open Your hand, and fill every living creature with Your blessing.} \newpage
+\subsection{Alleluia}  \greannotation{VII} \index[Alleluia]{Caro mea} \label{Caro mea (Alleluia)} \grecommentary[0pt]{Io 6:56, 57} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/al--caro_mea--dominican--id_4939}  \vspace{5pt} \par{My flesh is food indeed, and My blood is drink indeed. He that eats My flesh and drinks My blood, abides in Me, and I in him.} \newpage
+
+\subsection{Sequentia}  \greannotation{VII} \index[Sequentia]{Lauda Sion Salvatorem} \label{Lauda Sion Salvatorem (Sequentia)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.7cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/se--lauda_sion--dominican--id_4211}  \vspace{5pt} \par{Praise, O Zion, your Savior;\\praise your leader and shepherd\\in hymns and canticles.\\As much as possible, so much as you dare:\\for he is greater than all praise,\\nor can you praise him enough. \par \vspace{5pt}  A special theme of praise,\\–the living bread and life–\\is proposed today:\\That which at the table of the sacred Supper\\was given to the group of twelve brethren\\is not to be doubted. \par \vspace{5pt}  Let our praise be full, be sonorous,\\be pleasing, be fitting,\\jubilation of the soul:\\for this is the solemn day\\on which is commemorated the first\\institution of this banquet. \par \vspace{5pt}  At this table of the new King,\\the new Paschal rite of the new law\\ends the ancient Passover.\\The new supplants the ancient,\\truth puts to flight the shadow,\\day banishes night. \par \vspace{5pt}  What Christ did at Supper,\\the same he commanded to be done\\in remembrance of him.\\Taught by his sacred institution,\\we consecrate bread and wine\\into the sacrifice of salvation. \par \vspace{5pt}  A dogma is given to Christians:\\that bread is changed into flesh,\\and wine into blood.\\What you do not understand, what you do not see,\\a lively faith confirms\\in the supernatural order. \par \vspace{5pt}  Under different species,\\different in appearance only, and not in reality,\\wondrous things lie hidden.\\Flesh is food, blood is drink;\\yet Christ remains whole\\under each species. \par \vspace{5pt}  By the partaker not dispersed,\\unbroken, undivided:\\he is received whole.\\One receives him; a thousand receive him:\\as much as they, so does that one:\\nor is the One partaken of consumed. \par \vspace{5pt}  The good partake him; the evil partake,\\however, with unequal effect:\\of life or of ruin.\\Death is for the evil; life for the good:\\behold, of equal partaking,\\how different the result is. \par \vspace{5pt}  When the Sacrament is finally broken,\\doubt not, but remember,\\that there is as much hidden in a fragment,\\as there is in the whole. \par \vspace{5pt}  There is no division of the reality;\\of the species only is there a fracture,\\whereby neither the state nor stature\\of the One signified is diminished. \par \vspace{5pt}  Behold, the bread of angels\\is made the food of pilgrims,\\truly the bread of children,\\not to be cast to dogs. \par \vspace{5pt}  It was prefigured in other forms:\\when Isaac was immolated,\\when the Paschal Lamb was slain,\\when manna was given to the forefathers. \par \vspace{5pt}  O Good Shepherd, true bread,\\O Jesus, have mercy upon us;\\feed us, protect us,\\make us to see good things\\in the land of the living. \par \vspace{5pt}  You, who knows all things and can do all things,\\who here feeds us mortals,\\make us there be your table-guests,\\the co-heirs, and companions\\of the heavenly citizens. Amen. Alleluia.} \newpage
+\subsection{Offertorium} In ritu Ordinis Prædicatorum: \greannotation{IV} \index[Offertorium]{Sacerdotes Domini} \label{Sacerdotes Domini (Offertorium)} \grecommentary[0pt]{Lv 21:6} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.6cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--sacerdotes_domini--dominican--id_6619}  \vspace{5pt} \par{The priests of the Lord offer incense and loaves to God; and therefore they shall be holy to their God, and shall not defile His name, alleluia.} \newpage
+\subsection{Offertorium}  \greannotation{VIII} \index[Offertorium]{Portas cæli} \label{Portas cæli (Offertorium)} \grecommentary[3pt]{Ps 77:23, 24, 25} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.6cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--portas_caeli--dominican--id_4818}  \vspace{5pt} \par{The Lord opened the doors of heaven and rained down manna upon them to eat; He gave them the bread of heaven; man ate the bread of angels, alleluia.} \newpage
+
+
+\subsection{Communio} In ritu Ordinis Prædicatorum: \greannotation{VII} \index[Communio]{Quotiescumque} \label{Quotiescumque (Communio)} \grecommentary[3pt]{1 Cor 11:26-27} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--quotiescumque--dominican--id_4700}  \vspace{5pt} \par{As often as you shall eat this bread, and drink the cup, you proclaim the death of the Lord, until he comes. Therefore, whoever eats this bread or drinks the cup of the Lord unworthily, will be guilty of the body and blood of the Lord, alleluia.} \newpage
+\subsection{Communio} Annis B et C: \greannotation{VI} \index[Communio]{Qui manducat} \label{Qui manducat (Communio)} \grecommentary[3pt]{Io 6:57} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--qui_manducat--dominican--id_6212}  \vspace{5pt} \par{He who eats My flesh, and drinks My blood, abides in Me, and I in him, says the Lord.} \newpage
+\subsection{Communio} Anno C: \greannotation{VIII} \index[Communio]{Hoc corpus} \label{Hoc corpus (Communio)} \grecommentary[3pt]{I Cor 11:24, 25} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--hoc_corpus--dominican--id_5947}  \vspace{5pt} \par{``This is my body which is given up for you; this is the chalice of the new covenant in my blood," says the Lord. ``Do this, as often as your receive it, in memory of me."} \newpage
+
+
+\end{document}

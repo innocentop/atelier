@@ -35,14 +35,16 @@
 \setcounter{secnumdepth}{-1}
 
 \usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\part}{0pt}{*0}{*1}
 \titlespacing*{\chapter}{0pt}{*0}{*1}
 \titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsection}{0pt}{*0}{*0}
-\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
-\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
-\titleformat{\subsection} {\normalfont\large\sc\center}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
 
 \newcommand{\nocontentsline}[3]{}
 \newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents

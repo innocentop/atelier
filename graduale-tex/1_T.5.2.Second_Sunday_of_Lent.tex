@@ -32,7 +32,7 @@
 
 %%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
 
-\setcounter{secnumdepth}{-1}
+\setcounter{secnumdepth}{-2}
 
 \usepackage[compact,nobottomtitles*]{titlesec}
 \titlespacing*{\part}{0pt}{*0}{*1}
@@ -40,7 +40,7 @@
 \titlespacing*{\section}{0pt}{*0}{*1}
 \titlespacing*{\subsubsection}{0pt}{*0}{*0}
 \titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
 \titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
 \titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
 \titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}

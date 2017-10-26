@@ -1,0 +1,4 @@
+PWD /Users/misericordia/Documents/GitHub/GradualeOP/graduale-tex
+INPUT /usr/local/texlive/2016/texmf-var/web2c/luatex/lualatex.fmt
+INPUT ./1_29_Sunday.in.Ordinary.Time.tex
+OUTPUT 1_29_Sunday.in.Ordinary.Time.log

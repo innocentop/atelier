@@ -2,9 +2,11 @@ name:Quinque prudentes;
 office-part:Communio;
 mode:5;
 book:Graduale O.P. (Suarez), 1950, p. 50*;
-transcriber:Andrew Hinkley;
+transcriber:Andrew Hinkley (ed. Innocent Smith, op);
 %%
-(c3) Quin(dde)que(d) (::) 
-pru(d)dén(ef)tes(f) vír(fh)gi(e)nes(deDB) (;) ac(b)ce(b)pé(ded)runt(dc) ó(gxefe/fg)le(f)um(f) (;) in(df) va(f)sis(ef) su(e)is(dc) cum(e) lam(fe~)pá(d)di(d!efEDe)bus:(ed) (:) 
-mé(f)di(e)a(d) au(e)tem(f) no(hjIH)cte(h) (;) cla(h!ij)mor(ji) fa(h)ctus(gh) est:(hihhv/fgf) (:) 
-Ec(f)ce(ed) spon(e)sus(f) ve(hjIH)nit,(h) (;) e(i)xí(i!jk)te(h) ób(gxfg)vi(ed)am(d) (;) Chri(d!fg)sto(ev_//hhf//ghGFE//fgFE) (,1) Dó(d)mi(d!efEDe)no.(ed) (::) <i>T.P.</i> Al(gxd/fgf~)le(ev_//hhf//ghGFE//fgFE)lú(d!efEDe)ia.(ed) (::)
+(c3) Quin(dde)que(d) <v>$\star$</v>()
+pru(d)dén(ef)tes(f) vír(fh)gi(e)nes(deDB) (;) ac(b[ull:0{0])ce(b[ull:}])pé(ded)runt(dc) ó(gxefe/fg)le(f)um(f) (;) in(df) va(f)sis(ef) su(e)is(dc) cum(e) lam(fV>)pá(d)di(d!efEDe)bus:(ed) (:) 
+mé(f)di(e)a(d) au(e)tem(f) no(hjIH)cte(h) (;) cla(h!ij)mor(ji) fa(h)ctus(gxgh) est:(hihhv/fgf) (:) 
+Ec(f)ce(ed) spon(e)sus(f) ve(hjIH)nit,(h) (;) e(i)xí(i!jk)te(h) ób(fg)vi(ed)am(d) (;) Chri(d!fg)sto(gxev_//hhf//ghGFE//fgFE) (,1) Dó(d)mi(d!efEDe)no.(ed) (::) 
+
+%<i>T.P.</i> Al(gxd/fgf~)le(ev_//hhf//ghGFE//fgFE)lú(d!efEDe)ia.(ed) (::)

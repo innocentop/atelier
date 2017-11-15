@@ -1,10 +1,10 @@
 # Fdb version 3
-["makeindex incipit.idx"] 1510581762 "incipit.idx" "incipit.ind" "incipit" 1510582376
-  "incipit.idx" 1510582367 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1510581762 "incipit.idx" "incipit.ind" "incipit" 1510592851
+  "incipit.idx" 1510592839 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ilg"
   "incipit.ind"
-["pdflatex"] 1510582364 "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.tex" "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.pdf" "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me" 1510582376
+  "incipit.ilg"
+["pdflatex"] 1510589856 "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.tex" "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.pdf" "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me" 1510592851
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1491934460 762742 49e66f3a3ac6deed2a2e3008464dd773 ""
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1491934460 758466 f7f8c29ca2dbedd3829c4b7b961fcc79 ""
   "/Users/Officium/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/greciliae-op-hole.luc" 1491934463 762735 464cb1346056e3e3c20f1fe9240b217a ""
@@ -140,21 +140,21 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1491352305 2173 9b2a6cd3d1da38e2372aa4a7498340ae ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1491352305 8179 eb4f2cd33e31580188989c685f339453 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1491352305 23755 ba898fe17686fbc8c1386ba8ba76045e ""
-  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.aux" 1510582376 1295 8147143703449fc0b55abf1949c2a25b ""
-  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.gaux" 1510582363 1022 2caa21560869163c7e5ee6474833de86 ""
-  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.out" 1510582376 160 fd1932625dae9c504bb5d5399de56a2b ""
-  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.tex" 1510581700 4353 17d19377d46c3ae92716fe866d0d64cc ""
+  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.aux" 1510589867 1295 8147143703449fc0b55abf1949c2a25b ""
+  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.gaux" 1510589855 1022 ae53f96655debf59996be113447b15f2 ""
+  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.out" 1510589867 160 fd1932625dae9c504bb5d5399de56a2b ""
+  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.tex" 1510582447 4353 17d19377d46c3ae92716fe866d0d64cc ""
   "alteliersaintjacques-shell.png" 1508081704 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/re--libera_me_domine--dominican-5_0_0-rc1.gtex" 1510582344 89135 6083a6651d02a5e5ab715257c9073322 ""
-  "graduale-chants/re--libera_me_domine--dominican.gabc" 1510582336 2482 42a1e17b55f090fcdd987b0f374f57c9 ""
-  "incipit.ind" 1510581762 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "graduale-chants/re--libera_me_domine--dominican-5_0_0-rc1.gtex" 1510589836 89564 1b99b7767c29f0f33f0ed6dc95cae3e3 ""
+  "graduale-chants/re--libera_me_domine--dominican.gabc" 1510589826 2490 40621fde3a77ce8611b7fef8cee40f16 ""
+  "incipit.ind" 1510591009 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "graduale-chants/re--libera_me_domine--dominican-5_0_0-rc1.glog"
+  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.log"
+  "incipit.idx"
   "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.gaux"
+  "graduale-chants/re--libera_me_domine--dominican-5_0_0-rc1.gtex"
+  "graduale-chants/re--libera_me_domine--dominican-5_0_0-rc1.glog"
   "/Users/Officium/Library/texlive/2016/texmf-var/m_t_x_t_e_s_t.tmp"
   "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.pdf"
-  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.out"
   "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.aux"
-  "incipit.idx"
-  "graduale-chants/re--libera_me_domine--dominican-5_0_0-rc1.gtex"
-  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.log"
+  "1_S_11.02--in_commemoratione_omnium_fidelium_defunctorum--libera_me.out"

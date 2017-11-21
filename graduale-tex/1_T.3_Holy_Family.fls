@@ -229,6 +229,16 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT graduale-chants/gr--unam_petii_v_ut_videam--protegar--dominican--id_5760.gabc
+INPUT ./graduale-chants/gr--unam_petii_v_ut_videam--protegar--dominican--id_5760-5_0_0-rc1.gtex
+INPUT graduale-chants/al--gaudete_iusti--dominican.gabc
+INPUT ./graduale-chants/al--gaudete_iusti--dominican-5_0_0-rc1.gtex
+INPUT graduale-chants/of--in_te_speravi--dominican--id_6005.gabc
+INPUT ./graduale-chants/of--in_te_speravi--dominican--id_6005-5_0_0-rc1.gtex
+INPUT graduale-chants/co--tolle_puerum--dominican--id_6020.gabc
+INPUT ./graduale-chants/co--tolle_puerum--dominican--id_6020-5_0_0-rc1.gtex
+INPUT graduale-chants/co--fili_quid_fecisti.gabc
+INPUT ./graduale-chants/co--fili_quid_fecisti-5_0_0-rc1.gtex
 INPUT ./1_T.3_Holy_Family.aux
 INPUT ./1_T.3_Holy_Family.out
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

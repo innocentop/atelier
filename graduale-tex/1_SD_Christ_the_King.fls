@@ -235,8 +235,8 @@ INPUT graduale-chants/al--potestas_ejus--dominican--id_7399.gabc
 INPUT ./graduale-chants/al--potestas_ejus--dominican--id_7399-5_0_0-rc1.gtex
 INPUT graduale-chants/of--postula_a_me--dominican--id_7400.gabc
 INPUT ./graduale-chants/of--postula_a_me--dominican--id_7400-5_0_0-rc1.gtex
-INPUT graduale-chants/co--amen_dico_vobis_quod_uni--vatican.gabc
-INPUT ./graduale-chants/co--amen_dico_vobis_quod_uni--vatican-5_0_0-rc1.gtex
+INPUT graduale-chants/co--amen_dico_vobis_quod_uni--ofm.gabc
+INPUT ./graduale-chants/co--amen_dico_vobis_quod_uni--ofm-5_0_0-rc1.gtex
 INPUT graduale-chants/co--sedebit_dominus--dominican--id_7401.gabc
 INPUT ./graduale-chants/co--sedebit_dominus--dominican--id_7401-5_0_0-rc1.gtex
 INPUT ./1_SD_Christ_the_King.aux

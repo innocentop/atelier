@@ -216,8 +216,8 @@ OUTPUT 1_T.2_Christmas_3_Mass_at_Dawn.out
 INPUT ./alteliersaintjacques-shell.png
 INPUT ./alteliersaintjacques-shell.png
 INPUT alteliersaintjacques-shell.png
-INPUT graduale-chants/in--lux_fulgebit--dominican--id_6395.gabc
-INPUT ./graduale-chants/in--lux_fulgebit--dominican--id_6395-5_0_0-rc1.gtex
+INPUT graduale-chants/gr--benedictus_qui_venit--dominican--id_5124.gabc
+INPUT ./graduale-chants/gr--benedictus_qui_venit--dominican--id_5124-5_0_0-rc1.gtex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -227,14 +227,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT graduale-chants/gr--benedictus_qui_venit--dominican--id_5124.gabc
-INPUT ./graduale-chants/gr--benedictus_qui_venit--dominican--id_5124-5_0_0-rc1.gtex
-INPUT graduale-chants/al--dominus_regnavit_decorem--dominican--id_5841.gabc
-INPUT ./graduale-chants/al--dominus_regnavit_decorem--dominican--id_5841-5_0_0-rc1.gtex
-INPUT graduale-chants/of--deus_enim_firmavit--dominican--id_4933.gabc
-INPUT ./graduale-chants/of--deus_enim_firmavit--dominican--id_4933-5_0_0-rc1.gtex
-INPUT graduale-chants/co--exsulta_filia--dominican--id_6171.gabc
-INPUT ./graduale-chants/co--exsulta_filia--dominican--id_6171-5_0_0-rc1.gtex
 INPUT ./1_T.2_Christmas_3_Mass_at_Dawn.aux
 INPUT ./1_T.2_Christmas_3_Mass_at_Dawn.out
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

@@ -1,0 +1,143 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+
+\chapter[Tuesday Compline]{Tuesday}
+\section{Compline}
+    \index[Varia]{Deus in adiutorium} \label{Deus in adiutorium (Varia)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/misc.o_god_come-smith}
+ \subsubsection{Examination of Conscience (Roman Missal)}   \index[]{Examination of Conscience (Roman Missal)} \label{Examination of Conscience (Roman Missal) ()}         \vspace{5pt} \par \input{varia/examination_roman_missal}
+ \subsubsection{Hymnus}  \greannotation{VIII} \index[Hymnus]{Te lucis (Ferial)} \label{Te lucis (Ferial) (Hymnus)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \grechangedim{spaceabovelines}{0.25 cm}{scalable} \gregorioscore{chants/hy--te_lucis--ferial--english}    \newpage
+ \subsubsection{Antiphona}  \greannotation{II} \index[Antiphona]{Do not hide} \label{Do not hide (Antiphona)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/gethsemane04tuesday}
+ \subsubsection{Psalm 142:1-11}   \index[Psalmus]{Psalm 142:1-11} \label{Psalm 142:1-11 (Psalmus)}         \vspace{5pt} \par \input{psalms/psalm142_1-11english}
+ \subsubsection{Lectio brevis}     \hfill 1 Pt 5:8-9a        \input{readings/lectio_brevis_1.Pt.5.8-9a.tex}
+ \subsubsection{Responsorium brevis}  \greannotation{VI} \index[Responsorium brevis]{Into your hands} \label{Into your hands (Responsorium brevis)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/rb--into.your.hands}
+ \subsubsection{Antiphona ad Nunc Dimitis}  \greannotation{V} \index[Antiphona ad Nunc Dimitis]{Protect us Lord} \label{Protect us Lord (Antiphona ad Nunc Dimitis)} \grecommentary[3pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/an--protect.us.lord}
+ \subsubsection{Luke 2:29-32}   \index[Nunc Dimitis]{Luke 2:29-32} \label{Luke 2:29-32 (Nunc Dimitis)}         \vspace{5pt} \par \input{psalms/lc2_29-32english}
+ \subsubsection{Oratio conclusiva} Let us pray. \vspace{5pt}  \index[Oratio conclusiva]{} \label{ (Oratio conclusiva)}         \input{prayers/or-compline-3-tuesday}
+ \subsubsection{Ritus conclusionis}             \par \Vbar. May the all-powerful Lord grant us a restful night and a peaceful death. \par \Rbar. Amen.
+ \subsubsection{Antiphona}  \greannotation{V} \index[Antiphona]{Salve Regina} \label{Salve Regina (Antiphona)} \grecommentary[5pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/an--salve_regina_simple_tone--solesmes}  \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable} \vspace{5pt} \newpage \emph{Hail, holy Queen, mother of mercy, our life, our sweetness, and our hope. To you do we cry, poor banished children of Eve. To you do we send up our sighs mourning and weeping in this vale of tears. Turn then, most gracious advocate, your eyes of mercy toward us, and after this exile show us the blessed fruit of your womb, Jesus. O clement, O loving, O sweet Virgin Mary.}
+
+  \end{document}

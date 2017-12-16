@@ -1,0 +1,21 @@
+% !TEX TS-program = gregorio
+% !TEX encoding = UTF-8
+mode: 2;
+% The first part of the score is called the header, you can input some useful informations here:
+centering-scheme: latin;
+annotation: II;
+
+%width: 4.5;
+%height: 11;
+%spacing: smith);
+% Then, when gregorio encounters the following line (%%), it switches to the score, where you input the notes
+%font: GaramondPremierPro;
+%%
+(f3)O(fhhg) Cla(hf)vis(gf) Da(ef)vid,(f) <v>$\star$</v>(;) et(f) scep(fg)trum(f) do(g)mus(hf) Is(g)ra(f)el,(e) (;)
+qui(f) á(cf)pe(f)ris,(f) et(f) ne(g)mo(f) clau(gh)dit,(iji/kxjkj) (;)
+clau(j)dis,(i) et(h) ne(hg)mo(fh) á(h)pe(fgFE)rit:(e) (:)
+ve(eh)ni,(h) (,3) et(h) e(hg)duc(f) vin(g)ctum(f) de(fe) do(f)mo(h) cár(h)ce(fgFE)ris,(e) (;)
+se(eh)dén(h)tem(hg) in(f) té(gf)ne(ef)bris,(fvEC) (;)
+et(ef) um(hg)bra(e) mor(gh)tis.(f) (::)
+
+

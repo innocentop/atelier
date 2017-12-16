@@ -1,0 +1,148 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+
+\chapter[St. Irenaeus — Lauds]{St. Irenaeus}
+\section{Lauds}
+    \index[Varia]{Deus in adiutorium} \label{Deus in adiutorium (Varia)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/misc.deus_in_adjutorium}   \vspace{5pt} \emph{God, come to my assistance. \Rbar. Lord, make haste to help me. Glory to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, unto the age of ages. Amen. Alleluia.}
+ \subsubsection{Hymnus}  \greannotation{I} \index[Hymnus]{Martyr Dei qui unicum} \label{Martyr Dei qui unicum (Hymnus)} \grecommentary[10pt]{\emph{Martyr Dei qui unicum}} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.75cm}{scalable} \gresetlyriccentering{syllable}  \grechangedim{spaceabovelines}{0.25 cm}{scalable} \gregorioscore{chants/hy--martyr_dei--english--obligatory--memorials}
+ \subsubsection{Antiphona}  \greannotation{VIII \textsc{g}} \index[Antiphona]{Paratum cor meum} \label{Paratum cor meum (Antiphona)} \grecommentary[5pt]{Ps 107:2 [Les Heures Grégoriennes (2012) 3:1922]} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--paratum_cor_meum_deus--solesmes}   \vspace{5pt} \emph{My heart is ready, O God, my heart is ready.}
+ \subsubsection{Psalm 107}   \index[Psalmus]{Psalm 107} \label{Psalm 107 (Psalmus)}         \vspace{5pt} \par \input{psalms/psalm107english}
+ \subsubsection{Antiphona}  \greannotation{VII d} \index[Antiphona]{Induit me Dominus} \label{Induit me Dominus (Antiphona)} \grecommentary[5pt]{Is 61:10 [Les Heures Grégoriennes (2012) 3:1924]} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/an--induit_me_dominus--solesmes}  \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable} \vspace{5pt} \emph{Clothe me, Lord, with the vestments of salvation, and with the clothing of justice circumscribe me.}
+ \subsubsection{Is 61:10 — 62:5}   \index[Psalmus]{Is 61:10 — 62:5} \label{Is 61:10 — 62:5 (Psalmus)}         \vspace{5pt} \par \input{psalms/is61_10-62_5english}
+ \subsubsection{Antiphona}  \greannotation{IV} \index[Antiphona]{Laudabo Deum} \label{Laudabo Deum (Antiphona)} \grecommentary[5pt]{Ps 145:10 [Les Heures Grégoriennes (2012) 3:1928]} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/an--laudabo--dominican--id_4736}  \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable} \vspace{5pt} \emph{I will praise my God all my life.}
+ \subsubsection{Psalm 145}   \index[Psalmus]{Psalm 145} \label{Psalm 145 (Psalmus)}         \vspace{5pt} \par \input{psalms/psalm145english}
+ \subsubsection{Lectio brevis}     \hfill 2 Cor 1:3-5        \input{readings/lectio_brevis_2.Cor.1.3-5.tex}
+ \subsubsection{Responsorium brevis}  \greannotation{VI} \index[Responsorium brevis]{Fortitudo mea} \label{Fortitudo mea (Responsorium brevis)} \grecommentary[3pt]{Ps 117:14 [Les Heures Grégoriennes (2012) 3:1116]} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/rb--fortitudo_mea--solesmes}   \vspace{5pt} \emph{The Lord is my strength and my praise. \Vbar. And he has saved me.}
+ \subsubsection{Antiphona ad Magnificat}  \greannotation{III g} \index[Antiphona ad Magnificat]{Te Deum Patrem} \label{Te Deum Patrem (Antiphona ad Magnificat)} \grecommentary[3pt]{Ecclesia} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/an--qui_odit--solesmes_lhg}   \vspace{5pt} \emph{He who hates him life in this world will guard it for life eternal.}
+ \subsubsection{Canticum Evangelicum} \paragraph{} \greannotation{III g} \index[Canticum Evangelicum]{Benedictus} \label{Benedictus (Canticum Evangelicum)} \grecommentary[3pt]{Lc 1:68-79} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{spaceabovelines}{0.4 cm}{scalable} \gregorioscore{chants/benedictus-solemn-3g-ancient}  \grechangedim{spaceabovelines}{0 cm}{scalable} \input{chants/benedictus-translation}
+ \subsubsection{Preces}   \index[Preces]{} \label{ (Preces)}         \input{intercessions/intercessions-common_of_martyrs--lauds}
+ \subsubsection{Pater noster}   \index[Pater noster]{Pater noster} \label{Pater noster (Pater noster)}  \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/or--pater_noster--solesmes--antiphonale2}   \vspace{5pt} \emph{Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses as we forgive those who tresspass against us; and lead us not into temptation, but deliver us from evil.}
+ \subsubsection{Oratio conclusiva}   \index[Oratio conclusiva]{} \label{ (Oratio conclusiva)}         \input{prayers/or-sanctorale--06.28--st.irenaeus}
+ \subsubsection{Ritus conclusionis}             \par \Vbar. The Lord be with you. \par \Rbar. And with your spirit. \par \Vbar. May almighty God bless you, the Father, and the Son, and the Holy Spirit. \par \Rbar. Amen.
+ \subsubsection{Benedicamus Domino}   \index[Benedicamus Domino]{Solemnities} \label{Solemnities (Benedicamus Domino)}         \gregorioscore{chants/misc.benedicamus.dominio.5}   \vspace{5pt} \emph{Let us bless the Lord. \Vbar. And give him thanks.}          
+
+  \end{document}

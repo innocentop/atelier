@@ -1,0 +1,147 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+\usepackage{multicol}
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+
+\chapter[Ss. Apostolorum Petri et Pauli]{Ss. Apostolorum Petri et Pauli}
+\section{Ad II Vesperas}
+    \index[Varia]{Deus in adiutorium} \label{Deus in adiutorium (Varia)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/misc.deus_in_adjutorium}   \vspace{5pt} \emph{}
+ \subsubsection{Antiphona}  \greannotation{VIII \textsc{g}} \index[Antiphona]{Petrus et Ioannes} \label{Petrus et Ioannes (Antiphona)} \grecommentary[5pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--petrus_et_ioannes--dominican--id_6909}   \vspace{5pt} \emph{}
+ \subsubsection{Psalm 109}   \index[Psalmus]{Psalm 109} \label{Psalm 109 (Psalmus)}         \gregorioscore{psalms-latin-vulgate/109-8G} \vspace{5pt} \par \input{psalms-latin-vulgate/109-8G}
+ \subsubsection{Psalm 112}   \index[Psalmus]{Psalm 112} \label{Psalm 112 (Psalmus)}         \gregorioscore{psalms-latin-vulgate/112-8G} \vspace{5pt} \par \input{psalms-latin-vulgate/112-8G}
+ \subsubsection{Psalm 115}   \index[Psalmus]{Psalm 115} \label{Psalm 115 (Psalmus)}         \gregorioscore{psalms-latin-vulgate/115-8G} \vspace{5pt} \par \input{psalms-latin-vulgate/115-8G}
+ \subsubsection{Psalm 125}   \index[Psalmus]{Psalm 125} \label{Psalm 125 (Psalmus)}         \gregorioscore{psalms-latin-vulgate/125-8G} \vspace{5pt} \par \input{psalms-latin-vulgate/125-8G}
+ \subsubsection{Psalm 138}   \index[Psalmus]{Psalm 138} \label{Psalm 138 (Psalmus)}         \gregorioscore{psalms-latin-vulgate/138-8G} \vspace{5pt} \par \input{psalms-latin-vulgate/138-8G}
+ \subsubsection{Antiphona}  \greannotation{VIII \textsc{g}} \index[Antiphona]{Petrus et Ioannes} \label{Petrus et Ioannes (Antiphona)} \grecommentary[5pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--petrus_et_ioannes--dominican--id_6909}   \vspace{5pt} \emph{}
+ \subsubsection{Capitulum}     \hfill Eph 2        \input{readings/capitulum_Eph.2-Peter_and_Paul.tex}
+ \subsubsection{Hymnus}  \greannotation{I} \index[Hymnus]{Aurea luce} \label{Aurea luce (Hymnus)} \grecommentary[10pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{spaceabovelines}{0.25 cm}{scalable} \gregorioscore{chants/hy--aurea_luce--latin}
+ \subsubsection{Versiclua}             \par \Vbar. In omnem terram exívit sonus eórum. \par \Rbar. Et in fines orbis terræ verba eórum.
+ \subsubsection{Antiphona ad Magnificat}  \greannotation{VI} \index[Antiphona ad Magnificat]{Gloriosi Principes} \label{Gloriosi Principes (Antiphona ad Magnificat)} \grecommentary[3pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/an--gloriosi_principes--dominican--id_6756}   \vspace{5pt} \emph{}
+ \subsubsection{Canticum Evangelicum} \paragraph{} \greannotation{VI} \index[Canticum Evangelicum]{Magnificat 6} \label{Magnificat 6 (Canticum Evangelicum)} \grecommentary[3pt]{Lc 1:46-55} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{spaceabovelines}{0.4 cm}{scalable} \gregorioscore{chants/magnificat6}  \grechangedim{spaceabovelines}{0 cm}{scalable}
+ \subsubsection{Oratio}             \par \Vbar. Dóminus vobíscum. \par \Rbar. Et cum Spirítui tuo. \par Oremus. \par \lettrine[lines=3]{D}{}eus, qui hodiérnam diem Apostolórum tuórum Petri et Pauli martyrio consecrásti: da Ecclésiæ tuæ eórum in ómnibus sequi præcéptum, per quos religiónis sumpsit exordium. Per Dóminum nostrum Iesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. \par \Rbar. Amen.
+ \subsubsection{Benedicamus Domino}   \index[Benedicamus Domino]{Solemnities} \label{Solemnities (Benedicamus Domino)}         \gregorioscore{chants/misc.benedicamus.dominio.1}
+
+  \end{document}

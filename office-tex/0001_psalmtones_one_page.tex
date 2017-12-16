@@ -1,0 +1,95 @@
+\documentclass[11pt]{article}
+
+%\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+\geometry{paperwidth=5.5in}
+\geometry{paperheight=8.5in}
+\geometry{textwidth=340pt}
+\geometry{textheight=7.5in}
+
+\usepackage{gregoriotex}
+\usepackage[latin,english]{babel}
+\usepackage{fontspec}
+%\GreLoadSpaceConf{smith}
+
+\usepackage[normalem]{ulem}
+
+\usepackage{multicol}
+
+\setcounter{secnumdepth}{-1}
+\usepackage[compact]{titlesec}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*1}
+\titlespacing*{\subsection}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{10pt}{*0}
+\titleformat{\chapter} {\normalfont\LARGE\center}{\thechapter}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\large\center}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\it}{\thesubsubsection}{1em}{}
+
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,
+			ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{Minion Pro}
+			
+\frenchspacing
+
+\def\greinitialformat#1{%
+{\fontsize{34}{34}\selectfont #1}%
+}
+
+\usepackage{color}
+\usepackage{ifthen}
+\pagestyle{empty}
+
+\begin{document}
+%\redlines
+
+\font\gregoriosymbolfont=gresym at 11pt
+
+
+\begin{center}\begin{huge}\textsc{Dominican Psalm Tones}\end{huge}\end{center}
+
+\setspaceafterinitial{3.2mm plus 0em minus 0em}
+\setspacebeforeinitial{3.2mm plus 0em minus 0em}
+
+\setgrefactor{17}
+\grespaceabovelines=5mm
+
+These English psalmtones are adapted from those provided in the 1965 Dominican \emph{Regulae Cantus}.
+
+\begin{multicols}{2}
+
+
+\subsubsection{I\textsc{d}} \gregorioscore{chants/psalmtone1D-english}
+\subsubsection{Ig} \gregorioscore{chants/psalmtone1g-english}
+\subsubsection{Ia} \gregorioscore{chants/psalmtone1a-english}
+
+\subsubsection{II}
+\gregorioscore{chants/psalmtone2-english}
+
+\subsubsection{IIIa} \gregorioscore{chants/psalmtone3a-english}
+\subsubsection{IIIa2} \gregorioscore{chants/psalmtone3a2-english}
+
+
+\subsubsection{IV\textsc{e}} \gregorioscore{chants/psalmtone4E-english}
+\subsubsection{IV\textsc{a}} \gregorioscore{chants/psalmtone4A-english}
+
+\subsubsection{V}
+\gregorioscore{chants/psalmtone5-english}
+
+\subsubsection{VI}
+\gregorioscore{chants/psalmtone6-english}
+
+\subsubsection{VIIa} \gregorioscore{chants/psalmtone7a-english}
+\subsubsection{VIId} \gregorioscore{chants/psalmtone7d-english}
+
+
+\subsubsection{VIII\textsc{g} \gregorioscore{chants/psalmtone8G_c4-english}
+\subsubsection{VIIIc} \gregorioscore{chants/psalmtone8c_c4-english}
+
+\subsubsection{Tonus Peregrinus}
+\gregorioscore{chants/psalmtone_peregrinus-english}
+	
+\end{multicols}
+
+\end{document}

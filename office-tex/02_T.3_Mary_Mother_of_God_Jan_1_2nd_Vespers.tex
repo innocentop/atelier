@@ -1,0 +1,151 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+\chapter[Solemnity of Mary, the Holy Mother of God]{\normalfont\large\sc\center{January 1\\The Octave Day of the Nativity of the Lord} \\ \normalfont\LARGE\sc\center{Solemnity of Mary, \\ the Holy Mother of God} \\}
+\section{Second Vespers}
+    \index[Varia]{Deus in adiutorium} \label{Deus in adiutorium (Varia)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangedim{spaceabovelines}{0.25 cm}{scalable} \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/misc.deus_in_adjutorium-T} \grechangedim{spaceabovelines}{0 cm}{scalable} \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable}    \newpage
+ \subsubsection{Hymnus}  \greannotation{I} \index[Hymnus]{Ave Maris stella} \label{Ave Maris stella (Hymnus)} \grecommentary[0pt]{} \gresetinitiallines{1}   \gregorioscore{chants/hy--ave_maris--latin-with-trans}    \newpage
+ \subsubsection{Antiphona}  \greannotation{VI} \index[Antiphona]{O admirabile commercium} \label{O admirabile commercium (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \gresetlyriccentering{vowel} \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/an--o_admirabile--dominican--id_6672}  \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable}
+ \subsubsection{Psalm 121} \paragraph{Holy city Jerusalem}  \index[Psalmus]{Psalm 121} \label{Psalm 121 (Psalmus)} \emph{You have come to Mount Zion, to the city of the living God, heavenly Jerusalem (Hebrews 12:22).}    \vspace{5pt} \par \input{psalms/psalm121english3-3}    \newpage
+ \subsubsection{Antiphona}  \greannotation{III a2} \index[Antiphona]{Quando natus es} \label{Quando natus es (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \gresetlyriccentering{vowel} \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/an--quando_natus_est--dominican--id_6882}  \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable}
+ \subsubsection{Psalm 126} \paragraph{Apart from God our labors are worthless}  \index[Psalmus]{Psalm 126} \label{Psalm 126 (Psalmus)} \emph{You are God’s building (1 Corinthians 3:9).}    \vspace{5pt} \par \input{psalms/psalm126english3-3}    \newpage
+ \subsubsection{Antiphona}  \greannotation{IV \textsc{e}} \index[Antiphona]{Rubum quem} \label{Rubum quem (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \gresetlyriccentering{vowel} \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/an--rubum_quem_viderat--dominican--id_6282}  \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable}
+ \subsubsection{Eph 3:1-10} \paragraph{God our Savior}  \index[Canticum]{Eph 3:1-10} \label{Eph 3:1-10 (Canticum)}     \vspace{5pt} \par \input{psalms/eph1_3-10english3-3}    \newpage
+ \subsubsection{Lectio brevis}     \hfill Gal 4:4-5    \input{readings/lectio_brevis_Gal.4.4-5.tex}
+ \subsubsection{Responsorium brevis}  \greannotation{VI} \index[Responsorium brevis]{Verbum caro} \label{Verbum caro (Responsorium brevis)} \grecommentary[0pt]{Io 1:14} \gresetinitiallines{1} \gresetlyriccentering{vowel}  \gregorioscore{chants/rb--verbum_caro_factum_est--dominican--id_5728}    \newpage
+ \subsubsection{Antiphona ad Magnificat}  \greannotation{VIII c} \index[Antiphona ad Magnificat]{Beatus venter} \label{Beatus venter (Antiphona ad Magnificat)} \grecommentary[7pt]{Cf. Lc 11:27 [AR]} \gresetinitiallines{1} \gresetlyriccentering{vowel}  \gregorioscore{chants/an--beatus_venter--solesmes} \vspace{5pt} \emph{Blessed is the womb that bore you, O Christ, and blessed the breasts that nourished you, O Lord and Savior of the world, alleluia.}
+ \subsubsection{Canticum Evangelicum} \paragraph{The soul rejoices in the Lord} \greannotation{VIII c} \index[Canticum Evangelicum]{} \label{ (Canticum Evangelicum)} \grecommentary[3pt]{Lc 1:46-55} \gresetinitiallines{1} \gresetlyriccentering{vowel}  \gregorioscore{chants/magnificat8c} \input{chants/magnificat-translation}
+ \subsubsection{Preces}   \index[Preces]{Mary, the Holy Mother of God} \label{Mary, the Holy Mother of God (Preces)}     \input{intercessions/intercessions-solemnity-of-mary-the-holy-mother-of-god}
+ \subsubsection{Pater noster}   \index[Pater noster]{Pater noster} \label{Pater noster (Pater noster)}   \grechangedim{spaceabovelines}{0.4 cm}{scalable}  \gregorioscore{chants/or--pater_noster_a--solesmes-T} \grechangedim{spaceabovelines}{0 cm}{scalable} 
+ 
+\newpage
+
+   
+ \subsubsection{Oratio conclusiva}   \index[Oratio conclusiva]{} \label{ (Oratio conclusiva)}     \input{prayers/or-solemnity-of-mary-the-holy-mother-of-god}
+ \subsubsection{Ritus conclusionis}         \par \Vbar. The Lord be with you. \par \Rbar. And with your spirit. \par \Vbar. May almighty God bless you, the Father, and the Son, and the Holy Spirit. \par \Rbar. Amen.
+ \subsubsection{Benedicamus Domino}   \index[Benedicamus Domino]{Solemnities} \label{Solemnities (Benedicamus Domino)}     \gregorioscore{chants/misc.benedicamus.dominio.1-T}
+
+  \end{document}

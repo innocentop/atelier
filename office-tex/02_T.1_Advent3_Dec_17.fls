@@ -1,4 +1,4 @@
-PWD /Users/misericordia/Documents/GitHub/VesperaleOP
+PWD /Users/misericordia/Documents/GitHub/atelier/office-tex
 INPUT /usr/local/texlive/2016/texmf-var/web2c/luatex/lualatex.fmt
 INPUT ./02_T.1_Advent3_Dec_17.tex
 OUTPUT 02_T.1_Advent3_Dec_17.log

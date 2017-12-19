@@ -259,8 +259,8 @@ INPUT chants/magnificat2.gabc
 INPUT ./chants/magnificat2-5_0_0-rc1.gtex
 INPUT ./chants/magnificat-translation.tex
 INPUT ./chants/magnificat-translation.tex
-INPUT ./intercessions/intercessions-advent-3-sunday-2nd-vespers.tex
-INPUT ./intercessions/intercessions-advent-3-sunday-2nd-vespers.tex
+INPUT ./intercessions/intercessions-advent-dec-17.tex
+INPUT ./intercessions/intercessions-advent-dec-17.tex
 INPUT chants/or--pater_noster_a--solesmes-T.gabc
 INPUT ./chants/or--pater_noster_a--solesmes-T-5_0_0-rc1.gtex
 INPUT ./prayers/or-advent-3.tex

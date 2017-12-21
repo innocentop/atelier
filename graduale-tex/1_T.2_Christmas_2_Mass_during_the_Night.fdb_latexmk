@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1513790725 "1_T.2_Christmas_2_Mass_during_the_Night.tex" "1_T.2_Christmas_2_Mass_during_the_Night.pdf" "1_T.2_Christmas_2_Mass_during_the_Night" 1513790738
+["lualatex"] 1513791228 "1_T.2_Christmas_2_Mass_during_the_Night.tex" "1_T.2_Christmas_2_Mass_during_the_Night.pdf" "1_T.2_Christmas_2_Mass_during_the_Night" 1513791308
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1513711373 758893 0a60075a862f710e139025f8cd1a3c13 ""
@@ -155,26 +155,26 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "1_T.2_Christmas_2_Mass_during_the_Night.aux" 1513790738 2075 459cf2f7094e87d877d6d2b4834a39da ""
-  "1_T.2_Christmas_2_Mass_during_the_Night.gaux" 1513790674 1781 3b42da14801429c2068bec23ce87f836 ""
-  "1_T.2_Christmas_2_Mass_during_the_Night.out" 1513790738 233 871296b1d3d04884d5b1d1ac249cc1f1 ""
-  "1_T.2_Christmas_2_Mass_during_the_Night.tex" 1513790723 7456 a805671f92df7e74e8aa539d06c3c76d ""
+  "1_T.2_Christmas_2_Mass_during_the_Night.aux" 1513791241 2075 459cf2f7094e87d877d6d2b4834a39da ""
+  "1_T.2_Christmas_2_Mass_during_the_Night.gaux" 1513791227 1781 ed8f6dde055bc0a47d968c85cfc5d43f ""
+  "1_T.2_Christmas_2_Mass_during_the_Night.out" 1513791241 233 871296b1d3d04884d5b1d1ac249cc1f1 ""
+  "1_T.2_Christmas_2_Mass_during_the_Night.tex" 1513791213 7455 6e7e649e2c8da1e01c86eb9e6064f9f6 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/al--dominus_dixit--dominican--id_6629-5_0_2.gtex" 1513789821 20242 1f3cb12b34fba80b079cc3bf228e1846 ""
-  "graduale-chants/co--in_splendoribus--dominican--id_7236-5_0_2.gtex" 1513789823 8297 8216e0ee2dbc67a0ac513f8a8990dced ""
+  "graduale-chants/al--dominus_dixit--dominican--id_6629-5_0_2.gtex" 1513790974 20235 2883aa32899e7b0fa0b5a6494b66b20a ""
+  "graduale-chants/co--in_splendoribus--dominican--id_7236-5_0_2.gtex" 1513791227 8296 140e8071bc4cd037ffca420ddf92c9a7 ""
   "graduale-chants/gr--tecum_principium--dominican--id_6602-5_0_2.gtex" 1513790669 46448 be08ab14711681c839bbc70318f7414f ""
   "graduale-chants/in--dominus_dixit--dominican--id_6135-antiphon-only-5_0_2.gtex" 1513790502 8998 ac776a2ad02a32e4922349e870d47902 ""
   "graduale-chants/in--dominus_dixit--dominican--id_6135-verses-only-5_0_2.gtex" 1513790478 36142 40bb54779017e6bf7a9c993672912c41 ""
   "graduale-chants/of--laetentur_caeli--dominican--id_7062-5_0_2.gtex" 1513789822 13280 81cb896bbd9feef65fd89400a45a8fa8 ""
   "incipit.ind" 1513789824 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_T.2_Christmas_2_Mass_during_the_Night.pdf"
   "1_T.2_Christmas_2_Mass_during_the_Night.log"
-  "1_T.2_Christmas_2_Mass_during_the_Night.aux"
-  "incipit.idx"
   "1_T.2_Christmas_2_Mass_during_the_Night.out"
-["makeindex incipit.idx"] 1513789824 "incipit.idx" "incipit.ind" "incipit" 1513790738
-  "incipit.idx" 1513790727 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "incipit.idx"
+  "1_T.2_Christmas_2_Mass_during_the_Night.aux"
+  "1_T.2_Christmas_2_Mass_during_the_Night.pdf"
+["makeindex incipit.idx"] 1513789824 "incipit.idx" "incipit.ind" "incipit" 1513791308
+  "incipit.idx" 1513791231 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
+  "incipit.ind"

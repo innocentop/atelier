@@ -1,4 +1,4 @@
-PWD /Users/Officium/Documents/GitHub/GradualeOP/graduale-tex
+PWD /Users/Officium/Documents/GitHub/atelier/graduale-tex
 INPUT /usr/local/texlive/2016/texmf-var/web2c/luatex/lualatex.fmt
 INPUT ./passion_john.tex
 OUTPUT passion_john.log
@@ -215,6 +215,9 @@ INPUT ./passion_john.out
 OUTPUT passion_john.pdf
 INPUT ./passion_john.out
 OUTPUT passion_john.out
+INPUT ./alteliersaintjacques-shell.png
+INPUT ./alteliersaintjacques-shell.png
+INPUT alteliersaintjacques-shell.png
 INPUT graduale-chants/passion_according_to_john_op.gabc
 INPUT ./graduale-chants/passion_according_to_john_op-5_0_0-rc1.gtex
 INPUT ./passion_john.aux

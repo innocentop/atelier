@@ -1,0 +1,179 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+
+
+
+%%Combination
+
+\chapter{Hymns}
+\subsection{Ordinary Time}
+ \subsubsection{Sundays in Ordinary Time after First Vespers}  \greannotation{VIII} \index[Hymni]{Te lucis ante terminum (Sundays in Ordinary Time after First Vespers)} \label{Te lucis ante terminum (Sundays in Ordinary Time after First Vespers) (Sundays in Ordinary Time after First Vespers)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--sunday--first-vespers}
+ \subsubsection{Sundays in Ordinary Time after First Vespers}  \greannotation{VIII} \index[Hymns]{To you before the close of day (Sundays in Ordinary Time after First Vespers)} \label{To you before the close of day (Sundays in Ordinary Time after First Vespers) (Sundays in Ordinary Time after First Vespers)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--te_lucis--sunday--first-vespers.english}
+ \subsubsection{Sundays in Ordinary Time after Second Vespers}  \greannotation{VIII} \index[Hymni]{Te lucis ante terminum (Sundays in Ordinary Time after Second Vespers)} \label{Te lucis ante terminum (Sundays in Ordinary Time after Second Vespers) (Sundays in Ordinary Time after Second Vespers)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--sunday--second-vespers}
+ \subsubsection{Sundays in Ordinary Time after Second Vespers}  \greannotation{VIII} \index[Hymns]{To you before the close of day (Sundays in Ordinary Time after Second Vespers)} \label{To you before the close of day (Sundays in Ordinary Time after Second Vespers) (Sundays in Ordinary Time after Second Vespers)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--te_lucis--sunday--second-vespers.english}
+ \subsubsection{Weekdays in Ordinary Time and Advent}  \greannotation{VIII} \index[Hymni]{Te lucis ante terminum (Weekdays in Ordinary Time and Advent)} \label{Te lucis ante terminum (Weekdays in Ordinary Time and Advent) (Weekdays in Ordinary Time and Advent)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--ferial}
+ \subsubsection{Weekdays in Ordinary Time and Advent}  \greannotation{VIII} \index[Hymns]{To you before the close of day (Weekdays in Ordinary Time and Advent)} \label{To you before the close of day (Weekdays in Ordinary Time and Advent) (Weekdays in Ordinary Time and Advent)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--te_lucis--ferial.english}
+\subsection{Advent}
+   \greannotation{IV} \index[Hymni]{Te lucis ante terminum (Sundays in Advent)} \label{Te lucis ante terminum (Sundays in Advent) (Sundays in Advent)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--advent}
+ \subsubsection{Sundays in Advent}  \greannotation{IV} \index[Hymns]{To you before the close of day (Sundays in Advent)} \label{To you before the close of day (Sundays in Advent) (Sundays in Advent)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--te_lucis--advent.english}
+\subsection{Christmas to Epiphany}
+   \greannotation{III} \index[Hymni]{Te lucis ante terminum (Christmas to Epiphany)} \label{Te lucis ante terminum (Christmas to Epiphany) (Christmas to Epiphany)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--christmas}
+ \subsubsection{Christmas to Epiphany}  \greannotation{III} \index[Hymns]{To you before the close of day (Christmas to Epiphany)} \label{To you before the close of day (Christmas to Epiphany) (Christmas to Epiphany)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--te_lucis--christmas.english}
+\subsection{Lent}
+   \greannotation{II} \index[Hymni]{Christe qui lux es et dies} \label{Christe qui lux es et dies (Lent)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--christe_qui_lux}
+ \subsubsection{Lent}  \greannotation{II} \index[Hymns]{O Christ you are the light and day} \label{O Christ you are the light and day (Lent)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--christe_qui_lux.english}
+\subsection{Paschaltide}
+   \greannotation{IV} \index[Hymni]{Iesu nostra redemptio} \label{Iesu nostra redemptio (Paschaltide)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--iesu_nostra_redemptio}
+ \subsubsection{Paschaltide}  \greannotation{IV} \index[Hymns]{Jesus redemption all divine} \label{Jesus redemption all divine (Paschaltide)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--iesu_nostra_redemptio.english}
+\subsection{The Solemnities of the Lord during Ordinary Time}
+ \subsubsection{The Most Holy Trinity}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (Trinity Sunday)} \label{Te lucis ante terminum (Trinity Sunday) (The Most Holy Trinity)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--trinity}
+ \subsubsection{The Most Holy Body and Blood of Christ (Corpus Christi)}  \greannotation{VIII} \index[Hymni]{Te lucis ante terminum (Corpus Christi)} \label{Te lucis ante terminum (Corpus Christi) (The Most Holy Body and Blood of Christ (Corpus Christi))} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--corpus_christi}
+ \subsubsection{The Most Sacred Heart of Jesus}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (Sacred Heart)} \label{Te lucis ante terminum (Sacred Heart) (The Most Sacred Heart of Jesus)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--sacred_heart}
+ \subsubsection{Our Lord Jesus Christ, King of the Universe}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (Christ the King)} \label{Te lucis ante terminum (Christ the King) (Our Lord Jesus Christ, King of the Universe)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--christ_the_king}
+\subsection{Common of Saints}
+ \subsubsection{Common of the Blessed Virgin Mary}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (Blessed Virgin Mary)} \label{Te lucis ante terminum (Blessed Virgin Mary) (Common of the Blessed Virgin Mary)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--our_lady}
+ \subsubsection{Common of the Blessed Virgin Mary in Paschaltide}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (Blessed Virgin Mary in Paschaltide)} \label{Te lucis ante terminum (Blessed Virgin Mary in Paschaltide) (Common of the Blessed Virgin Mary in Paschaltide)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--our_lady_easter}
+ \subsubsection{Solemnities}  \greannotation{VII} \index[Hymni]{Te lucis ante terminum (Solemnities)} \label{Te lucis ante terminum (Solemnities) (Solemnities)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis_common1}
+ \subsubsection{Feasts}  \greannotation{IV} \index[Hymni]{Te lucis ante terminum (Feasts)} \label{Te lucis ante terminum (Feasts) (Feasts)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis_common2}
+ \subsubsection{Obligatory Memorials}  \greannotation{VII} \index[Hymni]{Te lucis ante terminum (Obligatory Memorials)} \label{Te lucis ante terminum (Obligatory Memorials) (Obligatory Memorials)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis_common3}
+ \subsubsection{Optional Memorials}  \greannotation{VIII} \index[Hymni]{Te lucis ante terminum (Optional Memorials)} \label{Te lucis ante terminum (Optional Memorials) (Optional Memorials)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis_common4}
+\subsection{Proper of Saints}
+ \subsubsection{18 January\\St. Margaret of Hungary, O.P., Virgin}  \greannotation{VIII} \index[Hymni]{Te lucis ante terminum (St. Margaret of Hungary)} \label{Te lucis ante terminum (St. Margaret of Hungary) (18 January\\St. Margaret of Hungary, O.P., Virgin)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--01.18--st_margaret}
+ \subsubsection{28 January\\St. Thomas Aquinas, O.P., Doctor of the Church}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (St. Thomas Aquinas)} \label{Te lucis ante terminum (St. Thomas Aquinas) (28 January\\St. Thomas Aquinas, O.P., Doctor of the Church)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--01.28--st_thomas_aquinas}
+ \subsubsection{4 February\\St. Catherine de Ricci, O.P., Virgin}  \greannotation{VI} \index[Hymni]{Te lucis ante terminum (St. Catherine de Ricci)} \label{Te lucis ante terminum (St. Catherine de Ricci) (4 February\\St. Catherine de Ricci, O.P., Virgin)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--02.04--st_catherine_de_ricci}
+ \subsubsection{20 April\\St. Agnes of Montepulciano, O.P., Virgin}  \greannotation{V} \index[Hymni]{Te lucis ante terminum (St. Agnes of Montepulciano)} \label{Te lucis ante terminum (St. Agnes of Montepulciano) (20 April\\St. Agnes of Montepulciano, O.P., Virgin)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--04.20--st_agnes_of_montepulciano}
+ \subsubsection{30 April\\St. Pius V, O.P., Pope}  \greannotation{VI} \index[Hymni]{Te lucis ante terminum (St. Pius V)} \label{Te lucis ante terminum (St. Pius V) (30 April\\St. Pius V, O.P., Pope)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--04.30--st_pius_v}
+ \subsubsection{10 May\\St. Antoninus of Florence, O.P., Bishop}  \greannotation{VII} \index[Hymni]{Te lucis ante terminum (St. Antoninus)} \label{Te lucis ante terminum (St. Antoninus) (10 May\\St. Antoninus of Florence, O.P., Bishop)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--05.10--st_antoninus}
+ \subsubsection{4 June\\St. Peter of Verona, O.P., Martyr}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (St. Peter of Verona)} \label{Te lucis ante terminum (St. Peter of Verona) (4 June\\St. Peter of Verona, O.P., Martyr)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--06.04--st_peter_of_verona}
+ \subsubsection{22 July\\St. Mary Magdalene, Holy Woman}  \greannotation{II} \index[Hymni]{Te lucis ante terminum (St. Mary Magdalene)} \label{Te lucis ante terminum (St. Mary Magdalene) (22 July\\St. Mary Magdalene, Holy Woman)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--07.22--st_mary_magdalene}
+ \subsubsection{6 August\\Transfiguration of the Lord}  \greannotation{VII} \index[Hymni]{Te lucis ante terminum (Transfiguration)} \label{Te lucis ante terminum (Transfiguration) (6 August\\Transfiguration of the Lord)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--08.06--transfiguration}
+ \subsubsection{8 August\\Our Holy Father Dominic, O.P., Priest}  \greannotation{VII} \index[Hymni]{Te lucis ante terminum (St. Dominic)} \label{Te lucis ante terminum (St. Dominic) (8 August\\Our Holy Father Dominic, O.P., Priest)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--08.08--st_dominic}
+ \subsubsection{17 August\\St. Hyacinth of Poland, O.P., Priest}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (St. Hyacinth)} \label{Te lucis ante terminum (St. Hyacinth) (17 August\\St. Hyacinth of Poland, O.P., Priest)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--08.17--st_hyacinth}
+ \subsubsection{15 September\\Our Lady of Sorrows}  \greannotation{II} \index[Hymni]{Te lucis ante terminum (Our Lady of Sorrows)} \label{Te lucis ante terminum (Our Lady of Sorrows) (15 September\\Our Lady of Sorrows)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--09.15--our_lady_of_sorrows}
+ \subsubsection{2 October\\Guardian Angels}  \greannotation{VIII} \index[Hymni]{Te lucis ante terminum (Guardian Angels)} \label{Te lucis ante terminum (Guardian Angels) (2 October\\Guardian Angels)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--10.02--guardian_angels}
+ \subsubsection{4 October\\Our Holy Father Francis, Holy Man}  \greannotation{V} \index[Hymni]{Te lucis ante terminum (St. Francis)} \label{Te lucis ante terminum (St. Francis) (4 October\\Our Holy Father Francis, Holy Man)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--10.04--st_francis}
+ \subsubsection{7 October\\Our Lady of the Rosary}  \greannotation{V} \index[Hymni]{Te lucis ante terminum (Our Lady of the Rosary)} \label{Te lucis ante terminum (Our Lady of the Rosary) (7 October\\Our Lady of the Rosary)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--10.07--our_lady_of_the_rosary}
+ \subsubsection{15 October\\St. Teresa of Avila, Virgin}  \greannotation{VI} \index[Hymni]{Te lucis ante terminum (St. Teresa of Avila)} \label{Te lucis ante terminum (St. Teresa of Avila) (15 October\\St. Teresa of Avila, Virgin)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--10.15--st_teresa_of_avila}
+ \subsubsection{1 November\\All Saints}  \greannotation{I} \index[Hymni]{Te lucis ante terminum (All Saints)} \label{Te lucis ante terminum (All Saints) (1 November\\All Saints)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--11.01--all_saints}
+ \subsubsection{15 November\\St. Albert the Great, O.P., Doctor}  \greannotation{VIII} \index[Hymni]{Te lucis ante terminum (St. Albert the Great)} \label{Te lucis ante terminum (St. Albert the Great) (15 November\\St. Albert the Great, O.P., Doctor)} \grecommentary[0pt]{} \grechangestyle{initial}{\fontsize{1}{1}\selectfont} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--te_lucis--11.15--st_albert}    
+
+
+
+  \end{document}

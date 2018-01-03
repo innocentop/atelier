@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1513789548 "1_T.2_Christmas_1_Vigil_Mass.tex" "1_T.2_Christmas_1_Vigil_Mass.pdf" "1_T.2_Christmas_1_Vigil_Mass" 1513789561
+["lualatex"] 1514950548 "1_T.2_Christmas_1_Vigil_Mass.tex" "1_T.2_Christmas_1_Vigil_Mass.pdf" "1_T.2_Christmas_1_Vigil_Mass" 1514950561
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1513711373 758893 0a60075a862f710e139025f8cd1a3c13 ""
@@ -155,25 +155,25 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "1_T.2_Christmas_1_Vigil_Mass.aux" 1513789560 1958 85c6ffcf190cba54dcffcf3f92a5be63 ""
+  "1_T.2_Christmas_1_Vigil_Mass.aux" 1514950561 1958 85c6ffcf190cba54dcffcf3f92a5be63 ""
   "1_T.2_Christmas_1_Vigil_Mass.gaux" 1513789548 1517 a5de03cc75771a9b5546c94bcf6b7dd9 ""
-  "1_T.2_Christmas_1_Vigil_Mass.out" 1513789560 211 1e61ad4c3a9e878714e0170c114001e4 ""
-  "1_T.2_Christmas_1_Vigil_Mass.tex" 1513789535 6830 ef44f2756ffbe6da3e6a5b1122894786 ""
+  "1_T.2_Christmas_1_Vigil_Mass.out" 1514950561 211 1e61ad4c3a9e878714e0170c114001e4 ""
+  "1_T.2_Christmas_1_Vigil_Mass.tex" 1514950547 6824 e1ebf18eaad746045d0fcc7db961d226 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--crastina_die--dominican--id_5554-5_0_2.gtex" 1513789545 15124 f9118c140d1595037d5b4796a3bce9b1 ""
   "graduale-chants/co--revelabitur--dominican--id_7068-5_0_2.gtex" 1513789004 11074 56ba47dcc1e8be1f2cd41ea9082f6eb0 ""
   "graduale-chants/gr--hodie_scietis--dominican--id_5043-5_0_2.gtex" 1513789314 43628 b00ed0d963a87fc16c4591f499473d95 ""
   "graduale-chants/in--hodie_scietis--dominican--id_4286-5_0_2.gtex" 1513788996 31708 98a9641ecc7bc516106e3969f169c32b ""
   "graduale-chants/of--tollite_portas--dominican--id_5944-5_0_2.gtex" 1513789003 15300 8f14c87bc6d8fa1b626cf81b554ebad1 ""
-  "incipit.ind" 1513789320 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1514950063 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
   "1_T.2_Christmas_1_Vigil_Mass.log"
-  "incipit.idx"
-  "1_T.2_Christmas_1_Vigil_Mass.out"
-  "1_T.2_Christmas_1_Vigil_Mass.aux"
   "1_T.2_Christmas_1_Vigil_Mass.pdf"
-["makeindex incipit.idx"] 1513789319 "incipit.idx" "incipit.ind" "incipit" 1513789561
-  "incipit.idx" 1513789551 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "incipit.idx"
+  "1_T.2_Christmas_1_Vigil_Mass.aux"
+  "1_T.2_Christmas_1_Vigil_Mass.out"
+["makeindex incipit.idx"] 1513789319 "incipit.idx" "incipit.ind" "incipit" 1514950561
+  "incipit.idx" 1514950551 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ilg"
   "incipit.ind"
+  "incipit.ilg"

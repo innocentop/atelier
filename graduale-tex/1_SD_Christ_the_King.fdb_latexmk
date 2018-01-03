@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1513807272 "1_SD_Christ_the_King.tex" "1_SD_Christ_the_King.pdf" "1_SD_Christ_the_King" 1513807286
+["lualatex"] 1514942517 "1_SD_Christ_the_King.tex" "1_SD_Christ_the_King.pdf" "1_SD_Christ_the_King" 1514942531
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1513711373 758893 0a60075a862f710e139025f8cd1a3c13 ""
@@ -155,26 +155,26 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "1_SD_Christ_the_King.aux" 1513807285 2228 2310eb0f7095b4c47b2e76df24474b16 ""
-  "1_SD_Christ_the_King.gaux" 1513807271 1922 04ece48f873fbc14d033e035576aba01 ""
-  "1_SD_Christ_the_King.out" 1513807285 303 9829723ccb8b9dc640484560e21f2d14 ""
-  "1_SD_Christ_the_King.tex" 1513807255 7575 53b2d59023c7bf41f82aa821b6e7fe4b ""
+  "1_SD_Christ_the_King.aux" 1514942530 2228 d4c31fb2d0f801f4ced45fb611d7d7e4 ""
+  "1_SD_Christ_the_King.gaux" 1514942517 1922 ac47a3758577b63fe6ecb097a1506d23 ""
+  "1_SD_Christ_the_King.out" 1514942530 303 9829723ccb8b9dc640484560e21f2d14 ""
+  "1_SD_Christ_the_King.tex" 1514942496 7575 1eb00fc27668d94f97dcc56bdea25fd5 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--potestas_ejus--dominican--id_7399-5_0_2.gtex" 1513807267 28716 10da6427f75e1671ded5c1995a7b850c ""
-  "graduale-chants/co--amen_dico_vobis_quod_uni--ofm-5_0_2.gtex" 1513806802 16611 26286a5cc92ee890c35f08ad99e5e133 ""
+  "graduale-chants/co--amen_dico_vobis_quod_uni--ofm-5_0_2.gtex" 1514942515 16795 715504445c3aeb2732aa94fe9eac0311 ""
   "graduale-chants/co--sedebit_dominus--dominican--id_7401-5_0_2.gtex" 1513806804 9130 72e8b36bf93c1cd255855304778f6b56 ""
-  "graduale-chants/gr--dominabitur--dominican--id_7398-5_0_2.gtex" 1513806798 27854 361e7457003d4585ee9bfd42fda53bbe ""
+  "graduale-chants/gr--dominabitur--dominican--id_7398-5_0_2.gtex" 1514942511 27854 1ab632016c999f6803ff800c6e06622d ""
   "graduale-chants/in--dignus_est_agnus--dominican--id_7395-5_0_2.gtex" 1513806795 40254 e1edff2535cf821ddaf846ae88f4a15a ""
   "graduale-chants/of--postula_a_me--dominican--id_7400-5_0_2.gtex" 1513806801 16496 f3c2a838ff1b14264ff85fd4813b83e4 ""
-  "incipit.ind" 1513806805 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1514941252 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_SD_Christ_the_King.out"
-  "incipit.idx"
   "1_SD_Christ_the_King.log"
+  "incipit.idx"
   "1_SD_Christ_the_King.aux"
   "1_SD_Christ_the_King.pdf"
-["makeindex incipit.idx"] 1513806805 "incipit.idx" "incipit.ind" "incipit" 1513807286
-  "incipit.idx" 1513807274 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_SD_Christ_the_King.out"
+["makeindex incipit.idx"] 1513806805 "incipit.idx" "incipit.ind" "incipit" 1514942531
+  "incipit.idx" 1514942520 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

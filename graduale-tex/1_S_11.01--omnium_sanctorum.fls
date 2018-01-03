@@ -248,7 +248,7 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT ./graduale-chants/gr--timete_dominum--op-5_0_2.gtex
 INPUT ./graduale-chants/al--iudicabunt_sancti--dominican-5_0_2.gtex
-INPUT ./graduale-chants/of--mirabilis_deus--dominican--id_4790-5_0_2.gtex
+INPUT ./graduale-chants/of--mirabilis_deus--dominican-5_0_2.gtex
 INPUT ./graduale-chants/co--gaudete_iusti__alleluia--dominican-5_0_2.gtex
 INPUT ./1_S_11.01--omnium_sanctorum.aux
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

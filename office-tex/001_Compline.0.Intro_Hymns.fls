@@ -234,7 +234,7 @@ INPUT ./001_Compline.0.Intro_Hymns.out
 INPUT ./001_Compline.0.Intro_Hymns.out
 OUTPUT 001_Compline.0.Intro_Hymns.pdf
 OUTPUT 001_Compline.0.Intro_Hymns.out
-INPUT ./chants/hy--te_lucis--sunday--first-vespers-5_0_2.gtex
+INPUT ./chants/hy--te_lucis--advent-5_0_2.gtex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -245,12 +245,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT ./chants/hy--te_lucis--sunday--first-vespers.english-5_0_2.gtex
-INPUT ./chants/hy--te_lucis--sunday--second-vespers-5_0_2.gtex
-INPUT ./chants/hy--te_lucis--sunday--second-vespers.english-5_0_2.gtex
-INPUT ./chants/hy--te_lucis--ferial-5_0_2.gtex
-INPUT ./chants/hy--te_lucis--ferial.english-5_0_2.gtex
-INPUT ./chants/hy--te_lucis--advent-5_0_2.gtex
 INPUT ./chants/hy--te_lucis--advent.english-5_0_2.gtex
 INPUT ./chants/hy--te_lucis--christmas-5_0_2.gtex
 INPUT ./chants/hy--te_lucis--christmas.english-5_0_2.gtex

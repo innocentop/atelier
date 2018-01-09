@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1515527813 "001_Compline.0.Intro_Hymns.tex" "001_Compline.0.Intro_Hymns.pdf" "001_Compline.0.Intro_Hymns" 1515527837
+["lualatex"] 1515531295 "001_Compline.1b--hymns.tex" "001_Compline.1b--hymns.pdf" "001_Compline.1b--hymns" 1515531350
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -28,6 +28,7 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1480098711 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gregoriotex/greciliae-op.ttf" 1496785929 1071412 3bdad94d29b77429ed379e2a2f6c88a5 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf" 1496785929 24748 07914422d03ab2edae05dbea32a0b56f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1480098733 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2017/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua" 1480098773 1972 1fb7c07d88e23d4594015b8b0aa21544 ""
   "/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -156,21 +157,23 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "001_Compline.0.Intro_Hymns.aux" 1515527836 1940 3411ff8560bdec57f256be377294c779 ""
-  "001_Compline.0.Intro_Hymns.gaux" 1515527813 2729 c22fc945d6ce2446ba3dd8e8a969d83e ""
-  "001_Compline.0.Intro_Hymns.out" 1515527836 168 c8e0f943c2e7e72b0e175951d3581559 ""
-  "001_Compline.0.Intro_Hymns.tex" 1515527790 5944 0e8a76106d1a8f9667afc1820f412ef5 ""
-  "chants/hy--iesu_nostra_redemptio.english-5_0_2.gtex" 1514505363 104018 93d08586f9bb19785272b3a86f8262ea ""
-  "chants/hy--te_lucis--trinity-5_0_2.gtex" 1514559791 34903 a6c426584396018bbc8c2700c27ba1fd ""
-  "incipit.ind" 1515439875 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "001_Compline.1b--hymns.aux" 1515531311 1868 068c9c474eae49cde68d8274f37f7bc8 ""
+  "001_Compline.1b--hymns.gaux" 1515531295 2064 29661d7d9e815067f9572062d0b59258 ""
+  "001_Compline.1b--hymns.out" 1515531311 325 e82950f389799a097f22a76aab2ce4e9 ""
+  "001_Compline.1b--hymns.tex" 1515531348 6808 a59f6bccad1f5ab7a87d859af6a7c1d9 ""
+  "chants/an--o_lumen-5_0_2.gtex" 1514752323 22460 d74434be1140268ba60c66d8c86511a4 ""
+  "chants/an--salve_regina--dominican-5_0_2.gtex" 1514752319 49900 b864d1b46a785aeeaf88c863062007d7 ""
+  "chants/misc.litaniae.bmv.tex" 1514564163 3722 2dbfc153b9f61b0540ff7082de725584 ""
+  "chants/prosula--inviolata-5_0_2.gtex" 1514751299 33868 85000f119853b3b6b7cdaf07581e105e ""
+  "incipit.ind" 1515528498 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "001_Compline.0.Intro_Hymns.aux"
-  "001_Compline.0.Intro_Hymns.log"
-  "001_Compline.0.Intro_Hymns.out"
+  "001_Compline.1b--hymns.pdf"
+  "001_Compline.1b--hymns.log"
+  "001_Compline.1b--hymns.aux"
   "incipit.idx"
-  "001_Compline.0.Intro_Hymns.pdf"
-["makeindex incipit.idx"] 1514505441 "incipit.idx" "incipit.ind" "incipit" 1515527837
-  "incipit.idx" 1515527816 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "001_Compline.1b--hymns.out"
+["makeindex incipit.idx"] 1515528498 "incipit.idx" "incipit.ind" "incipit" 1515531350
+  "incipit.idx" 1515531298 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

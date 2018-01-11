@@ -259,3 +259,5 @@ INPUT ./graduale-chants/of--dextera_domini--dominican--id_4758-5_0_2.gtex
 INPUT ./graduale-chants/co--mirabantur_omnes--dominican--id_7227-5_0_2.gtex
 INPUT ./graduale-chants/co--venite_post_me--dominican--id_7007-5_0_2.gtex
 INPUT ./graduale-chants/co--comedite_pinguia--dominican--id_6323-5_0_2.gtex
+INPUT ./1_03_Sunday.in.Ordinary.Time.aux
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

@@ -1,0 +1,51 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt, footskip=20pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+
+%%Index (rev. December 11, 2013)
+\usepackage[nonewpage]{imakeidx}
+
+\makeindex[name=Antiphons,title=Antiphons]
+\makeindex[name=Canticles,title=Canticles]
+\makeindex[name=Hymns,title=Hymns]
+\makeindex[name=Prayers,title=Prayers]
+\makeindex[name=Psalms,title=Psalms]
+\makeindex[name=Responsories,title=Responsories]
+\makeindex[name=Varia,title=Varia]
+
+\indexsetup{level=\section*,toclevel=section,noclearpage}
+
+%\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+
+
+%%Combination
+
+\tableofcontents
+
+\index[Antiphons]{asdf}
+\index[Canticles]{asdf}
+
+ \printindex[Antiphons]
+ \printindex[Canticles]
+ \printindex[Hymns]
+ \printindex[Prayers]
+ \printindex[Psalms]
+ \printindex[Responsories]
+ \printindex[Varia]
+
+
+
+
+\end{document}

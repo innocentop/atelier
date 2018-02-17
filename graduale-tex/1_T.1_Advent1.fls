@@ -1,4 +1,4 @@
-PWD /Users/Officium/Documents/GitHub/GradualeOP/graduale-tex
+PWD /Users/Officium/Documents/GitHub/atelier/graduale-tex
 INPUT /usr/local/texlive/2016/texmf-var/web2c/luatex/lualatex.fmt
 INPUT ./1_T.1_Advent1.tex
 OUTPUT 1_T.1_Advent1.log

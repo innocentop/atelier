@@ -225,6 +225,9 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./alteliersaintjacques-shell.png
+INPUT ./alteliersaintjacques-shell.png
+INPUT alteliersaintjacques-shell.png
 INPUT graduale-chants/in--iudica_me--dominican--id_6158.gabc
 INPUT ./graduale-chants/in--iudica_me--dominican--id_6158-5_0_0-rc1.gtex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm

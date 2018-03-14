@@ -225,6 +225,9 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./alteliersaintjacques-shell.png
+INPUT ./alteliersaintjacques-shell.png
+INPUT alteliersaintjacques-shell.png
 INPUT graduale-chants/in--laetare_ierusalem--dominican--id_5261.gabc
 INPUT ./graduale-chants/in--laetare_ierusalem--dominican--id_5261-5_0_0-rc1.gtex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -243,10 +246,10 @@ INPUT graduale-chants/of--laudate_dominum--dominican--id_5285.gabc
 INPUT ./graduale-chants/of--laudate_dominum--dominican--id_5285-5_0_0-rc1.gtex
 INPUT graduale-chants/of--illumina--dominican--id_5998.gabc
 INPUT ./graduale-chants/of--illumina--dominican--id_5998-5_0_0-rc1.gtex
-INPUT graduale-chants/co--lutum_fecit--dominican--id_6341.gabc
-INPUT ./graduale-chants/co--lutum_fecit--dominican--id_6341-5_0_0-rc1.gtex
 INPUT graduale-chants/co--ierusalem_quae--dominican--id_5394.gabc
 INPUT ./graduale-chants/co--ierusalem_quae--dominican--id_5394-5_0_0-rc1.gtex
+INPUT graduale-chants/co--lutum_fecit--dominican--id_6341.gabc
+INPUT ./graduale-chants/co--lutum_fecit--dominican--id_6341-5_0_0-rc1.gtex
 INPUT graduale-chants/co--oportet_te_fili--dominican--id_6842.gabc
 INPUT ./graduale-chants/co--oportet_te_fili--dominican--id_6842-5_0_0-rc1.gtex
 INPUT ./1_T.5.4.Lent4.aux

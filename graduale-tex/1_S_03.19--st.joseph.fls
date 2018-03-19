@@ -233,8 +233,6 @@ INPUT graduale-chants/of--desiderium_animae--dominican--id_6021.gabc
 INPUT ./graduale-chants/of--desiderium_animae--dominican--id_6021-5_0_0-rc1.gtex
 INPUT graduale-chants/co--tolle_puerum--dominican--id_6020.gabc
 INPUT ./graduale-chants/co--tolle_puerum--dominican--id_6020-5_0_0-rc1.gtex
-INPUT graduale-chants/co--fili_quid_fecisti.gabc
-INPUT ./graduale-chants/co--fili_quid_fecisti-5_0_0-rc1.gtex
 INPUT ./1_S_03.19--st.joseph.aux
 INPUT ./1_S_03.19--st.joseph.out
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

@@ -95,6 +95,7 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/luatex/gregoriotex/gregoriotex-comm
 INPUT /usr/local/texlive/2017/texmf-dist/tex/luatex/gregoriotex/gregoriotex-nabc.lua
 INPUT /usr/local/texlive/2017/texmf-dist/tex/luatex/gregoriotex/gregoriotex-signs.lua
 INPUT /usr/local/texlive/2017/texmf-dist/tex/luatex/gregoriotex/gregoriotex-symbols.lua
+INPUT passion_mark.gaux
 INPUT /usr/local/texlive/2017/texmf-dist/tex/luatex/gregoriotex/gregoriotex-spaces.tex
 INPUT /Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc
 INPUT /Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc
@@ -225,9 +226,14 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-OUTPUT passion_mark.out
+INPUT ./passion_mark.out
+INPUT ./passion_mark.out
+INPUT ./passion_mark.out
+INPUT ./passion_mark.out
 OUTPUT passion_mark.pdf
+OUTPUT passion_mark.out
 INPUT ./alteliersaintjacques-shell.png
 INPUT ./alteliersaintjacques-shell.png
 INPUT alteliersaintjacques-shell.png
 INPUT ./graduale-chants/passion_according_to_mark_op-5_0_2.gtex
+INPUT ./passion_mark.aux

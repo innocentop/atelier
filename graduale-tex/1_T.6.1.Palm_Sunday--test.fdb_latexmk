@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1521766253 "1_T.6.1.Palm_Sunday--test.tex" "1_T.6.1.Palm_Sunday--test.pdf" "1_T.6.1.Palm_Sunday--test" 1521766269
+["lualatex"] 1521766253 "1_T.6.1.Palm_Sunday--test.tex" "1_T.6.1.Palm_Sunday--test.pdf" "1_T.6.1.Palm_Sunday--test" 1521813118
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -158,7 +158,7 @@
   "1_T.6.1.Palm_Sunday--test.aux" 1521766269 2971 14fd6b91aec936c2ead627beee20d2eb ""
   "1_T.6.1.Palm_Sunday--test.gaux" 1521766252 2474 402a91d67aedb50202d7946b2aae0f21 ""
   "1_T.6.1.Palm_Sunday--test.out" 1521766269 303 4d39f0268781e7d47660172c6981b1d9 ""
-  "1_T.6.1.Palm_Sunday--test.tex" 1521766216 9541 cc4c813ee3811601144a045cec967eaa ""
+  "1_T.6.1.Palm_Sunday--test.tex" 1521813117 9541 cc4c813ee3811601144a045cec967eaa ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/an--coeperunt--dominican--id_4800-5_0_2.gtex" 1521760266 20021 7e2f2316ff8973ea7fd865a6f7a0efb9 ""
   "graduale-chants/an--cum_angelis--dominican--id_5865-5_0_2.gtex" 1521766241 10106 a60ce00cfaf7d8611d7059efd46fd2d5 ""
@@ -174,12 +174,12 @@
   "graduale-chants/ps--147-mode8-incipit_and_psalm.tex" 1521763087 1103 112aebfbe12dd0050c0badd2f912494f ""
   "incipit.ind" 1521761651 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "incipit.idx"
   "1_T.6.1.Palm_Sunday--test.aux"
   "1_T.6.1.Palm_Sunday--test.pdf"
   "1_T.6.1.Palm_Sunday--test.log"
+  "incipit.idx"
   "1_T.6.1.Palm_Sunday--test.out"
-["makeindex incipit.idx"] 1521761651 "incipit.idx" "incipit.ind" "incipit" 1521766269
+["makeindex incipit.idx"] 1521761651 "incipit.idx" "incipit.ind" "incipit" 1521813118
   "incipit.idx" 1521766256 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"

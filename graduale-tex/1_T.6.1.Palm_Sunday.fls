@@ -232,6 +232,9 @@ INPUT ./1_T.6.1.Palm_Sunday.out
 INPUT ./1_T.6.1.Palm_Sunday.out
 OUTPUT 1_T.6.1.Palm_Sunday.pdf
 OUTPUT 1_T.6.1.Palm_Sunday.out
+INPUT ./alteliersaintjacques-shell.png
+INPUT ./alteliersaintjacques-shell.png
+INPUT alteliersaintjacques-shell.png
 INPUT ./graduale-chants/an--hosanna_filio_david--dominican--id_5587-5_0_2.gtex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
@@ -245,9 +248,15 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT ./graduale-chants/an--turba_multa--dominican--id_7036-5_0_2.gtex
 INPUT ./graduale-chants/an--cum_angelis--dominican--id_5865-5_0_2.gtex
-INPUT ./graduale-chants/an--cum_angelis--dominican--id_5865-5_0_2.gtex
+INPUT ./graduale-chants/an--omnes_collaudant--dominican-5_0_2.gtex
+INPUT ./graduale-chants/ps--147-mode8-incipit_and_psalm.tex
+INPUT ./graduale-chants/ps--147-mode8-incipit_and_psalm.tex
 INPUT ./graduale-chants/an--pueri_hebraeorum_tollentes--dominican--id_6640-5_0_2.gtex
+INPUT ./graduale-chants/ps--023-mode1g-incipit_and_psalm.tex
+INPUT ./graduale-chants/ps--023-mode1g-incipit_and_psalm.tex
 INPUT ./graduale-chants/an--pueri_hebraeorum_vestimenta--dominican--id_6173-5_0_2.gtex
+INPUT ./graduale-chants/ps--046-mode1g-incipit_and_psalm.tex
+INPUT ./graduale-chants/ps--046-mode1g-incipit_and_psalm.tex
 INPUT ./graduale-chants/an--occurunt--dominican--id_5518-5_0_2.gtex
 INPUT ./graduale-chants/an--coeperunt--dominican--id_4800-5_0_2.gtex
 INPUT ./graduale-chants/an--fulgentibus_palmis--dominican-5_0_2.gtex
@@ -255,6 +264,7 @@ INPUT ./graduale-chants/hy--gloria_laus_et_honor-5_0_2.gtex
 INPUT ./graduale-chants/an--ave_rex_noster--dominican--id_4606-5_0_2.gtex
 INPUT ./graduale-chants/re--ingrediente_domino--dominican-5_0_2.gtex
 INPUT ./graduale-chants/in--domine_ne_longe--dominican--id_6256-5_0_2.gtex
+INPUT ./graduale-chants/gr--tenuisti_manum--dominican--id_4872-5_0_2.gtex
 INPUT ./graduale-chants/tr--deus_deus_meus--dominican-5_0_2.gtex
 INPUT ./graduale-chants/gr--christus_factus_est--dominican--id_6737-5_0_2.gtex
 INPUT ./graduale-chants/of--improperium_simul_contristaretur--dominican--id_5089-5_0_2.gtex

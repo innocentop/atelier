@@ -252,8 +252,8 @@ INPUT chants/misc.christus_factus--english.gabc
 INPUT ./chants/misc.christus_factus--english-5_0_0-rc1.gtex
 INPUT ./psalms/lc1_68-79english.tex
 INPUT ./psalms/lc1_68-79english.tex
-INPUT chants/va--versus_litanici_in_cantu_feria_vi--dominican--english.gabc
-INPUT ./chants/va--versus_litanici_in_cantu_feria_vi--dominican--english-5_0_0-rc1.gtex
+INPUT chants/misc--versus_litanici_in_cantu_feria_vi--dominican--english--simple--rubrics.gabc
+INPUT ./chants/misc--versus_litanici_in_cantu_feria_vi--dominican--english--simple--rubrics-5_0_0-rc1.gtex
 INPUT ./varia/lords-prayer.tex
 INPUT ./varia/lords-prayer.tex
 INPUT ./prayers/or-holy-week-5-holy-thursday-morning-prayer.tex

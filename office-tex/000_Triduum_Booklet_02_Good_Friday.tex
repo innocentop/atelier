@@ -1,0 +1,156 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+\chapter{Good Friday}
+\section{Office of Readings}
+ \subsubsection{Invitatory Psalm}   \index[Psalmus]{Invitatory Psalm} \label{Invitatory Psalm (Psalmus)}         \vspace{5pt} \par \input{psalms/psalm094english--good_friday}
+ \subsubsection{Hymn}   \index[Hymn]{Hymn} \label{Hymn (Hymn)}         \input{varia/hy--pange_lingua_gloriosa_proelium--english--text--only}
+ \subsubsection{Antiphon 1}   \index[Antiphon]{Antiphon 1} \label{Antiphon 1 (Antiphon)}         Earthly kings rise up, in revolt; princes conspire together against the Lord and his Anointed.
+ \subsubsection{Psalm 2} \paragraph{The Messiah, king and conqueror}  \index[Psalmus]{Psalm 2} \label{Psalm 2 (Psalmus)} \emph{The rulers of the earth joined forces to overthrow Jesus, your anointed Son (Acts 4:27).}        \par \vspace{5pt} \input{psalms/psalm002english}
+ \subsubsection{Antiphon 2}   \index[Antiphon]{Antiphon 2} \label{Antiphon 2 (Antiphon)}         They divided my garments among them; they cast lots for my clothing.
+ \subsubsection{Psalm 22:2-23} \paragraph{God hears the suffering of his Holy One}  \index[Psalmus]{Psalm 22:2-23} \label{Psalm 22:2-23 (Psalmus)} \emph{Jesus cried with a loud voice: My God, my God, why have you forsaken me? (Matthew 27:46).}        \par \vspace{5pt} \input{psalms/psalm021.2-23english}
+ \subsubsection{Antiphon 3}   \index[Antiphon]{Antiphon 3} \label{Antiphon 3 (Antiphon)}         They sought to take my life by violence.
+ \subsubsection{Psalm 38} \paragraph{A sinner in extreme danger prays earnestly to God}  \index[Psalmus]{Psalm 38} \label{Psalm 38 (Psalmus)} \emph{All his friends were standing at a distance (Luke 23:49).}        \par \vspace{5pt} \input{psalms/psalm037english}
+                 \par \vspace{5pt} \Vbar. They brought false evidence against me. \par \Rbar. They were breathing out fury. \newpage
+ \subsubsection{First Reading}             \input{readings/lectio_prior_Heb.9.11-28--Good_Friday.tex}
+ \subsubsection{Second Reading}             \input{readings/lectio_altera--ex_catechesibus_sancti_ioannis_chrysostomi--Good_Friday.tex} \newpage
+\section{Morning Prayer}
+ \subsubsection{Antiphon 1}   \index[Antiphon]{Antiphon 1} \label{Antiphon 1 (Antiphon)}         God did not spare his own Son, but gave him up to suffer for our sake.
+ \subsubsection{Psalm 51} \paragraph{O God, have mercy on me}  \index[Psalmus]{Psalm 51} \label{Psalm 51 (Psalmus)} \emph{Your inmost being must be renewed, and you must put on the new man (Ephesians 4:23-24).}        \par \vspace{5pt} \input{psalms/psalm050english}
+ \subsubsection{Antiphon 2}   \index[Antiphon]{Antiphon 2} \label{Antiphon 2 (Antiphon)}         Jesus Christ loved us, and poured out his own blood for us to wash away our sins.
+ \subsubsection{Canticle: Habakkuk 3:2-4, 13a, 15-19} \paragraph{God comes to judge}  \index[Psalmus]{Canticle: Habakkuk 3:2-4, 13a, 15-19} \label{Canticle: Habakkuk 3:2-4, 13a, 15-19 (Psalmus)} \emph{Lift up your heads for your redemption is at hand (Luke 21:28).}        \par \vspace{5pt} \input{psalms/hab3_2-4.13.15-19english}
+ \subsubsection{Antiphon 3}   \index[Antiphon]{Antiphon 3} \label{Antiphon 3 (Antiphon)}         We worship your cross, O Lord, and we praise and glorify your holy resurrection, for the wood of the cross has brought joy to the world.
+ \subsubsection{Psalm 147:12-20} \paragraph{The restoration of Jerusalem}  \index[Psalmus]{Psalm 147:12-20} \label{Psalm 147:12-20 (Psalmus)} \emph{Come, I will show you the bride of the Lamb (Revelation 21:9).}        \par \vspace{5pt} \input{psalms/psalm147english}
+ \subsubsection{Reading}     \hfill Is 52:13-15        \input{readings/lectio_brevis_Is.52.13-15.tex}
+ \subsubsection{Responsory}  \greannotation{VI} \index[Responsory]{For our sake} \label{For our sake (Responsory)} \grecommentary[0pt]{Ph 2:8} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/misc.christus_factus--english}
+ \subsubsection{Gospel Canticle}   \index[Antiphon]{Gospel Canticle} \label{Gospel Canticle (Antiphon)}         Over his head they hung their accusation: Jesus of Nazareth, King of the Jews.
+ \subsubsection{Canticle of Zechariah (Luke 1:68-79)} \paragraph{The Messiah and his forerunner}  \index[Psalmus]{Canticle of Zechariah (Luke 1:68-79)} \label{Canticle of Zechariah (Luke 1:68-79) (Psalmus)}         \par \vspace{5pt} \input{psalms/lc1_68-79english}
+ \subsubsection{Preces}  \greannotation{IV} \index[Preces]{Good Friday Preces} \label{Good Friday Preces (Preces)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/va--versus_litanici_in_cantu_feria_vi--dominican--english}
+ \subsubsection{The Lord's Prayer}   \index[Varia]{The Lord's Prayer} \label{The Lord's Prayer (Varia)}         \input{varia/lords-prayer}
+ \subsubsection{Concluding Prayer}   \index[Concluding Prayer]{Good Friday} \label{Good Friday (Concluding Prayer)}         \input{prayers/or-holy-week-5-holy-thursday-morning-prayer}
+              \par \emph{All depart in silence.}
+
+ \end{document}

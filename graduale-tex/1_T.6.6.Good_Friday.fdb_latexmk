@@ -1,6 +1,5 @@
 # Fdb version 3
-["lualatex"] 1522261830 "1_T.6.6.Good_Friday.tex" "1_T.6.6.Good_Friday.pdf" "1_T.6.6.Good_Friday" 1522261886
-  "/Users/atelier/Library/Fonts/MinionPro-Bold.otf" 1467495893 218116 d6304745c9b4afba6348492f3261519f ""
+["lualatex"] 1522354126 "1_T.6.6.Good_Friday.tex" "1_T.6.6.Good_Friday.pdf" "1_T.6.6.Good_Friday" 1522354181
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -157,10 +156,10 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "1_T.6.6.Good_Friday.aux" 1522261885 3588 bb3d1e471695afbb28811a69db05d5ca ""
+  "1_T.6.6.Good_Friday.aux" 1522354181 3596 081bce7ff149f581c7c98607640315a6 ""
   "1_T.6.6.Good_Friday.gaux" 1522261830 7642 eb61a2d672b97d98f4628f8a193e87a6 ""
-  "1_T.6.6.Good_Friday.out" 1522261885 358 a2656fbc2963fe49ae86441db6c0036d ""
-  "1_T.6.6.Good_Friday.tex" 1522261768 12180 c17cbff5b0e6619d984ecbcb4fc15526 ""
+  "1_T.6.6.Good_Friday.out" 1522354181 358 a2656fbc2963fe49ae86441db6c0036d ""
+  "1_T.6.6.Good_Friday.tex" 1522354178 12183 23119aa9419b92387b23d72caff6cff3 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/an--adoremus--dominican--id_6069-5_0_2.gtex" 1522261409 7249 280c4d8bf214f2d71881c57abc247de9 ""
   "graduale-chants/an--crucem_tuam--dominican--id_5371-5_0_2.gtex" 1522261408 15102 3b938e213bc447eafa52ae1d3a774e6b ""
@@ -178,13 +177,13 @@
   "graduale-chants/tr--eripe_me--dominican--id_7143-5_0_2.gtex" 1522261388 135077 228fee7e165032d73b965e199fb9dc52 ""
   "incipit.ind" 1522261426 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "incipit.idx"
   "1_T.6.6.Good_Friday.log"
   "1_T.6.6.Good_Friday.aux"
-  "1_T.6.6.Good_Friday.out"
   "1_T.6.6.Good_Friday.pdf"
-["makeindex incipit.idx"] 1522261426 "incipit.idx" "incipit.ind" "incipit" 1522261886
-  "incipit.idx" 1522261834 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_T.6.6.Good_Friday.out"
+  "incipit.idx"
+["makeindex incipit.idx"] 1522261426 "incipit.idx" "incipit.ind" "incipit" 1522354181
+  "incipit.idx" 1522354129 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

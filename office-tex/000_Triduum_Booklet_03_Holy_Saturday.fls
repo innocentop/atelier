@@ -240,6 +240,8 @@ INPUT ./readings/lectio_prior_Heb.4.1-13--Holy_Saturday.tex
 INPUT ./readings/lectio_prior_Heb.4.1-13--Holy_Saturday.tex
 INPUT ./readings/lectio_altera--ex_antinqua_homilia_in_sancto_et_magno_Sabbato.tex
 INPUT ./readings/lectio_altera--ex_antinqua_homilia_in_sancto_et_magno_Sabbato.tex
+INPUT ./varia/misc--oratio_ieremiae--translation.tex
+INPUT ./varia/misc--oratio_ieremiae--translation.tex
 INPUT ./psalms/psalm063english.tex
 INPUT ./psalms/psalm063english.tex
 INPUT ./psalms/is38_10-14.17b-20english.tex

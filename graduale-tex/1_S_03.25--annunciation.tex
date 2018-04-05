@@ -1,0 +1,145 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-2}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\part}{0pt}{*0}{*1}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
+\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+
+\chapter[March 25]{Graduale O.P.}
+\subsection{March 25}
+\section{The Annunciation of the Lord}
+\subsection{Solemnity}
+
+\begin{figure}[b]\centering\includegraphics[width=1.1in]{alteliersaintjacques-shell}\par \textsc{\Large{Atelier St. Jacques}}\par \vspace{3pt} (Revised: \today)  \vspace{5pt} \end{figure}
+
+
+
+\newpage
+
+%%Combination
+\subsubsection{Officium}  \greannotation{I} \index[Officium]{Rorate cæli} \label{Rorate cæli (Officium)} \grecommentary[5pt]{Is 45:8} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/in--rorate--dominican--id_5489}  \vspace{5pt} \par{Drop down dew, you heavens, from above, and let the clouds rain the just; let the earth be opened and bud forth a Savior. \Vbar. And let justice spring up with it; I the Lord have created it.} \newpage
+\subsubsection{Responsorium}  \greannotation{II} \index[Responsorium]{Tollite portas} \label{Tollite portas (Responsorium)} \grecommentary[0pt]{Ps 23:7; \Vbar. 3, 4} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--tollite_portas--dominican--id_5441}  \vspace{5pt} \par{Lift up your gates, O princes, and be lifted up, O eternal gates, and the king of glory shall enter in. \Vbar. Who shall ascend unto the mountain of the Lord? or who shall stand in His holy place? The innocent of hand and the clean of heart.} \newpage
+\subsubsection{Tractus}  \greannotation{II} \index[Tractus]{Ave Maria} \label{Ave Maria (Tractus)} \grecommentary[0pt]{[Luke]} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--ave_maria--dominican--id_6982}  \vspace{5pt} \par{Hail, Mary, full of grace: the Lord is with you. \Vbar. Blessed are you among women, and blessed is the fruit of your womb. \Vbar. Behold you shall conceive and bring forth a Son and you shall call His name Emmanuel. \Vbar. The Holy Spirit shall come upon you, and the power of the Most High shall overshadow you. \Vbar. Therefore, also the Holy One to be born of you shall be called the Son of God.} \newpage
+ \emph{Tempore paschali, omissis Graduali et Tractu, dicitur:}
+\subsubsection{Alleluia}  \greannotation{VIII} \index[Alleluia]{Virga Iesse} \label{Virga Iesse (Alleluia)} \grecommentary[0pt]{Cf. Num 17:8} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/al--virga_iesse--dominican--id_6155}  \vspace{5pt} \par{The rod of Jesse has blossomed, a virgin has brought forth God and man; God has restored peace, reconciling in Himself the lowest with the highest.} \newpage
+\subsubsection{Alleluia}  \greannotation{I} \index[Alleluia]{Surrexit Dominus et occurrens} \label{Surrexit Dominus et occurrens (Alleluia)} \grecommentary[0pt]{Mt 28:9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/al--surrexit_dominus_et--dominican--id_5130}  \vspace{5pt} \par{The Lord arose, and meeting the women said: "Hail!" Then they drew near and held His feet.} \newpage
+\subsubsection{Offertorium}  \greannotation{VIII} \index[Offertorium]{Ave Maria [In Annuntiatione Domini]} \label{Ave Maria [In Annuntiatione Domini] (Offertorium)} \grecommentary[0pt]{Lc 1:28, 42} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--ave_maria_et_benedictus--dominican--id_4781}  \vspace{5pt} \par{Hail Mary, full of grace, the Lord is with you. Blessed are you among women, and blessed is the fruit of your womb.} \newpage
+\subsubsection{Communio}  \greannotation{I} \index[Communio]{Ecce virgo} \label{Ecce virgo (Communio)} \grecommentary[3pt]{Is 7:14} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--ecce_virgo--dominican--id_6887}  \vspace{5pt} \par{Behold, a Virgin shall conceive and bring forth a son, and His name shall be called Emmanuel.} \newpage
+
+\end{document}

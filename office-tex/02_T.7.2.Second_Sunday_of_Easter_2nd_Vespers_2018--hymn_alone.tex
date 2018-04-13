@@ -1,0 +1,154 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+\chapter[2\textsuperscript{nd} Sunday of Easter]{2\textsuperscript{nd} Sunday of Easter\\Solemn Choral Vespers}
+\section{Second Vespers}
+ 
+
+ \subsubsection{Hymnus}  \greannotation{I} \index[Hymnus]{Ad cenam Agni providi} \label{Ad cenam Agni providi (Hymnus)} \grecommentary[10pt]{\emph{Polyphonic verses by Tomás Luis de Victoria (c. 1548-1611)}} \gresetinitiallines{1} \gresetlyriccentering{vowel} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/hy--ad_cenam_agni--latin--even_verses_in_italics--new_lines}
+
+ \vspace{5pt}
+
+
+
+ \emph{The Lamb's high banquet we await, In snow-white robes of royal state; And now, the Red Sea's channel past, To Christ our Prince we sing at last.}
+
+ \emph{2. Upon the altar of the Cross His body has redeemed our loss; And tasting of his crimson blood Our life is hid with him in God.}
+
+ \emph{3. That Paschal eve God's arm was bared, From devastating angel spared; By strength of hand our hosts went free From Pharaoh's ruthless tyranny.}
+
+ \emph{4. Now Christ, our Paschal Lamb, is slain, The Lamb of God that knows no stain; The true oblation offer'd here, Our own unleavened bread sincere.}
+
+ \emph{5. O great, O worthy Victim true, The pow'r of hell is crushed by you; A captive people, ransomed, live, And endless life once more you give.}
+
+ \emph{6. For Christ, arising from the dead, From conquered hell triumphant, sped; He thrust the tyrant down enchained, And Paradise for man regained.}
+
+ \emph{7. Creator great, be you our guide In this, the joy of Easter-tide: Whene'er assaults of death impend, Your people strengthen and defend.}
+
+ \emph{8. All glory, Lord, to you we pay, Arisen from the dead today; With Father and the Spirit be All glory yours eternally. Amen.}
+
+
+  \end{document}

@@ -1,6 +1,5 @@
 # Fdb version 3
-["lualatex"] 1524757516 "1_C_01_Common.of.Dedication.tex" "1_C_01_Common.of.Dedication.pdf" "1_C_01_Common.of.Dedication" 1524757526
-  "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
+["lualatex"] 1524776791 "11_Iustus_ut_palma_examples.tex" "11_Iustus_ut_palma_examples.pdf" "11_Iustus_ut_palma_examples" 1524776800
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1513711373 758893 0a60075a862f710e139025f8cd1a3c13 ""
@@ -97,6 +96,7 @@
   "/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty" 1480098836 7075 2fe3d848bba95f139de11ded085e74aa ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1480098836 22417 1d9df1eb66848aa31b18a593099cf45c ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty" 1480098836 9581 023642318cef9f4677efe364de1e2a27 ""
+  "/usr/local/texlive/2017/texmf-dist/tex/latex/paracol/paracol.sty" 1480098836 103393 18b1dcca827dde47a64adb209fb36c94 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty" 1480098841 37387 afa86533e532701faf233f3f592c61e0 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty" 1480098841 1617 820bc46185ca5aeeda2ecc6c21866b18 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty" 1492297155 30180 4d723b83c66873ba53f72c4a8730d6d3 ""
@@ -156,24 +156,21 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "1_C_01_Common.of.Dedication.aux" 1524757526 1715 cfebf4089b58cab45155a3ee1bd5c31b ""
-  "1_C_01_Common.of.Dedication.gaux" 1524757516 1397 dd77130b9e4f96744faaca4704b04e6e ""
-  "1_C_01_Common.of.Dedication.out" 1524757526 154 30f5bfd06dae7aca889a7ec77c092f87 ""
-  "1_C_01_Common.of.Dedication.tex" 1524757503 6284 e99bae3b0601caf65cf5a3a5913a2480 ""
-  "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/al--adorabo--dominican--id_5217-5_0_2.gtex" 1524751742 18328 48756ce0ba844c48ad82abee24911b11 ""
-  "graduale-chants/co--domus_mea--dominican--id_7050-5_0_2.gtex" 1524751748 23211 b530d4581a662c02b0472a8245d16f3f ""
-  "graduale-chants/of--domine_deus_in_simplicitate--dominican--id_5927-5_0_2.gtex" 1524751746 26439 2c625af5781b62c79d5cd1f7cfa30534 ""
-  "graduale-chants/tr--domus_mea--dominican--id_6154-5_0_2.gtex" 1524751743 37682 0873e884639ad2d20593e4c1d883d1ed ""
-  "incipit.ind" 1524751750 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "11_Iustus_ut_palma_examples.aux" 1524776799 1229 e2b936b8e34390b841fb2d40cb7b6154 ""
+  "11_Iustus_ut_palma_examples.gaux" 1524776791 728 43de375dd3a3b85a8527b7f6d39886ff ""
+  "11_Iustus_ut_palma_examples.out" 1524776795 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "11_Iustus_ut_palma_examples.tex" 1524776781 4594 10f147b24468ad9ef78ded02891730c4 ""
+  "chants/rb--iustus_ut_palma_alleluia--dominican--id_5788--repeats-5_0_2.gtex" 1524775517 30977 06155a9a6bec0169a669a5f42b1f4bb9 ""
+  "chants/rp--iustus_ut_palma--dominican-5_0_2.gtex" 1524776788 36734 5f4d5a64cac7658c1b63e6026e2b72d7 ""
+  "incipit.ind" 1524775519 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_C_01_Common.of.Dedication.out"
-  "1_C_01_Common.of.Dedication.pdf"
-  "1_C_01_Common.of.Dedication.log"
-  "1_C_01_Common.of.Dedication.aux"
+  "11_Iustus_ut_palma_examples.pdf"
+  "11_Iustus_ut_palma_examples.out"
+  "11_Iustus_ut_palma_examples.log"
+  "11_Iustus_ut_palma_examples.aux"
   "incipit.idx"
-["makeindex incipit.idx"] 1524751750 "incipit.idx" "incipit.ind" "incipit" 1524757526
-  "incipit.idx" 1524757518 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1524775519 "incipit.idx" "incipit.ind" "incipit" 1524776800
+  "incipit.idx" 1524776794 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

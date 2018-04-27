@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1524831358 "1_S_04.29--st_catherine_of_siena.tex" "1_S_04.29--st_catherine_of_siena.pdf" "1_S_04.29--st_catherine_of_siena" 1524831380
+["lualatex"] 1524856561 "1_S_04.29--st_catherine_of_siena.tex" "1_S_04.29--st_catherine_of_siena.pdf" "1_S_04.29--st_catherine_of_siena" 1524856582
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -156,27 +156,27 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "1_S_04.29--st_catherine_of_siena.aux" 1524831380 2312 43cf5dd8e748215974f4e160acf08764 ""
-  "1_S_04.29--st_catherine_of_siena.gaux" 1524831358 3208 04699c89a2704f5a0f02e524587d2e8a ""
-  "1_S_04.29--st_catherine_of_siena.out" 1524831380 228 31d42c6b67a8969905d676961cad3e57 ""
-  "1_S_04.29--st_catherine_of_siena.tex" 1524831316 8508 f47484b796ff3392994aa38698d61b3c ""
+  "1_S_04.29--st_catherine_of_siena.aux" 1524856581 2312 43cf5dd8e748215974f4e160acf08764 ""
+  "1_S_04.29--st_catherine_of_siena.gaux" 1524856561 3210 238f5db64959d59d03064926f74fb6e6 ""
+  "1_S_04.29--st_catherine_of_siena.out" 1524856581 228 31d42c6b67a8969905d676961cad3e57 ""
+  "1_S_04.29--st_catherine_of_siena.tex" 1524856540 8493 36ff95d88fcd3d972fdf2afe0ffd40d7 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/al--sideribus_cunctis--dominican--id_5405-5_0_2.gtex" 1524829527 23700 32eb77455b253f8529c58d448d08f2ff ""
-  "graduale-chants/al--surrexit_dominus_et--dominican--id_5130-5_0_2.gtex" 1524831346 32427 a64d9be69a0f26ed981d7b8e8fd7635b ""
-  "graduale-chants/co--benedicta--dominican--id_4820-5_0_2.gtex" 1524829532 24296 84aea2c99cbc13460ac0b358c6854315 ""
+  "graduale-chants/al--sideribus_cunctis--dominican--id_5405-5_0_2.gtex" 1524853548 24463 67c52fbba2a913a867d72ed36e97938d ""
+  "graduale-chants/al--surrexit_dominus_et--dominican--id_5130-5_0_2.gtex" 1524854053 33117 93c3e57dce79d832b475632ec71436a2 ""
+  "graduale-chants/co--benedicta--dominican--id_4820-5_0_2.gtex" 1524856356 24316 aa7cb27dba8805c013851b468aa8d75c ""
   "graduale-chants/gr--quasi_stella_quasi_sol--dominican--id_7230-5_0_2.gtex" 1524829521 43432 74052cf1943e7677bb3d2b5e98646ef4 ""
-  "graduale-chants/in--mihi_adhaere_deo--dominican--id_7243-5_0_2.gtex" 1524829518 37457 43f383100d069083b28daa9bc3e87c48 ""
+  "graduale-chants/in--mihi_adhaere_deo--dominican--id_7243-5_0_2.gtex" 1524856343 37318 6c8ca1bbeddd6999fed642d777aa4022 ""
   "graduale-chants/of--veritatem--dominican--id_5660-5_0_2.gtex" 1524829531 29806 0027b5a69c901ba46c8bba417bd433f6 ""
   "graduale-chants/tr--defecit_caro_mea--dominican--id_6801-5_0_2.gtex" 1524829524 58236 438ad68eca269085db90b0dc0936f8d3 ""
   "incipit.ind" 1524829535 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
   "1_S_04.29--st_catherine_of_siena.aux"
-  "1_S_04.29--st_catherine_of_siena.pdf"
-  "1_S_04.29--st_catherine_of_siena.out"
   "incipit.idx"
+  "1_S_04.29--st_catherine_of_siena.out"
+  "1_S_04.29--st_catherine_of_siena.pdf"
   "1_S_04.29--st_catherine_of_siena.log"
-["makeindex incipit.idx"] 1524829534 "incipit.idx" "incipit.ind" "incipit" 1524831380
-  "incipit.idx" 1524831363 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1524829534 "incipit.idx" "incipit.ind" "incipit" 1524856582
+  "incipit.idx" 1524856564 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

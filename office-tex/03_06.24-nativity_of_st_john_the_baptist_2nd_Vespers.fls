@@ -217,8 +217,8 @@ INPUT ./03_06.24-nativity_of_st_john_the_baptist_2nd_Vespers.out
 OUTPUT 03_06.24-nativity_of_st_john_the_baptist_2nd_Vespers.pdf
 INPUT ./03_06.24-nativity_of_st_john_the_baptist_2nd_Vespers.out
 OUTPUT 03_06.24-nativity_of_st_john_the_baptist_2nd_Vespers.out
-INPUT chants/misc.deus_in_adjutorium-lent.gabc
-INPUT ./chants/misc.deus_in_adjutorium-lent-5_0_0-rc1.gtex
+INPUT chants/misc.deus_in_adjutorium.gabc
+INPUT ./chants/misc.deus_in_adjutorium-5_0_0-rc1.gtex
 INPUT chants/hy--ut_queant_laxis--english.gabc
 INPUT ./chants/hy--ut_queant_laxis--english-5_0_0-rc1.gtex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm

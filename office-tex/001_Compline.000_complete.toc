@@ -1,28 +1,8 @@
 \select@language {english}
-\contentsline {chapter}{Psalter}{5}{chapter*.2}
-\contentsline {section}{Sunday or Solemnity after First Vespers}{7}{section*.3}
-\contentsline {subsubsection}{Examination of Conscience}{7}{subsubsection*.4}
-\contentsline {subsubsection}{Hymnus}{8}{subsubsection*.5}
-\contentsline {subsubsection}{Seasonal Hymns (Latin)}{8}{subsubsection*.6}
-\contentsline {subsubsection}{Hymn}{9}{subsubsection*.7}
-\contentsline {subsubsection}{Seasonal Hymns (English)}{9}{subsubsection*.8}
-\contentsline {subsubsection}{Antiphon}{10}{subsubsection*.9}
-\contentsline {subsubsection}{Psalm 4}{10}{subsubsection*.10}
-\contentsline {paragraph}{Thanksgiving}{10}{paragraph*.11}
-\contentsline {subsubsection}{Antiphon}{11}{subsubsection*.12}
-\contentsline {subsubsection}{Psalm 133 (134)}{11}{subsubsection*.13}
-\contentsline {paragraph}{Evening prayer in the Temple}{11}{paragraph*.14}
-\contentsline {subsubsection}{\makebox [0pt][l]{}\makebox [\textwidth ][c]{Reading}\makebox [0pt][r]{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\textnormal {Dt 6:4-7}}}}{12}{subsubsection*.15}
-\contentsline {subsubsection}{Seasonal and Festal Responsories}{12}{subsubsection*.16}
-\contentsline {subsubsection}{Seasonal and Festal Canticles}{12}{subsubsection*.17}
-\contentsline {subsubsection}{Responsorium brevis}{13}{subsubsection*.18}
-\contentsline {subsubsection}{Short responsory}{13}{subsubsection*.19}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{14}{subsubsection*.20}
-\contentsline {subsubsection}{Canticum Evangelicum}{14}{subsubsection*.21}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{14}{paragraph*.22}
-\contentsline {subsubsection}{Antiphon for the Canticle of Simeon}{15}{subsubsection*.23}
-\contentsline {subsubsection}{Canticle of Simeon: Lk 2:29-32}{15}{subsubsection*.24}
-\contentsline {paragraph}{Christ is the light of the nations and the glory of Israel}{15}{paragraph*.25}
-\contentsline {subsubsection}{Concluding Prayer}{16}{subsubsection*.26}
-\contentsline {subsubsection}{Concluding Prayer}{16}{subsubsection*.27}
-\contentsline {subsubsection}{Blessing}{16}{subsubsection*.28}
+\contentsline {chapter}{Seasonal and Festal Hymns}{5}{chapter*.2}
+\contentsline {section}{Advent}{7}{section*.3}
+\contentsline {subsubsection}{Sundays in Advent}{7}{subsubsection*.4}
+\contentsline {subsubsection}{Sundays in Advent}{8}{subsubsection*.5}
+\contentsline {section}{Christmas to Epiphany}{9}{section*.6}
+\contentsline {subsubsection}{Daily from Christmas to Epiphany}{9}{subsubsection*.7}
+\contentsline {subsubsection}{Daily from Christmas to Epiphany}{10}{subsubsection*.8}

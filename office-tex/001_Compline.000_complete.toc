@@ -1,8 +1,0 @@
-\select@language {english}
-\contentsline {chapter}{Seasonal and Festal Hymns}{5}{chapter*.2}
-\contentsline {section}{Advent}{7}{section*.3}
-\contentsline {subsubsection}{Sundays in Advent}{7}{subsubsection*.4}
-\contentsline {subsubsection}{Sundays in Advent}{8}{subsubsection*.5}
-\contentsline {section}{Christmas to Epiphany}{9}{section*.6}
-\contentsline {subsubsection}{Daily from Christmas to Epiphany}{9}{subsubsection*.7}
-\contentsline {subsubsection}{Daily from Christmas to Epiphany}{10}{subsubsection*.8}

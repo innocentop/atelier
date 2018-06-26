@@ -234,8 +234,7 @@ OUTPUT 001_Compline.000_complete.out
 INPUT ./op-shield.jpg
 INPUT ./op-shield.jpg
 INPUT op-shield.jpg
-INPUT ./001_Compline.000_complete.toc
-INPUT ./001_Compline.000_complete.toc
+INPUT ./chants/hy--te_lucis--01.18--st_margaret-5_0_2.gtex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -246,10 +245,4 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-OUTPUT 001_Compline.000_complete.toc
-INPUT ./chants/hy--te_lucis--advent-5_0_2.gtex
-INPUT ./chants/hy--te_lucis--advent.english-5_0_2.gtex
-INPUT ./chants/hy--te_lucis--christmas-5_0_2.gtex
-INPUT ./chants/hy--te_lucis--christmas.english-5_0_2.gtex
-INPUT ./001_Compline.000_complete.aux
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT ./chants/hy--te_lucis--01.28--st_thomas_aquinas-5_0_2.gtex

@@ -1,6 +1,5 @@
 # Fdb version 3
-["lualatex"] 1529931262 "001_Compline.000_complete.tex" "001_Compline.000_complete.pdf" "001_Compline.000_complete" 1529931283
-  "/Users/atelier/Library/Fonts/MinionPro-Bold.otf" 1467495893 218116 d6304745c9b4afba6348492f3261519f ""
+["lualatex"] 1530019268 "001_Compline.000_complete.tex" "001_Compline.000_complete.pdf" "001_Compline.000_complete" 1530019296
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -153,68 +152,73 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "001_Compline.000_complete.aux" 1529931283 2093 9b7644eab419f7d72791e63799f51611 ""
-  "001_Compline.000_complete.gaux" 1529931262 1656 48916503cf1b0cfe534ecd06c19780d9 ""
-  "001_Compline.000_complete.out" 1529931283 180 b38f52f06fcffe02b4e413d8ff3bed01 ""
-  "001_Compline.000_complete.tex" 1529931246 7809 12a9902672dc6122f8cf2e5720fdb9ce ""
-  "001_Compline.000_complete.toc" 1529931283 513 dee109564915aa1ca1b9e206def7fa3c ""
+  "001_Compline.000_complete.aux" 1530019295 3472 8ba2a20e33bea610e8aaf8a6c5f0025a ""
+  "001_Compline.000_complete.gaux" 1530019268 3211 bb2a9f3f010ac6e4018482c85eba3b0c ""
+  "001_Compline.000_complete.out" 1530019295 205 17b13385f56a80ad23d81e9b18fcf21e ""
+  "001_Compline.000_complete.tex" 1530019212 10941 92b240781ad1e1d75a943f478f66cbd5 ""
   "Antiphons.ind" 1529930770 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Antiphons.idx"
   "Canticles.ind" 1529930770 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Canticles.idx"
-  "Hymns.ind" 1529931117 329 bbc65cbece342fe458f2d68fc7e1261f "makeindex Hymns.idx"
+  "Hymns.ind" 1530019241 698 79cd330e8a530b5bbd7492e06cbbc05c "makeindex Hymns.idx"
   "Prayers.ind" 1529930770 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Prayers.idx"
   "Psalms.ind" 1529930770 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Psalms.idx"
   "Responsories.ind" 1529930769 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Responsories.idx"
   "Varia.ind" 1529930769 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Varia.idx"
-  "chants/hy--te_lucis--advent-5_0_2.gtex" 1514505333 27589 ff8430779fa4ffd6fb4e6be6601d3709 ""
-  "chants/hy--te_lucis--advent.english-5_0_2.gtex" 1514505336 28864 97d8a8b04b87ba1dc56bde5412538f93 ""
-  "chants/hy--te_lucis--christmas-5_0_2.gtex" 1514843493 40474 137c6df0fbea465e86e1e9c0b049479e ""
-  "chants/hy--te_lucis--christmas.english-5_0_2.gtex" 1529931259 41096 32db8697c0c2075a677809737d804704 ""
+  "chants/hy--te_lucis--christ_the_king-5_0_2.gtex" 1514505377 27949 cec61ec4f3c7516cd2db871bd63ab322 ""
+  "chants/hy--te_lucis--corpus_christi-5_0_2.gtex" 1514505372 30949 7e912f6c60e8f4ba87c37936cb97fd1e ""
+  "chants/hy--te_lucis--our_lady-5_0_2.gtex" 1514505379 43732 b2bbb3c3040cbb19872df784b8ad81f1 ""
+  "chants/hy--te_lucis--our_lady_easter-5_0_2.gtex" 1514505383 40396 555bdeca76c7d885ed08b0dc474cf1bd ""
+  "chants/hy--te_lucis--sacred_heart-5_0_2.gtex" 1514505375 28450 84af386b8f40f1b186a5da7f827b3883 ""
+  "chants/hy--te_lucis--trinity-5_0_2.gtex" 1514559791 34903 a6c426584396018bbc8c2700c27ba1fd ""
+  "chants/hy--te_lucis_common1-5_0_2.gtex" 1514505386 30017 a71e29baaea1cf863e8e6351d929a2d4 ""
+  "chants/hy--te_lucis_common2-5_0_2.gtex" 1514505388 32237 3ad6c871df0065a2c653029b0a65a3e5 ""
+  "chants/hy--te_lucis_common3-5_0_2.gtex" 1514505391 28109 15b89e9a39be3856070ce4d9a46192fa ""
+  "chants/hy--te_lucis_common4-5_0_2.gtex" 1514505393 27812 63cbf60bc449931ac2db3ef660838695 ""
   "op-shield.jpg" 1366849724 194719 a40c79a2467af8b379120132a7ed896e ""
   (generated)
-  "001_Compline.000_complete.pdf"
-  "Antiphons.idx"
-  "Varia.idx"
+  "001_Compline.000_complete.toc"
   "Hymns.idx"
   "Psalms.idx"
+  "001_Compline.000_complete.pdf"
   "Canticles.idx"
-  "Responsories.idx"
-  "001_Compline.000_complete.toc"
   "001_Compline.000_complete.out"
-  "001_Compline.000_complete.log"
   "001_Compline.000_complete.aux"
+  "Antiphons.idx"
   "Prayers.idx"
-["makeindex Antiphons.idx"] 1529930770 "Antiphons.idx" "Antiphons.ind" "Antiphons" 1529931283
-  "Antiphons.idx" 1529931266 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Responsories.idx"
+  "Varia.idx"
+  "001_Compline.000_complete.log"
+["makeindex Antiphons.idx"] 1529930770 "Antiphons.idx" "Antiphons.ind" "Antiphons" 1530019296
+  "Antiphons.idx" 1530019271 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "Antiphons.ilg"
   "Antiphons.ind"
-["makeindex Canticles.idx"] 1529930770 "Canticles.idx" "Canticles.ind" "Canticles" 1529931283
-  "Canticles.idx" 1529931266 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Antiphons.ilg"
+["makeindex Canticles.idx"] 1529930770 "Canticles.idx" "Canticles.ind" "Canticles" 1530019296
+  "Canticles.idx" 1530019271 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Canticles.ilg"
   "Canticles.ind"
-["makeindex Hymns.idx"] 1529931117 "Hymns.idx" "Hymns.ind" "Hymns" 1529931283
-  "Hymns.idx" 1529931283 301 51ebd3a579315bd6e496c846157d1b2f ""
+["makeindex Hymns.idx"] 1530019241 "Hymns.idx" "Hymns.ind" "Hymns" 1530019296
+  "Hymns.idx" 1530019295 691 b07db8153bb09174d3572ae6c225b468 ""
   (generated)
   "Hymns.ilg"
   "Hymns.ind"
-["makeindex Prayers.idx"] 1529930770 "Prayers.idx" "Prayers.ind" "Prayers" 1529931283
-  "Prayers.idx" 1529931266 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex Prayers.idx"] 1529930770 "Prayers.idx" "Prayers.ind" "Prayers" 1530019296
+  "Prayers.idx" 1530019271 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "Prayers.ind"
   "Prayers.ilg"
-["makeindex Psalms.idx"] 1529930769 "Psalms.idx" "Psalms.ind" "Psalms" 1529931283
-  "Psalms.idx" 1529931266 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Prayers.ind"
+["makeindex Psalms.idx"] 1529930769 "Psalms.idx" "Psalms.ind" "Psalms" 1530019296
+  "Psalms.idx" 1530019271 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Psalms.ilg"
   "Psalms.ind"
-["makeindex Responsories.idx"] 1529930769 "Responsories.idx" "Responsories.ind" "Responsories" 1529931283
-  "Responsories.idx" 1529931266 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex Responsories.idx"] 1529930769 "Responsories.idx" "Responsories.ind" "Responsories" 1530019296
+  "Responsories.idx" 1530019271 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Responsories.ind"
   "Responsories.ilg"
-["makeindex Varia.idx"] 1529930769 "Varia.idx" "Varia.ind" "Varia" 1529931283
-  "Varia.idx" 1529931266 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex Varia.idx"] 1529930769 "Varia.idx" "Varia.ind" "Varia" 1530019296
+  "Varia.idx" 1530019271 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "Varia.ilg"
   "Varia.ind"
+  "Varia.ilg"

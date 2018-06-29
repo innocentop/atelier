@@ -1,0 +1,294 @@
+\select@language {english}
+\contentsline {chapter}{Psalter}{3}{chapter*.2}
+\contentsline {section}{Sunday or Solemnity after First Vespers}{5}{section*.3}
+\contentsline {subsubsection}{Examination of Conscience}{5}{subsubsection*.4}
+\contentsline {subsubsection}{Hymnus}{6}{subsubsection*.5}
+\contentsline {subsubsection}{Seasonal Hymns (Latin)}{6}{subsubsection*.6}
+\contentsline {subsubsection}{Hymn}{7}{subsubsection*.7}
+\contentsline {subsubsection}{Seasonal Hymns (English)}{7}{subsubsection*.8}
+\contentsline {subsubsection}{Antiphon}{8}{subsubsection*.9}
+\contentsline {subsubsection}{Psalm 4}{8}{subsubsection*.10}
+\contentsline {paragraph}{Thanksgiving}{8}{paragraph*.11}
+\contentsline {subsubsection}{Antiphon}{9}{subsubsection*.12}
+\contentsline {subsubsection}{Psalm 133 (134)}{9}{subsubsection*.13}
+\contentsline {paragraph}{Evening prayer in the Temple}{9}{paragraph*.14}
+\contentsline {subsubsection}{\makebox [0pt][l]{}\makebox [\textwidth ][c]{Reading}\makebox [0pt][r]{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\textnormal {Dt 6:4-7}}}}{10}{subsubsection*.15}
+\contentsline {subsubsection}{Seasonal and Festal Responsories}{10}{subsubsection*.16}
+\contentsline {subsubsection}{Seasonal and Festal Canticles}{10}{subsubsection*.17}
+\contentsline {subsubsection}{Responsorium brevis}{11}{subsubsection*.18}
+\contentsline {subsubsection}{Short responsory}{11}{subsubsection*.19}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{12}{subsubsection*.20}
+\contentsline {subsubsection}{Canticum Evangelicum}{12}{subsubsection*.21}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{12}{paragraph*.22}
+\contentsline {subsubsection}{Antiphon for the Canticle of Simeon}{13}{subsubsection*.23}
+\contentsline {subsubsection}{Canticle of Simeon: Lk 2:29-32}{13}{subsubsection*.24}
+\contentsline {paragraph}{Christ is the light of the nations and the glory of Israel}{13}{paragraph*.25}
+\contentsline {subsubsection}{Concluding Prayer}{14}{subsubsection*.26}
+\contentsline {subsubsection}{Concluding Prayer}{14}{subsubsection*.27}
+\contentsline {subsubsection}{Blessing}{14}{subsubsection*.28}
+\contentsline {section}{Sunday or Solemnity after Second Vespers}{15}{section*.29}
+\contentsline {subsubsection}{Examination of Conscience}{15}{subsubsection*.30}
+\contentsline {subsubsection}{Hymnus}{16}{subsubsection*.31}
+\contentsline {subsubsection}{Hymn}{17}{subsubsection*.32}
+\contentsline {subsubsection}{Antiphon}{18}{subsubsection*.33}
+\contentsline {subsubsection}{Psalm 90 (91)}{18}{subsubsection*.34}
+\contentsline {paragraph}{Safe in God’s sheltering care}{18}{paragraph*.35}
+\contentsline {subsubsection}{\makebox [0pt][l]{}\makebox [\textwidth ][c]{Reading}\makebox [0pt][r]{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\textnormal {Rev 22:4-5}}}}{20}{subsubsection*.36}
+\contentsline {subsubsection}{Seasonal and Festal Responsories}{20}{subsubsection*.37}
+\contentsline {subsubsection}{Seasonal and Festal Canticles}{20}{subsubsection*.38}
+\contentsline {subsubsection}{Responsorium brevis}{21}{subsubsection*.39}
+\contentsline {subsubsection}{Short responsory}{21}{subsubsection*.40}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{22}{subsubsection*.41}
+\contentsline {subsubsection}{Canticum Evangelicum}{22}{subsubsection*.42}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{22}{paragraph*.43}
+\contentsline {subsubsection}{Antiphon for the Canticle of Simeon}{23}{subsubsection*.44}
+\contentsline {subsubsection}{Canticle of Simeon: Lk 2:29-32}{23}{subsubsection*.45}
+\contentsline {paragraph}{Christ is the light of the nations and the glory of Israel}{23}{paragraph*.46}
+\contentsline {subsubsection}{Concluding Prayer}{24}{subsubsection*.47}
+\contentsline {subsubsection}{Concluding Prayer}{24}{subsubsection*.48}
+\contentsline {subsubsection}{Blessing}{24}{subsubsection*.49}
+\contentsline {section}{Monday}{25}{section*.50}
+\contentsline {subsubsection}{Examination of Conscience}{25}{subsubsection*.51}
+\contentsline {subsubsection}{Hymnus}{26}{subsubsection*.52}
+\contentsline {subsubsection}{Hymn}{27}{subsubsection*.53}
+\contentsline {subsubsection}{Antiphon}{28}{subsubsection*.54}
+\contentsline {subsubsection}{Psalm 85 (86)}{28}{subsubsection*.55}
+\contentsline {paragraph}{Poor man’s prayer in trouble}{28}{paragraph*.56}
+\contentsline {subsubsection}{\makebox [0pt][l]{}\makebox [\textwidth ][c]{Reading}\makebox [0pt][r]{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\textnormal {1 Th 5:9-10}}}}{30}{subsubsection*.57}
+\contentsline {subsubsection}{Seasonal and Festal Responsories}{30}{subsubsection*.58}
+\contentsline {subsubsection}{Seasonal and Festal Canticles}{30}{subsubsection*.59}
+\contentsline {subsubsection}{Responsorium brevis}{31}{subsubsection*.60}
+\contentsline {subsubsection}{Short responsory}{31}{subsubsection*.61}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{32}{subsubsection*.62}
+\contentsline {subsubsection}{Canticum Evangelicum}{32}{subsubsection*.63}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{32}{paragraph*.64}
+\contentsline {subsubsection}{Antiphon for the Canticle of Simeon}{33}{subsubsection*.65}
+\contentsline {subsubsection}{Canticle of Simeon: Lk 2:29-32}{33}{subsubsection*.66}
+\contentsline {paragraph}{Christ is the light of the nations and the glory of Israel}{33}{paragraph*.67}
+\contentsline {subsubsection}{Concluding Prayer}{34}{subsubsection*.68}
+\contentsline {subsubsection}{Blessing}{34}{subsubsection*.69}
+\contentsline {section}{Tuesday}{35}{section*.70}
+\contentsline {subsubsection}{Examination of Conscience}{35}{subsubsection*.71}
+\contentsline {subsubsection}{Hymnus}{36}{subsubsection*.72}
+\contentsline {subsubsection}{Hymn}{37}{subsubsection*.73}
+\contentsline {subsubsection}{Antiphon}{38}{subsubsection*.74}
+\contentsline {subsubsection}{Psalm 142 (143):1-11}{38}{subsubsection*.75}
+\contentsline {paragraph}{Prayer in distress}{38}{paragraph*.76}
+\contentsline {subsubsection}{\makebox [0pt][l]{}\makebox [\textwidth ][c]{Reading}\makebox [0pt][r]{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\textnormal {1 Pt 5:8-9a}}}}{40}{subsubsection*.77}
+\contentsline {subsubsection}{Seasonal and Festal Responsories}{40}{subsubsection*.78}
+\contentsline {subsubsection}{Seasonal and Festal Canticles}{40}{subsubsection*.79}
+\contentsline {subsubsection}{Responsorium brevis}{41}{subsubsection*.80}
+\contentsline {subsubsection}{Short responsory}{41}{subsubsection*.81}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{42}{subsubsection*.82}
+\contentsline {subsubsection}{Canticum Evangelicum}{42}{subsubsection*.83}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{42}{paragraph*.84}
+\contentsline {subsubsection}{Antiphon for the Canticle of Simeon}{43}{subsubsection*.85}
+\contentsline {subsubsection}{Canticle of Simeon: Lk 2:29-32}{43}{subsubsection*.86}
+\contentsline {paragraph}{Christ is the light of the nations and the glory of Israel}{43}{paragraph*.87}
+\contentsline {subsubsection}{Concluding Prayer}{44}{subsubsection*.88}
+\contentsline {subsubsection}{Blessing}{44}{subsubsection*.89}
+\contentsline {section}{Wednesday}{45}{section*.90}
+\contentsline {subsubsection}{Examination of Conscience}{45}{subsubsection*.91}
+\contentsline {subsubsection}{Hymnus}{46}{subsubsection*.92}
+\contentsline {subsubsection}{Hymn}{47}{subsubsection*.93}
+\contentsline {subsubsection}{Antiphon}{48}{subsubsection*.94}
+\contentsline {subsubsection}{Psalm 30 (31):2-6}{48}{subsubsection*.95}
+\contentsline {paragraph}{Trustful prayer in adversity}{48}{paragraph*.96}
+\contentsline {subsubsection}{Antiphon}{49}{subsubsection*.97}
+\contentsline {subsubsection}{Psalm 129 (130)}{49}{subsubsection*.98}
+\contentsline {paragraph}{A cry from the depths}{49}{paragraph*.99}
+\contentsline {subsubsection}{\makebox [0pt][l]{}\makebox [\textwidth ][c]{Reading}\makebox [0pt][r]{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\textnormal {Eph 4:26-27}}}}{50}{subsubsection*.100}
+\contentsline {subsubsection}{Seasonal and Festal Responsories}{50}{subsubsection*.101}
+\contentsline {subsubsection}{Seasonal and Festal Canticles}{50}{subsubsection*.102}
+\contentsline {subsubsection}{Responsorium brevis}{51}{subsubsection*.103}
+\contentsline {subsubsection}{Short responsory}{51}{subsubsection*.104}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{52}{subsubsection*.105}
+\contentsline {subsubsection}{Canticum Evangelicum}{52}{subsubsection*.106}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{52}{paragraph*.107}
+\contentsline {subsubsection}{Antiphon for the Canticle of Simeon}{53}{subsubsection*.108}
+\contentsline {subsubsection}{Canticle of Simeon: Lk 2:29-32}{53}{subsubsection*.109}
+\contentsline {paragraph}{Christ is the light of the nations and the glory of Israel}{53}{paragraph*.110}
+\contentsline {subsubsection}{Concluding Prayer}{54}{subsubsection*.111}
+\contentsline {subsubsection}{Blessing}{54}{subsubsection*.112}
+\contentsline {section}{Thursday}{55}{section*.113}
+\contentsline {subsubsection}{Examination of Conscience}{55}{subsubsection*.114}
+\contentsline {subsubsection}{Hymnus}{56}{subsubsection*.115}
+\contentsline {subsubsection}{Hymn}{57}{subsubsection*.116}
+\contentsline {subsubsection}{Antiphon}{58}{subsubsection*.117}
+\contentsline {subsubsection}{Psalm 15 (16)}{58}{subsubsection*.118}
+\contentsline {paragraph}{God is my portion, my inheritance}{58}{paragraph*.119}
+\contentsline {subsubsection}{\makebox [0pt][l]{}\makebox [\textwidth ][c]{Reading}\makebox [0pt][r]{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\textnormal {1 Th 5:23}}}}{60}{subsubsection*.120}
+\contentsline {subsubsection}{Seasonal and Festal Responsories}{60}{subsubsection*.121}
+\contentsline {subsubsection}{Seasonal and Festal Canticles}{60}{subsubsection*.122}
+\contentsline {subsubsection}{Responsorium brevis}{61}{subsubsection*.123}
+\contentsline {subsubsection}{Short responsory}{61}{subsubsection*.124}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{62}{subsubsection*.125}
+\contentsline {subsubsection}{Canticum Evangelicum}{62}{subsubsection*.126}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{62}{paragraph*.127}
+\contentsline {subsubsection}{Antiphon for the Canticle of Simeon}{63}{subsubsection*.128}
+\contentsline {subsubsection}{Canticle of Simeon: Lk 2:29-32}{63}{subsubsection*.129}
+\contentsline {paragraph}{Christ is the light of the nations and the glory of Israel}{63}{paragraph*.130}
+\contentsline {subsubsection}{Concluding Prayer}{64}{subsubsection*.131}
+\contentsline {subsubsection}{Blessing}{64}{subsubsection*.132}
+\contentsline {section}{Friday}{65}{section*.133}
+\contentsline {subsubsection}{Examination of Conscience}{65}{subsubsection*.134}
+\contentsline {subsubsection}{Hymnus}{66}{subsubsection*.135}
+\contentsline {subsubsection}{Hymn}{67}{subsubsection*.136}
+\contentsline {subsubsection}{Antiphon}{68}{subsubsection*.137}
+\contentsline {subsubsection}{Psalm 87 (88)}{68}{subsubsection*.138}
+\contentsline {paragraph}{Prayer of a very sick person}{68}{paragraph*.139}
+\contentsline {subsubsection}{\makebox [0pt][l]{}\makebox [\textwidth ][c]{Reading}\makebox [0pt][r]{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\textnormal {Jer 14:9a}}}}{70}{subsubsection*.140}
+\contentsline {subsubsection}{Seasonal and Festal Responsories}{70}{subsubsection*.141}
+\contentsline {subsubsection}{Seasonal and Festal Canticles}{70}{subsubsection*.142}
+\contentsline {subsubsection}{Responsorium brevis}{71}{subsubsection*.143}
+\contentsline {subsubsection}{Short responsory}{71}{subsubsection*.144}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{72}{subsubsection*.145}
+\contentsline {subsubsection}{Canticum Evangelicum}{72}{subsubsection*.146}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{72}{paragraph*.147}
+\contentsline {subsubsection}{Antiphon for the Canticle of Simeon}{73}{subsubsection*.148}
+\contentsline {subsubsection}{Canticle of Simeon: Lk 2:29-32}{73}{subsubsection*.149}
+\contentsline {paragraph}{Christ is the light of the nations and the glory of Israel}{73}{paragraph*.150}
+\contentsline {subsubsection}{Concluding Prayer}{74}{subsubsection*.151}
+\contentsline {subsubsection}{Blessing}{74}{subsubsection*.152}
+\contentsline {chapter}{Seasonal and Festal Hymns}{75}{chapter*.153}
+\contentsline {section}{Advent}{77}{section*.154}
+\contentsline {subsubsection}{Sundays in Advent}{77}{subsubsection*.155}
+\contentsline {subsubsection}{Sundays in Advent}{78}{subsubsection*.156}
+\contentsline {section}{Christmas to Epiphany}{79}{section*.157}
+\contentsline {subsubsection}{Daily from Christmas to Epiphany}{79}{subsubsection*.158}
+\contentsline {subsubsection}{Daily from Christmas to Epiphany}{80}{subsubsection*.159}
+\contentsline {section}{Lent}{82}{section*.160}
+\contentsline {subsubsection}{Sundays and Weekdays in Lent}{82}{subsubsection*.161}
+\contentsline {subsubsection}{Sundays and Weekdays in Lent}{84}{subsubsection*.162}
+\contentsline {section}{Easter Season}{86}{section*.163}
+\contentsline {subsubsection}{Throughout the Easter Season}{86}{subsubsection*.164}
+\contentsline {subsubsection}{Throughout the Easter Season}{89}{subsubsection*.165}
+\contentsline {section}{The Solemnities of the Lord during Ordinary Time}{92}{section*.166}
+\contentsline {subsubsection}{The Most Holy Trinity}{92}{subsubsection*.167}
+\contentsline {subsubsection}{The Most Holy Body and Blood of Christ (Corpus Christi)}{93}{subsubsection*.168}
+\contentsline {subsubsection}{The Most Sacred Heart of Jesus}{94}{subsubsection*.169}
+\contentsline {subsubsection}{Our Lord Jesus Christ, King of the Universe}{95}{subsubsection*.170}
+\contentsline {section}{Common of the Blessed Virgin Mary}{96}{section*.171}
+\contentsline {subsubsection}{Throughout the year (Outside of Paschaltide)}{96}{subsubsection*.172}
+\contentsline {subsubsection}{Paschaltide}{97}{subsubsection*.173}
+\contentsline {section}{Common of Saints}{98}{section*.174}
+\contentsline {subsubsection}{Solemnities}{98}{subsubsection*.175}
+\contentsline {subsubsection}{Feasts}{99}{subsubsection*.176}
+\contentsline {subsubsection}{Obligatory Memorials}{100}{subsubsection*.177}
+\contentsline {subsubsection}{Optional Memorials}{101}{subsubsection*.178}
+\contentsline {section}{Proper of Saints}{102}{section*.179}
+\contentsline {subsubsection}{January 18\\St. Margaret of Hungary, O.P., Virgin}{102}{subsubsection*.180}
+\contentsline {subsubsection}{January 28\\St. Thomas Aquinas, O.P., Doctor of the Church}{102}{subsubsection*.181}
+\contentsline {subsubsection}{February 4\\St. Catherine de Ricci, O.P., Virgin}{103}{subsubsection*.182}
+\contentsline {subsubsection}{April 20\\St. Agnes of Montepulciano, O.P., Virgin}{104}{subsubsection*.183}
+\contentsline {subsubsection}{April 30\\St. Pius V, O.P., Pope}{105}{subsubsection*.184}
+\contentsline {subsubsection}{May 10\\St. Antoninus of Florence, O.P., Bishop}{106}{subsubsection*.185}
+\contentsline {subsubsection}{June 4\\St. Peter of Verona, O.P., Martyr}{106}{subsubsection*.186}
+\contentsline {subsubsection}{July 22\\St. Mary Magdalene, Holy Woman}{107}{subsubsection*.187}
+\contentsline {subsubsection}{August 6\\Transfiguration of the Lord}{108}{subsubsection*.188}
+\contentsline {subsubsection}{August 8\\Our Holy Father Dominic, O.P., Priest}{109}{subsubsection*.189}
+\contentsline {subsubsection}{August 17\\St. Hyacinth of Poland, O.P., Priest}{110}{subsubsection*.190}
+\contentsline {subsubsection}{September 15\\Our Lady of Sorrows}{111}{subsubsection*.191}
+\contentsline {subsubsection}{October 2\\Guardian Angels}{112}{subsubsection*.192}
+\contentsline {subsubsection}{October 4\\Our Holy Father Francis, Holy Man}{112}{subsubsection*.193}
+\contentsline {subsubsection}{October 7\\Our Lady of the Rosary}{113}{subsubsection*.194}
+\contentsline {subsubsection}{October 15\\St. Teresa of Avila, Virgin}{114}{subsubsection*.195}
+\contentsline {subsubsection}{November 1\\All Saints}{115}{subsubsection*.196}
+\contentsline {subsubsection}{November 15\\St. Albert the Great, O.P., Doctor}{116}{subsubsection*.197}
+\contentsline {chapter}{Seasonal and Festal Antiphons and Responsories}{117}{chapter*.198}
+\contentsline {section}{Christmas}{118}{section*.199}
+\contentsline {subsection}{After First Vespers}{118}{subsection*.200}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{118}{subsubsection*.201}
+\contentsline {subsubsection}{Canticum Evangelicum}{118}{subsubsection*.202}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{118}{paragraph*.203}
+\contentsline {subsection}{After Second Vespers and until Epiphany}{119}{subsection*.204}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{119}{subsubsection*.205}
+\contentsline {subsubsection}{Canticum Evangelicum}{119}{subsubsection*.206}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{119}{paragraph*.207}
+\contentsline {section}{Epiphany}{121}{section*.208}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{121}{subsubsection*.209}
+\contentsline {subsubsection}{Canticum Evangelicum}{121}{subsubsection*.210}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{121}{paragraph*.211}
+\contentsline {section}{Lent}{123}{section*.212}
+\contentsline {subsubsection}{Responsorium prolixa}{123}{subsubsection*.213}
+\contentsline {subsubsection}{Responsorium prolixa}{124}{subsubsection*.214}
+\contentsline {subsubsection}{Responsorium}{125}{subsubsection*.215}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{126}{subsubsection*.216}
+\contentsline {subsubsection}{Canticum Evangelicum}{126}{subsubsection*.217}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{126}{paragraph*.218}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{128}{subsubsection*.219}
+\contentsline {subsubsection}{Canticum Evangelicum}{128}{subsubsection*.220}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{128}{paragraph*.221}
+\contentsline {section}{Easter}{130}{section*.222}
+\contentsline {subsection}{Easter Season}{130}{subsection*.223}
+\contentsline {subsubsection}{Psalm Antiphon}{130}{subsubsection*.224}
+\contentsline {subsection}{Easter Sunday and throughout the Octave of Easter}{130}{subsection*.225}
+\contentsline {subsubsection}{Responsorium Prolixa}{130}{subsubsection*.226}
+\contentsline {subsubsection}{Responsorium (Dominican)}{131}{subsubsection*.227}
+\contentsline {subsubsection}{Responsorium (Gethsemani)}{131}{subsubsection*.228}
+\contentsline {subsection}{Throughout the season of Easter}{132}{subsection*.229}
+\contentsline {subsubsection}{Responsorium brevis}{132}{subsubsection*.230}
+\contentsline {subsubsection}{Short responsory}{132}{subsubsection*.231}
+\contentsline {subsection}{Easter until the Ascension}{133}{subsection*.232}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{133}{subsubsection*.233}
+\contentsline {subsubsection}{Canticum Evangelicum}{133}{subsubsection*.234}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{133}{paragraph*.235}
+\contentsline {subsection}{The Ascension until Pentecost}{134}{subsection*.236}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{134}{subsubsection*.237}
+\contentsline {subsubsection}{Canticum Evangelicum}{134}{subsubsection*.238}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{134}{paragraph*.239}
+\contentsline {subsection}{Pentecost}{135}{subsection*.240}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{135}{subsubsection*.241}
+\contentsline {subsubsection}{Canticum Evangelicum}{136}{subsubsection*.242}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{136}{paragraph*.243}
+\contentsline {section}{Solemnities and Feasts}{137}{section*.244}
+\contentsline {subsection}{The Presentation of the Lord (February 2)}{137}{subsection*.245}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{137}{subsubsection*.246}
+\contentsline {subsubsection}{Canticum Evangelicum}{137}{subsubsection*.247}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{137}{paragraph*.248}
+\contentsline {subsection}{The Annunciation of the Lord (March 25)}{138}{subsection*.249}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{138}{subsubsection*.250}
+\contentsline {subsubsection}{Canticum Evangelicum}{138}{subsubsection*.251}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{138}{paragraph*.252}
+\contentsline {subsection}{The Most Holy Body and Blood of Christ}{139}{subsection*.253}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{139}{subsubsection*.254}
+\contentsline {subsubsection}{Canticum Evangelicum}{140}{subsubsection*.255}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{140}{paragraph*.256}
+\contentsline {subsection}{The Most Sacred Heart of Jesus}{141}{subsection*.257}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{141}{subsubsection*.258}
+\contentsline {subsubsection}{Canticum Evangelicum}{141}{subsubsection*.259}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{141}{paragraph*.260}
+\contentsline {subsection}{Solemnities and Feasts\\of the Blessed Virgin Mary}{142}{subsection*.261}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{142}{subsubsection*.262}
+\contentsline {subsubsection}{Canticum Evangelicum}{143}{subsubsection*.263}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{143}{paragraph*.264}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{144}{subsubsection*.265}
+\contentsline {subsubsection}{Canticum Evangelicum}{144}{subsubsection*.266}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{144}{paragraph*.267}
+\contentsline {chapter}{Final Antiphons}{147}{chapter*.268}
+\contentsline {subsubsection}{Antiphona}{149}{subsubsection*.269}
+\contentsline {subsubsection}{Antiphona}{150}{subsubsection*.270}
+\contentsline {section}{Litany of the Blessed Virgin Mary}{151}{section*.271}
+\contentsline {section}{Seasonal Marian Antiphons}{153}{section*.272}
+\contentsline {subsection}{Ordinary Time}{153}{subsection*.273}
+\contentsline {subsubsection}{Prosa}{153}{subsubsection*.274}
+\contentsline {subsection}{Ordinary Time}{154}{subsection*.275}
+\contentsline {subsubsection}{Antiphona}{154}{subsubsection*.276}
+\contentsline {subsection}{Ordinary Time}{155}{subsection*.277}
+\contentsline {subsubsection}{Antiphona}{155}{subsubsection*.278}
+\contentsline {subsection}{Advent}{156}{subsection*.279}
+\contentsline {subsubsection}{Antiphona Solemnis}{156}{subsubsection*.280}
+\contentsline {subsection}{Advent}{157}{subsection*.281}
+\contentsline {subsubsection}{Antiphona Simplex}{157}{subsubsection*.282}
+\contentsline {subsection}{Lent}{158}{subsection*.283}
+\contentsline {subsubsection}{Antiphona Solemnis}{158}{subsubsection*.284}
+\contentsline {subsection}{Lent}{159}{subsection*.285}
+\contentsline {subsubsection}{Antiphona Simplex}{159}{subsubsection*.286}
+\contentsline {subsection}{Easter}{160}{subsection*.287}
+\contentsline {subsubsection}{Antiphona Solemnis}{160}{subsubsection*.288}
+\contentsline {subsection}{Easter}{161}{subsection*.289}
+\contentsline {subsubsection}{Antiphona Simplex}{161}{subsubsection*.290}
+\contentsline {section}{Chants in Honor of St. Dominic}{162}{section*.291}
+\contentsline {subsubsection}{Responsorium prolixa}{162}{subsubsection*.292}
+\contentsline {subsubsection}{Antiphona}{163}{subsubsection*.293}
+\contentsline {subsubsection}{Antiphona}{164}{subsubsection*.294}

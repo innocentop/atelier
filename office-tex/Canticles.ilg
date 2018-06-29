@@ -1,4 +1,6 @@
 This is makeindex, version 2.15 [TeX Live 2017] (kpathsea + Thai support).
-Scanning input file Canticles.idx...done (0 entries accepted, 0 rejected).
-Nothing written in Canticles.ind.
+Scanning input file Canticles.idx....done (28 entries accepted, 0 rejected).
+Sorting entries....done (128 comparisons).
+Generating output file Canticles.ind....done (20 lines written, 0 warnings).
+Output written in Canticles.ind.
 Transcript written in Canticles.ilg.

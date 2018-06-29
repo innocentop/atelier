@@ -231,6 +231,9 @@ INPUT ./001_Compline.000_complete.out
 INPUT ./001_Compline.000_complete.out
 OUTPUT 001_Compline.000_complete.pdf
 OUTPUT 001_Compline.000_complete.out
+INPUT ./op-shield.jpg
+INPUT ./op-shield.jpg
+INPUT op-shield.jpg
 INPUT ./001_Compline.000_complete.toc
 INPUT ./001_Compline.000_complete.toc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm

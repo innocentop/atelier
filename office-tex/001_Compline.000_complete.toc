@@ -195,100 +195,102 @@
 \contentsline {subsubsection}{October 15\\St. Teresa of Avila, Virgin}{116}{subsubsection*.195}
 \contentsline {subsubsection}{November 1\\All Saints}{117}{subsubsection*.196}
 \contentsline {subsubsection}{November 15\\St. Albert the Great, O.P., Doctor}{118}{subsubsection*.197}
-\contentsline {chapter}{Seasonal and Festal Antiphons and Responsories}{119}{chapter*.198}
-\contentsline {section}{Christmas}{120}{section*.199}
-\contentsline {subsection}{After First Vespers}{120}{subsection*.200}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{120}{subsubsection*.201}
-\contentsline {subsubsection}{Canticum Evangelicum}{120}{subsubsection*.202}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{120}{paragraph*.203}
-\contentsline {subsection}{After Second Vespers and until Epiphany}{121}{subsection*.204}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{121}{subsubsection*.205}
-\contentsline {subsubsection}{Canticum Evangelicum}{121}{subsubsection*.206}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{121}{paragraph*.207}
-\contentsline {section}{Epiphany}{123}{section*.208}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{123}{subsubsection*.209}
-\contentsline {subsubsection}{Canticum Evangelicum}{123}{subsubsection*.210}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{123}{paragraph*.211}
-\contentsline {section}{Lent}{125}{section*.212}
-\contentsline {subsubsection}{Responsorium prolixa}{125}{subsubsection*.213}
-\contentsline {subsubsection}{Responsorium prolixa}{126}{subsubsection*.214}
-\contentsline {subsubsection}{Responsorium}{127}{subsubsection*.215}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{128}{subsubsection*.216}
-\contentsline {subsubsection}{Canticum Evangelicum}{128}{subsubsection*.217}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{128}{paragraph*.218}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{130}{subsubsection*.219}
-\contentsline {subsubsection}{Canticum Evangelicum}{130}{subsubsection*.220}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{130}{paragraph*.221}
-\contentsline {section}{Easter}{132}{section*.222}
-\contentsline {subsection}{Easter Season}{132}{subsection*.223}
-\contentsline {subsubsection}{Psalm Antiphon}{132}{subsubsection*.224}
-\contentsline {subsection}{Easter Sunday and throughout the Octave of Easter}{132}{subsection*.225}
-\contentsline {subsubsection}{Responsorium Prolixa}{132}{subsubsection*.226}
-\contentsline {subsubsection}{Responsorium (Dominican)}{133}{subsubsection*.227}
-\contentsline {subsubsection}{Responsorium (Gethsemani)}{133}{subsubsection*.228}
-\contentsline {subsection}{Throughout the season of Easter}{134}{subsection*.229}
-\contentsline {subsubsection}{Responsorium brevis}{134}{subsubsection*.230}
-\contentsline {subsubsection}{Short responsory}{134}{subsubsection*.231}
-\contentsline {subsection}{Easter until the Ascension}{135}{subsection*.232}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{135}{subsubsection*.233}
-\contentsline {subsubsection}{Canticum Evangelicum}{135}{subsubsection*.234}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{135}{paragraph*.235}
-\contentsline {subsection}{The Ascension until Pentecost}{136}{subsection*.236}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{136}{subsubsection*.237}
-\contentsline {subsubsection}{Canticum Evangelicum}{136}{subsubsection*.238}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{136}{paragraph*.239}
-\contentsline {subsection}{Pentecost}{137}{subsection*.240}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{137}{subsubsection*.241}
-\contentsline {subsubsection}{Canticum Evangelicum}{138}{subsubsection*.242}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{138}{paragraph*.243}
-\contentsline {section}{Solemnities and Feasts}{139}{section*.244}
-\contentsline {subsection}{The Presentation of the Lord (February 2)}{139}{subsection*.245}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{139}{subsubsection*.246}
-\contentsline {subsubsection}{Canticum Evangelicum}{139}{subsubsection*.247}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{139}{paragraph*.248}
-\contentsline {subsection}{The Annunciation of the Lord (March 25)}{140}{subsection*.249}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{140}{subsubsection*.250}
-\contentsline {subsubsection}{Canticum Evangelicum}{140}{subsubsection*.251}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{140}{paragraph*.252}
-\contentsline {subsection}{The Most Holy Body and Blood of Christ}{141}{subsection*.253}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{141}{subsubsection*.254}
-\contentsline {subsubsection}{Canticum Evangelicum}{142}{subsubsection*.255}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{142}{paragraph*.256}
-\contentsline {subsection}{The Most Sacred Heart of Jesus}{143}{subsection*.257}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{143}{subsubsection*.258}
-\contentsline {subsubsection}{Canticum Evangelicum}{143}{subsubsection*.259}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{143}{paragraph*.260}
-\contentsline {subsection}{Solemnities and Feasts\\of the Blessed Virgin Mary}{144}{subsection*.261}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{144}{subsubsection*.262}
-\contentsline {subsubsection}{Canticum Evangelicum}{145}{subsubsection*.263}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{145}{paragraph*.264}
-\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{146}{subsubsection*.265}
-\contentsline {subsubsection}{Canticum Evangelicum}{146}{subsubsection*.266}
-\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{146}{paragraph*.267}
-\contentsline {chapter}{Final Antiphons}{149}{chapter*.268}
-\contentsline {subsubsection}{Antiphona}{151}{subsubsection*.269}
-\contentsline {subsubsection}{Antiphona}{152}{subsubsection*.270}
-\contentsline {section}{Litany of the Blessed Virgin Mary}{153}{section*.271}
-\contentsline {section}{Seasonal Marian Antiphons}{155}{section*.272}
-\contentsline {subsection}{Ordinary Time}{155}{subsection*.273}
-\contentsline {subsubsection}{Prosa}{155}{subsubsection*.274}
-\contentsline {subsection}{Ordinary Time}{156}{subsection*.275}
-\contentsline {subsubsection}{Antiphona}{156}{subsubsection*.276}
-\contentsline {subsection}{Ordinary Time}{157}{subsection*.277}
-\contentsline {subsubsection}{Antiphona}{157}{subsubsection*.278}
-\contentsline {subsection}{Advent}{158}{subsection*.279}
-\contentsline {subsubsection}{Antiphona Solemnis}{158}{subsubsection*.280}
-\contentsline {subsection}{Advent}{159}{subsection*.281}
-\contentsline {subsubsection}{Antiphona Simplex}{159}{subsubsection*.282}
-\contentsline {subsection}{Lent}{160}{subsection*.283}
-\contentsline {subsubsection}{Antiphona Solemnis}{160}{subsubsection*.284}
-\contentsline {subsection}{Lent}{161}{subsection*.285}
-\contentsline {subsubsection}{Antiphona Simplex}{161}{subsubsection*.286}
-\contentsline {subsection}{Easter}{162}{subsection*.287}
-\contentsline {subsubsection}{Antiphona Solemnis}{162}{subsubsection*.288}
-\contentsline {subsection}{Easter}{163}{subsection*.289}
-\contentsline {subsubsection}{Antiphona Simplex}{163}{subsubsection*.290}
-\contentsline {section}{Chants in Honor of St. Dominic}{164}{section*.291}
-\contentsline {subsubsection}{Responsorium prolixa}{164}{subsubsection*.292}
-\contentsline {subsubsection}{Antiphona}{165}{subsubsection*.293}
-\contentsline {subsubsection}{Antiphona}{166}{subsubsection*.294}
+\contentsline {section}{Round us falls the night}{119}{section*.198}
+\contentsline {subsubsection}{Hymn}{119}{subsubsection*.199}
+\contentsline {chapter}{Seasonal and Festal Antiphons and Responsories}{121}{chapter*.200}
+\contentsline {section}{Christmas}{122}{section*.201}
+\contentsline {subsection}{After First Vespers}{122}{subsection*.202}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{122}{subsubsection*.203}
+\contentsline {subsubsection}{Canticum Evangelicum}{122}{subsubsection*.204}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{122}{paragraph*.205}
+\contentsline {subsection}{After Second Vespers and until Epiphany}{123}{subsection*.206}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{123}{subsubsection*.207}
+\contentsline {subsubsection}{Canticum Evangelicum}{123}{subsubsection*.208}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{123}{paragraph*.209}
+\contentsline {section}{Epiphany}{125}{section*.210}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{125}{subsubsection*.211}
+\contentsline {subsubsection}{Canticum Evangelicum}{125}{subsubsection*.212}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{125}{paragraph*.213}
+\contentsline {section}{Lent}{127}{section*.214}
+\contentsline {subsubsection}{Responsorium prolixa}{127}{subsubsection*.215}
+\contentsline {subsubsection}{Responsorium prolixa}{128}{subsubsection*.216}
+\contentsline {subsubsection}{Responsorium}{129}{subsubsection*.217}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{130}{subsubsection*.218}
+\contentsline {subsubsection}{Canticum Evangelicum}{130}{subsubsection*.219}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{130}{paragraph*.220}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{132}{subsubsection*.221}
+\contentsline {subsubsection}{Canticum Evangelicum}{132}{subsubsection*.222}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{132}{paragraph*.223}
+\contentsline {section}{Easter}{134}{section*.224}
+\contentsline {subsection}{Easter Season}{134}{subsection*.225}
+\contentsline {subsubsection}{Psalm Antiphon}{134}{subsubsection*.226}
+\contentsline {subsection}{Easter Sunday and throughout the Octave of Easter}{134}{subsection*.227}
+\contentsline {subsubsection}{Responsorium Prolixa}{134}{subsubsection*.228}
+\contentsline {subsubsection}{Responsorium (Dominican)}{135}{subsubsection*.229}
+\contentsline {subsubsection}{Responsorium (Gethsemani)}{135}{subsubsection*.230}
+\contentsline {subsection}{Throughout the season of Easter}{136}{subsection*.231}
+\contentsline {subsubsection}{Responsorium brevis}{136}{subsubsection*.232}
+\contentsline {subsubsection}{Short responsory}{136}{subsubsection*.233}
+\contentsline {subsection}{Easter until the Ascension}{137}{subsection*.234}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{137}{subsubsection*.235}
+\contentsline {subsubsection}{Canticum Evangelicum}{137}{subsubsection*.236}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{137}{paragraph*.237}
+\contentsline {subsection}{The Ascension until Pentecost}{138}{subsection*.238}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{138}{subsubsection*.239}
+\contentsline {subsubsection}{Canticum Evangelicum}{138}{subsubsection*.240}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{138}{paragraph*.241}
+\contentsline {subsection}{Pentecost}{139}{subsection*.242}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{139}{subsubsection*.243}
+\contentsline {subsubsection}{Canticum Evangelicum}{140}{subsubsection*.244}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{140}{paragraph*.245}
+\contentsline {section}{Solemnities and Feasts}{141}{section*.246}
+\contentsline {subsection}{The Presentation of the Lord (February 2)}{141}{subsection*.247}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{141}{subsubsection*.248}
+\contentsline {subsubsection}{Canticum Evangelicum}{141}{subsubsection*.249}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{141}{paragraph*.250}
+\contentsline {subsection}{The Annunciation of the Lord (March 25)}{142}{subsection*.251}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{142}{subsubsection*.252}
+\contentsline {subsubsection}{Canticum Evangelicum}{142}{subsubsection*.253}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{142}{paragraph*.254}
+\contentsline {subsection}{The Most Holy Body and Blood of Christ}{143}{subsection*.255}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{143}{subsubsection*.256}
+\contentsline {subsubsection}{Canticum Evangelicum}{144}{subsubsection*.257}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{144}{paragraph*.258}
+\contentsline {subsection}{The Most Sacred Heart of Jesus}{145}{subsection*.259}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{145}{subsubsection*.260}
+\contentsline {subsubsection}{Canticum Evangelicum}{145}{subsubsection*.261}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{145}{paragraph*.262}
+\contentsline {subsection}{Solemnities and Feasts\\of the Blessed Virgin Mary}{146}{subsection*.263}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{146}{subsubsection*.264}
+\contentsline {subsubsection}{Canticum Evangelicum}{147}{subsubsection*.265}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{147}{paragraph*.266}
+\contentsline {subsubsection}{Antiphona ad Nunc dimittis}{148}{subsubsection*.267}
+\contentsline {subsubsection}{Canticum Evangelicum}{148}{subsubsection*.268}
+\contentsline {paragraph}{Christus lumen gentium et gloria Israel}{148}{paragraph*.269}
+\contentsline {chapter}{Final Antiphons}{151}{chapter*.270}
+\contentsline {subsubsection}{Antiphona}{153}{subsubsection*.271}
+\contentsline {subsubsection}{Antiphona}{154}{subsubsection*.272}
+\contentsline {section}{Litany of the Blessed Virgin Mary}{155}{section*.273}
+\contentsline {section}{Seasonal Marian Antiphons}{157}{section*.274}
+\contentsline {subsection}{Ordinary Time}{157}{subsection*.275}
+\contentsline {subsubsection}{Prosa}{157}{subsubsection*.276}
+\contentsline {subsection}{Ordinary Time}{158}{subsection*.277}
+\contentsline {subsubsection}{Antiphona}{158}{subsubsection*.278}
+\contentsline {subsection}{Ordinary Time}{159}{subsection*.279}
+\contentsline {subsubsection}{Antiphona}{159}{subsubsection*.280}
+\contentsline {subsection}{Advent}{160}{subsection*.281}
+\contentsline {subsubsection}{Antiphona Solemnis}{160}{subsubsection*.282}
+\contentsline {subsection}{Advent}{161}{subsection*.283}
+\contentsline {subsubsection}{Antiphona Simplex}{161}{subsubsection*.284}
+\contentsline {subsection}{Lent}{162}{subsection*.285}
+\contentsline {subsubsection}{Antiphona Solemnis}{162}{subsubsection*.286}
+\contentsline {subsection}{Lent}{163}{subsection*.287}
+\contentsline {subsubsection}{Antiphona Simplex}{163}{subsubsection*.288}
+\contentsline {subsection}{Easter}{164}{subsection*.289}
+\contentsline {subsubsection}{Antiphona Solemnis}{164}{subsubsection*.290}
+\contentsline {subsection}{Easter}{165}{subsection*.291}
+\contentsline {subsubsection}{Antiphona Simplex}{165}{subsubsection*.292}
+\contentsline {section}{Chants in Honor of St. Dominic}{166}{section*.293}
+\contentsline {subsubsection}{Responsorium prolixa}{166}{subsubsection*.294}
+\contentsline {subsubsection}{Antiphona}{167}{subsubsection*.295}
+\contentsline {subsubsection}{Antiphona}{168}{subsubsection*.296}

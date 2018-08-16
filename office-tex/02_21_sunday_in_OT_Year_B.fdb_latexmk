@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1534421457 "02_21_sunday_in_OT_Year_B.tex" "02_21_sunday_in_OT_Year_B.pdf" "02_21_sunday_in_OT_Year_B" 1534421482
+["lualatex"] 1534421681 "02_21_sunday_in_OT_Year_B.tex" "02_21_sunday_in_OT_Year_B.pdf" "02_21_sunday_in_OT_Year_B" 1534421707
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -162,10 +162,10 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "02_21_sunday_in_OT_Year_B.aux" 1534421481 3912 def6d519095e3053ac33827dfeff4e4a ""
+  "02_21_sunday_in_OT_Year_B.aux" 1534421706 3912 dbe70e7739ae7cfc240f79cbf58e1b5e ""
   "02_21_sunday_in_OT_Year_B.gaux" 1534421160 3533 91678b97e23ab4b8e447437c79da8819 ""
-  "02_21_sunday_in_OT_Year_B.out" 1534421481 135 8bc6ea5f84f42ca3ace7299ffdade5cf ""
-  "02_21_sunday_in_OT_Year_B.tex" 1534421431 8700 f1bf37b2d8f1cd333712212db731434f ""
+  "02_21_sunday_in_OT_Year_B.out" 1534421706 135 c75524ae9ee9179aa21d13edbd78edef ""
+  "02_21_sunday_in_OT_Year_B.tex" 1534421655 8700 56435efbbecd46c69ade1698fbfd6a13 ""
   "chants/an--dixit_dominus_domino_meo--dominican-mss-5_0_2.gtex" 1515428014 8042 3cd0f004458b9224f67ccd3e85ff2d28 ""
   "chants/an--dixit_simon_petrus--solesmes-op-5_0_2.gtex" 1534421151 10652 ccf49bfb3850b1a8231f0f912dee2c31 ""
   "chants/an--ex_aegypto_--solesmes--tonus-peregrinus-5_0_2.gtex" 1517584585 5989 9bc46ed237d59c2eec601f9e16454b2b ""
@@ -184,13 +184,13 @@
   "psalms/psalm113Aenglish3-3.tex" 1513711958 1156 8cf075d24b2dbcd7cd0eda3d142bbe7a ""
   "readings/lectio_brevis_2.Cor.1.3-4.tex" 1513711958 276 19a7dd96a8a8116b96a1d2b19bba1b8b ""
   (generated)
-  "02_21_sunday_in_OT_Year_B.log"
   "02_21_sunday_in_OT_Year_B.pdf"
   "incipit.idx"
-  "02_21_sunday_in_OT_Year_B.out"
+  "02_21_sunday_in_OT_Year_B.log"
   "02_21_sunday_in_OT_Year_B.aux"
-["makeindex incipit.idx"] 1534421161 "incipit.idx" "incipit.ind" "incipit" 1534421482
-  "incipit.idx" 1534421460 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "02_21_sunday_in_OT_Year_B.out"
+["makeindex incipit.idx"] 1534421161 "incipit.idx" "incipit.ind" "incipit" 1534421707
+  "incipit.idx" 1534421684 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

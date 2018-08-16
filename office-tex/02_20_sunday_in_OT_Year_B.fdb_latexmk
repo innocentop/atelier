@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1533827283 "02_20_sunday_in_OT_Year_B.tex" "02_20_sunday_in_OT_Year_B.pdf" "02_20_sunday_in_OT_Year_B" 1533827309
+["lualatex"] 1534419802 "02_20_sunday_in_OT_Year_B.tex" "02_20_sunday_in_OT_Year_B.pdf" "02_20_sunday_in_OT_Year_B" 1534419825
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -162,11 +162,11 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "02_20_sunday_in_OT_Year_B.aux" 1533827309 3862 f35c47ceb955ae8e682ae53be5accab6 ""
-  "02_20_sunday_in_OT_Year_B.gaux" 1533827282 4340 ce241a774c772c8a9885ef53b8ed6946 ""
-  "02_20_sunday_in_OT_Year_B.out" 1533827309 135 6888e237452545508b1c3d0dbd5fdcf8 ""
-  "02_20_sunday_in_OT_Year_B.tex" 1533827257 8544 caad38d813242473b531edc76de5a1a8 ""
-  "chants/an--caro_mea_vere--solesmes-op-5_0_2.gtex" 1533827132 6197 c5f5b09510902ab8343a427dd38da938 ""
+  "02_20_sunday_in_OT_Year_B.aux" 1534419825 3862 f35c47ceb955ae8e682ae53be5accab6 ""
+  "02_20_sunday_in_OT_Year_B.gaux" 1534419802 4340 96c7de71e6b3918f0b1a1a9064ebe23e ""
+  "02_20_sunday_in_OT_Year_B.out" 1534419825 135 6888e237452545508b1c3d0dbd5fdcf8 ""
+  "02_20_sunday_in_OT_Year_B.tex" 1534419776 8544 6c7aa0b67a3a07f32572bcc2751ad98e ""
+  "chants/an--caro_mea_vere--solesmes-op-5_0_2.gtex" 1534419793 6057 d5839e28eb234617cd1cc36979e9c95c ""
   "chants/an--dixit_dominus_domino_meo--dominican-mss-5_0_2.gtex" 1515428014 8042 3cd0f004458b9224f67ccd3e85ff2d28 ""
   "chants/an--in_mandatis--dominican-5_0_2.gtex" 1517584281 5731 53a28b499249181164c2cd10d21af1ce ""
   "chants/canticle--salus-et-honor--d--english-5_0_2.gtex" 1515428015 61988 4ea54277da12559339d0ab802493e4c4 ""
@@ -177,20 +177,20 @@
   "chants/misc.deus_in_adjutorium-T-5_0_2.gtex" 1513806260 21247 3e7a53145e3a5ab5d62e676b426d2835 ""
   "chants/or--pater_noster_a--solesmes-T-5_0_2.gtex" 1513806280 29941 0c5fe3d77fd1c47459cd458a10cf6819 ""
   "chants/rb--magnus_dominus_noster--solesmes-5_0_2.gtex" 1515428019 25414 cd473cb2236639a075129df406cb57e7 ""
-  "incipit.ind" 1533827136 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1533828720 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "intercessions/intercessions-ot-sunday-week-4-2nd-vespers.tex" 1513711955 896 caf0e9e1e5229d3d587015cde2fa1c69 ""
   "prayers/or-ordinary-time.20.tex" 1513711955 430 c555f14fddbd82352cd832bfac1e3087 ""
   "psalms/psalm109english3-3.tex" 1513711958 1310 14ef48af7c3ff381dd154f19cf9bc892 ""
   "psalms/psalm111english3-3.tex" 1529604607 1559 e5f2d30d4bb0a288c7d6a8e18a2613c0 ""
   "readings/lectio_brevis_Heb.12.22-24.tex" 1513711958 391 60f3b28e71ed93d37069468817d3b5f5 ""
   (generated)
-  "02_20_sunday_in_OT_Year_B.out"
-  "02_20_sunday_in_OT_Year_B.pdf"
-  "02_20_sunday_in_OT_Year_B.aux"
-  "incipit.idx"
   "02_20_sunday_in_OT_Year_B.log"
-["makeindex incipit.idx"] 1533827136 "incipit.idx" "incipit.ind" "incipit" 1533827309
-  "incipit.idx" 1533827286 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "incipit.idx"
+  "02_20_sunday_in_OT_Year_B.aux"
+  "02_20_sunday_in_OT_Year_B.pdf"
+  "02_20_sunday_in_OT_Year_B.out"
+["makeindex incipit.idx"] 1533827136 "incipit.idx" "incipit.ind" "incipit" 1534419825
+  "incipit.idx" 1534419805 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ilg"
   "incipit.ind"
+  "incipit.ilg"

@@ -1,0 +1,151 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-2}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\part}{0pt}{*0}{*1}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
+\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+\pagestyle{plain}
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+\section{Ordo Missæ O.P.}
+
+\subsubsection{Ad signum crucis}
+
+\gabcsnippet{initial-style: 1;
+%%
+(f3)In(g) nó(h)mi(h)ne(h) Pa(h)tris(g) et(h) Fí(i)li(h)i(h) (;) et(h) Spí(h)ri(g)tus(h) San(hg)cti.(g) (::) <sp>R/</sp>. A(g)men.(h) (::)
+}
+
+\subsubsection{Ad salutationem}
+
+\gabcsnippet{initial-style: 1;
+%%
+(f3)Dó(g)mi(h)nus(h) vo(gh)bí(hg)scum.(g) (::) <sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tu(h)o.(h) (::)}
+
+\subsubsection{Pro orationibus}
+
+\gabcsnippet{initial-style: 0;
+%%
+(f3) O(h)ré(gh)mus.(h) (:) Con(h)cé(h)de(h) nos(h) fá(h)mu(h)los(h) tu(h)os,(h) quǽ(h)su(h)mus,(h) Dó(h)mi(h)ne(h) De(h)us,(h) per(h)pé(h)tu(h)a(h) men(h)tis(h) et(h) cór(h)po(h)ris(h) sa(h)ni(h)tá(h)te(g) gau(g)dé(h)re,(h) (;) et,(h) glo(h)ri(h)ó(h)sa(h) be(h)á(h)tæ(h) Ma(h)rí(h)æ(h) sem(h)per(h) Vír(h)gi(h)nis(h) in(h)ter(h)ces(h)si(h)ó(h)ne,(h) a(h) præ(h)sén(h)ti(h) li(h)be(h)rá(h)ri(h) tri(h)stí(h)ti(g)a,(g) (;) et(h) æ(h)tér(h)na(h) pér(h)fru(h)i(g) læ(g)tí(h)ti(h)a.(h) (:) Per(h) Dó(h)mi(h)num(h) no(h)strum(h) Ie(h)sum(h) Chri(h)stum(h) Fí(h)li(h)um(h) tu(h)um,(g) (;) qui(h) te(h)cum(h) vi(h)vit(h) et(h) re(h)gnat(h) in(h) u(h)ni(h)tá(h)te(h) Spí(h)ri(h)tus(h) San(g)cti,(g) De(h)us,(h) (;) per(h) óm(i)ni(h)a(h) sǽ(h)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g) (::) <sp>R/</sp>. A(g)men.(h) (::)}
+
+%\subsubsection{Post alias orationes}
+
+%\gabcsnippet{initial-style: 1;
+%%
+%(f3)Per(g) Chri(h)stum(h) Dó(h)mi(g)num(h) no(hg)strum.(g) (::) <sp>R/</sp>. A(g)men.(h) (::)}
+
+\end{document}

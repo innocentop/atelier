@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1545148494 "02_T.2_Christmas_Second_Vespers.tex" "02_T.2_Christmas_Second_Vespers.pdf" "02_T.2_Christmas_Second_Vespers" 1545148519
+["lualatex"] 1545293630 "02_T.2_Christmas_Second_Vespers.tex" "02_T.2_Christmas_Second_Vespers.pdf" "02_T.2_Christmas_Second_Vespers" 1545293667
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -159,9 +159,9 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "02_T.2_Christmas_Second_Vespers.aux" 1545148518 4156 8a4773dbab4c508f2444eb7769ad0b87 ""
+  "02_T.2_Christmas_Second_Vespers.aux" 1545293666 4156 8a4773dbab4c508f2444eb7769ad0b87 ""
   "02_T.2_Christmas_Second_Vespers.gaux" 1545148494 3705 12172b19c997c91f8fb7c13834c75c9d ""
-  "02_T.2_Christmas_Second_Vespers.out" 1545148519 120 fb7a01a5e975239213766502c6eb4346 ""
+  "02_T.2_Christmas_Second_Vespers.out" 1545293666 120 fb7a01a5e975239213766502c6eb4346 ""
   "02_T.2_Christmas_Second_Vespers.tex" 1545148467 10396 3d3b098025511aa38be602a66920aa14 ""
   "chants/an--apud_dominum--dominican--id_6821-5_0_2.gtex" 1544355429 9502 1acf338b2f115d7280e4debedd56ec41 ""
   "chants/an--hodie_christus--dominican--id_5282-5_0_2.gtex" 1544374898 18882 ec252b0f63a1632df514868fdbd300b5 ""
@@ -175,20 +175,20 @@
   "chants/or--pater_noster_a--solesmes-T-5_0_2.gtex" 1513806280 29941 0c5fe3d77fd1c47459cd458a10cf6819 ""
   "chants/rb--verbum_caro_factum_est--dominican--id_5728-5_0_2.gtex" 1514950872 25029 53fb6178d49a4be53f2c1ff35ebb30dd ""
   "incipit.ind" 1545146604 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "intercessions/intercessions-christmas-2nd-vespers.tex" 1545121730 1211 2a82becef388280c82f578d41d3cacb4 ""
+  "intercessions/intercessions-christmas-2nd-vespers.tex" 1545293596 1213 0f1f37dd308b1a146900dbb9311d2633 ""
   "prayers/or-christmas.tex" 1544374251 337 3b376b198d7e6392bb7585b02a13a194 ""
   "psalms/col1_12-20english2-2.tex" 1544373468 1632 a526ab1b438c87a65188a01209b56636 ""
   "psalms/psalm109english3-3.tex" 1513711958 1310 14ef48af7c3ff381dd154f19cf9bc892 ""
   "psalms/psalm129english3-3.tex" 1544355380 1199 32865efafbcb9eac1b88aac6463a04ec ""
-  "readings/lectio_brevis_1.Jn.1.1-3.tex" 1545121737 543 9d1fc3c0dadabc58557d17c85e64be08 ""
+  "readings/lectio_brevis_1.Jn.1.1-3.tex" 1545293546 549 999636147936de5f191c2388af0070c1 ""
   (generated)
-  "incipit.idx"
-  "02_T.2_Christmas_Second_Vespers.pdf"
-  "02_T.2_Christmas_Second_Vespers.out"
-  "02_T.2_Christmas_Second_Vespers.aux"
   "02_T.2_Christmas_Second_Vespers.log"
-["makeindex incipit.idx"] 1544354065 "incipit.idx" "incipit.ind" "incipit" 1545148519
-  "incipit.idx" 1545148497 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "02_T.2_Christmas_Second_Vespers.pdf"
+  "02_T.2_Christmas_Second_Vespers.aux"
+  "02_T.2_Christmas_Second_Vespers.out"
+  "incipit.idx"
+["makeindex incipit.idx"] 1544354065 "incipit.idx" "incipit.ind" "incipit" 1545293667
+  "incipit.idx" 1545293633 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

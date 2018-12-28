@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1545296438 "02_T.2.1_Holy_Family_Second_Vespers.tex" "02_T.2.1_Holy_Family_Second_Vespers.pdf" "02_T.2.1_Holy_Family_Second_Vespers" 1545296465
+["lualatex"] 1546016779 "02_T.2.1_Holy_Family_Second_Vespers.tex" "02_T.2.1_Holy_Family_Second_Vespers.pdf" "02_T.2.1_Holy_Family_Second_Vespers" 1546016802
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -159,13 +159,13 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "02_T.2.1_Holy_Family_Second_Vespers.aux" 1545296464 4066 0a506984e4cae0772e1bd761bf82f069 ""
-  "02_T.2.1_Holy_Family_Second_Vespers.gaux" 1545296437 3549 3e29cc93e27726c725af9cbd6efc1ab8 ""
-  "02_T.2.1_Holy_Family_Second_Vespers.out" 1545296464 137 f42bfb30c0f7347c990b3a23558a3ca6 ""
+  "02_T.2.1_Holy_Family_Second_Vespers.aux" 1546016802 4066 0a506984e4cae0772e1bd761bf82f069 ""
+  "02_T.2.1_Holy_Family_Second_Vespers.gaux" 1546016778 3549 98a9fc41ccbfb392848e2e7c396fac9a ""
+  "02_T.2.1_Holy_Family_Second_Vespers.out" 1546016802 137 f42bfb30c0f7347c990b3a23558a3ca6 ""
   "02_T.2.1_Holy_Family_Second_Vespers.tex" 1545296412 10495 7472b63349e74a73cc0a3f905156dcad ""
-  "chants/an--descendit_iesus_ii--dominican--id_4798-5_0_2.gtex" 1545146921 9400 ad17b6efde802b21b5ea95356f7bf65d ""
+  "chants/an--descendit_iesus_ii--dominican--id_4798-5_0_2.gtex" 1546016766 8880 75edf98c55e2f77a0356ee2b513203b0 ""
   "chants/an--fili_quid_fecisti--dominican--id_6379-5_0_2.gtex" 1545294068 16769 72292fcc49543ddde95849fe42948feb ""
-  "chants/an--post_triduum--dominican--id_4852-5_0_2.gtex" 1545148171 12854 a77ba1e5212342c6b8334804d3f61523 ""
+  "chants/an--post_triduum--dominican--id_4852-5_0_2.gtex" 1546016764 12334 05a8fe5df4bb0c90d33bcdab77c1153b ""
   "chants/an--puer_iesus_proficiebat-5_0_2.gtex" 1545146922 9973 d6f926dd1fbf73c1b688b7304dc533f2 ""
   "chants/hy--o_lux_beata_caelitum--english-5_0_2.gtex" 1545146596 65703 f88f04242c2522cec507b4e29fee2bee ""
   "chants/magnificat-translation.tex" 1513711955 856 b28ca26506cbdaf55af965a3efce4a0a ""
@@ -175,20 +175,20 @@
   "chants/or--pater_noster_a--solesmes-T-5_0_2.gtex" 1513806280 29941 0c5fe3d77fd1c47459cd458a10cf6819 ""
   "chants/rb--debuit_per_omnia--solesmes-op-5_0_2.gtex" 1545148949 30684 2ec27a2da6c1fe948706e65d930a3f68 ""
   "incipit.ind" 1545146604 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "intercessions/intercessions-holy_family-2nd-verspers.tex" 1545294260 1096 44dae7ef45578e28d9fa5d9de4d28ac4 ""
+  "intercessions/intercessions-holy_family-2nd-verspers.tex" 1546016665 1094 584ab711f8b4bca5fa4b29045f20014a ""
   "prayers/or-holy-family.tex" 1545151701 428 cefbd0d64ca3ab9a7eddd447da0669e1 ""
   "psalms/eph1_3-10english3-3.tex" 1513711958 1592 e79fe1412b82d796bfd2b321469ad4c5 ""
   "psalms/psalm121english2-2.tex" 1545138071 1324 117ca2ba4af888a6da8962c08220d02d ""
   "psalms/psalm126english2-2.tex" 1545138535 1211 ede6ab7ba1ebc6fb383d7dec3efbd9e3 ""
   "readings/lectio_brevis_Ph.2.6-7.tex" 1545148409 255 2de34887912b70c332ffa05a91136c1d ""
   (generated)
-  "02_T.2.1_Holy_Family_Second_Vespers.aux"
   "02_T.2.1_Holy_Family_Second_Vespers.out"
-  "02_T.2.1_Holy_Family_Second_Vespers.pdf"
-  "02_T.2.1_Holy_Family_Second_Vespers.log"
   "incipit.idx"
-["makeindex incipit.idx"] 1545146604 "incipit.idx" "incipit.ind" "incipit" 1545296465
-  "incipit.idx" 1545296441 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "02_T.2.1_Holy_Family_Second_Vespers.pdf"
+  "02_T.2.1_Holy_Family_Second_Vespers.aux"
+  "02_T.2.1_Holy_Family_Second_Vespers.log"
+["makeindex incipit.idx"] 1545146604 "incipit.idx" "incipit.ind" "incipit" 1546016802
+  "incipit.idx" 1546016782 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

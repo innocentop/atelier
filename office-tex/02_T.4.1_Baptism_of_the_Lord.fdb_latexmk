@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1547286166 "02_T.4.1_Baptism_of_the_Lord.tex" "02_T.4.1_Baptism_of_the_Lord.pdf" "02_T.4.1_Baptism_of_the_Lord" 1547286190
+["lualatex"] 1547287921 "02_T.4.1_Baptism_of_the_Lord.tex" "02_T.4.1_Baptism_of_the_Lord.pdf" "02_T.4.1_Baptism_of_the_Lord" 1547287944
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1513711373 763217 86f41b472820422e2050251b0786dd4f ""
@@ -27,6 +27,8 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1480098711 520 4889cce2180234b97cad636b6039c722 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gregoriotex/greciliae-op-hole.ttf" 1496785929 1050632 eb56e315c27f61a29830df78b9f7366a ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gregoriotex/greciliae-op-hollow.ttf" 1496785929 1763980 6c2f513f16c50c283b8c880af7b394dd ""
   "/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gregoriotex/greciliae-op.ttf" 1496785929 1071412 3bdad94d29b77429ed379e2a2f6c88a5 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf" 1496785929 24748 07914422d03ab2edae05dbea32a0b56f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1480098733 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -157,14 +159,14 @@
   "/usr/local/texlive/2017/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2017/texmf-var/tex/generic/config/language.dat" 1495593468 6539 941174d65e72a8d8d09600371901af97 ""
   "/usr/local/texlive/2017/texmf-var/web2c/luatex/lualatex.fmt" 1513380187 1348401 1d61a937d2268b0970a8e83c0c7d33d5 ""
-  "02_T.4.1_Baptism_of_the_Lord.aux" 1547286190 4047 c0d8580c922b623cc5bb5eabdf5c0ed6 ""
-  "02_T.4.1_Baptism_of_the_Lord.gaux" 1547286166 3872 59b6015048628adfe03af8f65ecedc93 ""
-  "02_T.4.1_Baptism_of_the_Lord.out" 1547286190 119 2380441a351517754ca92ed95f0b839b ""
-  "02_T.4.1_Baptism_of_the_Lord.tex" 1547286139 9651 7f5e7a187a51a665fec15ab82f12deb4 ""
-  "chants/an--caput_draconis--dominican--id_6321-5_0_2.gtex" 1547221667 9638 50f28ec207839c48415c230fdafb234c ""
-  "chants/an--magnum_mysterium--dominican--id_5533-5_0_2.gtex" 1547221666 10115 54287d0968c7f0b269da7a8752dfc3fa ""
-  "chants/an--peccati_aculeus--solesmes-op-5_0_2.gtex" 1547221668 11714 90c757d3fbbbcf394d43a0efbfd1d23c ""
-  "chants/an--praecursor--dominican--id_7229-5_0_2.gtex" 1547286156 20045 54458814df7df680c73e8752911037f9 ""
+  "02_T.4.1_Baptism_of_the_Lord.aux" 1547287944 4047 a50453eb0d47ffef573112173550c633 ""
+  "02_T.4.1_Baptism_of_the_Lord.gaux" 1547287447 3974 856c00a0f121ab794c243c1e6c9c6211 ""
+  "02_T.4.1_Baptism_of_the_Lord.out" 1547287944 119 2380441a351517754ca92ed95f0b839b ""
+  "02_T.4.1_Baptism_of_the_Lord.tex" 1547287897 10195 1a58f836d8176b2716faa5a1a813f2a4 ""
+  "chants/an--caput_draconis--dominican--id_6321-5_0_2.gtex" 1547287434 11515 6747bf54f9bdb80cb52ccc95841ff3a5 ""
+  "chants/an--magnum_mysterium--dominican--id_5533-5_0_2.gtex" 1547287433 12225 c12c38278ac518849c25853990c88f23 ""
+  "chants/an--peccati_aculeus--solesmes-op-5_0_2.gtex" 1547287435 12007 077cda6dd9e118f8365885e5ca1f31d8 ""
+  "chants/an--praecursor--dominican--id_7229-5_0_2.gtex" 1547287438 20080 f7ae1fe0bd45121a28fe938289ea25c9 ""
   "chants/hy--hostis_herodes--english-5_0_2.gtex" 1547221663 48941 0e444b96b4117be6d1f8115797d3bda8 ""
   "chants/magnificat-translation.tex" 1513711955 856 b28ca26506cbdaf55af965a3efce4a0a ""
   "chants/magnificat7d-5_0_2.gtex" 1533827274 70742 be427fc322461a2ba1c2d4ea8e576641 ""
@@ -182,11 +184,11 @@
   (generated)
   "02_T.4.1_Baptism_of_the_Lord.pdf"
   "02_T.4.1_Baptism_of_the_Lord.log"
-  "incipit.idx"
   "02_T.4.1_Baptism_of_the_Lord.aux"
+  "incipit.idx"
   "02_T.4.1_Baptism_of_the_Lord.out"
-["makeindex incipit.idx"] 1547221669 "incipit.idx" "incipit.ind" "incipit" 1547286190
-  "incipit.idx" 1547286170 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1547221669 "incipit.idx" "incipit.ind" "incipit" 1547287944
+  "incipit.idx" 1547287924 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

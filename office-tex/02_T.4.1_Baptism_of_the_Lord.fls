@@ -268,3 +268,5 @@ INPUT ./chants/or--pater_noster_a--solesmes-T-5_0_2.gtex
 INPUT ./prayers/or-baptism_of_the_lord.tex
 INPUT ./prayers/or-baptism_of_the_lord.tex
 INPUT ./chants/misc.benedicamus.dominio.3-T-5_0_2.gtex
+INPUT ./02_T.4.1_Baptism_of_the_Lord.aux
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

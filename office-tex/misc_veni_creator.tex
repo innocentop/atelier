@@ -1,8 +1,9 @@
 \documentclass[11pt,twoside]{book}
 
+
 %%Page Size (rev. 08/19/2016)
 %\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
 %% width of textblock = 324 pt / 4.5in
 %% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
 
@@ -11,11 +12,11 @@
 \usepackage{fancyhdr}
  \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
  \fancyhf{}
 \fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
  \fancypagestyle{plain}{ %
 \fancyhf{} % remove everything
 \renewcommand{\headrulewidth}{0pt} % remove lines as well
@@ -32,19 +33,19 @@
 
 %%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
 
-\setcounter{secnumdepth}{-2}
+\setcounter{secnumdepth}{-1}
 
 \usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
 \titlespacing*{\section}{0pt}{*0}{*1}
 \titlespacing*{\subsubsection}{0pt}{*0}{*0}
 \titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
 \titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
 \titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
 
 \newcommand{\nocontentsline}[3]{}
 \newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
@@ -75,6 +76,7 @@
 \usepackage[latin,english]{babel}
 \usepackage{lettrine}
 
+\usepackage{paracol}
 
 \usepackage{fontspec}
 
@@ -83,12 +85,10 @@
 
 
 %% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
 \grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
 \grechangestyle{commentary}{\textnormal\selectfont}
 \gresetcustosalteration{invisible}
-
-
 
 %\grechangedim{annotationseparation}{0.1cm}{scalable}
 
@@ -104,8 +104,8 @@
 %%Hyperref (rev. August 20, 2011)
 %\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
 \usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2016}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdftitle={Vesperale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
 \hypersetup{pdfsubject={Liturgy}}
 \hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
 
@@ -115,36 +115,19 @@
 
 \begin{document}
 
+\pagestyle{empty}
 
-%%%Initial Matter within Body (20 May 2011)
 \raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
 
 
-\chapter[2 November]{St. James Gradual}
-\subsection{2 November}
-\section{All Souls}
 
-\begin{figure}[b]\centering\includegraphics[width=1.1in]{alteliersaintjacques-shell}\par \textsc{\Large{Atelier St. Jacques}}\par \vspace{3pt} (Revised: \today)  \vspace{5pt} \end{figure}
-
-\newpage
-
-\pagestyle{plain}
 
 %%Combination
-
- \subsubsection{Officium}  \greannotation{VI} \index[Officium]{Requiem} \label{Requiem (Officium)} \grecommentary[5pt]{\emph{Requiem}: IV Esdr 2:34, 35; \Vbar. Ps 64:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \gregorioscore{graduale-chants/in--requiem--dominican--id_6527--en.gabc}
-
-
-\newpage
-
-
-\subsubsection{Offertorium}  \greannotation{II} \index[Offertorium]{Domine Iesu Christe} \label{Domine Iesu Christe (Offertorium)} \grecommentary[0pt]{\emph{Domine Iesu Christe}} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \gregorioscore{graduale-chants/of--domine_iesu_christe--dominican--id_6575--en}
-
-\newpage
-
- \subsubsection{Communio}  \greannotation{VIII} \index[Communio]{Lux æterna} \label{Lux æterna (Communio)} \grecommentary[5pt]{\emph{Lux æterna}: IV Esdr 2:35} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \gregorioscore{graduale-chants/co--lux_aeterna--dominican--id_6519--en.gabc}
-
-
+ \subsubsection{Hymnus}  \greannotation{VIII} \index[Hymnus]{Æterne Rex altissime} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/hy--veni_creator_spiritus--latin.gabc}    
 
 \end{document}

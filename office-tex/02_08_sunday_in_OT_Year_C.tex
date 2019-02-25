@@ -1,0 +1,163 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+
+\chapter{8\textsuperscript{th} Sunday in Ordinary Time (Year C)}
+\section{Second Vespers}
+    \index[Varia]{Deus in adiutorium} \label{Deus in adiutorium (Varia)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangedim{spaceabovelines}{0.25 cm}{scalable} \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/misc.deus_in_adjutorium-T} \grechangedim{spaceabovelines}{0 cm}{scalable} \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable}
+ \subsubsection{Hymnus}  \greannotation{VIII} \index[Hymnus]{Lucis creator} \label{Lucis creator (Hymnus)} \grecommentary[10pt]{\emph{Lucis creator optime}} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--lucis-creator-english}
+ \subsubsection{Antiphona}  \greannotation{VII d} \index[Antiphona]{Dixit Dominus} \label{Dixit Dominus (Antiphona)} \grecommentary[0pt]{Ps 109:1} \gresetinitiallines{1} \gresetlyriccentering{vowel} \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/an--dixit_dominus_domino_meo--dominican-mss}  \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable}
+ \subsubsection{Psalm 109} \paragraph{The Messiah, king and priest}  \index[Psalmus]{Psalm 109} \label{Psalm 109 (Psalmus)} \emph{Christ’s reign will last until all his enemies are made subject to him (1~Cor 15:25).}    \vspace{5pt} \par \input{psalms/psalm109english3-3}
+ \subsubsection{Antiphona}  \greannotation{IV E} \index[Antiphona]{Psalm 111} \label{Psalm 111 (Antiphona)} \grecommentary[0pt]{Ps 111:1} \gresetinitiallines{1} \gresetlyriccentering{vowel} \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/an--in_mandatis--dominican}  \grechangedim{maxbaroffsettextleft}{0.6 cm}{scalable}
+ \subsubsection{Psalm 111} \paragraph{The happiness of the just man}  \index[Psalmus]{Psalm 111} \label{Salus et gloria (Psalmus)} \emph{Live as children born of the light. Light produces every kind of goodness and justice and truth (Eph~5:8-9).}    \vspace{5pt} \par \input{psalms/psalm111english3-3}
+
+ %%This is the version for Week II and IV
+  \subsubsection{Canticum} \paragraph{The wedding of the Lamb} \greannotation{} \index[Canticum]{Salus et gloria} \label{Salus et gloria (Canticum)} \grecommentary[5pt]{Cf. Ap 19:1-2, 5-7 [AR]} \gresetinitiallines{1} \gresetlyriccentering{syllable}  \gregorioscore{chants/canticle--salus-et-honor--d--english} \newpage
+
+ \subsubsection{Lectio brevis}     \hfill Heb 12:22-24    \input{readings/lectio_brevis_Heb.12.22-24.tex}
+
+ \subsubsection{Responsorium brevis}  \greannotation{VI} \index[Responsorium brevis]{Magnus Dominus noster} \label{Magnus Dominus noster (Responsorium brevis)} \grecommentary[0pt]{Ps 146:5 [AR]} \gresetinitiallines{1} \gresetlyriccentering{vowel}  \gregorioscore{chants/rb--magnus_dominus_noster--solesmes} \newpage
+
+  \subsubsection{Antiphona ad Magnificat}  \greannotation{VIII \textsc{g}} \index[Antiphona ad Magnificat]{Non potest arbor bona} \label{Non potest arbor bona (Antiphona ad Magnificat)} \grecommentary[0pt]{Mt 7:18 [AR]} \gresetinitiallines{1}  \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/an--non_potest_arbor_bona--solesmes-op} \vspace{5pt} \emph{A good tree cannot bear bad fruit, nor can a bad tree bear good fruit.}
+
+ \subsubsection{Canticum Evangelicum} \paragraph{The soul rejoices in the Lord} \greannotation{VII a} \index[Canticum Evangelicum]{} \label{ (Canticum Evangelicum)} \grecommentary[2pt]{Lc 1:46-55} \gresetinitiallines{1} \gresetlyriccentering{vowel}  \gregorioscore{chants/magnificat8G-c3} \input{chants/magnificat-translation}
+
+ \subsubsection{Preces}   \index[Preces]{Week IV, Sunday, Second Vespers} \label{Week IV, Sunday, Second Vespers (Preces)}     \input{intercessions/intercessions-ot-sunday-week-4-2nd-vespers}
+
+ \newpage
+
+ \subsubsection{Pater noster}   \index[Pater noster]{Pater noster} \label{Pater noster (Pater noster)}   \grechangedim{spaceabovelines}{0.4 cm}{scalable}  \gregorioscore{chants/or--pater_noster_a--solesmes-T} \grechangedim{spaceabovelines}{0 cm}{scalable}
+
+ \newpage
+
+ \subsubsection{Oratio conclusiva}     \input{prayers/or-ordinary-time.08}
+ \subsubsection{Ritus conclusionis}         \par \Vbar. The Lord be with you. \par \Rbar. And with your spirit. \par \Vbar. May almighty God bless you, the Father, and the Son, and the Holy Spirit. \par \Rbar. Amen.
+ \subsubsection{Benedicamus Domino}   \index[Benedicamus Domino]{Sundays} \label{Sundays (Benedicamus Domino)}      \gregorioscore{chants/misc.benedicamus.dominio.4-T}
+
+
+
+
+ \end{document}

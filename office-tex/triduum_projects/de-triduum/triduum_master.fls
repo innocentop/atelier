@@ -277,3 +277,12 @@ INPUT ./psalms/grundonnerstag.benedictus.tex
 INPUT ./psalms/grundonnerstag.benedictus.tex
 OUTPUT triduum_master.gsnippet
 OUTPUT triduum_master.gsniplog
+INPUT chants/misc.versus_litanici_in_cantu_feria_v.gabc
+INPUT ./chants/misc.versus_litanici_in_cantu_feria_v-5_0_0-rc1.gtex
+INPUT ./varia/vater_unser.tex
+INPUT ./varia/vater_unser.tex
+INPUT ./prayers/or-holy-week-holy_thursday-de.tex
+INPUT ./prayers/or-holy-week-holy_thursday-de.tex
+INPUT ./triduum_master.aux
+INPUT ./triduum_master.out
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

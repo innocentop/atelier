@@ -215,6 +215,16 @@ INPUT ./02_T.7.5.Fifth_Sunday_of_Easter_2nd_Vespers_B.out
 OUTPUT 02_T.7.5.Fifth_Sunday_of_Easter_2nd_Vespers_B.pdf
 INPUT ./02_T.7.5.Fifth_Sunday_of_Easter_2nd_Vespers_B.out
 OUTPUT 02_T.7.5.Fifth_Sunday_of_Easter_2nd_Vespers_B.out
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT chants/misc.deus_in_adjutorium.gabc
 INPUT ./chants/misc.deus_in_adjutorium-5_0_0-rc1.gtex
 INPUT chants/hy--ad_cenam_agni--english.gabc
@@ -225,7 +235,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT chants/an--sedes_tua_deus--solesmes-op.gabc

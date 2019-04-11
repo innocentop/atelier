@@ -182,7 +182,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/lualatex/lualatex-math/lualatex-mat
 INPUT /usr/local/texlive/2018/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
-INPUT /usr/local/texlive/2018/texmf-dist/tex/luatex/luaotfload/luaotfload-glyphlist.lua
+INPUT /Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/latinmodern-math.luc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm

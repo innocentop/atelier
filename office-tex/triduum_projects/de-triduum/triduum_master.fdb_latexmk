@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1554896125 "triduum_master.tex" "triduum_master.pdf" "triduum_master" 1554896196
+["lualatex"] 1554969894 "triduum_master.tex" "triduum_master.pdf" "triduum_master" 1554969967
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554894764 763736 f0df6e7920c060b496407fad9ca13653 ""
@@ -9,6 +9,7 @@
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-op.luc" 1554894767 785180 32b416e836f3f65915b92f6bcf542576 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc" 1554894764 785150 5f2eefbb289d682e462deba27b1d5919 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greextra.luc" 1554894765 13197 83bda2d1731c648396c69231d90e355a ""
+  "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/latinmodern-math.luc" 1554896130 560214 e962c9fcf7754afefb51ec957561528d ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1554894768 130975 a9704c0f671971b8c9e6b7f9c3234252 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1554894769 138894 3ad1b1e7ad955614b85047f9fe9cac18 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1554894764 129924 a000b8cacfe86576979fceca2937401b ""
@@ -133,7 +134,6 @@
   "/usr/local/texlive/2018/texmf-dist/tex/luatex/lualibs/lualibs-extended-merged.lua" 1551133342 99095 f4387a3380b6c3221b96f52c0bda5dfe ""
   "/usr/local/texlive/2018/texmf-dist/tex/luatex/lualibs/lualibs-extended.lua" 1551133342 4863 71ebb63cd7b26b0bd5592f889e94f08d ""
   "/usr/local/texlive/2018/texmf-dist/tex/luatex/luamplib/luamplib.sty" 1538173870 7809 5f42c6958b8c65db30b9a0135d00321e ""
-  "/usr/local/texlive/2018/texmf-dist/tex/luatex/luaotfload/luaotfload-glyphlist.lua" 1551133370 102477 d0978a0cf8893cc125194af6bd2acf65 ""
   "/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1480098845 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2018/texmf-var/tex/generic/config/language.dat" 1554891193 6573 a55a435c448b23287901479c07b248c0 ""
   "/usr/local/texlive/2018/texmf-var/web2c/luatex/lualatex.fmt" 1554891264 1370503 d8d07f864740c4154431bb695f061fdc ""
@@ -160,19 +160,19 @@
   "readings/lectio_altera--ex_homilia_melitonis_sardiani--Holy_Thursday--de.tex" 1554878604 2135 2f9f16a5c89623ec9de1ae2f862aba79 ""
   "readings/lectio_brevis_Heb.2.9-10--de.tex" 1554880364 352 fdb2073baea2fbb0173d4243cbe5d064 ""
   "readings/responsorium-brevis-donnerstag.tex" 1554880459 334 47458c03c747d3db7c7acff39e7632e8 ""
-  "triduum_master.aux" 1554896196 4651 86ec85da94e471194d4ebafb7e4ea208 ""
+  "triduum_master.aux" 1554969966 4651 86ec85da94e471194d4ebafb7e4ea208 ""
   "triduum_master.gaux" 1554895807 6153 6357aea0e4ff9c2a1c02dbc421c8b2af ""
-  "triduum_master.out" 1554896196 429 8a3fdcd47a42e40d66cf4a037a7f74bb ""
-  "triduum_master.tex" 1554896124 9812 451a4a69717527e0cb6eec37d5ce6089 ""
+  "triduum_master.out" 1554969966 429 8a3fdcd47a42e40d66cf4a037a7f74bb ""
+  "triduum_master.tex" 1554969892 9895 34e4fb7de0a91956a8c991164fc81644 ""
   "varia/schlusssegen.tex" 1554881549 215 9d26a717f1c4189323d0b737bfee2a91 ""
   (generated)
-  "triduum_master.pdf"
-  "triduum_master.aux"
-  "triduum_master.out"
   "triduum_master.log"
+  "triduum_master.aux"
+  "triduum_master.pdf"
   "incipit.idx"
-["makeindex incipit.idx"] 1554877854 "incipit.idx" "incipit.ind" "incipit" 1554896196
-  "incipit.idx" 1554896128 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "triduum_master.out"
+["makeindex incipit.idx"] 1554877854 "incipit.idx" "incipit.ind" "incipit" 1554969967
+  "incipit.idx" 1554969897 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1555059520 "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.tex" "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.pdf" "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C" 1555059573
+["lualatex"] 1555059764 "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.tex" "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.pdf" "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C" 1555059815
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -134,10 +134,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.aux" 1555059572 4209 1ee0592283cb3e781f600e9042b7baf9 ""
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.gaux" 1555059519 3843 893f2e0c9ac9a2b1957aa048e257d99f ""
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.out" 1555059572 141 00493c6cc6cc5adde362ded226482891 ""
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.tex" 1555059412 11675 b206589404e2b6ded1607e88559b254a ""
+  "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.aux" 1555059814 4209 39c3d6047546f08127a75253991a2322 ""
+  "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.gaux" 1555059763 3843 e52f83736f73d5ef7f64c5fc53149e4f ""
+  "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.out" 1555059814 141 00493c6cc6cc5adde362ded226482891 ""
+  "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.tex" 1555059660 11566 7a8379efab34903eeb9b2c3c1260d99d ""
   "chants/an--angelus_autem_domini--dominican--id_6988-5_2_1.gtex" 1555059432 14247 e2d5b418b1068a47785750dc2b78095f ""
   "chants/an--angelus_autem_domini--dominican--id_6988.gabc" 1513711955 498 0e8070b666f1ee08124d5337c3305997 ""
   "chants/an--cum_esset_sero--dominican--id_5636-5_2_1.gtex" 1555059447 16870 06368e15976ab82f0df2870ed7d809ae ""
@@ -161,20 +161,20 @@
   "chants/rp--haec_dies--dominican.gabc" 1515527945 874 17b4042d90a45f1d5b430cb55315ffc8 ""
   "chants/va--ite_in_pace_alleluia--solesmes-op-5_2_1.gtex" 1555059465 9758 8639f4876017f5a23f7fa03c821873e1 ""
   "chants/va--ite_in_pace_alleluia--solesmes-op.gabc" 1554877389 416 453e1757092cc7c2fc463da8e4d68089 ""
-  "incipit.ind" 1555059467 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1555059712 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "intercessions/intercessions-easter-1-sunday-second-vespers.tex" 1554877389 1148 9582b5312ca2eb90d67c42967f747ddf ""
   "prayers/or-easter-1.tex" 1554877389 446 f7cb5d53aefc5ccdacaf2e12d20e5671 ""
   "psalms/psalm109english2-2.tex" 1513711958 1306 f429f69c03dd125736eaa690f87a7019 ""
   "psalms/psalm113Aenglish2-2.tex" 1513711958 1157 bc579ccf9f626b18a7b5018ec03ebc3a ""
   "readings/lectio_brevis_Heb.10.12-14.tex" 1513711958 243 7535e3e0c98f8a665a4f078898c98c72 ""
   (generated)
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.aux"
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.out"
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.log"
+  "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.aux"
   "incipit.idx"
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.pdf"
-["makeindex incipit.idx"] 1555059467 "incipit.idx" "incipit.ind" "incipit" 1555059573
-  "incipit.idx" 1555059523 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.pdf"
+  "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.log"
+  "02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.out"
+["makeindex incipit.idx"] 1555059712 "incipit.idx" "incipit.ind" "incipit" 1555059815
+  "incipit.idx" 1555059767 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ilg"
   "incipit.ind"
+  "incipit.ilg"

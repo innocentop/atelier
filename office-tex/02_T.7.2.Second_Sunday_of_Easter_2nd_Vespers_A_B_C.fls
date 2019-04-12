@@ -1,7 +1,7 @@
 PWD /Users/atelier/Documents/GitHub/atelier/office-tex
 INPUT /usr/local/texlive/2018/texmf-var/web2c/luatex/lualatex.fmt
-INPUT ./02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.tex
-OUTPUT 02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.log
+INPUT ./02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.tex
+OUTPUT 02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua
 INPUT /usr/local/texlive/2018/texmf-dist/tex/luatex/lualibs/lualibs-basic-merged.lua
 INPUT /usr/local/texlive/2018/texmf-dist/tex/luatex/lualibs/lualibs-compat.lua
@@ -66,7 +66,7 @@ INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-common.t
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-nabc.lua
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-signs.lua
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua
-INPUT 02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.gaux
+INPUT 02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.gaux
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-spaces.tex
 INPUT /Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc
 INPUT /Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc
@@ -210,9 +210,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
-INPUT ./02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.aux
-INPUT ./02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.aux
-OUTPUT 02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.aux
+INPUT ./02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.aux
+INPUT ./02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.aux
+OUTPUT 02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -225,12 +225,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT ./02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.out
-INPUT ./02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.out
-INPUT ./02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.out
-INPUT ./02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.out
-OUTPUT 02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.pdf
-OUTPUT 02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.out
+INPUT ./02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.out
+INPUT ./02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.out
+INPUT ./02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.out
+INPUT ./02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.out
+OUTPUT 02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.pdf
+OUTPUT 02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.out
 INPUT ./chants/misc.deus_in_adjutorium.gabc
 INPUT ./chants/misc.deus_in_adjutorium-5_2_1.gtex
 INPUT ./chants/hy--ad_cenam_agni--english.gabc
@@ -265,4 +265,4 @@ INPUT ./prayers/or-easter-1.tex
 INPUT ./prayers/or-easter-1.tex
 INPUT ./chants/va--ite_in_pace_alleluia--solesmes-op.gabc
 INPUT ./chants/va--ite_in_pace_alleluia--solesmes-op-5_2_1.gtex
-INPUT ./02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C.aux
+INPUT ./02_T.7.2.Second_Sunday_of_Easter_2nd_Vespers_A_B_C.aux

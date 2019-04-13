@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1555070089 "1_T.6.6.Good_Friday.tex" "1_T.6.6.Good_Friday.pdf" "1_T.6.6.Good_Friday" 1555070181
+["lualatex"] 1555079124 "1_T.6.6.Good_Friday.tex" "1_T.6.6.Good_Friday.pdf" "1_T.6.6.Good_Friday" 1555079216
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -131,10 +131,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_T.6.6.Good_Friday.aux" 1555070181 4221 73e129b699efdf957e032b3332095df1 ""
+  "1_T.6.6.Good_Friday.aux" 1555079215 4221 73e129b699efdf957e032b3332095df1 ""
   "1_T.6.6.Good_Friday.gaux" 1555070088 7807 2d58bb1756578e57d5275c1a366ab2a9 ""
-  "1_T.6.6.Good_Friday.out" 1555070181 448 78866357034461ef5d49b9ce9e36a394 ""
-  "1_T.6.6.Good_Friday.tex" 1555069991 13371 e849a82cd85bcd552fec917252cafe18 ""
+  "1_T.6.6.Good_Friday.out" 1555079215 448 78866357034461ef5d49b9ce9e36a394 ""
+  "1_T.6.6.Good_Friday.tex" 1555079123 13421 538c53e55d9a09539653a29c4804367d ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/an--adoremus--dominican--id_6069-5_2_1.gtex" 1555070058 7249 c81ac8e9f862551c24c6308d853200b6 ""
   "graduale-chants/an--adoremus--dominican--id_6069.gabc" 1513711955 334 b433bea3691c86292252793e792262b0 ""
@@ -165,15 +165,15 @@
   "graduale-chants/tr--domine_exaudi--dominican--id_6980.gabc" 1522261280 2084 63c8c65da80efc61ae6afe0f31ad0f97 ""
   "graduale-chants/tr--eripe_me--dominican--id_7143-5_2_1.gtex" 1555070017 135081 0ccae10900d0464abde679a51dda98b8 ""
   "graduale-chants/tr--eripe_me--dominican--id_7143.gabc" 1555069250 3400 22232321892f5fe4d8d977caf03c766d ""
-  "incipit.ind" 1548605424 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1555071813 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "incipit.idx"
-  "1_T.6.6.Good_Friday.aux"
-  "1_T.6.6.Good_Friday.pdf"
   "1_T.6.6.Good_Friday.log"
+  "1_T.6.6.Good_Friday.pdf"
+  "1_T.6.6.Good_Friday.aux"
   "1_T.6.6.Good_Friday.out"
-["makeindex incipit.idx"] 1522261426 "incipit.idx" "incipit.ind" "incipit" 1555070181
-  "incipit.idx" 1555070092 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "incipit.idx"
+["makeindex incipit.idx"] 1522261426 "incipit.idx" "incipit.ind" "incipit" 1555079216
+  "incipit.idx" 1555079127 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
+  "incipit.ind"

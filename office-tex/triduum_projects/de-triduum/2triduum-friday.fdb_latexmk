@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1555405419 "2triduum-friday.tex" "2triduum-friday.pdf" "2triduum-friday" 1555405490
+["lualatex"] 1555405627 "2triduum-friday.tex" "2triduum-friday.pdf" "2triduum-friday" 1555405697
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -137,10 +137,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "2triduum-friday.aux" 1555405490 4580 d46b0173156978e66b32e830317ae645 ""
+  "2triduum-friday.aux" 1555405696 4580 4081714aeba59f9e4606c1d9c24e24bc ""
   "2triduum-friday.gaux" 1555405016 7053 46a4dff5ea86ed8a5be2772358b3b088 ""
-  "2triduum-friday.out" 1555405490 294 3f224eb1427e8a1d34c84656ade070a5 ""
-  "2triduum-friday.tex" 1555405348 10121 0b5f8a79e28aca7eae85d36f8978a1dc ""
+  "2triduum-friday.out" 1555405696 294 3f224eb1427e8a1d34c84656ade070a5 ""
+  "2triduum-friday.tex" 1555405553 10155 0d0c8cb8a8eeb0bc19cd48bb041f7245 ""
   "chants/gr--christus_factus_est--dominican--id_6737--only-respond-5_2_1.gtex" 1555404354 12548 314a827556dc43d784dd545da0dce34b ""
   "chants/gr--christus_factus_est--dominican--id_6737--only-respond.gabc" 1555404308 449 4e7f4329d2eacd811aced4e3fe996e1d ""
   "chants/herr_offne-5_2_1.gtex" 1554974564 5007 46f1d12216d2fc9ba2a56bb6bf61e7d9 ""
@@ -167,12 +167,12 @@
   "varia/schlusssegen.tex" 1554881549 215 9d26a717f1c4189323d0b737bfee2a91 ""
   (generated)
   "2triduum-friday.out"
-  "incipit.idx"
-  "2triduum-friday.log"
-  "2triduum-friday.aux"
   "2triduum-friday.pdf"
-["makeindex incipit.idx"] 1555343552 "incipit.idx" "incipit.ind" "incipit" 1555405490
-  "incipit.idx" 1555405422 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "incipit.idx"
+  "2triduum-friday.aux"
+  "2triduum-friday.log"
+["makeindex incipit.idx"] 1555343552 "incipit.idx" "incipit.ind" "incipit" 1555405697
+  "incipit.idx" 1555405630 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
+  "incipit.ind"

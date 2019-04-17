@@ -258,8 +258,8 @@ INPUT ./readings/lectio_brevis_Is.52.13-15--de.tex
 INPUT ./readings/lectio_brevis_Is.52.13-15--de.tex
 INPUT ./chants/gr--christus_factus_est--dominican--id_6737--only-respond.gabc
 INPUT ./chants/gr--christus_factus_est--dominican--id_6737--only-respond-5_2_1.gtex
-INPUT ./psalms/grundonnerstag.benedictus.tex
-INPUT ./psalms/grundonnerstag.benedictus.tex
+INPUT ./psalms/karfreitag.benedictus.tex
+INPUT ./psalms/karfreitag.benedictus.tex
 INPUT ./chants/misc.versus_litanici_in_cantu_feria_vi--dominican-de-rubrics.gabc
 INPUT ./chants/misc.versus_litanici_in_cantu_feria_vi--dominican-de-rubrics-5_2_1.gtex
 INPUT ./prayers/or-holy-week-friday-de.tex

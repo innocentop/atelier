@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1555059224 "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.tex" "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.pdf" "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C" 1555059269
+["lualatex"] 1555488881 "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.tex" "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.pdf" "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C" 1555488926
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -134,9 +134,9 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.aux" 1555059268 4140 d763debe444b563f90fe6b68e12c10cc ""
+  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.aux" 1555488926 4140 d763debe444b563f90fe6b68e12c10cc ""
   "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.gaux" 1555059224 2966 31416ffb6af0adfefcef9ac07d3defdb ""
-  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.out" 1555059268 129 d0c8ae931d171deb1b8fbd1389820445 ""
+  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.out" 1555488926 129 d0c8ae931d171deb1b8fbd1389820445 ""
   "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.tex" 1555059132 10905 8ca408f75f0ccba29ec3f1b29d9b068b ""
   "chants/an--appropinquabat_autem--dominican--id_5826-5_2_1.gtex" 1555059152 14920 9db229c8c1b2d7d3ef56f4fd6e391b0d ""
   "chants/an--appropinquabat_autem--dominican--id_5826.gabc" 1513711955 542 2e331db1f7eca5495be2a80e37f3452c ""
@@ -159,21 +159,21 @@
   "chants/or--pater_noster_a--solesmes.gabc" 1513711955 852 e80c0c4b11d0e076a75e5962452529eb ""
   "chants/rb--adoramus_te_christe_simplex--solesmes-op-5_2_1.gtex" 1555059157 26825 8424abf9146676bff53af4637090ac31 ""
   "chants/rb--adoramus_te_christe_simplex--solesmes-op.gabc" 1513711955 843 0f12e5a1a5ae247baec835a6cd2a76f7 ""
-  "incipit.ind" 1555059180 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1555061022 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "intercessions/intercessions-holy-week-1-palm-sunday-2nd-vespers.tex" 1513711955 1214 7897e4742c47ea3ec8aa05d252698075 ""
   "prayers/or-holy-week-1-palm-sunday.tex" 1513711955 384 90c7255fee6820baa4f6ea0430dd286b ""
   "psalms/1petr2_21-24english2-2.tex" 1513711958 1083 445d1e14ef822ee8111d0206cffc1d13 ""
   "psalms/psalm109english3-3.tex" 1513711958 1310 14ef48af7c3ff381dd154f19cf9bc892 ""
   "psalms/psalm113Benglish3-3.tex" 1513711958 2493 312a89be14fb3f665d3e345bbcb32c4d ""
-  "readings/lectio_brevis_Act.13.26b-30.tex" 1513711958 527 36159861d5259ba05fe87d37dd580c5e ""
+  "readings/lectio_brevis_Act.13.26b-30.tex" 1555488858 532 7a1719a8e1599fd6285296dfecd3aebb ""
   (generated)
+  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.out"
+  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.aux"
+  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.log"
   "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.pdf"
   "incipit.idx"
-  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.aux"
-  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.out"
-  "02_T.6.1.Palm.Sunday.2nd_Vespers_A_B_C.log"
-["makeindex incipit.idx"] 1555059180 "incipit.idx" "incipit.ind" "incipit" 1555059269
-  "incipit.idx" 1555059227 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1555059180 "incipit.idx" "incipit.ind" "incipit" 1555488926
+  "incipit.idx" 1555488885 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
+  "incipit.ind"

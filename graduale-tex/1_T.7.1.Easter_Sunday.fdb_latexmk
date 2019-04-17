@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1555076120 "1_T.7.1.Easter_Sunday.tex" "1_T.7.1.Easter_Sunday.pdf" "1_T.7.1.Easter_Sunday" 1555076153
+["lualatex"] 1555488613 "1_T.7.1.Easter_Sunday.tex" "1_T.7.1.Easter_Sunday.pdf" "1_T.7.1.Easter_Sunday" 1555488646
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1554974325 759291 9e920ce49dc26c1d5f943e63b52a89d5 ""
@@ -130,15 +130,15 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_T.7.1.Easter_Sunday.aux" 1555076152 2445 31c78197f334fc3b5fc43375a85d3684 ""
-  "1_T.7.1.Easter_Sunday.gaux" 1555076119 2546 9fa876b7d11dc1d745a5d1b984a791d2 ""
-  "1_T.7.1.Easter_Sunday.out" 1555076152 247 eee8ef9de374e5af0a8bb0ca7e46663d ""
-  "1_T.7.1.Easter_Sunday.tex" 1555075906 8711 29274cbc4e145a4fd2bddaa930750ec0 ""
+  "1_T.7.1.Easter_Sunday.aux" 1555488645 2445 31c78197f334fc3b5fc43375a85d3684 ""
+  "1_T.7.1.Easter_Sunday.gaux" 1555488612 2546 85b55aa2ad916b0d9d398cb90bd8ee27 ""
+  "1_T.7.1.Easter_Sunday.out" 1555488645 247 eee8ef9de374e5af0a8bb0ca7e46663d ""
+  "1_T.7.1.Easter_Sunday.tex" 1555488572 8714 cf113e60ee842b44feaae49175cb2b39 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--pascha_nostrum--dominican--id_7076-c3-5_2_1.gtex" 1555071811 18511 9f07049e6e8a3edceef7b2815cf30f77 ""
   "graduale-chants/al--pascha_nostrum--dominican--id_7076-c3.gabc" 1555071787 578 a17a47c3befbf45a174562441d0d21f3 ""
-  "graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies-5_2_1.gtex" 1555070787 38522 fcf523e010f95cd9327f2649a1d91181 ""
-  "graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies.gabc" 1555070542 1184 c2188ec552605c9fda82da5df66a66e4 ""
+  "graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies-5_2_1.gtex" 1555488602 38522 fcf523e010f95cd9327f2649a1d91181 ""
+  "graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies.gabc" 1555237791 1184 c2188ec552605c9fda82da5df66a66e4 ""
   "graduale-chants/co--pascha_nostrum--dominican--id_6187-5_2_1.gtex" 1555070914 18415 46914a6b929cd3ecfa47ad3b27a74ae9 ""
   "graduale-chants/co--pascha_nostrum--dominican--id_6187.gabc" 1555070895 610 0d9c92c1889ddff984a004cce3749d8f ""
   "graduale-chants/gr--haec_dies_v_confitemini--dominican--id_6471-5_2_1.gtex" 1555076098 34625 7b62dbe9421920a010d7ab6b1dcfdae1 ""
@@ -147,17 +147,17 @@
   "graduale-chants/in--resurrexi--dominican--id_6541.gabc" 1513711955 1174 b4f24f54ef75b990de6ed5ba980c886b ""
   "graduale-chants/of--terra_tremuit--dominican--id_5651-5_2_1.gtex" 1555074814 15783 d5f872608b24683531a3438806725a87 ""
   "graduale-chants/of--terra_tremuit--dominican--id_5651.gabc" 1513711955 476 c78857c5a7b236b904a553782578a1b7 ""
-  "graduale-chants/se--victimae_paschali_laudes--dominican-5_2_1.gtex" 1555074802 43258 330f3782f74b8670db5e75328a0dfd8e ""
-  "graduale-chants/se--victimae_paschali_laudes--dominican.gabc" 1513711955 1258 35846e45017f7430b70625b76fc85fad ""
-  "incipit.ind" 1555071813 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "graduale-chants/se--victimae_paschali_laudes--dominican-5_2_1.gtex" 1555488594 44085 513e73790558c9c37b4dc9bbb326f6d2 ""
+  "graduale-chants/se--victimae_paschali_laudes--dominican.gabc" 1555488288 1279 0e68494deac1f46dbb2a26e14bbd220d ""
+  "incipit.ind" 1555487969 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
   "1_T.7.1.Easter_Sunday.aux"
+  "incipit.idx"
   "1_T.7.1.Easter_Sunday.log"
   "1_T.7.1.Easter_Sunday.pdf"
   "1_T.7.1.Easter_Sunday.out"
-  "incipit.idx"
-["makeindex incipit.idx"] 1555071813 "incipit.idx" "incipit.ind" "incipit" 1555076153
-  "incipit.idx" 1555076123 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1555071813 "incipit.idx" "incipit.ind" "incipit" 1555488646
+  "incipit.idx" 1555488616 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

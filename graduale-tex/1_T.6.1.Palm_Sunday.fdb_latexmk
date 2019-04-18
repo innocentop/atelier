@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1555053896 "1_T.6.1.Palm_Sunday.tex" "1_T.6.1.Palm_Sunday.pdf" "1_T.6.1.Palm_Sunday" 1555053987
+["lualatex"] 1555578605 "1_T.6.1.Palm_Sunday.tex" "1_T.6.1.Palm_Sunday.pdf" "1_T.6.1.Palm_Sunday" 1555578688
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -133,9 +133,9 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_T.6.1.Palm_Sunday.aux" 1555053986 5336 0d97a9767e6525529f320223cdf3cb3e ""
-  "1_T.6.1.Palm_Sunday.gaux" 1555053895 7674 d5999dac456f8f77d6ea99153bde78b9 ""
-  "1_T.6.1.Palm_Sunday.out" 1555053986 363 529c956615e583b72746900f81f7e024 ""
+  "1_T.6.1.Palm_Sunday.aux" 1555578687 5336 0d97a9767e6525529f320223cdf3cb3e ""
+  "1_T.6.1.Palm_Sunday.gaux" 1555578604 7674 c6bf279202f138ab3593b2b0581f048a ""
+  "1_T.6.1.Palm_Sunday.out" 1555578687 363 529c956615e583b72746900f81f7e024 ""
   "1_T.6.1.Palm_Sunday.tex" 1555053699 18546 e4c4657537f4257f60e76d110d38d273 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/an--ave_rex_noster--dominican--id_4606-5_2_1.gtex" 1555053754 35680 7131d8e76634a4ef120c5f8711b8d1c7 ""
@@ -160,8 +160,8 @@
   "graduale-chants/an--turba_multa--dominican--id_7036.gabc" 1521837473 467 000048c92bec9a72db7902c77b147ab4 ""
   "graduale-chants/co--pater_si_non_potest--dominican--id_4841-5_2_1.gtex" 1555053801 8437 8f3e15f765d13303ae832409b7783d60 ""
   "graduale-chants/co--pater_si_non_potest--dominican--id_4841.gabc" 1513711955 377 27c531ce8cc7c3e36c4db6bf67b7f22d ""
-  "graduale-chants/gr--christus_factus_est--dominican--id_6737-5_2_1.gtex" 1555053794 27736 5f90be020b0804aa2ed8949ff861ebe6 ""
-  "graduale-chants/gr--christus_factus_est--dominican--id_6737.gabc" 1513810781 818 3b22aaf679a64fac7b6fc5382271fee7 ""
+  "graduale-chants/gr--christus_factus_est--dominican--id_6737-5_2_1.gtex" 1555578175 27737 cd5cb74d254158c402e3ccd04837d529 ""
+  "graduale-chants/gr--christus_factus_est--dominican--id_6737.gabc" 1555578101 819 d5d5d7da14cd6636dbe90e9c57c092d6 ""
   "graduale-chants/gr--tenuisti_manum--dominican--id_4872-5_2_1.gtex" 1555053767 53548 8a925d30248352fe35c9fadbc615eaaa ""
   "graduale-chants/gr--tenuisti_manum--dominican--id_4872.gabc" 1521836466 1459 e9d15fbb042c5ad7a61a9077cce4fbe7 ""
   "graduale-chants/hy--gloria_laus_et_honor-no-rubrics-5_2_1.gtex" 1555053747 39872 8938ba87ac17631cb8d3b7e1ebcb30f5 ""
@@ -180,15 +180,15 @@
   "graduale-chants/re--ingrediente_domino--dominican.gabc" 1554901961 835 72cadf86ad10ad1de810fd24b7a84fb9 ""
   "graduale-chants/tr--deus_deus_meus--dominican-5_2_1.gtex" 1555053774 152707 06c07245a7223b8e325bb0ee98258a12 ""
   "graduale-chants/tr--deus_deus_meus--dominican.gabc" 1521124908 3924 6712ab7d26214d0580797e314d2d9ecd ""
-  "incipit.ind" 1548605424 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1555491105 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_T.6.1.Palm_Sunday.log"
-  "1_T.6.1.Palm_Sunday.pdf"
-  "incipit.idx"
-  "1_T.6.1.Palm_Sunday.aux"
   "1_T.6.1.Palm_Sunday.out"
-["makeindex incipit.idx"] 1521760288 "incipit.idx" "incipit.ind" "incipit" 1555053987
-  "incipit.idx" 1555053897 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "incipit.idx"
+  "1_T.6.1.Palm_Sunday.log"
+  "1_T.6.1.Palm_Sunday.aux"
+  "1_T.6.1.Palm_Sunday.pdf"
+["makeindex incipit.idx"] 1521760288 "incipit.idx" "incipit.ind" "incipit" 1555578688
+  "incipit.idx" 1555578605 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

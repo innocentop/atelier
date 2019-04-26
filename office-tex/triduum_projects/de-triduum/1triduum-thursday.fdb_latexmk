@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1555577177 "1triduum-thursday.tex" "1triduum-thursday.pdf" "1triduum-thursday" 1555577251
+["lualatex"] 1555665957 "1triduum-thursday.tex" "1triduum-thursday.pdf" "1triduum-thursday" 1555666029
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -137,9 +137,9 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1triduum-thursday.aux" 1555577251 4531 2df4e1352a62a56cf91b35b497f9b9ac ""
+  "1triduum-thursday.aux" 1555666029 4531 2df4e1352a62a56cf91b35b497f9b9ac ""
   "1triduum-thursday.gaux" 1555577177 6776 60b7b60a7c8f8e5556fefbc314969337 ""
-  "1triduum-thursday.out" 1555577251 299 d7c26a75c57a99c78b078e63cbb8eb8d ""
+  "1triduum-thursday.out" 1555666029 299 d7c26a75c57a99c78b078e63cbb8eb8d ""
   "1triduum-thursday.tex" 1555577084 9636 eab89d156feee806e2d286af365cd7be ""
   "chants/herr_offne-5_2_1.gtex" 1554974564 5007 46f1d12216d2fc9ba2a56bb6bf61e7d9 ""
   "chants/herr_offne.gabc" 1553608147 168 52e544746ae0f98bab19e72e567ddd94 ""
@@ -156,7 +156,7 @@
   "chants/versiculum_thursday.gabc" 1553608147 192 c09aef8c56aab2336597c7cf54fbbeca ""
   "incipit.ind" 1555442219 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "prayers/or-holy-week-holy_thursday-de.tex" 1553608147 319 9d02c73e3ce9b91d1a4f1acb3a1fcdd2 ""
-  "psalms/grundonnerstag.benedictus.tex" 1555576619 2180 33081e564ac1936c929fa4f068ba9449 ""
+  "psalms/grundonnerstag.benedictus.tex" 1555658477 2187 b6e0080da7ff9486dfa18be171fc2d7b ""
   "psalms/grundonnerstag.mp.psalmody.tex" 1555403401 6672 e08e437eb703e35f056da2e57fbef1ce ""
   "psalms/grundonnerstag.oor.psalmody.tex" 1554976259 4664 fed4b027b2f69734ad08b6b2aafce296 ""
   "psalms/invitatorium_im_kreuz.tex" 1555509507 3827 5dd332448833e1a55f8d9b6e78deeca2 ""
@@ -165,13 +165,13 @@
   "readings/responsorium-brevis-donnerstag.tex" 1554880459 334 47458c03c747d3db7c7acff39e7632e8 ""
   "varia/schlusssegen.tex" 1554881549 215 9d26a717f1c4189323d0b737bfee2a91 ""
   (generated)
-  "1triduum-thursday.pdf"
   "1triduum-thursday.out"
-  "1triduum-thursday.aux"
+  "1triduum-thursday.pdf"
   "incipit.idx"
+  "1triduum-thursday.aux"
   "1triduum-thursday.log"
-["makeindex incipit.idx"] 1555342339 "incipit.idx" "incipit.ind" "incipit" 1555577251
-  "incipit.idx" 1555577181 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1555342339 "incipit.idx" "incipit.ind" "incipit" 1555666029
+  "incipit.idx" 1555666013 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

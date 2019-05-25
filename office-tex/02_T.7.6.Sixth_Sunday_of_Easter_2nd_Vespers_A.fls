@@ -1,7 +1,7 @@
 PWD /Users/misericordia/Documents/GitHub/atelier/office-tex
 INPUT /usr/local/texlive/2018/texmf-var/web2c/luatex/lualatex.fmt
-INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.tex
-OUTPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.log
+INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.tex
+OUTPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/luatex/lualibs/lualibs-basic.lua
 INPUT /usr/local/texlive/2018/texmf-dist/tex/luatex/lualibs/lualibs-lua.lua
 INPUT /usr/local/texlive/2018/texmf-dist/tex/luatex/lualibs/lualibs-package.lua
@@ -95,7 +95,7 @@ INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-common.t
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-nabc.lua
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-signs.lua
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua
-INPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.gaux
+INPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.gaux
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-spaces.tex
 INPUT /Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc
 INPUT /Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc
@@ -232,9 +232,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
-INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.aux
-INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.aux
-OUTPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.aux
+INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.aux
+INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.aux
+OUTPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -247,12 +247,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.out
-INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.out
-INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.out
-INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.out
-OUTPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.pdf
-OUTPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.out
+INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.out
+INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.out
+INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.out
+INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.out
+OUTPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.pdf
+OUTPUT 02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.out
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -269,8 +269,8 @@ INPUT ./chants/canticle--salus-et-honor--8--english-5_0_0-rc1.gtex
 INPUT ./readings/lectio_brevis_Heb.10.12-14.tex
 INPUT ./readings/lectio_brevis_Heb.10.12-14.tex
 INPUT ./chants/rb--surrexit_dominus_vere--op-5_0_0-rc1.gtex
-INPUT ./chants/an--audistis_quia_dixi--solesmes-op-5_0_0-rc1.gtex
-INPUT ./chants/magnificat7a-5_0_0-rc1.gtex
+INPUT ./chants/an--adhuc_modicum--solesmes-op-5_0_0-rc1.gtex
+INPUT ./chants/magnificat5-5_0_0-rc1.gtex
 INPUT ./chants/magnificat-translation.tex
 INPUT ./chants/magnificat-translation.tex
 INPUT ./intercessions/intercessions-easter-6-sunday-second-vespers.tex
@@ -279,4 +279,4 @@ INPUT ./chants/or--pater_noster_a--solesmes-5_0_0-rc1.gtex
 INPUT ./prayers/or-easter-6.tex
 INPUT ./prayers/or-easter-6.tex
 INPUT ./chants/misc.benedicamus.dominio.alleluia.1-5_0_0-rc1.gtex
-INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_C.aux
+INPUT ./02_T.7.6.Sixth_Sunday_of_Easter_2nd_Vespers_A.aux

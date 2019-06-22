@@ -229,6 +229,9 @@ INPUT ./1_Rituales_4--Pro_sponsis.out
 INPUT ./1_Rituales_4--Pro_sponsis.out
 OUTPUT 1_Rituales_4--Pro_sponsis.pdf
 OUTPUT 1_Rituales_4--Pro_sponsis.out
+INPUT ./alteliersaintjacques-shell.png
+INPUT ./alteliersaintjacques-shell.png
+INPUT ./alteliersaintjacques-shell.png
 INPUT ./graduale-chants/in--deus_israel--dominican--id_4300.gabc
 INPUT ./graduale-chants/in--deus_israel--dominican--id_4300-5_2_1.gtex
 INPUT ./graduale-chants/gr--uxor_tua--dominican--id_6249.gabc

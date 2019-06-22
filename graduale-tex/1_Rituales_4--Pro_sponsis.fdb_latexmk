@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1560687007 "1_Rituales_4--Pro_sponsis.tex" "1_Rituales_4--Pro_sponsis.pdf" "1_Rituales_4--Pro_sponsis" 1560687033
+["lualatex"] 1561219938 "1_Rituales_4--Pro_sponsis.tex" "1_Rituales_4--Pro_sponsis.pdf" "1_Rituales_4--Pro_sponsis" 1561219967
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -131,10 +131,11 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_Rituales_4--Pro_sponsis.aux" 1560687033 2346 2fa4fe1194642ad57a6cefc72f39e8d3 ""
+  "1_Rituales_4--Pro_sponsis.aux" 1561219967 2346 2fa4fe1194642ad57a6cefc72f39e8d3 ""
   "1_Rituales_4--Pro_sponsis.gaux" 1560686980 2542 c95e1fe80b67738f1dfb73fa486fbf0c ""
-  "1_Rituales_4--Pro_sponsis.out" 1560687033 206 ae3603613c3bce46d635c5a2f3716e96 ""
-  "1_Rituales_4--Pro_sponsis.tex" 1560686950 7801 5b50570d6abe11f4bcaf8bde73dde9c4 ""
+  "1_Rituales_4--Pro_sponsis.out" 1561219967 206 ae3603613c3bce46d635c5a2f3716e96 ""
+  "1_Rituales_4--Pro_sponsis.tex" 1561219937 7991 7a4ed9a3ddaf1154abddb274429cd3ce ""
+  "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--benedicat_vobis--dominican--id_5811-5_2_1.gtex" 1560686973 20957 55af15e3348c2e1923cf07f0837bb3ea ""
   "graduale-chants/al--benedicat_vobis--dominican--id_5811.gabc" 1524853193 634 054304b23ae3a025be276c32d379b2e3 ""
   "graduale-chants/al--mittat_vobis--dominican--id_5742-5_2_1.gtex" 1560686967 16868 eeb58b25db3636e9f109b8c207514e97 ""
@@ -149,15 +150,15 @@
   "graduale-chants/of--in_te_speravi--dominican--id_6005--tp--alleluia.gabc" 1513711955 592 807a34b49478b1357dd00aedbf28e3b1 ""
   "graduale-chants/tr--ecce_sic_benedicetur--dominican--id_5644-5_2_1.gtex" 1560686969 37741 fcb5f6b2baf4aea18fe98659b389b71e ""
   "graduale-chants/tr--ecce_sic_benedicetur--dominican--id_5644.gabc" 1513711955 1044 37807f5aa9f7087cb9ea649e091693ed ""
-  "incipit.ind" 1560686980 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1560687603 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_Rituales_4--Pro_sponsis.out"
   "incipit.idx"
   "1_Rituales_4--Pro_sponsis.aux"
-  "1_Rituales_4--Pro_sponsis.log"
   "1_Rituales_4--Pro_sponsis.pdf"
-["makeindex incipit.idx"] 1560686980 "incipit.idx" "incipit.ind" "incipit" 1560687033
-  "incipit.idx" 1560687010 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_Rituales_4--Pro_sponsis.log"
+  "1_Rituales_4--Pro_sponsis.out"
+["makeindex incipit.idx"] 1560686980 "incipit.idx" "incipit.ind" "incipit" 1561219967
+  "incipit.idx" 1561219942 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

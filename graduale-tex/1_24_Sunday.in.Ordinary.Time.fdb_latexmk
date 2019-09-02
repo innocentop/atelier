@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1567427347 "1_24_Sunday.in.Ordinary.Time.tex" "1_24_Sunday.in.Ordinary.Time.pdf" "1_24_Sunday.in.Ordinary.Time" 1567427380
+["lualatex"] 1567430218 "1_24_Sunday.in.Ordinary.Time.tex" "1_24_Sunday.in.Ordinary.Time.pdf" "1_24_Sunday.in.Ordinary.Time" 1567430241
   "/Users/misericordia/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1556876110 763217 b35d035bde6d7e2eaf78540c645d8fab ""
   "/Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1556876108 758893 836c7a3e1fa400ad2e390ad07f5969f7 ""
@@ -144,7 +144,6 @@
   "/usr/local/texlive/2018/texmf-var/tex/generic/config/language.dat" 1523934486 6539 8970f26ad6444c6f1b5b6efbca20a7d7 ""
   "/usr/local/texlive/2018/texmf-var/web2c/luatex/lualatex.fmt" 1523934521 1360357 209de5184a1007f399e83ec8ebc7a3d8 ""
   "/usr/local/texlive/texmf-local/fonts/truetype/public/gregoriotex/greciliae-op.ttf" 1491352305 1071420 214bad829d333f206bd73a3b0001cb28 ""
-  "/usr/local/texlive/texmf-local/fonts/truetype/public/gregoriotex/greextra.ttf" 1491352305 24748 fd6543697895c9b011de6475bb5e1f4e ""
   "/usr/local/texlive/texmf-local/tex/lualatex/gregoriotex/gregoriosyms.sty" 1491352305 2963 e313e2e7f7f5ec6525b83d0fa38de8b7 ""
   "/usr/local/texlive/texmf-local/tex/lualatex/gregoriotex/gregoriotex.sty" 1491352305 6310 d47e528fda311a58406e635cfffe091a ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-chars.tex" 1491352305 8133 fed05b80a696e9a3afc9659ed56b9194 ""
@@ -159,21 +158,21 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1491352305 2173 9b2a6cd3d1da38e2372aa4a7498340ae ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1491352305 8179 eb4f2cd33e31580188989c685f339453 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1491352305 23755 ba898fe17686fbc8c1386ba8ba76045e ""
-  "1_24_Sunday.in.Ordinary.Time.aux" 1567427378 1148 d4056888d37c57c48a712c57502a4b1b ""
-  "1_24_Sunday.in.Ordinary.Time.gaux" 1567427341 533 cbf388baecf769f739c3c34d759ff090 ""
-  "1_24_Sunday.in.Ordinary.Time.out" 1567427378 138 a02738d992b77913f0816c21605ff847 ""
-  "1_24_Sunday.in.Ordinary.Time.tex" 1567427284 4624 b7703507c74ee7d362d92f5fe89557e3 ""
+  "1_24_Sunday.in.Ordinary.Time.aux" 1567430239 1154 e23ae8a6cc13ab782feaadaa2d379cf9 ""
+  "1_24_Sunday.in.Ordinary.Time.gaux" 1567430217 644 a5e5320cba83b3c26df9415e1cc81d40 ""
+  "1_24_Sunday.in.Ordinary.Time.out" 1567430239 138 a02738d992b77913f0816c21605ff847 ""
+  "1_24_Sunday.in.Ordinary.Time.tex" 1567430200 4569 4eaf020a4c3d11498b4a5ba82080eeb2 ""
   "alteliersaintjacques-shell.png" 1513456269 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/al--timebunt_gentes--dominican--id_7135-5_0_0-rc1.gtex" 1567427331 25986 d397722a23e09f9cd48d649631266daf ""
+  "graduale-chants/of--precatus_est--dominican--id_5655-5_0_0-rc1.gtex" 1567430213 45583 26545ed848f79373158d1fa5100a1a5f ""
   "incipit.ind" 1567425242 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
+  "1_24_Sunday.in.Ordinary.Time.log"
   "1_24_Sunday.in.Ordinary.Time.pdf"
   "1_24_Sunday.in.Ordinary.Time.out"
-  "1_24_Sunday.in.Ordinary.Time.log"
-  "incipit.idx"
   "1_24_Sunday.in.Ordinary.Time.aux"
-["makeindex incipit.idx"] 1567425241 "incipit.idx" "incipit.ind" "incipit" 1567427380
-  "incipit.idx" 1567427360 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "incipit.idx"
+["makeindex incipit.idx"] 1567425241 "incipit.idx" "incipit.ind" "incipit" 1567430241
+  "incipit.idx" 1567430227 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

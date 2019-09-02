@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1567425273 "1_24_Sunday.in.Ordinary.Time.tex" "1_24_Sunday.in.Ordinary.Time.pdf" "1_24_Sunday.in.Ordinary.Time" 1567425306
+["lualatex"] 1567425574 "1_24_Sunday.in.Ordinary.Time.tex" "1_24_Sunday.in.Ordinary.Time.pdf" "1_24_Sunday.in.Ordinary.Time" 1567425615
   "/Users/misericordia/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1556876110 763217 b35d035bde6d7e2eaf78540c645d8fab ""
   "/Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1556876108 758893 836c7a3e1fa400ad2e390ad07f5969f7 ""
@@ -159,21 +159,21 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1491352305 2173 9b2a6cd3d1da38e2372aa4a7498340ae ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1491352305 8179 eb4f2cd33e31580188989c685f339453 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1491352305 23755 ba898fe17686fbc8c1386ba8ba76045e ""
-  "1_24_Sunday.in.Ordinary.Time.aux" 1567425305 1141 61490747433924948733b0604cbbdde1 ""
-  "1_24_Sunday.in.Ordinary.Time.gaux" 1567425239 378 dbef8f27f3e3bcebd29609f86c71f4fe ""
-  "1_24_Sunday.in.Ordinary.Time.out" 1567425305 138 a02738d992b77913f0816c21605ff847 ""
-  "1_24_Sunday.in.Ordinary.Time.tex" 1567425210 4794 d2b441ce9ab91fa13064c47df46f51a2 ""
+  "1_24_Sunday.in.Ordinary.Time.aux" 1567425612 1141 61490747433924948733b0604cbbdde1 ""
+  "1_24_Sunday.in.Ordinary.Time.gaux" 1567425569 378 ce5ed4f16d32fd3a58a0b974bd231cd3 ""
+  "1_24_Sunday.in.Ordinary.Time.out" 1567425612 138 a02738d992b77913f0816c21605ff847 ""
+  "1_24_Sunday.in.Ordinary.Time.tex" 1567425526 4795 70e89a2fe5e235cd216b5defa3b8c583 ""
   "alteliersaintjacques-shell.png" 1513456269 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/in--da_pacem--dominican--id_4275-5_0_0-rc1.gtex" 1567425231 33931 72483ec981279dda6b13db7c16fc6209 ""
+  "graduale-chants/in--da_pacem--dominican--id_4275-5_0_0-rc1.gtex" 1567425553 33886 1eac32385ac72fbb3cc9cf33c3559009 ""
   "incipit.ind" 1567425242 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_24_Sunday.in.Ordinary.Time.out"
-  "1_24_Sunday.in.Ordinary.Time.log"
-  "1_24_Sunday.in.Ordinary.Time.aux"
   "incipit.idx"
+  "1_24_Sunday.in.Ordinary.Time.log"
   "1_24_Sunday.in.Ordinary.Time.pdf"
-["makeindex incipit.idx"] 1567425241 "incipit.idx" "incipit.ind" "incipit" 1567425306
-  "incipit.idx" 1567425281 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_24_Sunday.in.Ordinary.Time.aux"
+  "1_24_Sunday.in.Ordinary.Time.out"
+["makeindex incipit.idx"] 1567425241 "incipit.idx" "incipit.ind" "incipit" 1567425615
+  "incipit.idx" 1567425584 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

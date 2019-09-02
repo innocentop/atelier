@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1567430765 "1_24_Sunday.in.Ordinary.Time.tex" "1_24_Sunday.in.Ordinary.Time.pdf" "1_24_Sunday.in.Ordinary.Time" 1567430811
+["lualatex"] 1567432123 "1_24_Sunday.in.Ordinary.Time.tex" "1_24_Sunday.in.Ordinary.Time.pdf" "1_24_Sunday.in.Ordinary.Time" 1567432142
   "/Users/misericordia/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1556876110 763217 b35d035bde6d7e2eaf78540c645d8fab ""
   "/Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1556876108 758893 836c7a3e1fa400ad2e390ad07f5969f7 ""
@@ -158,21 +158,21 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1491352305 2173 9b2a6cd3d1da38e2372aa4a7498340ae ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1491352305 8179 eb4f2cd33e31580188989c685f339453 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1491352305 23755 ba898fe17686fbc8c1386ba8ba76045e ""
-  "1_24_Sunday.in.Ordinary.Time.aux" 1567430809 1154 e23ae8a6cc13ab782feaadaa2d379cf9 ""
-  "1_24_Sunday.in.Ordinary.Time.gaux" 1567430760 644 f46592e7e9f14878b7c6041f52fcdc6e ""
-  "1_24_Sunday.in.Ordinary.Time.out" 1567430809 138 a02738d992b77913f0816c21605ff847 ""
-  "1_24_Sunday.in.Ordinary.Time.tex" 1567430704 4909 daadbef4df6c09b3a3fcb6b96255963a ""
+  "1_24_Sunday.in.Ordinary.Time.aux" 1567432141 1148 6f860486e1c2ea9f23cefeffc95ed171 ""
+  "1_24_Sunday.in.Ordinary.Time.gaux" 1567432122 326 a2695cd5d8158103cac90d98f05ef313 ""
+  "1_24_Sunday.in.Ordinary.Time.out" 1567432141 138 a02738d992b77913f0816c21605ff847 ""
+  "1_24_Sunday.in.Ordinary.Time.tex" 1567432105 4645 f01286df8506e003f046686032eb2eaa ""
   "alteliersaintjacques-shell.png" 1513456269 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/of--precatus_est--dominican--id_5655-5_0_0-rc1.gtex" 1567430744 45471 6341980f12e79824768fbcd5fde1bdaf ""
+  "graduale-chants/co--tollite_hostias--dominican--id_7153-5_0_0-rc1.gtex" 1567432121 11454 a454e8f70055d2ef75a8fc98486be6cb ""
   "incipit.ind" 1567425242 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
   "1_24_Sunday.in.Ordinary.Time.pdf"
-  "1_24_Sunday.in.Ordinary.Time.aux"
-  "1_24_Sunday.in.Ordinary.Time.log"
-  "incipit.idx"
   "1_24_Sunday.in.Ordinary.Time.out"
-["makeindex incipit.idx"] 1567425241 "incipit.idx" "incipit.ind" "incipit" 1567430811
-  "incipit.idx" 1567430784 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_24_Sunday.in.Ordinary.Time.aux"
+  "incipit.idx"
+  "1_24_Sunday.in.Ordinary.Time.log"
+["makeindex incipit.idx"] 1567425241 "incipit.idx" "incipit.ind" "incipit" 1567432142
+  "incipit.idx" 1567432130 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

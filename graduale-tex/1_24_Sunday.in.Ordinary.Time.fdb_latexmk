@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1567494978 "1_24_Sunday.in.Ordinary.Time.tex" "1_24_Sunday.in.Ordinary.Time.pdf" "1_24_Sunday.in.Ordinary.Time" 1567494986
+["lualatex"] 1567495326 "1_24_Sunday.in.Ordinary.Time.tex" "1_24_Sunday.in.Ordinary.Time.pdf" "1_24_Sunday.in.Ordinary.Time" 1567495334
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1554974325 759291 9e920ce49dc26c1d5f943e63b52a89d5 ""
@@ -130,22 +130,22 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_24_Sunday.in.Ordinary.Time.aux" 1567494986 1228 0d98c97ff90880cd6b36f377483ff987 ""
-  "1_24_Sunday.in.Ordinary.Time.gaux" 1567494978 314 96640b2912b13cec97593005acec80a5 ""
-  "1_24_Sunday.in.Ordinary.Time.out" 1567494986 138 a02738d992b77913f0816c21605ff847 ""
-  "1_24_Sunday.in.Ordinary.Time.tex" 1567494958 4667 35647202cd9de452616ffe50e47720d8 ""
+  "1_24_Sunday.in.Ordinary.Time.aux" 1567495334 1223 633b78b4ccf159511b85b44c9c42057b ""
+  "1_24_Sunday.in.Ordinary.Time.gaux" 1567495325 314 b8df350cc3726e37702b44308ba09416 ""
+  "1_24_Sunday.in.Ordinary.Time.out" 1567495334 138 a02738d992b77913f0816c21605ff847 ""
+  "1_24_Sunday.in.Ordinary.Time.tex" 1567495316 4630 fa4d86fee79552872a69f1d19f2b3fd6 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/co--qui_vult_venire--dominican--id_6924--no-alleluia-5_2_1.gtex" 1567494976 9632 fee9b6f8a2982bdab6b5b6e63476c662 ""
-  "graduale-chants/co--qui_vult_venire--dominican--id_6924--no-alleluia.gabc" 1567494967 465 5c5df96cb5448a2e99ec6ce01660ef5a ""
+  "graduale-chants/co--dico_vobis--dominican--id_7145-5_2_1.gtex" 1567495324 8664 c97ca101189efed2ccc523019f0b9787 ""
+  "graduale-chants/co--dico_vobis--dominican--id_7145.gabc" 1513711955 361 acc64196d72651613c4348aa8746ce6f ""
   "incipit.ind" 1567494655 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_24_Sunday.in.Ordinary.Time.aux"
   "1_24_Sunday.in.Ordinary.Time.pdf"
-  "1_24_Sunday.in.Ordinary.Time.out"
   "incipit.idx"
+  "1_24_Sunday.in.Ordinary.Time.out"
   "1_24_Sunday.in.Ordinary.Time.log"
-["makeindex incipit.idx"] 1567494655 "incipit.idx" "incipit.ind" "incipit" 1567494986
-  "incipit.idx" 1567494981 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_24_Sunday.in.Ordinary.Time.aux"
+["makeindex incipit.idx"] 1567494655 "incipit.idx" "incipit.ind" "incipit" 1567495334
+  "incipit.idx" 1567495329 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ilg"
   "incipit.ind"
+  "incipit.ilg"

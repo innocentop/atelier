@@ -235,6 +235,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT ./alteliersaintjacques-shell.png
 INPUT ./alteliersaintjacques-shell.png
 INPUT ./alteliersaintjacques-shell.png
-INPUT ./graduale-chants/co--qui_vult_venire--dominican--id_6924--no-alleluia.gabc
-INPUT ./graduale-chants/co--qui_vult_venire--dominican--id_6924--no-alleluia-5_2_1.gtex
+INPUT ./graduale-chants/co--dico_vobis--dominican--id_7145.gabc
+INPUT ./graduale-chants/co--dico_vobis--dominican--id_7145-5_2_1.gtex
 INPUT ./1_24_Sunday.in.Ordinary.Time.aux

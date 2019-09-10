@@ -95,6 +95,7 @@ INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-common.t
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-nabc.lua
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-signs.lua
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua
+INPUT 1_25_Sunday.in.Ordinary.Time.gaux
 INPUT /usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-spaces.tex
 INPUT /Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc
 INPUT /Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc

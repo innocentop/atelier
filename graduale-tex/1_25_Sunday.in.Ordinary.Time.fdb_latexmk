@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1568705784 "1_25_Sunday.in.Ordinary.Time.tex" "1_25_Sunday.in.Ordinary.Time.pdf" "1_25_Sunday.in.Ordinary.Time" 1568705815
+["lualatex"] 1568878127 "1_25_Sunday.in.Ordinary.Time.tex" "1_25_Sunday.in.Ordinary.Time.pdf" "1_25_Sunday.in.Ordinary.Time" 1568878161
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1554974325 759291 9e920ce49dc26c1d5f943e63b52a89d5 ""
@@ -131,10 +131,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_25_Sunday.in.Ordinary.Time.aux" 1568705815 2349 3de38199f385a2f507f48cf6fc598d7e ""
-  "1_25_Sunday.in.Ordinary.Time.gaux" 1568705784 2533 83c9e2a12bde90d818b1f7b49e059d60 ""
-  "1_25_Sunday.in.Ordinary.Time.out" 1568705815 138 8160378b33b0cf6cb8ba083f249845ac ""
-  "1_25_Sunday.in.Ordinary.Time.tex" 1568705751 8255 5bd41475323d003e26374eb31ff851b0 ""
+  "1_25_Sunday.in.Ordinary.Time.aux" 1568878160 2349 3de38199f385a2f507f48cf6fc598d7e ""
+  "1_25_Sunday.in.Ordinary.Time.gaux" 1568878126 2533 fab4f4e4f6e87b7608a9ffd4e6929b8b ""
+  "1_25_Sunday.in.Ordinary.Time.out" 1568878160 138 8160378b33b0cf6cb8ba083f249845ac ""
+  "1_25_Sunday.in.Ordinary.Time.tex" 1568878093 8251 9e41148f3bfb8cf6af2a2bf6de5a1866 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--confitemini_et_invocate--dominican--id_5157-5_2_1.gtex" 1568705775 20254 2159251069596d87bc028541d123f04c ""
   "graduale-chants/al--confitemini_et_invocate--dominican--id_5157.gabc" 1568705518 641 67f8a1a9b522ae765e78515a9eab39b6 ""
@@ -152,13 +152,13 @@
   "graduale-chants/of--si_ambulavero--dominican--id_5929.gabc" 1568566364 799 f3191928c30e5396bb02c034d1af6bfb ""
   "incipit.ind" 1568565183 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
+  "1_25_Sunday.in.Ordinary.Time.log"
   "1_25_Sunday.in.Ordinary.Time.aux"
+  "1_25_Sunday.in.Ordinary.Time.out"
   "1_25_Sunday.in.Ordinary.Time.pdf"
   "incipit.idx"
-  "1_25_Sunday.in.Ordinary.Time.out"
-  "1_25_Sunday.in.Ordinary.Time.log"
-["makeindex incipit.idx"] 1568565183 "incipit.idx" "incipit.ind" "incipit" 1568705815
-  "incipit.idx" 1568705788 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1568565183 "incipit.idx" "incipit.ind" "incipit" 1568878161
+  "incipit.idx" 1568878131 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1555057798 "02_T.1_Advent1_Year_A.tex" "02_T.1_Advent1_Year_A.pdf" "02_T.1_Advent1_Year_A" 1572793671
+["lualatex"] 1572797056 "02_T.1_Advent1_Year_A.tex" "02_T.1_Advent1_Year_A.pdf" "02_T.1_Advent1_Year_A" 1572797112
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -135,10 +135,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "02_T.1_Advent1_Year_A.aux" 1555057849 4558 bed989ad3f6ffffb37875a91be8f638d ""
+  "02_T.1_Advent1_Year_A.aux" 1572797111 4558 bed989ad3f6ffffb37875a91be8f638d ""
   "02_T.1_Advent1_Year_A.gaux" 1555057610 3854 9f0e7260dfefcd13aede4f41c2bf4513 ""
-  "02_T.1_Advent1_Year_A.out" 1555057849 127 c5c97dd95b909c76e1626c0c5e9a2cee ""
-  "02_T.1_Advent1_Year_A.tex" 1555057745 10483 91622930be8323b70146e4fe06ce3c18 ""
+  "02_T.1_Advent1_Year_A.out" 1572797111 127 c5c97dd95b909c76e1626c0c5e9a2cee ""
+  "02_T.1_Advent1_Year_A.tex" 1572793679 10479 73e74c5a01aff71d58a0d046eebbd0d8 ""
   "chants/an--ecce_venio_cito--solesmes-5_2_1.gtex" 1555057332 11776 fc407f91c81ba5873c2c668766d3d7e1 ""
   "chants/an--ecce_venio_cito--solesmes.gabc" 1513711955 578 96848d389418d6c5a9cfd78e410f0356 ""
   "chants/an--iucundare_filia--dominican-5_2_1.gtex" 1555057329 11309 764c1d9ec730ef2913c2d79f697817b5 ""
@@ -162,20 +162,20 @@
   "chants/or--pater_noster_a--solesmes-T.gabc" 1513711955 1199 b1ac65e9d2ddab6ea7f25ecace225aa1 ""
   "chants/rb--ostende_nobis--dominican-5_2_1.gtex" 1555054331 24660 746abbbe96a01fe83fe6c8f874ef7839 ""
   "chants/rb--ostende_nobis--dominican.gabc" 1513711955 1005 e31464d22ac0205d234813412e65d492 ""
-  "incipit.ind" 1572789372 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1572796249 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "intercessions/intercessions-advent-1-sunday-2nd-vespers.tex" 1513711955 1044 c0938cac1c8fbd15fb5c698316d86576 ""
   "prayers/or-advent-1.tex" 1513711955 386 4cd991fff26e38bf5806cd4f64df50e1 ""
   "psalms/psalm109english2-2.tex" 1513711958 1306 f429f69c03dd125736eaa690f87a7019 ""
   "psalms/psalm113Aenglish2-3.tex" 1513711958 1157 e89af07f7ade2d1cedeaa65a546e343c ""
   "readings/lectio_brevis_Ph.4.4-5.tex" 1513711958 136 704e9306265d7a62fc6df2366d7b4508 ""
   (generated)
-  "02_T.1_Advent1_Year_A.pdf"
   "incipit.idx"
-  "02_T.1_Advent1_Year_A.log"
-  "02_T.1_Advent1_Year_A.aux"
   "02_T.1_Advent1_Year_A.out"
-["makeindex incipit.idx"] 1555057365 "incipit.idx" "incipit.ind" "incipit" 1572793671
-  "incipit.idx" 1572793090 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "02_T.1_Advent1_Year_A.aux"
+  "02_T.1_Advent1_Year_A.pdf"
+  "02_T.1_Advent1_Year_A.log"
+["makeindex incipit.idx"] 1555057365 "incipit.idx" "incipit.ind" "incipit" 1572797112
+  "incipit.idx" 1572797060 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ilg"
   "incipit.ind"
+  "incipit.ilg"

@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1579431329 "03_02.02-presentation_of_the_lord.tex" "03_02.02-presentation_of_the_lord.pdf" "03_02.02-presentation_of_the_lord" 1579431353
+["lualatex"] 1579431563 "03_02.02-presentation_of_the_lord.tex" "03_02.02-presentation_of_the_lord.pdf" "03_02.02-presentation_of_the_lord" 1579431585
   "/Users/misericordia/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/misericordia/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/misericordia/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1556876110 763217 b35d035bde6d7e2eaf78540c645d8fab ""
@@ -162,25 +162,25 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1491352305 2173 9b2a6cd3d1da38e2372aa4a7498340ae ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1491352305 8179 eb4f2cd33e31580188989c685f339453 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1491352305 23755 ba898fe17686fbc8c1386ba8ba76045e ""
-  "03_02.02-presentation_of_the_lord.aux" 1579431351 1777 26c76e86fb0781f91a127ae4b767ef9e ""
-  "03_02.02-presentation_of_the_lord.gaux" 1579431304 1651 b88da5220994d6e0b4b4c7c2f81250c9 ""
-  "03_02.02-presentation_of_the_lord.out" 1579431351 124 4c0b301a86b4e8e49741925683684069 ""
-  "03_02.02-presentation_of_the_lord.tex" 1579431277 6658 b73c1c387980e4b69c00038c953e256b ""
+  "03_02.02-presentation_of_the_lord.aux" 1579431583 1777 be8b3be7e5829d1c15c9ca6865cdc3ad ""
+  "03_02.02-presentation_of_the_lord.gaux" 1579431561 1651 5743a0f0442a6021ae6c91d2f5c72246 ""
+  "03_02.02-presentation_of_the_lord.out" 1579431583 124 4c0b301a86b4e8e49741925683684069 ""
+  "03_02.02-presentation_of_the_lord.tex" 1579431539 6670 6b6bdcb537798f93a39682578dc2d93f ""
   "chants/an--obtulerunt_pro_eo--dominican--id_6302-5_0_0-rc1.gtex" 1579431303 9327 8733e66ef5265ae4db09649e16064e28 ""
-  "chants/an--responsum_accepit--dominican--id_7146--mode_7-5_0_0-rc1.gtex" 1579431300 11488 6039361c3c4fd981543f473245f251ed ""
+  "chants/an--responsum_accepit--dominican--id_7146--mode_7-5_0_0-rc1.gtex" 1579431559 11527 96256457ba78d72bb228a9ca9fadb3e2 ""
   "chants/hy--ave_maris--latin-with-trans-5_0_0-rc1.gtex" 1513554169 61606 26660bf82479d4c50f1398ff6cc1bd35 ""
   "chants/misc.deus_in_adjutorium-5_0_0-rc1.gtex" 1517627452 20470 a334d201c43b15247c77655b088303b4 ""
   "incipit.ind" 1579431305 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "psalms/psalm109english3-3.tex" 1475797876 1310 14ef48af7c3ff381dd154f19cf9bc892 ""
   "psalms/psalm129english2-2.tex" 1579430978 1199 2d8a6354a2fb1cc5e084e723ce9ce50c ""
   (generated)
-  "03_02.02-presentation_of_the_lord.log"
   "03_02.02-presentation_of_the_lord.aux"
-  "incipit.idx"
   "03_02.02-presentation_of_the_lord.out"
   "03_02.02-presentation_of_the_lord.pdf"
-["makeindex incipit.idx"] 1579431305 "incipit.idx" "incipit.ind" "incipit" 1579431353
-  "incipit.idx" 1579431335 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "03_02.02-presentation_of_the_lord.log"
+  "incipit.idx"
+["makeindex incipit.idx"] 1579431305 "incipit.idx" "incipit.ind" "incipit" 1579431585
+  "incipit.idx" 1579431567 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

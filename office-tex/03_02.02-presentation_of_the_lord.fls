@@ -261,3 +261,8 @@ INPUT ./intercessions/intercessions-sanctorale--02.02--presentation-2nd_vespers.
 INPUT ./intercessions/intercessions-sanctorale--02.02--presentation-2nd_vespers.tex
 INPUT ./chants/or--pater_noster_a--solesmes.gabc
 INPUT ./chants/or--pater_noster_a--solesmes-5_2_1.gtex
+INPUT ./prayers/or-sanctorale--02.02--presentation.tex
+INPUT ./prayers/or-sanctorale--02.02--presentation.tex
+INPUT ./chants/misc.benedicamus.dominio.3.gabc
+INPUT ./chants/misc.benedicamus.dominio.3-5_2_1.gtex
+INPUT ./03_02.02-presentation_of_the_lord.aux

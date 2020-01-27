@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1580153965 "03_02.02-presentation_of_the_lord.tex" "03_02.02-presentation_of_the_lord.pdf" "03_02.02-presentation_of_the_lord" 1580154014
+["lualatex"] 1580155930 "03_02.02-presentation_of_the_lord.tex" "03_02.02-presentation_of_the_lord.pdf" "03_02.02-presentation_of_the_lord" 1580155977
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -134,10 +134,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "03_02.02-presentation_of_the_lord.aux" 1580154013 4222 a99818625c6c8f281ee61fdf985354cd ""
+  "03_02.02-presentation_of_the_lord.aux" 1580155977 4230 3cd13b05808ace2e228dddb47e56531a ""
   "03_02.02-presentation_of_the_lord.gaux" 1580153651 3042 a3470f59c029bc5a65287d9a5d7d97dd ""
-  "03_02.02-presentation_of_the_lord.out" 1580154013 124 4c0b301a86b4e8e49741925683684069 ""
-  "03_02.02-presentation_of_the_lord.tex" 1580153913 11133 5d6030ef3cfb5a514bf160915a94c223 ""
+  "03_02.02-presentation_of_the_lord.out" 1580155977 124 4c0b301a86b4e8e49741925683684069 ""
+  "03_02.02-presentation_of_the_lord.tex" 1580155873 11244 2ecbabb1a030785172b1278e3bcbe69e ""
   "chants/an--hodie_beata_virgo--dominican--id_5416-5_2_1.gtex" 1580153319 16155 6ab674682197091acc79f78cc2dcc330 ""
   "chants/an--hodie_beata_virgo--dominican--id_5416.gabc" 1580153301 547 cf92de8a8ec9738b735b607383f4bba6 ""
   "chants/an--homo_erat_in_ierusalem--solesmes-op-5_2_1.gtex" 1580153624 17010 b2651c7f06fde6954e4c29dc3fc66ee5 ""
@@ -167,13 +167,13 @@
   "psalms/psalm129english2-2.tex" 1580148104 1199 2d8a6354a2fb1cc5e084e723ce9ce50c ""
   "readings/lectio_brevis_Heb.4.15-16.tex" 1580150115 279 5296ab9d900cc0876ef503c2d947c4ef ""
   (generated)
-  "incipit.idx"
-  "03_02.02-presentation_of_the_lord.out"
-  "03_02.02-presentation_of_the_lord.aux"
-  "03_02.02-presentation_of_the_lord.pdf"
   "03_02.02-presentation_of_the_lord.log"
-["makeindex incipit.idx"] 1580148538 "incipit.idx" "incipit.ind" "incipit" 1580154014
-  "incipit.idx" 1580153969 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "03_02.02-presentation_of_the_lord.aux"
+  "incipit.idx"
+  "03_02.02-presentation_of_the_lord.pdf"
+  "03_02.02-presentation_of_the_lord.out"
+["makeindex incipit.idx"] 1580148538 "incipit.idx" "incipit.ind" "incipit" 1580155977
+  "incipit.idx" 1580155934 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
+  "incipit.ind"

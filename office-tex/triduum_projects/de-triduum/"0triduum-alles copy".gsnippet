@@ -1,0 +1,4 @@
+name:direct-gabc;
+
+%%
+(f3) (e f hr0 fR ,3) (hr0 iRr1 fR : hr0 e f gRr1 fR ::)

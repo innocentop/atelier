@@ -2,7 +2,7 @@
 
 %%Page Size (rev. 08/19/2016)
 %\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.6in, outer=0.4in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
 %% width of textblock = 324 pt / 4.5in
 %% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
 
@@ -58,10 +58,11 @@
 \setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{-1}
 
+%%Titlesec modified for Triduum booklet (3.22.20)
 \usepackage[compact,nobottomtitles*]{titlesec}
 \titlespacing*{\chapter}{0pt}{-30pt}{0pt}
 \titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsection}{0pt}{*1}{*1}
 \titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
 \titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
 \titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
@@ -168,16 +169,20 @@
 
 
       \vfill
-      {\fontsize{13pt}{20pt}\selectfont \textsc{München} \par \textsc{Dominikanerkonvent St. Kajetan} \par \scshape{2019} \par }}
+      {\fontsize{13pt}{20pt}\selectfont \textsc{München} \par \textsc{Dominikanerkonvent St. Kajetan} \par \scshape{2020} \par }}
     \end{titlepage}
 
-  %%Combination
-  %%Combination
+
+
 
   %%Combination
-  \tableofcontents
+  \newgeometry{inner=1.5in, outer=1.5in, top=2in, bottom=0.5in}
 
-  \chapter{Trauermette am Gründonnerstag} \thispagestyle{centernumber}
+    \tableofcontents
+
+  \restoregeometry
+
+  \chapter{Trauermette am Gründonnerstag}
   \section{Officium Lectionis}
       \index[Varia]{Herr offne} \label{Herr offne (Varia)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/herr_offne}
    \subsubsection{Invitatorium}   \index[Invitatorium]{Invitatorium} \label{Invitatorium (Invitatorium)}         \vspace{5pt} \par \input{psalms/invitatorium_im_kreuz}
@@ -200,7 +205,7 @@
    \subsubsection{Schlußsegen}   \index[Schlußsegen]{Schlußsegen} \label{Schlußsegen (Schlußsegen)}         \input{varia/schlusssegen}
 
 
-  \chapter{Trauermette am Karfreitag} \thispagestyle{centernumber}
+  \chapter{Trauermette am Karfreitag}
   \section{Officium Lectionis}
       \index[Varia]{Herr offne} \label{Herr offne (Varia)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/herr_offne}
    \subsubsection{Invitatorium}   \index[Invitatorium]{Invitatorium} \label{Invitatorium (Invitatorium)}         \vspace{5pt} \par \input{psalms/invitatorium_im_kreuz}
@@ -230,7 +235,7 @@
 
 
 
-  \chapter{Trauermette am Karsamstag} \thispagestyle{centernumber}
+  \chapter{Trauermette am Karsamstag}
   \section{Officium Lectionis}
       \index[Varia]{Herr offne} \label{Herr offne (Varia)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/herr_offne}
    \subsubsection{Invitatorium}   \index[Invitatorium]{Invitatorium} \label{Invitatorium (Invitatorium)}         \vspace{5pt} \par \input{psalms/invitatorium_im_kreuz}

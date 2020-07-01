@@ -1,0 +1,366 @@
+﻿Day #,Julian Month,Julian Day,Roman Month,Roman Number,Roman Reference,,Color,Secondary Color,Notes,Saint ID,Secondary Saint ID,Third Color Name,Third Saint ID,Fourth Color Name,Fourth Saint ID,Saint (Main hand),Rank (Main hand),Second Hand,Second Hand Rank,Third hand,Third hand rank,Additional Hand?,Additional Hand Rank?,notes,Order?,,Readings list
+1,January,1,January,0,Kalends,,,,,,,,,,,Circumcisio domini,Duplex,,,,,,,,,,
+2,January,2,January,4,Nones,,,,,,,,,,,Octave sancti stephani.,3 lectio,,,,,,,,,,
+3,January,3,January,3,Nones,,,,,,,,,,,Octave sancti iohanis.,3 lectio,,,,,,,,,,
+4,January,4,January,2,Nones,,,,,,,,,,,Octave sanctorum innocentium.,3 lectio,,,,,,,,,,
+5,January,5,January,0,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+6,January,6,January,8,Ides,,,,,,,,,,,Epiphania domini,Totum duplex,,,,,,,,,,
+7,January,7,January,7,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+8,January,8,January,6,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+9,January,9,January,5,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+10,January,10,January,4,Ides,,,,,,,,,,,Pauli heremite,,Guilielmi episcopi,XII.,,,,,"Cistercian saint, added to Ocist. Calendar in 1218 [cf. Backaert 1950-51]",,,
+11,January,11,January,3,Ides,,blank,,,,,,,,,,,,,Commemoratio episcoporum et abbatum ordinis nostri.,,,,Cistercian observance; date of introduction unclear: cf. Backaert 1950 p. 85),,,
+12,January,12,January,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+13,January,13,January,0,Ides,,,,,,,,,,,Oct. epyhania. IX Lect. [H]ylarii et remigii episcoporum. Comemoratio,,,,,,,,,,,
+14,January,14,February,19,Kalends,,,,,,,,,,,Felicis presbyteri et martyris,3 lectio,,,,,,,,,,
+15,January,15,February,18,Kalends,,,,,,,,,,,Mauri abbatis,Commemoratio,,,,,,,,,,
+16,January,16,February,17,Kalends,,,,,,,,,,,Marcelli pape et martyris,3 lectio,,,,,,,,,,Marcelli
+17,January,17,February,16,Kalends,,,,,,,,,,,Antonii abbatis.,xi lectio [sic],,,,,,,,,,
+18,January,18,February,15,Kalends,,,,,,,,,,,Prisce virginis,3 lectio,,,,,,,,,,
+19,January,19,February,14,Kalends,,blank,,,,,,,,,,,,,,,Sanctorum martyrum mauri marthe audifax et abbacum,,"Actually written lower, but with a sign to indicate that it should be on January 19",,,
+20,January,20,February,13,Kalends,,,,,,,,,,,Fabiani et sebastiani martyris,9 lectio,,,,,,,,,,Fabiani et sebastiani
+21,January,21,February,12,Kalends,,,,,,,,,,,Agnetis virginis et martyris,9 lectio,,,,,,,,,,Agnetis
+22,January,22,February,11,Kalends,,,,,,,,,,,Vincentii martyris,9 lectio,,,,,,,,,,Vincentii
+23,January,23,February,10,Kalends,,,,,,,,,,,Emerentiane virginis,commemoratio,,,,,,,,,,
+24,January,24,February,9,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+25,January,25,February,8,Kalends,,,,,,,,,,,Conversio sancti pauli,Semiduplex,,,,,,,,,,Conversione sancti pauli
+26,January,26,February,7,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+27,January,27,February,6,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+28,January,28,February,5,Kalends,,,,,,,,,,,Agnetis secundo. 3 lectio. Juliani episcopi. Commemoratio,,,,,,,,,,,Agnetis secundo
+29,January,29,February,4,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+30,January,30,February,3,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+31,January,31,February,2,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+32,February,1,February,0,Kalends,,,,,,,,,,,Ignatii episcopi,commemoratio,,,,,,,,,,
+33,February,2,February,4,Nones,,,,,,,,,,,Purificatio Virginis,Totum duplex,,,,,,,,,,In purificatione
+34,February,3,February,3,Nones,,,,,,,,,,,Blasii episcopi et martyri,[erased?],,,,,,,,,,
+35,February,4,February,2,Nones,,,,,,,,,,,Anniversarium patrum et matrum,[originally 9 lect.],,,Sancti Gilberti confessoris,,,,"The Anniversarium has been crossed out to be replaced with Sancti Gilberti. Sancti is written on the 4 February area, and then the rest filled in after Blasé on the line above.",OP,,
+36,February,5,February,0,Nones,,,,,,,,,,,Agathe virginis,9 lectio,,,,,,,,,,Agathe
+37,February,6,February,8,Ides,,,,,,,,,,,Vedasti et amandi episcoporum,Commemoratio [Va],,,,,,,,,,
+38,February,7,February,7,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+39,February,8,February,6,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+40,February,9,February,5,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+41,February,10,February,4,Ides,,,,,,,,,,,Scolastice virginis.,Commemoratio,,,,,,,,,,
+42,February,11,February,3,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+43,February,12,February,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+44,February,13,February,0,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+45,February,14,March,16,Kalends,,,,,,,,,,,Valentini martyris,3 lectio,,,,,,,,,,Valentini
+46,February,15,March,15,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+47,February,16,March,14,Kalends,,blank,,,,,,,,,,,,,Iuliane virginis et martyris.,Commemoratio. [va],,,,,,
+48,February,17,March,13,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+49,February,18,March,12,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+50,February,19,March,11,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+51,February,20,March,10,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+52,February,21,March,9,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+53,February,22,March,8,Kalends,,,,,,,,,,,Cathedri sancti petri,9 lectio,,,,,,,,,,In cathedre sancti petri
+54,February,23,March,7,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+55,February,24,March,6,Kalends,,,,,,,,,,,Sancti mathie apostoli,,,,,,,,,,,
+56,February,25,March,5,Kalends,,blank,,,,,,,,,,,,,,,,,,,,Mathie
+57,February,26,March,4,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+58,February,27,March,3,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+59,February,28,March,2,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+60,March,1,March,0,Kalends,,,,,,,,,,,Albini episcopi et martyris,Commemoratio,,,,,,,,,,
+61,March,2,March,6,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+62,March,3,March,5,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+63,March,4,March,4,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+64,March,5,March,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+65,March,6,March,2,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+66,March,7,March,0,Nones,,blank,,,,,,,,,,,,,,,Sanctarum virginum perpetue et felicitatis,Commemoratio,,,,
+67,March,8,March,8,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+68,March,9,March,7,Ides,,blank,,,,,,,,,,,,,,,Sanctorum xl martyrum,,,,,
+69,March,10,March,6,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+70,March,11,March,5,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+71,March,12,March,4,Ides,,,,,,,,,,,Sancti gregorii pape,9 lectio,,,,,,,,,,Gregorius pape
+72,March,13,March,3,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+73,March,14,March,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+74,March,15,March,0,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+75,March,16,April,17,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+76,March,17,April,16,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+77,March,18,April,15,Kalends,,blank,,,,,,,,,,,,,,,Anniversarium honorii,,This is the death date of Pope Honorius III in 1228,,,
+78,March,19,April,14,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+79,March,20,April,13,Kalends,,blank,,,,,,,,,,,,,Cuthberti episcopi,Commemoratio [or 9?],,,,,,
+80,March,21,April,12,Kalends,,,,,,,,,,,Benedicti abbatis,9 lectio,,,,,,,,,,Benedicti
+81,March,22,April,11,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+82,March,23,April,10,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+83,March,24,April,9,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+84,March,25,April,8,Kalends,,,,,,,,,,,Annuntiatio dominici,Totum duplex,,,,,,,,,,
+85,March,26,April,7,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+86,March,27,April,6,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+87,March,28,April,5,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+88,March,29,April,4,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+89,March,30,April,3,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+90,March,31,April,2,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+91,April,1,April,0,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+92,April,2,April,4,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+93,April,3,April,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+94,April,4,April,2,Nones,,,,,,,,,,,Ambrosius archiepiscopi,9 lectio,,,,,,,,,,Ambrosii
+95,April,5,April,0,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+96,April,6,April,8,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+97,April,7,April,7,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+98,April,8,April,6,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+99,April,9,April,5,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+100,April,10,April,4,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+101,April,11,April,3,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+102,April,12,April,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+103,April,13,April,0,Ides,,,,,,,,,,,,,,,,,,,,,,
+104,April,14,May,18,Kalends,,,,,,,,,,,Tiburtii et valeriani martyris,3 lectio,,,,,,,,,,Tiburtii et valeriani
+105,April,15,May,17,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+106,April,16,May,16,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+107,April,17,May,15,Kalends,,blank,,,,,,,,,,,,,,,Aniceti pape et martyris,,,,,
+108,April,18,May,14,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+109,April,19,May,13,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+110,April,20,May,12,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+111,April,21,May,11,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+112,April,22,May,10,Kalends,,blank,,,,,,,,,,,,,,,Sanctorum martyrum sotheris et gaii,,,,,
+113,April,23,May,9,Kalends,,,,,,,,,,,Georgii martyris,9 lectiones,,,,,,,,,,Georgii
+114,April,24,May,8,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+115,April,25,May,7,Kalends,,,,,,,,,,,Marchi evangelisti,,,,,,,,,,,Marci
+116,April,26,May,6,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+117,April,27,May,5,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+118,April,28,May,4,Kalends,,,,,,,,,,,Vitalis martyris,3 lectio,,,,,,,,,,Vitalis martyris
+119,April,29,May,3,Kalends,,blank,,,,,,,,,,,,,,,Sancti petri martyris de ordine predicatorum,,,,,
+120,April,30,May,2,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+121,May,1,May,0,Kalends,,,,,,,,,,,Philippi et iacobi apostolorum,Semiduplex,,,,,,,,,,Phylipi et iacobi
+122,May,2,May,6,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+123,May,3,May,5,Nones,,,,,,,,,,,Inventio sancte crucis,9 lectio. Alexandri Eventii et Theodori martyrum commemoratio.,,,,,,,,,,In inventione crucis
+124,May,4,May,4,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+125,May,5,May,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+126,May,6,May,2,Nones,,,,,,,,,,,Iohanis apostoli ante portam latinam.,III lectio [crossed out and corrected to 9 lectio],,,,,,,,,,Iohanis ante portam latinam
+127,May,7,May,0,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+128,May,8,May,8,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+129,May,9,May,7,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+130,May,10,May,6,Ides,,,,,,,,,,,Gordiani et epymachi martyrum,3 lectio,,,,,,,,,,
+131,May,11,May,5,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+132,May,12,May,4,Ides,,,,,,,,,,,Nerei et Archilei et Pancratii martyrum,3 lectio,,,,,,,,,,Nerei et archilaei
+133,May,13,May,3,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+134,May,14,May,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+135,May,15,May,0,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+136,May,16,June,17,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+137,May,17,June,16,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+138,May,18,June,15,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+139,May,19,June,14,Kalends,,,,,,,,,,,Potentiane virginis,Commemoratio,,,,,,,,,,Potentiane
+140,May,20,June,13,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+141,May,21,June,12,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+142,May,22,June,11,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+143,May,23,June,10,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+144,May,24,June,9,Kalends,,,,,,,,,,,Translatio beati dominici confessoris,Totum duplex,,,,,,,,OP,,
+145,May,25,June,8,Kalends,,,,,,,,,,,Urbani pape,III lectio,,,,,,,,,,Urbani pape
+146,May,26,June,7,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+147,May,27,June,6,Kalends,,,,,,,,,,,Obitus domini Ranerii Cardinalis fundatoris ecclesie sancte marie ad gradus de viterbio,,,,,,,,,Distinctive,,
+148,May,28,June,5,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+149,May,29,June,4,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+150,May,30,June,3,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+151,May,31,June,2,Kalends,,,,,,,,,,,Petronille virginis,Commemoratio,,,,,,,,,,
+152,June,1,June,0,Kalends,,,,,,,,,,,Nichomedis martyris,Commemoratio,,,,,,,,,,
+153,June,2,June,4,Nones,,,,,,,,,,,Marcelli et petri martyris,III lectio,,,,,,,,,,
+154,June,3,June,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+155,June,4,June,2,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+156,June,5,June,0,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+157,June,6,June,8,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+158,June,7,June,7,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+159,June,8,June,6,Ides,,,,,,,,,,,Medardi episcopi et confessoris,Commemoratio,,,,,,,,,,
+160,June,9,June,5,Ides,,,,,,,,,,,Primi et feliciani martyris,III lectio,,,,,,,,,,
+161,June,10,June,4,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+162,June,11,June,3,Ides,,,,,,,,,,,Sancti Barnabe apostoli,Semiduplex,,,,,,,,,,Barnabe apostoli
+163,June,12,June,2,Ides,,,,,,,,,,,Basilidis Cirini Naboris Nazari martyrum,3 lectionum,,,,,,,,,,
+164,June,13,June,0,Ides,,blank,,,,,,,,,,,,,,,Sancti antonii confessoris de ordine minorum,,,,,
+165,June,14,July,18,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+166,June,15,July,17,Kalends,,,,,,,,,,,Viti et modesti martyrum,Commemoratio,,,,,,,,,,
+167,June,16,July,16,Kalends,,,,,,,,,,,Quirici et iulite martrum,Commemoratio,,,,,,,,,,
+168,June,17,July,15,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+169,June,18,July,14,Kalends,,,,,,,,,,,Marci et marcelliani martyrum,III lectionum,,,,,,,,,,
+170,June,19,July,13,Kalends,,,,,,,,,,,Gervasii et protasii martyrum,IX lectionum,,,,,,,,,,Gervasii et protasii
+171,June,20,July,12,Kalends,,,,,,,,,,,,,,,,,,,,,,
+172,June,21,July,11,Kalends,,,,,,,,,,,,,,,,,,,,,,
+173,June,22,July,10,Kalends,,,,,,,,,,,,,,,,,,,,,,
+174,June,23,July,9,Kalends,,,,,,,,,,,Vigilia.,,,,,,,,,,,In vigilia iohanis baptiste
+175,June,24,July,8,Kalends,,,,,,,,,,,Nativitas sancti iohanis baptiste.,Duplex.,,,,,,,,,,In die
+176,June,25,July,7,Kalends,,,,,,,,,,,,,,,,,,,,,,
+177,June,26,July,6,Kalends,,,,,,,,,,,Iohanis et pauli martyrum,IX lectio,,,,,,,,,,Iohanis et pauli
+178,June,27,July,5,Kalends,,,,,,,,,,,,,,,,,,,,,,
+179,June,28,July,4,Kalends,,,,,,,,,,,Leonis pape. Vigilia,Commmemoratio,,,,,,,,,,Vigilia apostolorum
+180,June,29,July,3,Kalends,,,,,,,,,,,Apostolorum petri et pauli,Totum duplex.,,,,,,,,,,In die
+181,June,30,July,2,Kalends,,,,,,,,,,,Commemoratio beati pauli,9 lectio,,,,,,,,,,In commemoratio pauli
+182,July,1,July,0,Kalends,,,,,,,,,,,Octava sancti iohanis baptiste,IX lectio,,,,,,,,,,
+183,July,2,July,6,Nones,,,,,,,,,,,Processi et martiani martyrum,Commemoratio,,,,,,,,,,
+184,July,3,July,5,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+185,July,4,July,4,Nones,,,,,,,,,,,Translatio sancti martini confessoris,Commemoratio,,,,,,,Is this unusual?,,,
+186,July,5,July,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+187,July,6,July,2,Nones,,,,,,,,,,,Octave apostolorum,IX lectio,,,,,,,,,,In octava apostolorum
+188,July,7,July,0,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+189,July,8,July,8,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+190,July,9,July,7,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+191,July,10,July,6,Ides,,,,,,,,,,,Septem fratrum,III lectionum,,,,,,,,,,
+192,July,11,July,5,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+193,July,12,July,4,Ides,,,,,,,,,,,,,,,,,,,,,,
+194,July,13,July,3,Ides,,,,,,,,,,,Margarite virginis secundum ordinem,IX lectio,,,,,,,What's going on with this?,,,Margarite
+195,July,14,July,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+196,July,15,July,0,Ides,,,,,,,,,,,,,,,,,,,,,,
+197,July,16,August,17,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+198,July,17,August,16,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+199,July,18,August,15,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+200,July,19,August,14,Kalends,,,,,,,,,,,,,,,,,,,,,,
+201,July,20,August,13,Kalends,,,,,,,,,,,Margarite virginis secundum prioriam,IX lectio,,,,,,,,,,Margarite [?]
+202,July,21,August,12,Kalends,,,,,,,,,,,Praxedis virginis,III lectio,,,,,,,,,,
+203,July,22,August,11,Kalends,,,,,,,,,,,Marie magdalene,Semiduplex,,,,,,,,,,Magdalene
+204,July,23,August,10,Kalends,,,,,,,,,,,Apollinaris martyris,3 lectio,,,,,,,,,,
+205,July,24,August,9,Kalends,,,,,,,,,,,Christine virginis. Vigilia.,Commemoratio,,,,,,,,,,
+206,July,25,August,8,Kalends,,,,,,,,,,,Iacobi apostoli 9 lectio. Christofori et cucufatis. Commemoratio.,,,,,,,,,,,Iacobi apostoli
+207,July,26,August,7,Kalends,,,,,,,,,,,,,,,,,,,,,,
+208,July,27,August,6,Kalends,,,,,,,,,,,,,,,,,,,,,,
+209,July,28,August,5,Kalends,,,,,,,,,,,Nazarii celsi et pantaleonis martyrum,3 lectio,,,,,,,,,,
+210,July,29,August,4,Kalends,,,,,,,,,,,Felicis Simplicii Faustini et Beatricis martrum,3 lectio,,,,,,,,,,
+211,July,30,August,3,Kalends,,,,,,,,,,,Abdon et Senen martyrum,3 lectio,,,,,,,,,,
+212,July,31,August,2,Kalends,,,,,,,,,,,Germani episcopi et confessoris,3 lectio,,,,,,,,,,
+213,August,1,August,0,Kalends,,,,,,,,,,,Vincula sancti petri. Machabeorum.,9 lectio,,,,,,,,,,Vincula petri
+214,August,2,August,4,Nones,,,,,,,,,,,Stephani pape et martyris,3 lectio,,,,,,,,,,
+215,August,3,August,3,Nones,,,,,,,,,,,Inventio sancti stephani prothomartyrum,9 lectio,,,,,,,,,,In inventione stephani
+216,August,4,August,2,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+217,August,5,August,0,Nones,,,,,,,,,,,"Dominici confessoris, fundatoris ordinis predicatorum",Totum duplex,,,,,,,,OP,,Dominici
+218,August,6,August,8,Ides,,,,,,,,,,,Sixti pape. 3 lectio. Felicissimi et agapiti. Commemoratio.,,,,,,,,,,,
+219,August,7,August,7,Ides,,,,,,,,,,,Donati episcopi et confessoris,Commemoratio,,,,,,,,,,
+220,August,8,August,6,Ides,,,,,,,,,,,Cyriaci cum sociis suis.,3 lectio.,,,,,,,,,,
+221,August,9,August,5,Ides,,,,,,,,,,,Vigilia.,,,,,,,,,,,In vigilia laurentii
+222,August,10,August,4,Ides,,,,,,,,,,,Laurentii martyrum.,9 lectio,,,,,,,,,,In die
+223,August,11,August,3,Ides,,,,,,,,,,,Tiburtii martyrum,Commemoratio,,,,,,,,,,
+224,August,12,August,2,Ides,,blank,,,,,,,,,,,,,Festum sancte clare virginis,,,,Clare died in 1253 and was canonized in 1255,,,
+225,August,13,August,0,Ides,,,,,,,,,,,Ypoliti sociorumque eius,9 lectio,,,,,,,,,,Ypoliti et sociorum
+226,August,14,September,19,Kalends,,,,,,,,,,,Eusebii presbyterum. Vigilia.,,,,,,,,,,,Vigilia assumptionis
+227,August,15,September,18,Kalends,,,,,,,,,,,Assumptio gloriose virginis marie,Totum duplex,,,,,,,,,,In die
+228,August,16,September,17,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+229,August,17,September,16,Kalends,,,,,,,,,,,Octava sancti laurentii,,,,,,,,,,,
+230,August,18,September,15,Kalends,,,,,,,,,,,Agapiti martyrum,Commemoratio,,,,,,,,,,
+231,August,19,September,14,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+232,August,20,September,13,Kalends,,,,,,,,,,,Bernardi abbatis,9 lectio,,,,,,,,,,Bernardi
+233,August,21,September,12,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+234,August,22,September,11,Kalends,,,,,,,,,,,Octava virginis. 9 lectio. Tymothei et symphoriani. Commemoratio.,,,,,,,,,,,
+235,August,23,September,10,Kalends,,,,,,,,,,,Vigilia.,,,,,,,,,,,
+236,August,24,September,9,Kalends,,,,,,,,,,,Bartholomei apostoli.,Semiduplex.,,,,,,,,,,Bartholomei apostoli
+237,August,25,September,8,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+238,August,26,September,7,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+239,August,27,September,6,Kalends,,,,,,,,,,,Rufi martyrum.,Commemoratio,,,,,,,,,,
+240,August,28,September,5,Kalends,,,,,,,,,,,Augustini episcopi et confessoris.,Totum duplex.,,,,,,,,OP,,Augustini episcopi
+241,August,29,September,4,Kalends,,,,,,,,,,,Decollatio sancti Iohanis baptiste.,9 lectio.,,,,,,,,,,Decollatione iohanis baptiste
+242,August,30,September,3,Kalends,,,,,,,,,,,Fidelis et audacti.,Commemoratio,,,,,,,,,,
+243,August,31,September,2,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+244,September,1,September,0,Kalends,,,,,,,,,,,Egidii abbatis.,Commemoratio,,,,,,,,,,
+245,September,2,September,4,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+246,September,3,September,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+247,September,4,September,2,Nones,,,,,,,,,,,Octava sancti Augustini. Marcelli martyris.,9 lectio,,,,,,,,OP,,
+248,September,5,September,0,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+249,September,6,September,8,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+250,September,7,September,7,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+251,September,8,September,6,Ides,,,,,,,,,,,Nativitas marie virginis.,9 lectio,,,,,,,,,,Nativitate virginis
+252,September,9,September,5,Ides,,,,,,,,,,,Gorgonii martyris.,3 lectio,,,,,,,,,,
+253,September,10,September,4,Ides,,,,,,,,,,,Anniversarium familiarum et benefactorum.,9 lectio,,,,,,,,OP,,
+254,September,11,September,3,Ides,,,,,,,,,,,Prothi et iacincti martyrum,Commmeoratio,,,,,,,,,,
+255,September,12,September,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+256,September,13,September,0,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+257,September,14,October,18,Kalends,,,,,,,,,,,Exaltatione sancti crucis. 9 lectio. Corneli et cipriani. Commemoratio.,,,,,,,,,,,Exaltatione crucis
+258,September,15,October,17,Kalends,,,,,,,,,,,Nichomedis martyris,3 lectio,,,,,,,,,,
+259,September,16,October,16,Kalends,,,,,,,,,,,Eufemie virginis,3 lectio,,,,,,,,,,Eufemie
+260,September,17,October,15,Kalends,,,,,,,,,,,Lamberti episcopi et martyris,Commemoratio,,,,,,,,,,
+261,September,18,October,14,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+262,September,19,October,13,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+263,September,20,October,12,Kalends,,,,,,,,,,,Vigilia.,,,,,,,,,,,Vigilia matthei
+264,September,21,October,11,Kalends,,,,,,,,,,,Matthei apostoli et evangeliste,[Semiduplex],,,,,,,"Only an ""s"" is written for the rank by the original scribe",,,In die
+265,September,22,October,10,Kalends,,,,,,,,,,,Mauritii cum sociis,9 lectio,,,,,,,,,,Mauritii cum sociis
+266,September,23,October,9,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+267,September,24,October,8,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+268,September,25,October,7,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+269,September,26,October,6,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+270,September,27,October,5,Kalends,,,,,,,,,,,Cosme et damiani martyrum,9 lectio,,,,,,,,,,Cosme et damiani
+271,September,28,October,4,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+272,September,29,October,3,Kalends,,,,,,,,,,,Michaelis archangeli,[Duplex],,,,,,,"Only a ""d"" is written for the feast rank",,,Michaelis
+273,September,30,October,2,Kalends,,,,,,,,,,,Ieromini presbyteri,9 lectio,,,,,,,,,,Ieromini
+274,October,1,October,0,Kalends,,,,,,,,,,,Remigii episcopi. 3 lectio. Germani et mendasti episcoporum commemoratio.,,,,,,,,,,,
+275,October,2,October,6,Nones,,,,,,,,,,,Leodagarii episcopi.,Commemoratio,,,,,,,,,,
+276,October,3,October,5,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+277,October,4,October,4,Nones,,,,,,,,,,,Sancti francisci confessoris,9 lectio,,,,,,,,OP,,Francisci
+278,October,5,October,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+279,October,6,October,2,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+280,October,7,October,0,Nones,,,,,,,,,,,Marci pape. 3 lectio. Marcelli Apulei Sergi et Bachi commemoratio.,,,,,,,,,,,
+281,October,8,October,8,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+282,October,9,October,7,Ides,,,,,,,,,,,Dionisii rustici et euletherii,9 lectio,,,,,,,,,,Dioynsii cum sociiis
+283,October,10,October,6,Ides,,,,,,,,,,,Anniversarium omnium fratrum ordinis,9 lectio,,,,,,,,OP,,
+284,October,11,October,5,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+285,October,12,October,4,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+286,October,13,October,3,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+287,October,14,October,2,Ides,,,,,,,,,,,Calixti pape et martyris,Commemoratio,,,,,,,,,,
+288,October,15,October,0,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+289,October,16,November,17,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+290,October,17,November,16,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+291,October,18,November,15,Kalends,,,,,,,,,,,Luce evangeliste,Semiduplex,,,,,,,,,,Luce
+292,October,19,November,14,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+293,October,20,November,13,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+294,October,21,November,12,Kalends,,,,,,,,,,,Undecim milium virginum et martyrum,Commemoratio,,,,,,,,,,
+295,October,22,November,11,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+296,October,23,November,10,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+297,October,24,November,9,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+298,October,25,November,8,Kalends,,,,,,,,,,,Crispini et crispiani martyrum,Commemoratio,,,,,,,,,,
+299,October,26,November,7,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+300,October,27,November,6,Kalends,,,,,,,,,,,Vigilia.,,,,,,,,,,,In vigilia symonis et iude
+301,October,28,November,5,Kalends,,,,,,,,,,,Symonis et iude apostolorum,Semiduplex,,,,,,,,,,In die
+302,October,29,November,4,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+303,October,30,November,3,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+304,October,31,November,2,Kalends,,,,,,,,,,,Quintini martyrum. Vigilia. Commemoratio.,,,,,,,,,,,Vigilia omnium sanctorum
+305,November,1,November,0,Kalends,,,,,,,,,,,Festivitas omnium sanctorum. Totum duplex.,,,,,,,,,,,In die
+306,November,2,November,4,Nones,,,,,,,,,,,Commemoratio omnium defunctorum. IX lectio.,,,,,,,,,,,Pro defunctis
+307,November,3,November,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+308,November,4,November,2,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+309,November,5,November,0,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+310,November,6,November,8,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+311,November,7,November,7,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+312,November,8,November,6,Ides,,,,,,,,,,,Quatuor coronatorum. 3 lectio.,,,,,,,,,,,
+313,November,9,November,5,Ides,,,,,,,,,,,Teodori martyris. 3 lectio.,,,,,,,,,,,
+314,November,10,November,4,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+315,November,11,November,3,Ides,,,,,,,,,,,Martini episcopi. 9 lectio. Et menne martyris. Commemoratio.,,,,,,,,,,,Martini
+316,November,12,November,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+317,November,13,November,0,Ides,,,,,,,,,,,Britii episcopi et confessoris. Commoratio.,,,,,,,,,,,
+318,November,14,December,18,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+319,November,15,December,17,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+320,November,16,December,16,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+321,November,17,December,15,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+322,November,18,December,14,Kalends,,,,,,,,,,,Octava sancti martini. 9 lectio.,,,,,,,,,,,
+323,November,19,December,13,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+324,November,20,December,12,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+325,November,21,December,11,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+326,November,22,December,10,Kalends,,,,,,,,,,,Cecilie virginis et martyris. 9 lectio.,,,,,,,,,,,Cecilie
+327,November,23,December,9,Kalends,,,,,,,,,,,Clementis pape et martyris. 9 lectio.,,,,,,,,,,,Clementis
+328,November,24,December,8,Kalends,,,,,,,,,,,Grisogoni martyris. Commoratio.,,,,,,,,,,,
+329,November,25,December,7,Kalends,,,,,,,,,,,Katerine virginis et martyris. Semiduplex.,,,,,,,,,,,Caterine
+330,November,26,December,6,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+331,November,27,December,5,Kalends,,,,,,,,,,,Agricole et vitalis martyris. Commoratio.,,,,,,,,,,,
+332,November,28,December,4,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+333,November,29,December,3,Kalends,,,,,,,,,,,Saturini martyris. Vigilia. Commemoratio.,,,,,,,,,,,In vigilia andree
+334,November,30,December,2,Kalends,,,,,,,,,,,Andree apostoli. Semiduplex. 9 lectio.,,,,,,,,Andrew is given two different ranks.,,,In die
+335,December,1,December,0,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+336,December,2,December,4,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+337,December,3,December,3,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+338,December,4,December,2,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+339,December,5,December,0,Nones,,blank,,,,,,,,,,,,,,,,,,,,
+340,December,6,December,8,Ides,,,,,,,,,,,Nicholai episcopi et confessoris. Semiduplex.,,,,,,,,,,,Nicholai
+341,December,7,December,7,Ides,,,,,,,,,,,Octava sancti andree. Commemoratio.,,,,,,,,,,,
+342,December,8,December,6,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+343,December,9,December,5,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+344,December,10,December,4,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+345,December,11,December,3,Ides,,,,,,,,,,,Damasi pape et confessoris. Commemoratio.,,,,,,,,,,,
+346,December,12,December,2,Ides,,blank,,,,,,,,,,,,,,,,,,,,
+347,December,13,December,0,Ides,,,,,,,,,,,Lucie virginis. IX lectio.,,,,,,,,,,,Lucie
+348,December,14,January,19,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+349,December,15,January,18,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+350,December,16,January,17,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+351,December,17,January,16,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+352,December,18,January,15,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+353,December,19,January,14,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+354,December,20,January,13,Kalends,,,,,,,,,,,Vigilia.,,,,,,,,,,,
+355,December,21,January,12,Kalends,,,,,,,,,,,Thome apostoli. Semiduplex.,,,,,,,,,,,
+356,December,22,January,11,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+357,December,23,January,10,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+358,December,24,January,9,Kalends,,,,,,,,,,,Vigilia.,,,,,,,,,,,
+359,December,25,January,8,Kalends,,,,,,,,,,,Nativitas domini  nostri ihesu christi. Totum duplex.,,,,,,,,,,,
+360,December,26,January,7,Kalends,,,,,,,,,,,Stephani prothomartyris. Totum duplex.,,,,,,,,,,,Stephani
+361,December,27,January,6,Kalends,,,,,,,,,,,Iohanis evangeliste. Duplex.,,,,,,,,,,,Iohanis
+362,December,28,January,5,Kalends,,,,,,,,,,,Sanctorum innocentium. 9 lectio.,,,,,,,,,,,Innocentium
+363,December,29,January,4,Kalends,,,,,,,,,,,Thome archiepiscoporum et martrum. 9 lectio.,,,,,,,,,,,Thome martyris
+364,December,30,January,3,Kalends,,blank,,,,,,,,,,,,,,,,,,,,
+365,December,31,January,2,Kalends,,,,,,,,,,,Silverstri pape et confessoris. 9 lectio.,,,,,,,,,,,Silvestre

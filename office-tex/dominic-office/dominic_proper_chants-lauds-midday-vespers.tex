@@ -1,0 +1,159 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+\usepackage{unicode-math}
+\setmathfont{LatinModernMath-Regular}
+\AtBeginDocument{\grelatexsimpledefbarredsymbol{V}{0.1em}{0.12em}{0.14em}{0.18em}}
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+\pagestyle{plain}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+
+\section{Ad Laudes}
+ \subsubsection{Hymnus}  \greannotation{VII} \index[Hymnus]{Hymnum novae laetitiae} \label{Hymnum novae laetitiae (Hymnus)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/hy--hymnum_novae_laetitiae--dominic}    \newpage
+ \subsubsection{Antiphona}  \greannotation{VII a} \index[Antiphona]{Sitiebat servus} \label{Sitiebat servus (Antiphona)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--sitiebat_servus--dominican-62--deusNV}    \newpage
+ \subsubsection{Antiphona}  \greannotation{II} \index[Antiphona]{Pauper in peculio} \label{Pauper in peculio (Antiphona)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--pauper_in_peculio--dominican--canticle}    \newpage
+ \subsubsection{Antiphona}  \greannotation{IV \textsc{E}} \index[Antiphona]{Linguae manus} \label{Linguae manus (Antiphona)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--linguae_manus--dominican--149-cantate}    \newpage
+ \subsubsection{Responsorium breve}  \greannotation{VI} \index[Responsorium breve]{Annuntiate} \label{Annuntiate (Responsorium breve)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/rb--annuntiate_inter_gentes--solesmes_2007-op}    \newpage
+ \subsubsection{Antiphona ad Magnificat}  \greannotation{V} \index[Antiphona ad Magnificat]{Benedictus Redemptor} \label{Benedictus Redemptor (Antiphona ad Magnificat)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--benedictus_redemptor--dominican}    \newpage
+ \subsubsection{Canticum Evangelicum}  \greannotation{V} \index[Canticum Evangelicum]{Benedictus} \label{Benedictus (Canticum Evangelicum)} \grecommentary[5pt]{Lc 1, 68-79} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/Benedictus-solemn5}    \newpage
+
+
+\section{Ad Horam mediam}
+ \subsubsection{Hymnus}  \greannotation{VII} \index[Hymnus]{Rector potens} \label{Rector potens (Hymnus)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--rector_potens_verax_deus--dominic}    \newpage
+ \subsubsection{Antiphona}  \greannotation{II} \index[Antiphona]{Pauper in peculio} \label{Pauper in peculio (Antiphona)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--pauper_in_peculio--dominican--33-benedicam}    \newpage
+ \subsubsection{Versiculum}  \greannotation{} \index[Versiculum]{Ecce dedi verba} \label{Ecce dedi verba (Versiculum)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/vr--ecce_dedi}    \newpage
+
+
+\section{Ad II Vesperas}
+ \subsubsection{Hymnus}  \greannotation{VII} \index[Hymnus]{Gaude mater ecclesia} \label{Gaude mater ecclesia (Hymnus)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/hy--gaude_mater_ecclesia_laetam--dominic}    \newpage
+ \subsubsection{Antiphona}  \greannotation{VI} \index[Antiphona]{Pernox cum Christo} \label{Pernox cum Christo (Antiphona)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--pernox_cum_christo--dominican--115-credidi}    \newpage
+ \subsubsection{Antiphona}  \greannotation{VIII \textsc{g}} \index[Antiphona]{Migrans Pater} \label{Migrans Pater (Antiphona)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--migrans_pater_filiis--dominican--125_in-convertendo}    \newpage
+ \subsubsection{Antiphona}  \greannotation{V} \index[Antiphona]{Fuget in choro} \label{Fuget in choro (Antiphona)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/an--fulget_in_choro--dominican--eph1--benedictus_deus}    \newpage
+ \subsubsection{Responsorium brevis}  \greannotation{VI} \index[Responsorium brevis]{Beati qui audiunt} \label{Beati qui audiunt (Responsorium brevis)} \grecommentary[3pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.4cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/rb--beati_qui_audiunt}    \newpage
+ \subsubsection{Antiphona ad Magnificat}  \greannotation{VI} \index[Antiphona ad Magnificat]{O Lumen} \label{O Lumen (Antiphona ad Magnificat)} \grecommentary[3pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/an--o_lumen--vesperale}    \newpage
+ \subsubsection{Canticum Evangelicum}  \greannotation{VI} \index[Canticum Evangelicum]{Magnificat 6} \label{Magnificat 6 (Canticum Evangelicum)} \grecommentary[7pt]{Lc 1:46-55} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/magnificat6}    \newpage
+ \subsubsection{Benedicamus Domino}  \greannotation{} \index[Benedicamus Domino]{Solemnities} \label{Solemnities (Benedicamus Domino)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/misc.benedicamus.dominio.1}    \newpage
+  \end{document}

@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1597240347 "1_20_Sunday.in.Ordinary.Time.tex" "1_20_Sunday.in.Ordinary.Time.pdf" "1_20_Sunday.in.Ordinary.Time" 1597240359
+["lualatex"] 1597241622 "1_20_Sunday.in.Ordinary.Time.tex" "1_20_Sunday.in.Ordinary.Time.pdf" "1_20_Sunday.in.Ordinary.Time" 1597241633
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1554974325 759291 9e920ce49dc26c1d5f943e63b52a89d5 ""
@@ -131,22 +131,22 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_20_Sunday.in.Ordinary.Time.aux" 1597240359 1221 c68a0a6660e64dc464db9bfadab5991a ""
-  "1_20_Sunday.in.Ordinary.Time.gaux" 1597240346 609 164933eb414753586177ed16fc4cf796 ""
-  "1_20_Sunday.in.Ordinary.Time.out" 1597240359 138 80a8de0e85f1bcbd3b3ab2a59032b34d ""
-  "1_20_Sunday.in.Ordinary.Time.tex" 1597240333 4779 050b68003a551311f002efe263a89837 ""
+  "1_20_Sunday.in.Ordinary.Time.aux" 1597241632 1236 e99f231e311bcba8f7cbef566423c1c6 ""
+  "1_20_Sunday.in.Ordinary.Time.gaux" 1597241622 535 50a05965fa058d02e54babf6400aa602 ""
+  "1_20_Sunday.in.Ordinary.Time.out" 1597241632 138 80a8de0e85f1bcbd3b3ab2a59032b34d ""
+  "1_20_Sunday.in.Ordinary.Time.tex" 1597241588 4715 000405799b6c768f7340ef689eb1a207 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/in--protector_noster--dominican--id_6928-5_2_1.gtex" 1597239680 40173 65682e7917e3bb2fd38e8634d48e6dda ""
-  "graduale-chants/in--protector_noster--dominican--id_6928.gabc" 1513711955 1102 47d418dddb0c5c5b749574f9ed94f5d2 ""
+  "graduale-chants/gr--bonum_est_confidere--dominican--id_7119-5_2_1.gtex" 1597241619 23886 f88c13fa55131ee17323b369ea8a670b ""
+  "graduale-chants/gr--bonum_est_confidere--dominican--id_7119.gabc" 1597241608 770 8129373fac7b3ace6631a68a9ce60fda ""
   "incipit.ind" 1597239704 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_20_Sunday.in.Ordinary.Time.aux"
-  "1_20_Sunday.in.Ordinary.Time.pdf"
   "1_20_Sunday.in.Ordinary.Time.out"
-  "1_20_Sunday.in.Ordinary.Time.log"
+  "1_20_Sunday.in.Ordinary.Time.aux"
   "incipit.idx"
-["makeindex incipit.idx"] 1597239704 "incipit.idx" "incipit.ind" "incipit" 1597240359
-  "incipit.idx" 1597240350 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_20_Sunday.in.Ordinary.Time.pdf"
+  "1_20_Sunday.in.Ordinary.Time.log"
+["makeindex incipit.idx"] 1597239704 "incipit.idx" "incipit.ind" "incipit" 1597241633
+  "incipit.idx" 1597241626 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
+  "incipit.ind"

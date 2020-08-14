@@ -245,8 +245,8 @@ INPUT ./graduale-chants/al--caro_mea--dominican--id_4939.gabc
 INPUT ./graduale-chants/al--caro_mea--dominican--id_4939-5_2_1.gtex
 INPUT ./graduale-chants/of--immittit_angelus--dominican--id_6481.gabc
 INPUT ./graduale-chants/of--immittit_angelus--dominican--id_6481-5_2_1.gtex
-INPUT ./graduale-chants/co--domus_mea--dominican--id_7050.gabc
-INPUT ./graduale-chants/co--domus_mea--dominican--id_7050-5_2_1.gtex
+INPUT ./graduale-chants/co--domus_mea--dominican--id_7050--no_alleluia.gabc
+INPUT ./graduale-chants/co--domus_mea--dominican--id_7050--no_alleluia-5_2_1.gtex
 INPUT ./graduale-chants/co--qui_manducat--dominican--id_6212--no-alleluia.gabc
 INPUT ./graduale-chants/co--qui_manducat--dominican--id_6212--no-alleluia-5_2_1.gtex
 INPUT ./graduale-chants/co--primum_quaerite--dominican--id_5473.gabc

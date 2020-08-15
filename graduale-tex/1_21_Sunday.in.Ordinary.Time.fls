@@ -235,3 +235,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT ./alteliersaintjacques-shell.png
 INPUT ./alteliersaintjacques-shell.png
 INPUT ./alteliersaintjacques-shell.png
+INPUT ./graduale-chants/al--quoniam_deus_magnus--dominican--id_6868.gabc
+INPUT ./graduale-chants/al--quoniam_deus_magnus--dominican--id_6868-5_2_1.gtex
+INPUT ./1_21_Sunday.in.Ordinary.Time.aux

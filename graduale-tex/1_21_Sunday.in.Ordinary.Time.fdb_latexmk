@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1597479491 "1_21_Sunday.in.Ordinary.Time.tex" "1_21_Sunday.in.Ordinary.Time.pdf" "1_21_Sunday.in.Ordinary.Time" 1597479500
+["lualatex"] 1597484809 "1_21_Sunday.in.Ordinary.Time.tex" "1_21_Sunday.in.Ordinary.Time.pdf" "1_21_Sunday.in.Ordinary.Time" 1597484818
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1554974325 759291 9e920ce49dc26c1d5f943e63b52a89d5 ""
@@ -131,22 +131,22 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_21_Sunday.in.Ordinary.Time.aux" 1597479499 1217 f82deace4a17fcc2f6279126c74a4c86 ""
-  "1_21_Sunday.in.Ordinary.Time.gaux" 1597479490 326 2a2b2c16815716aec5fec41df5edf76f ""
-  "1_21_Sunday.in.Ordinary.Time.out" 1597479499 138 e2fad5fe2d7017e8c063afa88afcf891 ""
-  "1_21_Sunday.in.Ordinary.Time.tex" 1597479146 4594 7a2075642c031e63d2e0fe9245782779 ""
+  "1_21_Sunday.in.Ordinary.Time.aux" 1597484818 1224 61ca4121f0eab8188f12745368b8e458 ""
+  "1_21_Sunday.in.Ordinary.Time.gaux" 1597484808 535 1ab63177743c2d631ff3c8e988f793d9 ""
+  "1_21_Sunday.in.Ordinary.Time.out" 1597484818 138 e2fad5fe2d7017e8c063afa88afcf891 ""
+  "1_21_Sunday.in.Ordinary.Time.tex" 1597484510 4636 6c17dbb71e25abb5d94d7c8fb61ac85b ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
-  "graduale-chants/al--tu_es_petrus--dominican--id_6296-5_2_1.gtex" 1597479489 13991 ccdd8e1441631ca64b97349a96746fc7 ""
-  "graduale-chants/al--tu_es_petrus--dominican--id_6296.gabc" 1597479478 552 17381ae22f90f4b61ea56161e72e27a1 ""
+  "graduale-chants/al--quoniam_deus_magnus--dominican--id_6868-5_2_1.gtex" 1597484806 25669 575199c66874b2eb41992861e5ad7afb ""
+  "graduale-chants/al--quoniam_deus_magnus--dominican--id_6868.gabc" 1597484752 722 81e2a8c3ccacd812b697ec14df85be83 ""
   "incipit.ind" 1597330422 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
   "1_21_Sunday.in.Ordinary.Time.aux"
+  "incipit.idx"
   "1_21_Sunday.in.Ordinary.Time.log"
   "1_21_Sunday.in.Ordinary.Time.out"
-  "incipit.idx"
   "1_21_Sunday.in.Ordinary.Time.pdf"
-["makeindex incipit.idx"] 1597326701 "incipit.idx" "incipit.ind" "incipit" 1597479500
-  "incipit.idx" 1597479494 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1597326701 "incipit.idx" "incipit.ind" "incipit" 1597484818
+  "incipit.idx" 1597484812 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
+  "incipit.ind"

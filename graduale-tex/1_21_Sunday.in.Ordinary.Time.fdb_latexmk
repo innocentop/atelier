@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1597500536 "1_21_Sunday.in.Ordinary.Time.tex" "1_21_Sunday.in.Ordinary.Time.pdf" "1_21_Sunday.in.Ordinary.Time" 1597500566
+["lualatex"] 1597512024 "1_21_Sunday.in.Ordinary.Time.tex" "1_21_Sunday.in.Ordinary.Time.pdf" "1_21_Sunday.in.Ordinary.Time" 1597512054
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -132,10 +132,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_21_Sunday.in.Ordinary.Time.aux" 1597500566 2515 37e7ee43432de35933348cb48a4bcdbc ""
+  "1_21_Sunday.in.Ordinary.Time.aux" 1597512054 2515 37e7ee43432de35933348cb48a4bcdbc ""
   "1_21_Sunday.in.Ordinary.Time.gaux" 1597500536 2430 e40f9fd1d03740e0c4f09756457e9c8a ""
-  "1_21_Sunday.in.Ordinary.Time.out" 1597500566 138 e2fad5fe2d7017e8c063afa88afcf891 ""
-  "1_21_Sunday.in.Ordinary.Time.tex" 1597500504 8602 90261b2e735f7847698fb9848403bb17 ""
+  "1_21_Sunday.in.Ordinary.Time.out" 1597512054 138 e2fad5fe2d7017e8c063afa88afcf891 ""
+  "1_21_Sunday.in.Ordinary.Time.tex" 1597512023 8598 c54ab0197d0c1510989d5a2bab7baa33 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--quoniam_deus_magnus--dominican--id_6868-5_2_1.gtex" 1597498484 25524 5dbcbeffa24fafc9f42fef053ca89d49 ""
   "graduale-chants/al--quoniam_deus_magnus--dominican--id_6868.gabc" 1597498455 720 d14bab0769c1499222fffbbced9c4ffe ""
@@ -155,13 +155,13 @@
   "graduale-chants/of--exspectans--dominican--id_5958.gabc" 1597500247 630 9301da54bec1d132389b881a7b0f39e5 ""
   "incipit.ind" 1597330422 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_21_Sunday.in.Ordinary.Time.pdf"
   "incipit.idx"
   "1_21_Sunday.in.Ordinary.Time.log"
   "1_21_Sunday.in.Ordinary.Time.aux"
   "1_21_Sunday.in.Ordinary.Time.out"
-["makeindex incipit.idx"] 1597326701 "incipit.idx" "incipit.ind" "incipit" 1597500566
-  "incipit.idx" 1597500540 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_21_Sunday.in.Ordinary.Time.pdf"
+["makeindex incipit.idx"] 1597326701 "incipit.idx" "incipit.ind" "incipit" 1597512054
+  "incipit.idx" 1597512027 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

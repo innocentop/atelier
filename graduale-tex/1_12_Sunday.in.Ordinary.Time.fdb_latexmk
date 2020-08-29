@@ -1,6 +1,5 @@
 # Fdb version 3
-["lualatex"] 1595066912 "1_12_Sunday.in.Ordinary.Time.tex" "1_12_Sunday.in.Ordinary.Time.pdf" "1_12_Sunday.in.Ordinary.Time" 1595066941
-  "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
+["lualatex"] 1598728172 "1_12_Sunday.in.Ordinary.Time.tex" "1_12_Sunday.in.Ordinary.Time.pdf" "1_12_Sunday.in.Ordinary.Time" 1598728204
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1554974325 759291 9e920ce49dc26c1d5f943e63b52a89d5 ""
@@ -132,17 +131,17 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_12_Sunday.in.Ordinary.Time.aux" 1595066941 2296 38a772739e40d4fd197a13bd0c43124f ""
-  "1_12_Sunday.in.Ordinary.Time.gaux" 1595066912 1848 55c563cf317601987a899086556ed95b ""
-  "1_12_Sunday.in.Ordinary.Time.out" 1595066941 138 f40a91b67d08166d3d434734af54154f ""
-  "1_12_Sunday.in.Ordinary.Time.tex" 1595066878 8163 f47167c4fa0190982290db518f668dfa ""
+  "1_12_Sunday.in.Ordinary.Time.aux" 1598728204 2296 38a772739e40d4fd197a13bd0c43124f ""
+  "1_12_Sunday.in.Ordinary.Time.gaux" 1598728171 1836 d0916170cb4d9e7735dfa17f6f011e39 ""
+  "1_12_Sunday.in.Ordinary.Time.out" 1598728204 138 f40a91b67d08166d3d434734af54154f ""
+  "1_12_Sunday.in.Ordinary.Time.tex" 1598728137 8176 b818e324e259ca668b8e30b59d155382 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--in_te_domine--dominican--id_5743-5_2_1.gtex" 1592464369 29496 41cd3300d13c4f6c633ea34a99a00ee6 ""
   "graduale-chants/al--in_te_domine--dominican--id_5743.gabc" 1592464038 817 05efb4b89104a9bcf8e2ed0b8b4b33ea ""
   "graduale-chants/co--circuibo--dominican--id_5503-5_2_1.gtex" 1592465379 12637 63efe8de62a380705e5bba892c256d64 ""
   "graduale-chants/co--circuibo--dominican--id_5503.gabc" 1592465325 460 eb426bc7700594fd7bf3d706c87a95e1 ""
-  "graduale-chants/co--qui_vult_venire--dominican--id_6924-5_2_1.gtex" 1592463503 11668 183e40f3d067a35e9d7a2c0389ce22fc ""
-  "graduale-chants/co--qui_vult_venire--dominican--id_6924.gabc" 1567495088 464 84df288c1407b0162a5ae6dd6513d652 ""
+  "graduale-chants/co--qui_vult_venire--dominican--id_6924--no-alleluia-5_2_1.gtex" 1567495552 9632 796efdc6cc8d71e88496f08ffabb4d42 ""
+  "graduale-chants/co--qui_vult_venire--dominican--id_6924--no-alleluia.gabc" 1567495077 465 fa8fe2edc3040df19c7fb9869032afdd ""
   "graduale-chants/co--quod_dico_vobis--vatican-op--no-alleluia-5_2_1.gtex" 1595066907 11254 de204dea7e471439d77990f800e2fd26 ""
   "graduale-chants/co--quod_dico_vobis--vatican-op--no-alleluia.gabc" 1595066550 425 38f1ce1b0850b61f52acdbab7d6013c5 ""
   "graduale-chants/gr--convertere--dominican--id_6922-5_2_1.gtex" 1595066896 26798 c2af1e7dd0dd44b60bf83fcab0883558 ""
@@ -151,15 +150,15 @@
   "graduale-chants/in--dominus_fortitudo--dominican--id_7152.gabc" 1592464492 1244 d3136c271e34519b19faf77bbf2628fe ""
   "graduale-chants/of--perfice_gressus--dominican--id_6795-5_2_1.gtex" 1592463495 23121 f0034367bf8148aa99efff5f6e1c5f8d ""
   "graduale-chants/of--perfice_gressus--dominican--id_6795.gabc" 1516216807 709 8f1e054737368524cbf7d4a1672eb859 ""
-  "incipit.ind" 1595063440 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1597330422 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_12_Sunday.in.Ordinary.Time.pdf"
-  "1_12_Sunday.in.Ordinary.Time.out"
   "incipit.idx"
+  "1_12_Sunday.in.Ordinary.Time.out"
   "1_12_Sunday.in.Ordinary.Time.log"
   "1_12_Sunday.in.Ordinary.Time.aux"
-["makeindex incipit.idx"] 1592463505 "incipit.idx" "incipit.ind" "incipit" 1595066941
-  "incipit.idx" 1595066916 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_12_Sunday.in.Ordinary.Time.pdf"
+["makeindex incipit.idx"] 1592463505 "incipit.idx" "incipit.ind" "incipit" 1598728204
+  "incipit.idx" 1598728176 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ind"
   "incipit.ilg"
+  "incipit.ind"

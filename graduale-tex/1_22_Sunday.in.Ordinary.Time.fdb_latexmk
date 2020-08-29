@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1598640729 "1_22_Sunday.in.Ordinary.Time.tex" "1_22_Sunday.in.Ordinary.Time.pdf" "1_22_Sunday.in.Ordinary.Time" 1598640756
+["lualatex"] 1598727991 "1_22_Sunday.in.Ordinary.Time.tex" "1_22_Sunday.in.Ordinary.Time.pdf" "1_22_Sunday.in.Ordinary.Time" 1598728019
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1554974325 759291 9e920ce49dc26c1d5f943e63b52a89d5 ""
@@ -131,15 +131,15 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_22_Sunday.in.Ordinary.Time.aux" 1598640756 2153 51d9b96ec11c2020447b4396b73ddd03 ""
-  "1_22_Sunday.in.Ordinary.Time.gaux" 1598640728 1706 069499301a962a5254fd2fa94a3082bf ""
-  "1_22_Sunday.in.Ordinary.Time.out" 1598640756 138 b053af6b51ad0b4316998e4f78151ca0 ""
-  "1_22_Sunday.in.Ordinary.Time.tex" 1598640702 7533 6dc7e76892ff754c05cebd53b20cbe49 ""
+  "1_22_Sunday.in.Ordinary.Time.aux" 1598728018 2153 51d9b96ec11c2020447b4396b73ddd03 ""
+  "1_22_Sunday.in.Ordinary.Time.gaux" 1598727991 1706 7d03e7e09582b0c1ea613f90897accb1 ""
+  "1_22_Sunday.in.Ordinary.Time.out" 1598728018 138 b053af6b51ad0b4316998e4f78151ca0 ""
+  "1_22_Sunday.in.Ordinary.Time.tex" 1598727963 7528 4fa5a5aa1e0fd3e6d1a3a43a8da09830 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--cantate_domino--solesmes-df-5_2_1.gtex" 1598640188 23755 eda602affa2ae47b1fc6c18370b777a6 ""
   "graduale-chants/al--cantate_domino--solesmes-df.gabc" 1598640164 652 180eefc689b4ad8434c1db4bb9895dee ""
-  "graduale-chants/co--domine_memorabor--dominican--id_6241-5_2_1.gtex" 1598640726 17346 ef019d97695a657df5eee76ea19bb594 ""
-  "graduale-chants/co--domine_memorabor--dominican--id_6241.gabc" 1598640668 586 8e404a86d04cd0e099e16747dde220fb ""
+  "graduale-chants/co--domine_memorabor--dominican--id_6241-5_2_1.gtex" 1598727988 17327 394b7429ba663878ba5f6dd18a55cc46 ""
+  "graduale-chants/co--domine_memorabor--dominican--id_6241.gabc" 1598727960 584 3634db7edca4f28f2bbf7301484051ca ""
   "graduale-chants/co--qui_vult_venire--dominican--id_6924--no-alleluia-5_2_1.gtex" 1567495552 9632 796efdc6cc8d71e88496f08ffabb4d42 ""
   "graduale-chants/co--qui_vult_venire--dominican--id_6924--no-alleluia.gabc" 1567495077 465 fa8fe2edc3040df19c7fb9869032afdd ""
   "graduale-chants/gr--timebunt_gentes--dominican--id_4967-5_2_1.gtex" 1597330403 30875 f2c587cb453483d52e235ca1747efe6f ""
@@ -150,13 +150,13 @@
   "graduale-chants/of--domine_in_auxilium--dominican--id_6744.gabc" 1598640390 515 d4861c76051e9da02506289ab443a702 ""
   "incipit.ind" 1597330422 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_22_Sunday.in.Ordinary.Time.pdf"
-  "1_22_Sunday.in.Ordinary.Time.aux"
   "1_22_Sunday.in.Ordinary.Time.out"
   "1_22_Sunday.in.Ordinary.Time.log"
+  "1_22_Sunday.in.Ordinary.Time.aux"
+  "1_22_Sunday.in.Ordinary.Time.pdf"
   "incipit.idx"
-["makeindex incipit.idx"] 1597330422 "incipit.idx" "incipit.ind" "incipit" 1598640756
-  "incipit.idx" 1598640732 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1597330422 "incipit.idx" "incipit.ind" "incipit" 1598728019
+  "incipit.idx" 1598727995 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "incipit.ilg"
   "incipit.ind"
+  "incipit.ilg"

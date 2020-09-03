@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1599151784 "1_23_Sunday.in.Ordinary.Time.tex" "1_23_Sunday.in.Ordinary.Time.pdf" "1_23_Sunday.in.Ordinary.Time" 1599151815
+["lualatex"] 1599157829 "1_23_Sunday.in.Ordinary.Time.tex" "1_23_Sunday.in.Ordinary.Time.pdf" "1_23_Sunday.in.Ordinary.Time" 1599157857
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1554974325 759291 9e920ce49dc26c1d5f943e63b52a89d5 ""
@@ -131,10 +131,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "1_23_Sunday.in.Ordinary.Time.aux" 1599151814 2323 88bacd0b3a7499f191cee74a06722099 ""
+  "1_23_Sunday.in.Ordinary.Time.aux" 1599157857 2323 88bacd0b3a7499f191cee74a06722099 ""
   "1_23_Sunday.in.Ordinary.Time.gaux" 1599151784 2411 6f2e9d75321b9710e87771999e3c170d ""
-  "1_23_Sunday.in.Ordinary.Time.out" 1599151814 138 a8401b7f4036040fb15f22856f7fdf31 ""
-  "1_23_Sunday.in.Ordinary.Time.tex" 1599151751 8051 c90d9ea554c7b88675d0ce89c28e62f8 ""
+  "1_23_Sunday.in.Ordinary.Time.out" 1599157857 138 a8401b7f4036040fb15f22856f7fdf31 ""
+  "1_23_Sunday.in.Ordinary.Time.tex" 1599157828 8067 f068669889edb98214b1f8f98e9fcac2 ""
   "alteliersaintjacques-shell.png" 1513711955 177749 ef362911dc9f16e8869e31de540af574 ""
   "graduale-chants/al--domine_exaudi--solesmes-op-5_2_1.gtex" 1599150850 17382 1e26b3c2fcf3019b4b0b20a6c10d647a ""
   "graduale-chants/al--domine_exaudi--solesmes-op.gabc" 1599150841 541 f6781d0c9b382936fc1ca06b03cceca5 ""
@@ -150,13 +150,13 @@
   "graduale-chants/of--oravi_deum--dominican--id_6545.gabc" 1599151735 830 910da0698089e3467ffa84e385669af7 ""
   "incipit.ind" 1599146803 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_23_Sunday.in.Ordinary.Time.aux"
-  "incipit.idx"
   "1_23_Sunday.in.Ordinary.Time.out"
+  "incipit.idx"
   "1_23_Sunday.in.Ordinary.Time.log"
   "1_23_Sunday.in.Ordinary.Time.pdf"
-["makeindex incipit.idx"] 1599146803 "incipit.idx" "incipit.ind" "incipit" 1599151815
-  "incipit.idx" 1599151788 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "1_23_Sunday.in.Ordinary.Time.aux"
+["makeindex incipit.idx"] 1599146803 "incipit.idx" "incipit.ind" "incipit" 1599157857
+  "incipit.idx" 1599157833 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ind"
   "incipit.ilg"

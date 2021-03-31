@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1617089615 "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.tex" "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.pdf" "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat" 1617089669
+["lualatex"] 1617172760 "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.tex" "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.pdf" "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat" 1617172812
   "/Users/atelier/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/atelier/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/atelier/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1554974325 765219 1862b745d6b573dce577032de8b4662a ""
@@ -134,10 +134,10 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1554583597 2169 ba330a787a9be92abdb02534f51e5c0e ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1554583597 8175 2fc9a0ba40d07d0d646b6a7599aa76e0 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gsp-default.tex" 1554583597 24454 99424850ef7410f004884fdfc0443719 ""
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.aux" 1617089668 4209 7e83c10592f61c908da7e814f6ae56be ""
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.gaux" 1617089614 4070 c881cfa73b6edcdc6ee8e694e0a6d0b7 ""
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.out" 1617089668 141 00493c6cc6cc5adde362ded226482891 ""
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.tex" 1617089560 12725 6404c73a85d8a34eefa6f766de976fa5 ""
+  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.aux" 1617172811 4209 7e83c10592f61c908da7e814f6ae56be ""
+  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.gaux" 1617172760 4068 f2108631d3ff85efca97917dc9f2cf5c ""
+  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.out" 1617172811 141 00493c6cc6cc5adde362ded226482891 ""
+  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.tex" 1617172705 12657 60e360450eb91952b9b8e054e8433b6f ""
   "chants/an--angelus_autem_domini--dominican--id_6988-5_2_1.gtex" 1555059432 14247 e2d5b418b1068a47785750dc2b78095f ""
   "chants/an--angelus_autem_domini--dominican--id_6988.gabc" 1513711955 498 0e8070b666f1ee08124d5337c3305997 ""
   "chants/an--cum_esset_sero--dominican--id_5636-5_2_1.gtex" 1555059447 16870 06368e15976ab82f0df2870ed7d809ae ""
@@ -165,13 +165,13 @@
   "psalms/psalm113Aenglish2-2.tex" 1513711958 1157 bc579ccf9f626b18a7b5018ec03ebc3a ""
   "readings/lectio_brevis_Heb.10.12-14.tex" 1513711958 243 7535e3e0c98f8a665a4f078898c98c72 ""
   (generated)
+  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.aux"
   "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.pdf"
   "incipit.idx"
   "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.out"
   "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.log"
-  "02_T.7.1.Easter_Sunday_2nd_Vespers_A_B_C--solemn_magnificat.aux"
-["makeindex incipit.idx"] 1617089377 "incipit.idx" "incipit.ind" "incipit" 1617089669
-  "incipit.idx" 1617089619 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex incipit.idx"] 1617089377 "incipit.idx" "incipit.ind" "incipit" 1617172812
+  "incipit.idx" 1617172764 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "incipit.ilg"
   "incipit.ind"

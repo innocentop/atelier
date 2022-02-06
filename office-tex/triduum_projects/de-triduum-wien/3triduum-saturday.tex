@@ -1,0 +1,150 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,german]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+\usepackage{unicode-math}
+\setmathfont{LatinModernMath-Regular}
+\AtBeginDocument{\grelatexsimpledefbarredsymbol{V}{0.1em}{0.12em}{0.14em}{0.18em}}
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+
+\chapter{Trauermette am Karsamstag}
+\section{Officium Lectionis}
+   \index[Varia]{Herr offne} \label{Herr offne (Varia)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \gregorioscore{chants/herr_offne}
+\subsubsection{Invitatorium}   \index[Invitatorium]{Invitatorium} \label{Invitatorium (Invitatorium)}         \vspace{5pt} \par \input{psalms/invitatorium_im_kreuz}
+\subsubsection{Hymnus} \input{chants/hymn.tex}                 \newpage
+\subsection{Psalmodie} \input{psalms/samstag.oor.psalmody.tex}
+\subsubsection{Versiculum}  \greannotation{} \index[Versiculum]{Versiculum} \label{Versiculum (Versiculum)} \grecommentary[0pt]{} \gresetinitiallines{0} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/versiculum_thursday}    \newpage
+\subsection{Lesungen}
+\subsubsection{Erste Lesung} \vspace{5pt} \emph{Aus den Klageliedern des Propheten Jeremia. Aleph. Weh, wie glanzlos ist das Gold, gedunkelt das köstliche Feingold, hingeschüttet die heiligen Steine an den Ecken aller Straßen. Beth. Die edlen Kinder Zions, einst aufgewogen mit reinem Gold, weh, wie Krüge aus Ton sind sie geachtet, wie Werk von Töpferhand. Ghimel. Selbst Schakale reichen die Brust, säugen ihre Jungen. Die Töchter meines Volkes sind grausam wie Strauße in der Wüste. Daleth. Des Säuglings Zunge klebt an seinem Gaumen vor Durst. Kinder betteln um Brot; keiner bricht es ihnen. - Jerusalem, Jerusalem, bekehre dich zum Herrn, deinem Gott.} \vspace{5pt} \greannotation{} \index[Erste Lesung]{Erste Lesung} \label{Erste Lesung (Erste Lesung)} \grecommentary[3pt]{Klgl 4, 1-4} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/va--lamentationes_71_de_lamentatione--dominican}
+\subsubsection{II} \vspace{5pt} \emph{He. Die einst Leckerbissen schmausten, verschmachten auf den Straßen. Die einst auf Purpur lagen, wälzen sich jetzt im Unrat. Vau. Größer ist die Schuld der Tochter, meines Volkes, als die Sünde Sodoms, das plötzlich vernichtet wurde, ohne dass eine Hand sich rührte. Zain. Ihre jungen Männer waren reiner als Schnee, weißer als Milch, ihr Leib rosiger als Korallen, saphirblau ihre Adern. Heth. Schwärzer als Ruß sehen sie aus, man erkennt sie nicht auf den Straßen. Die Haut schrumpft ihnen am Leib, trocken wie Holz ist sie geworden. - Jerusalem, Jerusalem, bekehre dich zum Herrn, deinem Gott.} \vspace{5pt} \greannotation{} \index[II]{II} \label{II (II)} \grecommentary[3pt]{Klgl 4, 5-8} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/va--lamentationes_72_he_qui_vescebantur--dominican}
+\subsubsection{III} \vspace{5pt} \emph{Teth. Besser die vom Schwert Getöteten als die vom Hunger Getöteten; sie sind verschmachtet, vom Missertrag der Felder getroffen. Jod. Die Hände liebender Mütter kochten die eigenen Kinder. Sie dienten ihnen als Speise beim Zusammenbruch der Tochter, meines Volkes. Caph. Randvoll gemacht hat der Herr seinen Grimm, ausgegossen seinen glühenden Zorn. Er entfachte in Zion ein Feuer, das bis auf den Grund alles verzehrte. Lamed. Kein König eines Landes, kein Mensch auf der Erde hätte jemals geglaubt, dass ein Bedränger und Feind durchschritte die Tore Jerusalems. - Jerusalem, Jerusalem, bekehre dich zum Herrn, deinem Gott.}  \vspace{5pt} \greannotation{} \index[III]{III} \label{III (III)} \grecommentary[3pt]{Klgl 4, 9-12} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/va--lamentationes_73_teth_melius_fuit--dominican}    \newpage
+\subsubsection{Zweite Lesung}             \input{readings/lectio_altera--leo--samstag.tex}    \newpage
+\subsubsection{Oratio Ieremiae Prophetae} \vspace{5pt} \emph{Gebet des Propheten Jeremia. Herr, denk daran, was uns geschehen, blick her und sieh unsre Schmach! An Ausländer fiel unser Erbe, unsre Häuser kamen an Fremde. Wir wurden Waisen, Kinder ohne Vater, unsere Mütter wurden Witwen. Unser Wasser trinken wir für Geld, unser Holz müssen wir bezahlen. Wir werden getrieben, das Joch auf dem Nacken, wir sind müde, man versagt uns die Ruhe. Nach Ägypten streckten wir die Hand, nach Assur, um uns mit Brot zu sättigen. Unsere Väter haben gesündigt; sie sind nicht mehr. Wir müssen ihre Sünden tragen. Sklaven herrschen über uns, niemand entreißt uns ihren Händen. Unter Lebensgefahr holen wir unser Brot, bedroht vom Schwert der Wüste. Unsere Haut glüht wie ein Ofen von den Gluten des Hungers. Frauen hat man in Zion geschändet, Jungfrauen in den Städten von Juda. Fürsten wurden von Feindeshand gehängt, den ltesten nahm man die Ehre. Junge Männer mussten die Handmühlen schleppen, unter der Holzlast brachen Knaben zusammen. Die Alten blieben fern vom Tor, die Jungen vom Saitenspiel. Dahin ist unseres Herzens Freude, in Trauer gewandelt unser Reigen. Die Krone ist uns vom Haupt gefallen. Weh uns, wir haben gesündigt. Darum ist krank unser Herz, darum sind trüb unsere Augen über den Zionsberg, der verwüstet liegt; Füchse laufen dort umher. Du aber, Herr, bleibst ewig, dein Thron von Geschlecht zu Geschlecht. Warum willst du uns für immer vergessen, uns verlassen fürs ganze Leben? Kehre uns, Herr, dir zu, dann können wir uns zu dir bekehren. Erneuere unsere Tage, damit sie werden wie früher. Oder hast du uns denn ganz verworfen, zürnst du uns über alle Maßen? - Jerusalem, Jerusalem, bekehre dich zum Herrn, deinem Gott.}  \vspace{5pt} \greannotation{} \index[Oratio Ieremiae Prophetae]{Oratio Ieremiae Prophetae} \label{Oratio Ieremiae Prophetae (Oratio Ieremiae Prophetae)} \grecommentary[4pt]{Klgl 5, 1-22} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/misc.oratio.ieremiae}    \newpage
+\section{Laudes}
+\subsubsection{Psalmodie} \input{psalms/samstag.mp.psalmody.tex}                 \newpage
+\subsubsection{Kurzlesung}     \hfill Hos 6, 1-2        \input{readings/lectio_brevis_Hos.6.2--de.tex}
+\subsubsection{Responsorium} \emph{Christus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuze. \Vbar. Darum auch hat Gott ihn erhöht und ihm den Namen gegeben, der über allen Namen steht.} \vspace{5pt}  \greannotation{V} \index[Responsorium]{Responsorium} \label{Responsorium (Responsorium)} \grecommentary[7pt]{Phil 2, 8; \Vbar. 9} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/gr--christus_factus_est--dominican--id_6737}    \newpage
+\subsubsection{Benedictus} \input{psalms/samstag.benedictus.tex}                 \newpage
+\subsubsection{Preces}  \greannotation{} \index[Preces]{Holy Thursday} \label{Holy Thursday (Preces)} \grecommentary[3pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.7cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/misc.versus_litanici_in_cantu_sabbato_sancto-de-rubrics}
+\subsubsection{Vater Unser}   \index[Vater Unser]{Vater Unser} \label{Vater Unser (Vater Unser)}             \vspace{10pt}
+\subsubsection{Oration}   \index[Oration]{Oration} \label{Oration (Oration)}         \input{prayers/or-holy-week-saturday-de}
+\subsubsection{Schlußsegen}   \index[Schlußsegen]{Schlußsegen} \label{Schlußsegen (Schlußsegen)}         \input{varia/schlusssegen}
+
+  \end{document}

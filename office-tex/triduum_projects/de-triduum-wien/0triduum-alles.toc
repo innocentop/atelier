@@ -1,0 +1,86 @@
+\babel@toc {german}{}
+\contentsline {chapter}{Trauermette am Gründonnerstag}{5}{chapter*.2}% 
+\contentsline {section}{Officium Lectionis}{5}{section*.3}% 
+\contentsline {subsubsection}{Invitatorium}{5}{subsubsection*.4}% 
+\contentsline {subsubsection}{Hymnus}{9}{subsubsection*.5}% 
+\contentsline {subsection}{Psalmodie}{11}{subsection*.6}% 
+\contentsline {subsubsection}{Psalm 44 (43)}{11}{subsubsection*.7}% 
+\contentsline {paragraph}{I}{11}{paragraph*.8}% 
+\contentsline {paragraph}{II}{12}{paragraph*.9}% 
+\contentsline {paragraph}{III}{12}{paragraph*.10}% 
+\contentsline {subsubsection}{Versiculum}{13}{subsubsection*.11}% 
+\contentsline {subsection}{Lesungen}{14}{subsection*.12}% 
+\contentsline {subsubsection}{Erste Lesung}{14}{subsubsection*.13}% 
+\contentsline {subsubsection}{II}{15}{subsubsection*.14}% 
+\contentsline {subsubsection}{III}{17}{subsubsection*.15}% 
+\contentsline {subsubsection}{Zweite Lesung}{19}{subsubsection*.16}% 
+\contentsline {section}{Laudes}{20}{section*.17}% 
+\contentsline {subsubsection}{Psalmodie}{20}{subsubsection*.18}% 
+\contentsline {subsubsection}{Psalm 80}{20}{subsubsection*.19}% 
+\contentsline {subsubsection}{Canticum}{21}{subsubsection*.20}% 
+\contentsline {paragraph}{Jes 12,1-6}{21}{paragraph*.21}% 
+\contentsline {subsubsection}{Psalm 81}{22}{subsubsection*.22}% 
+\contentsline {subsubsection}{Kurzlesung}{23}{subsubsection*.23}% 
+\contentsline {subsubsection}{Responsorium}{23}{subsubsection*.24}% 
+\contentsline {subsubsection}{Benedictus}{24}{subsubsection*.25}% 
+\contentsline {paragraph}{Lk 1, 68-79}{24}{paragraph*.26}% 
+\contentsline {subsubsection}{Preces}{25}{subsubsection*.27}% 
+\contentsline {subsubsection}{Vater Unser}{28}{subsubsection*.28}% 
+\contentsline {subsubsection}{Oration}{28}{subsubsection*.29}% 
+\contentsline {subsubsection}{Schlußsegen}{28}{subsubsection*.30}% 
+\contentsline {chapter}{Trauermette am Karfreitag}{29}{chapter*.31}% 
+\contentsline {section}{Officium Lectionis}{29}{section*.32}% 
+\contentsline {subsubsection}{Invitatorium}{29}{subsubsection*.33}% 
+\contentsline {subsubsection}{Hymnus}{33}{subsubsection*.34}% 
+\contentsline {subsection}{Psalmodie}{35}{subsection*.35}% 
+\contentsline {subsubsection}{Psalm 2,1-12}{35}{subsubsection*.36}% 
+\contentsline {subsubsection}{Psalm 22 (21), 2-23}{36}{subsubsection*.37}% 
+\contentsline {subsubsection}{Psalm 38 (37)}{37}{subsubsection*.38}% 
+\contentsline {subsubsection}{Versiculum}{39}{subsubsection*.39}% 
+\contentsline {subsection}{Lesungen}{39}{subsection*.40}% 
+\contentsline {subsubsection}{Erste Lesung}{39}{subsubsection*.41}% 
+\contentsline {subsubsection}{II}{41}{subsubsection*.42}% 
+\contentsline {subsubsection}{III}{43}{subsubsection*.43}% 
+\contentsline {subsubsection}{Zweite Lesung}{45}{subsubsection*.44}% 
+\contentsline {section}{Laudes}{46}{section*.45}% 
+\contentsline {subsubsection}{Psalmodie}{46}{subsubsection*.46}% 
+\contentsline {subsubsection}{Psalm 51 (50), 3-21}{46}{subsubsection*.47}% 
+\contentsline {subsubsection}{Canticum}{47}{subsubsection*.48}% 
+\contentsline {paragraph}{Hab 3, 2-4.13a.15-19}{47}{paragraph*.49}% 
+\contentsline {subsubsection}{Psalm 47,12-20}{48}{subsubsection*.50}% 
+\contentsline {subsubsection}{Kurzlesung}{50}{subsubsection*.51}% 
+\contentsline {subsubsection}{Responsorium}{50}{subsubsection*.52}% 
+\contentsline {subsubsection}{Benedictus}{51}{subsubsection*.53}% 
+\contentsline {paragraph}{Lk 1, 68-79}{51}{paragraph*.54}% 
+\contentsline {subsubsection}{Preces}{52}{subsubsection*.55}% 
+\contentsline {subsubsection}{Vater Unser}{55}{subsubsection*.56}% 
+\contentsline {subsubsection}{Oration}{55}{subsubsection*.57}% 
+\contentsline {subsubsection}{Schlußsegen}{55}{subsubsection*.58}% 
+\contentsline {chapter}{Trauermette am Karsamstag}{57}{chapter*.59}% 
+\contentsline {section}{Officium Lectionis}{57}{section*.60}% 
+\contentsline {subsubsection}{Invitatorium}{57}{subsubsection*.61}% 
+\contentsline {subsubsection}{Hymnus}{61}{subsubsection*.62}% 
+\contentsline {subsection}{Psalmodie}{63}{subsection*.63}% 
+\contentsline {subsubsection}{Psalm 4, 2-9}{63}{subsubsection*.64}% 
+\contentsline {subsubsection}{Psalm 16, 1-11}{63}{subsubsection*.65}% 
+\contentsline {subsubsection}{Psalm 24, 1-10}{64}{subsubsection*.66}% 
+\contentsline {subsubsection}{Versiculum}{65}{subsubsection*.67}% 
+\contentsline {subsection}{Lesungen}{66}{subsection*.68}% 
+\contentsline {subsubsection}{Erste Lesung}{66}{subsubsection*.69}% 
+\contentsline {subsubsection}{II}{67}{subsubsection*.70}% 
+\contentsline {subsubsection}{III}{69}{subsubsection*.71}% 
+\contentsline {subsubsection}{Zweite Lesung}{71}{subsubsection*.72}% 
+\contentsline {subsubsection}{Oratio Ieremiae Prophetae}{72}{subsubsection*.73}% 
+\contentsline {section}{Laudes}{77}{section*.74}% 
+\contentsline {subsubsection}{Psalmodie}{77}{subsubsection*.75}% 
+\contentsline {subsubsection}{Psalm 64, 2-11}{77}{subsubsection*.76}% 
+\contentsline {subsubsection}{Jes 38, 10-13a.14c-d.17-20}{78}{subsubsection*.77}% 
+\contentsline {subsubsection}{Psalm 150, 1-6}{79}{subsubsection*.78}% 
+\contentsline {subsubsection}{Kurzlesung}{80}{subsubsection*.79}% 
+\contentsline {subsubsection}{Responsorium}{80}{subsubsection*.80}% 
+\contentsline {subsubsection}{Benedictus}{81}{subsubsection*.81}% 
+\contentsline {paragraph}{Lk 1, 68-79}{81}{paragraph*.82}% 
+\contentsline {subsubsection}{Preces}{82}{subsubsection*.83}% 
+\contentsline {subsubsection}{Vater Unser}{85}{subsubsection*.84}% 
+\contentsline {subsubsection}{Oration}{85}{subsubsection*.85}% 
+\contentsline {subsubsection}{Schlußsegen}{85}{subsubsection*.86}% 

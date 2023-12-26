@@ -1,144 +1,20 @@
-\documentclass[11pt,twoside]{book}
+\input{000_header}
 
-%%Page Size (rev. 08/19/2016)
-%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-%% width of textblock = 324 pt / 4.5in
-%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
-
-
-%%Header (rev. 4/11/2011)
-\usepackage{fancyhdr}
- \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
- \fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
- \fancypagestyle{plain}{ %
-\fancyhf{} % remove everything
-\renewcommand{\headrulewidth}{0pt} % remove lines as well
-\renewcommand{\footrulewidth}{0pt}}
-
-
-
-\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
-\usepackage{gregoriosyms}
-\gresetgregoriofont[op]{greciliae}
-
-
-
-
-%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
-
-\setcounter{secnumdepth}{-2}
-
-\usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
-\titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsubsection}{0pt}{*0}{*0}
-\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
-\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
-
-\newcommand{\nocontentsline}[3]{}
-\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
-
-
-%%%
-
-%%Index (rev. December 11, 2013)
-\usepackage[noautomatic,nonewpage]{imakeidx}
-
-
-\makeindex[name=incipit,title=Index]
-\indexsetup{level=\section,toclevel=section,noclearpage}
-
-\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
-
-
-%%Table of Contents (rev. May 16, 2011)
-
-%\usepackage{multicol}
-%\usepackage{ifthen}
-%\usepackage[toc]{multitoc}
-
-%% General settings (rev. January 19, 2015)
-
-\usepackage{ulem}
-
-\usepackage[latin,english]{babel}
-\usepackage{lettrine}
-
-
-\usepackage{fontspec}
-
-\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
-
-
-\usepackage{unicode-math}
-\setmathfont{LatinModernMath-Regular}
-\AtBeginDocument{\grelatexsimpledefbarredsymbol{V}{0.1em}{0.12em}{0.14em}{0.18em}}
-
-
-%% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
-\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
-\grechangestyle{commentary}{\textnormal\selectfont}
-\gresetcustosalteration{invisible}
-
-
-
-%\grechangedim{annotationseparation}{0.1cm}{scalable}
-
-%\GreLoadSpaceConf{smith-four}
-
-\frenchspacing
-
-\usepackage{indentfirst} %%%indents first line after a section
-
-\usepackage{graphicx}
-%\usepackage{tocloft}
-
-%%Hyperref (rev. August 20, 2011)
-%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
-\usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2016}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
-\hypersetup{pdfsubject={Liturgy}}
-\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
-
-\newlength{\drop}
-
-
-
-\begin{document}
-
-
-%%%Initial Matter within Body (20 May 2011)
-\raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
-
-\chapter[The Epiphany of the Lord]{Graduale O.P.}
+\chapter[The Epiphany of the Lord]{Graduale Novum\\Ordinis Prædicatorum}
 \section{The Epiphany of the Lord}
 \subsection{Solemnity}
 
-\begin{figure}[b]\centering\includegraphics[width=1.1in]{alteliersaintjacques-shell}\par \textsc{\Large{Atelier St. Jacques}}\par \vspace{3pt} (Revised: \today)  \vspace{5pt} \end{figure}
+\input{001_edited}
 
-\newpage
 
 %%Combination
-\subsubsection{Officium}  \greannotation{II} \index[Officium]{Ecce advenit} \label{Ecce advenit (Officium)} \grecommentary[0pt]{Cf. Mal 3:1; 1 Chron 29:12; \Vbar. Ps 71:1} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--ecce_advenit--dominican--id_5006} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{Behold the Lord the ruler is come, and a kingdom is in His hand, and power and empire. \Vbar. O God, with Your judgement endow the king, and with Your justice, the king’s son.} \newpage
+
+
+\subsubsection{Officium}  \greannotation{II} \index[Officium]{Ecce advenit} \label{Ecce advenit (Officium)} \grecommentary[0pt]{Cf. Mal 3:1; 1 Chron 29:12; \Vbar. Ps 71:1} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--ecce_advenit--dominican--id_5006} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{Behold, the Lord, the ruler comes, and a kingdom is in His hand, and power and empire. \Vbar. O God, with Your judgement endow the king, and with Your justice, the king’s son.} \newpage
 \subsubsection{Responsorium}  \greannotation{V} \index[Responsorium]{Omnes de Saba} \label{Omnes de Saba (Responsorium)} \grecommentary[0pt]{Is 60:6; \Vbar. 1} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--omnes_de_saba--dominican--id_7014}  \vspace{5pt} \par{All those from Sheba shall come, bringing gold and frankincense, and showing forth praise to the Lord. \Vbar. Arise, and be enlightened, O Jerusalem, for the glory of the Lord is risen upon you.} \newpage
 \subsubsection{Alleluia}  \greannotation{II} \index[Alleluia]{Vidimus stellam} \label{Vidimus stellam (Alleluia)} \grecommentary[0pt]{Cf. Mt 2:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/al--vidimus_stellam--dominican--id_6342}  \vspace{5pt} \par{We have seen His star in the east, and have come with gifts to adore Him.} \newpage
- \subsubsection{Sequentia}  \greannotation{VI} \index[Sequentia]{Laetabundus} \label{Laetabundus (Sequentia)} \grecommentary[7pt]{Ecclesia [Proprium O.P. 1985]} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.6cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/se--laetabundus_1985_version--dominican--id_4215}  \vspace{5pt} \par{\newpage Let the chorus of the faithful joyfully rejoice, alleluia. \par 2. The King of kings was brought forth from the womb of the undefiled: O wondrous thing. \par 3. The Angel of counsel is born of the Virgin: the sun from the star. \par 4. The sun knows no setting, the star ever shining, ever bright. \par 5. As the star brings forth its ray, so the Virgin brings forth her son, equal in form. \par 6. Neither the star by its ray, nor the mother by her son, is corrupted. \par 7. The tall cedar of Lebanon is fashioned into the hyssop, in our valley. \par 8. The Word, the being of the Most High, has deigned to become incarnate, taking on flesh. \par 9. Isaiah foretold it, the Synagogue remembers it, yet she never ceases to be bound. \par 10. If her own prophets she will not heed, let her believe those of the nations: in the verses of the Sibyl these things were predicted. \par 11. Unhappy man, make haste; believe even these things of old: why be condemned, you chosen ones? \par 12. Contemplate the newborn one whom the scriptures reveal, whom the child-bearing woman has begotten. Alleluia.} \newpage
+\subsubsection{Sequentia}  \greannotation{VI} \index[Sequentia]{Laetabundus} \label{Laetabundus (Sequentia)} \grecommentary[7pt]{Ecclesia (\textit{Proprium O.P.} 1985)} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.6cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/se--laetabundus_1985_version--dominican--id_4215}  \vspace{5pt} \par{\newpage 1. Let the chorus of the faithful joyfully rejoice, alleluia. \par 2. The King of kings was brought forth from the womb of the undefiled: O wondrous thing. \par 3. The Angel of counsel is born of the Virgin: the sun from the star. \par 4. The sun knows no setting, the star ever shining, ever bright. \par 5. As the star brings forth its ray, so the Virgin brings forth her son, equal in form. \par 6. Neither the star by its ray, nor the mother by her son, is corrupted. \par 7. The tall cedar of Lebanon is fashioned into the hyssop, in our valley. \par 8. The Word, the being of the Most High, has deigned to become incarnate, taking on flesh. \par 9. Isaiah foretold it, the Synagogue remembers it, yet she never ceases to be bound. \par 10. If her own prophets she will not heed, let her believe those of the nations: in the verses of the Sibyl these things were predicted. \par 11. Unhappy man, make haste; believe even these things of old: why be condemned, you chosen ones? \par 12. Contemplate the newborn one whom the scriptures reveal, whom the child-bearing woman has begotten. Alleluia.} \newpage
 \subsubsection{Offertorium}  \greannotation{V} \index[Offertorium]{Reges Tharsis} \label{Reges Tharsis (Offertorium)} \grecommentary[0pt]{Ps 71:10, 11} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--reges_tharsis--dominican--id_6426}  \vspace{5pt} \par{The kings of Tharsis and of the islands shall offer gifts; the kings of the Arabians and of Sheba shall bring presents; and all the kings of the earth shall adore Him, all nations shall serve Him.} \newpage
 \subsubsection{Communio}  \greannotation{IV} \index[Communio]{Vidimus stellam} \label{Vidimus stellam (Communio)} \grecommentary[2pt]{Cf. Mt 2:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--vidimus_stellam--dominican--id_5896}  \vspace{5pt} \par{We have seen His star in the east, and have come with gifts to adore Him.} \newpage
-
 
 \end{document}

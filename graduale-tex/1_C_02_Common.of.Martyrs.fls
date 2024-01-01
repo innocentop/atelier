@@ -372,3 +372,6 @@ OUTPUT 1_C_02_Common.of.Martyrs.out
 INPUT graduale-chants/in--laetabitur_iustus--dominican--id_6411.gabc
 INPUT ./graduale-chants/in--laetabitur_iustus--dominican--id_6411.gabc
 INPUT ./graduale-chants/in--laetabitur_iustus--dominican--id_6411-6_0_0.gtex
+INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./1_C_02_Common.of.Martyrs.aux
+INPUT ./1_C_02_Common.of.Martyrs.out

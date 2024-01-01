@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1704148347 "1_C_02_Common.of.Martyrs.tex" "1_C_02_Common.of.Martyrs.pdf" "1_C_02_Common.of.Martyrs" 1704148363
+["lualatex"] 1704148561 "1_C_02_Common.of.Martyrs.tex" "1_C_02_Common.of.Martyrs.pdf" "1_C_02_Common.of.Martyrs" 1704148577
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
@@ -189,21 +189,21 @@
   "/usr/local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1616695599 6652 ca80e6e2fc9736cbccadc9431e849ff0 ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
   "000_header.tex" 1704143082 3779 018626b04b18f97b4cdd4dfce47a5768 ""
-  "1_C_02_Common.of.Martyrs.aux" 1704148363 1066 97bd7317e2920de896feae200a1ba490 "lualatex"
-  "1_C_02_Common.of.Martyrs.gaux" 1704148347 378 6834be1035baa311a50478def0d1d83b "lualatex"
-  "1_C_02_Common.of.Martyrs.out" 1704148363 135 09648048b25108486b5499e5df47d624 "lualatex"
-  "1_C_02_Common.of.Martyrs.tex" 1704148323 776 816cad2fa3d3e79256616e20ac2ea027 ""
-  "graduale-chants/in--laetabitur_iustus--dominican--id_6411-6_0_0.gtex" 1704148342 37220 09754225644f489dca115de5ad4aadae ""
-  "graduale-chants/in--laetabitur_iustus--dominican--id_6411.gabc" 1704148288 1035 65866310d8d2ad3b5657197cf56a61f6 ""
-  "incipit.ind" 1704148331 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "1_C_02_Common.of.Martyrs.aux" 1704148576 1066 97bd7317e2920de896feae200a1ba490 "lualatex"
+  "1_C_02_Common.of.Martyrs.gaux" 1704148426 378 bec6b4b99870ad117f0ee3265be34f22 ""
+  "1_C_02_Common.of.Martyrs.out" 1704148576 135 09648048b25108486b5499e5df47d624 "lualatex"
+  "1_C_02_Common.of.Martyrs.tex" 1704148407 776 816cad2fa3d3e79256616e20ac2ea027 ""
+  "graduale-chants/in--laetabitur_iustus--dominican--id_6411-6_0_0.gtex" 1704148421 37219 f741ccdfb40466a6334d4423004cf8e5 ""
+  "graduale-chants/in--laetabitur_iustus--dominican--id_6411.gabc" 1704148405 1033 786c1c61780b9e417c045fd83b5e1480 ""
+  "incipit.ind" 1704148545 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_C_02_Common.of.Martyrs.pdf"
-  "1_C_02_Common.of.Martyrs.aux"
+  "1_C_02_Common.of.Martyrs.out"
   "1_C_02_Common.of.Martyrs.log"
   "incipit.idx"
-  "1_C_02_Common.of.Martyrs.out"
-["makeindex incipit.idx"] 1704148331 "incipit.idx" "incipit.ind" "incipit" 1704148363
-  "incipit.idx" 1704148355 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "1_C_02_Common.of.Martyrs.pdf"
+  "1_C_02_Common.of.Martyrs.aux"
+["makeindex incipit.idx"] 1704148545 "incipit.idx" "incipit.ind" "incipit" 1704148577
+  "incipit.idx" 1704148569 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ind"
   "incipit.ilg"

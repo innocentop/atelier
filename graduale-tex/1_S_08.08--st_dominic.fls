@@ -339,6 +339,9 @@ INPUT ./op-shield.jpg
 INPUT ./op-shield.jpg
 INPUT ./op-shield.jpg
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT graduale-chants/in--in_medio--dominican--no_alleluia.gabc
+INPUT ./graduale-chants/in--in_medio--dominican--no_alleluia.gabc
+INPUT ./graduale-chants/in--in_medio--dominican--no_alleluia-6_0_0.gtex
 INPUT graduale-chants/se--in_caelesti_hierarchia--dominican--id_5838.gabc
 INPUT ./graduale-chants/se--in_caelesti_hierarchia--dominican--id_5838.gabc
 INPUT ./graduale-chants/se--in_caelesti_hierarchia--dominican--id_5838-6_0_0.gtex

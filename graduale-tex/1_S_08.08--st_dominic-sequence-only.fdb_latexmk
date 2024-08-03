@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1722624049 "1_S_08.08--st_dominic-sequence-only.tex" "1_S_08.08--st_dominic-sequence-only.pdf" "1_S_08.08--st_dominic-sequence-only" 1722624067
+["lualatex"] 1722692459 "1_S_08.08--st_dominic-sequence-only.tex" "1_S_08.08--st_dominic-sequence-only.pdf" "1_S_08.08--st_dominic-sequence-only" 1722692477
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1644158737 715279 79817772617c8366cf9a6867b70d9417 ""
@@ -171,21 +171,21 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1616695599 6652 ca80e6e2fc9736cbccadc9431e849ff0 ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
-  "1_S_08.08--st_dominic-sequence-only.aux" 1722624067 1080 4188777c5a1c41ccedd5e287f159b499 "lualatex"
-  "1_S_08.08--st_dominic-sequence-only.gaux" 1722623930 1336 7427a261780b877d5b30613f7f39c643 ""
-  "1_S_08.08--st_dominic-sequence-only.out" 1722624067 168 5b54989e1b5c2791611b119ebeca5542 "lualatex"
-  "1_S_08.08--st_dominic-sequence-only.tex" 1722624046 6089 0d1e62193befd767cc2992bc8ac2d4df ""
-  "graduale-chants/se--in_caelesti_hierarchia--dominican--id_5838-6_0_0.gtex" 1722620347 142374 0a29b94e38efa193cc42ce7b09e446c5 ""
-  "graduale-chants/se--in_caelesti_hierarchia--dominican--id_5838.gabc" 1722620147 3601 e4df51133ec59cf831c2be8d54d0918e ""
-  "incipit.ind" 1722623930 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "1_S_08.08--st_dominic-sequence-only.aux" 1722692477 1080 4188777c5a1c41ccedd5e287f159b499 "lualatex"
+  "1_S_08.08--st_dominic-sequence-only.gaux" 1722692441 1336 9e024f6448699468f1687be1f1ecd7ff "lualatex"
+  "1_S_08.08--st_dominic-sequence-only.out" 1722692477 168 5b54989e1b5c2791611b119ebeca5542 "lualatex"
+  "1_S_08.08--st_dominic-sequence-only.tex" 1722624292 6089 0d1e62193befd767cc2992bc8ac2d4df ""
+  "graduale-chants/se--in_caelesti_hierarchia--dominican--id_5838-6_0_0.gtex" 1722692428 142374 64d51e0bbb9a343f08128637f01c4c82 ""
+  "graduale-chants/se--in_caelesti_hierarchia--dominican--id_5838.gabc" 1722692408 3601 057c9b40fac319b7b553ef8c18e96eb2 ""
+  "incipit.ind" 1722624488 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_S_08.08--st_dominic-sequence-only.pdf"
   "incipit.idx"
-  "1_S_08.08--st_dominic-sequence-only.log"
-  "1_S_08.08--st_dominic-sequence-only.out"
   "1_S_08.08--st_dominic-sequence-only.aux"
-["makeindex incipit.idx"] 1722623930 "incipit.idx" "incipit.ind" "incipit" 1722624067
-  "incipit.idx" 1722624053 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "1_S_08.08--st_dominic-sequence-only.out"
+  "1_S_08.08--st_dominic-sequence-only.log"
+  "1_S_08.08--st_dominic-sequence-only.pdf"
+["makeindex incipit.idx"] 1722623930 "incipit.idx" "incipit.ind" "incipit" 1722692477
+  "incipit.idx" 1722692464 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ind"
   "incipit.ilg"

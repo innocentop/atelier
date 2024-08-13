@@ -1,5 +1,6 @@
 # Fdb version 3
-["lualatex"] 1723590813 "DHS-Sanctoral-08.15-Assumption-Second-Vespers.tex" "DHS-Sanctoral-08.15-Assumption-Second-Vespers.pdf" "DHS-Sanctoral-08.15-Assumption-Second-Vespers" 1723590827
+["lualatex"] 1723592444 "DHS-Sanctoral-08.15-Assumption-Second-Vespers.tex" "DHS-Sanctoral-08.15-Assumption-Second-Vespers.pdf" "DHS-Sanctoral-08.15-Assumption-Second-Vespers" 1723592457
+  "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1644158737 715279 79817772617c8366cf9a6867b70d9417 ""
@@ -172,24 +173,23 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1616695599 6652 ca80e6e2fc9736cbccadc9431e849ff0 ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
-  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.aux" 1723590827 1641 47e8dc4ef9f6e7c32e4864035fe86ae0 "lualatex"
-  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.gaux" 1723590813 1014 1bdd2bdc0d3ea2563105c513648b4900 "lualatex"
-  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.out" 1723590827 394 6d321c3af46d7c400fa3044fb700f1ed "lualatex"
-  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.tex" 1723590775 4886 03d8a818809e2652608beb7d53f4198d ""
-  "chants/an--hodie_beata_virgo--dominican--id_5416-6_0_0.gtex" 1723590788 16467 8d5dc205d86e7951dc36524f6ad73eda ""
-  "chants/an--hodie_beata_virgo--dominican--id_5416.gabc" 1706018774 534 f742e98a1f5616cb82ed8c583163dc16 ""
-  "chants/magnificat-translation.tex" 1706018774 857 ee3c7b4dce86c4cbf62923f0b0812a34 ""
+  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.aux" 1723592457 1642 ca95216ee1ce368d8921b789bd72bdd7 "lualatex"
+  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.gaux" 1723592229 1002 05c21ff894bad58e75d85b6208d4f005 ""
+  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.out" 1723592457 386 cc0f1a60cdeac2b05eea842a3b0b42d9 "lualatex"
+  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.tex" 1723592444 4918 2e85541586737c831e2c0396f2077944 ""
+  "chants/an--hodie_maria--dominican-6_0_0.gtex" 1723592221 9043 536542198f2d4ff9079be355d511fca3 ""
+  "chants/an--hodie_maria--dominican.gabc" 1723592171 363 f643c697166492378e2427b9041d8e06 ""
   "chants/magnificat8G-6_0_0.gtex" 1723590790 72146 8a112b30dfd31d65b875116884e3fa8b ""
   "chants/magnificat8G.gabc" 1706018774 1774 22434742dfaf25a7887687f817e96be3 ""
-  "incipit.ind" 1723590798 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1723591439 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.out"
-  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.pdf"
+  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.aux"
   "incipit.idx"
   "DHS-Sanctoral-08.15-Assumption-Second-Vespers.log"
-  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.aux"
-["makeindex incipit.idx"] 1723590797 "incipit.idx" "incipit.ind" "incipit" 1723590827
-  "incipit.idx" 1723590818 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.pdf"
+  "DHS-Sanctoral-08.15-Assumption-Second-Vespers.out"
+["makeindex incipit.idx"] 1723591439 "incipit.idx" "incipit.ind" "incipit" 1723592457
+  "incipit.idx" 1723592449 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
-  "incipit.ilg"
   "incipit.ind"
+  "incipit.ilg"

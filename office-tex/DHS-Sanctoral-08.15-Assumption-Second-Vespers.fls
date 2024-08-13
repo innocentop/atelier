@@ -334,14 +334,12 @@ INPUT ./DHS-Sanctoral-08.15-Assumption-Second-Vespers.out
 OUTPUT DHS-Sanctoral-08.15-Assumption-Second-Vespers.pdf
 INPUT ./DHS-Sanctoral-08.15-Assumption-Second-Vespers.out
 OUTPUT DHS-Sanctoral-08.15-Assumption-Second-Vespers.out
-INPUT chants/an--hodie_beata_virgo--dominican--id_5416.gabc
-INPUT ./chants/an--hodie_beata_virgo--dominican--id_5416.gabc
-INPUT ./chants/an--hodie_beata_virgo--dominican--id_5416-6_0_0.gtex
+INPUT chants/an--hodie_maria--dominican.gabc
+INPUT ./chants/an--hodie_maria--dominican.gabc
+INPUT ./chants/an--hodie_maria--dominican-6_0_0.gtex
 INPUT chants/magnificat8G.gabc
 INPUT ./chants/magnificat8G.gabc
 INPUT ./chants/magnificat8G-6_0_0.gtex
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./chants/magnificat-translation.tex
-INPUT ./chants/magnificat-translation.tex
 INPUT ./DHS-Sanctoral-08.15-Assumption-Second-Vespers.aux
 INPUT ./DHS-Sanctoral-08.15-Assumption-Second-Vespers.out

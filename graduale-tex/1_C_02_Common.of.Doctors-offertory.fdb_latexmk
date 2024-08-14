@@ -1,6 +1,5 @@
 # Fdb version 3
-["lualatex"] 1723641039 "1_C_02_Common.of.Doctors-introit-only.tex" "1_C_02_Common.of.Doctors-introit-only.pdf" "1_C_02_Common.of.Doctors-introit-only" 1723641048
-  "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
+["lualatex"] 1723663780 "1_C_02_Common.of.Doctors-offertory.tex" "1_C_02_Common.of.Doctors-offertory.pdf" "1_C_02_Common.of.Doctors-offertory" 1723663787
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1644158737 715279 79817772617c8366cf9a6867b70d9417 ""
@@ -172,21 +171,21 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1616695599 6652 ca80e6e2fc9736cbccadc9431e849ff0 ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
-  "1_C_02_Common.of.Doctors-introit-only.aux" 1723641048 1067 4dcfcdc85cb0c5f43494ae2ea84ecd15 "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.gaux" 1723641038 380 71127fe99ea3023d2d3e0bd6c17e86ff "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.out" 1723641048 135 07f3c667fd35aa38e1069aeaccb92d15 "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.tex" 1723641025 4376 b852581f2906a5186fdec15677dca94b ""
-  "graduale-chants/in--in_medio--dominican--id_6549-6_0_0.gtex" 1723303329 38153 34f511fb5e839108693a38b9ab916aff ""
-  "graduale-chants/in--in_medio--dominican--id_6549.gabc" 1723303302 1093 c1c6123dc74338a759bccb9a5d35b776 ""
-  "incipit.ind" 1723641039 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "1_C_02_Common.of.Doctors-offertory.aux" 1723663787 1073 b14f2831c6686c517a4bc1fd6b96fb44 "lualatex"
+  "1_C_02_Common.of.Doctors-offertory.gaux" 1723663779 499 7b423d18a8d85cd0a730aa9244dbda80 "lualatex"
+  "1_C_02_Common.of.Doctors-offertory.out" 1723663787 140 20e6962a697b3bf887d9ac7a8c85d217 "lualatex"
+  "1_C_02_Common.of.Doctors-offertory.tex" 1723663764 4236 4add1d840ac3fb9b9803fc354c8468d2 ""
+  "graduale-chants/of--constitues_eos--dominican--id_5091-6_0_0.gtex" 1723663778 19939 a37594252fbe66dbe325f54f7349d9c2 ""
+  "graduale-chants/of--constitues_eos--dominican--id_5091.gabc" 1723663762 603 2a20a0bd7a1e6df5f4cb8d6a17a4783b ""
+  "incipit.ind" 1723663771 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_C_02_Common.of.Doctors-introit-only.aux"
-  "1_C_02_Common.of.Doctors-introit-only.log"
-  "1_C_02_Common.of.Doctors-introit-only.out"
+  "1_C_02_Common.of.Doctors-offertory.log"
+  "1_C_02_Common.of.Doctors-offertory.out"
+  "1_C_02_Common.of.Doctors-offertory.pdf"
   "incipit.idx"
-  "1_C_02_Common.of.Doctors-introit-only.pdf"
-["makeindex incipit.idx"] 1723641039 "incipit.idx" "incipit.ind" "incipit" 1723641048
-  "incipit.idx" 1723641043 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "1_C_02_Common.of.Doctors-offertory.aux"
+["makeindex incipit.idx"] 1723663771 "incipit.idx" "incipit.ind" "incipit" 1723663787
+  "incipit.idx" 1723663784 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

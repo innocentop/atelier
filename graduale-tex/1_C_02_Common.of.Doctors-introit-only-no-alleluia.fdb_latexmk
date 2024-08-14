@@ -1,6 +1,5 @@
 # Fdb version 3
-["lualatex"] 1723641039 "1_C_02_Common.of.Doctors-introit-only.tex" "1_C_02_Common.of.Doctors-introit-only.pdf" "1_C_02_Common.of.Doctors-introit-only" 1723641048
-  "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
+["lualatex"] 1723641120 "1_C_02_Common.of.Doctors-introit-only-no-alleluia.tex" "1_C_02_Common.of.Doctors-introit-only-no-alleluia.pdf" "1_C_02_Common.of.Doctors-introit-only-no-alleluia" 1723641129
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1644158737 715279 79817772617c8366cf9a6867b70d9417 ""
@@ -172,21 +171,21 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1616695599 6652 ca80e6e2fc9736cbccadc9431e849ff0 ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
-  "1_C_02_Common.of.Doctors-introit-only.aux" 1723641048 1067 4dcfcdc85cb0c5f43494ae2ea84ecd15 "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.gaux" 1723641038 380 71127fe99ea3023d2d3e0bd6c17e86ff "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.out" 1723641048 135 07f3c667fd35aa38e1069aeaccb92d15 "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.tex" 1723641025 4376 b852581f2906a5186fdec15677dca94b ""
-  "graduale-chants/in--in_medio--dominican--id_6549-6_0_0.gtex" 1723303329 38153 34f511fb5e839108693a38b9ab916aff ""
-  "graduale-chants/in--in_medio--dominican--id_6549.gabc" 1723303302 1093 c1c6123dc74338a759bccb9a5d35b776 ""
-  "incipit.ind" 1723641039 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "1_C_02_Common.of.Doctors-introit-only-no-alleluia.aux" 1723641128 1067 4dcfcdc85cb0c5f43494ae2ea84ecd15 "lualatex"
+  "1_C_02_Common.of.Doctors-introit-only-no-alleluia.gaux" 1723641120 366 f2ae915afeec6632e98280cab013e01f "lualatex"
+  "1_C_02_Common.of.Doctors-introit-only-no-alleluia.out" 1723641128 135 07f3c667fd35aa38e1069aeaccb92d15 "lualatex"
+  "1_C_02_Common.of.Doctors-introit-only-no-alleluia.tex" 1723641107 4341 1025ee9dcedfb0fcc22e70a7487fe399 ""
+  "graduale-chants/in--in_medio--dominican--no_alleluia-6_0_0.gtex" 1722622295 32919 de16b5577f6144729ef73e1f40c08a13 ""
+  "graduale-chants/in--in_medio--dominican--no_alleluia.gabc" 1722621405 1062 40dd90fb613a4a8b2cc6f33e00365663 ""
+  "incipit.ind" 1723641120 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_C_02_Common.of.Doctors-introit-only.aux"
-  "1_C_02_Common.of.Doctors-introit-only.log"
-  "1_C_02_Common.of.Doctors-introit-only.out"
+  "1_C_02_Common.of.Doctors-introit-only-no-alleluia.out"
+  "1_C_02_Common.of.Doctors-introit-only-no-alleluia.log"
+  "1_C_02_Common.of.Doctors-introit-only-no-alleluia.aux"
   "incipit.idx"
-  "1_C_02_Common.of.Doctors-introit-only.pdf"
-["makeindex incipit.idx"] 1723641039 "incipit.idx" "incipit.ind" "incipit" 1723641048
-  "incipit.idx" 1723641043 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "1_C_02_Common.of.Doctors-introit-only-no-alleluia.pdf"
+["makeindex incipit.idx"] 1723641120 "incipit.idx" "incipit.ind" "incipit" 1723641129
+  "incipit.idx" 1723641125 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

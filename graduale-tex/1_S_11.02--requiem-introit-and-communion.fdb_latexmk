@@ -1,6 +1,5 @@
 # Fdb version 3
-["lualatex"] 1723641039 "1_C_02_Common.of.Doctors-introit-only.tex" "1_C_02_Common.of.Doctors-introit-only.pdf" "1_C_02_Common.of.Doctors-introit-only" 1723641048
-  "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
+["lualatex"] 1723640467 "1_S_11.02--requiem-introit-and-communion.tex" "1_S_11.02--requiem-introit-and-communion.pdf" "1_S_11.02--requiem-introit-and-communion" 1723640475
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1644158737 715279 79817772617c8366cf9a6867b70d9417 ""
@@ -172,21 +171,23 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1616695599 6652 ca80e6e2fc9736cbccadc9431e849ff0 ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
-  "1_C_02_Common.of.Doctors-introit-only.aux" 1723641048 1067 4dcfcdc85cb0c5f43494ae2ea84ecd15 "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.gaux" 1723641038 380 71127fe99ea3023d2d3e0bd6c17e86ff "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.out" 1723641048 135 07f3c667fd35aa38e1069aeaccb92d15 "lualatex"
-  "1_C_02_Common.of.Doctors-introit-only.tex" 1723641025 4376 b852581f2906a5186fdec15677dca94b ""
-  "graduale-chants/in--in_medio--dominican--id_6549-6_0_0.gtex" 1723303329 38153 34f511fb5e839108693a38b9ab916aff ""
-  "graduale-chants/in--in_medio--dominican--id_6549.gabc" 1723303302 1093 c1c6123dc74338a759bccb9a5d35b776 ""
-  "incipit.ind" 1723641039 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "1_S_11.02--requiem-introit-and-communion.aux" 1723640475 1232 9f1934f947df61322df96ae37c6bf130 "lualatex"
+  "1_S_11.02--requiem-introit-and-communion.gaux" 1723640467 503 29687ea1eb97c64a972efa8a0c25f80a "lualatex"
+  "1_S_11.02--requiem-introit-and-communion.out" 1723640475 145 62be84daf1ae7d062e92b7df9208a6f3 "lualatex"
+  "1_S_11.02--requiem-introit-and-communion.tex" 1723640455 4810 a3544ff0a33f2dcafcad0f51e29f89f1 ""
+  "graduale-chants/co--lux_aeterna--dominican--id_6519-6_0_0.gtex" 1723640466 8339 cc230b27978300a4cc6eb09f41bf6043 ""
+  "graduale-chants/co--lux_aeterna--dominican--id_6519.gabc" 1723640447 335 4b4b4e802ce1e5b19170326cc7736bcf ""
+  "graduale-chants/in--requiem--dominican--id_6527-6_0_0.gtex" 1723640356 23058 59f795abbe6abe80adc70bc525394b79 ""
+  "graduale-chants/in--requiem--dominican--id_6527.gabc" 1723640344 666 f4472e6b24998cf92993ce79c938276d ""
+  "incipit.ind" 1723640459 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "1_C_02_Common.of.Doctors-introit-only.aux"
-  "1_C_02_Common.of.Doctors-introit-only.log"
-  "1_C_02_Common.of.Doctors-introit-only.out"
+  "1_S_11.02--requiem-introit-and-communion.log"
   "incipit.idx"
-  "1_C_02_Common.of.Doctors-introit-only.pdf"
-["makeindex incipit.idx"] 1723641039 "incipit.idx" "incipit.ind" "incipit" 1723641048
-  "incipit.idx" 1723641043 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "1_S_11.02--requiem-introit-and-communion.pdf"
+  "1_S_11.02--requiem-introit-and-communion.out"
+  "1_S_11.02--requiem-introit-and-communion.aux"
+["makeindex incipit.idx"] 1723640459 "incipit.idx" "incipit.ind" "incipit" 1723640475
+  "incipit.idx" 1723640472 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

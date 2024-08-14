@@ -2,7 +2,7 @@
 
 %%Page Size (rev. 08/19/2016)
 %\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.4in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
 %% width of textblock = 324 pt / 4.5in
 %% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
 
@@ -11,17 +11,18 @@
 \usepackage{fancyhdr}
  \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
  \fancyhf{}
 \fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
  \fancypagestyle{plain}{ %
 \fancyhf{} % remove everything
 \renewcommand{\headrulewidth}{0pt} % remove lines as well
 \renewcommand{\footrulewidth}{0pt}}
 
-
+\usepackage{pgfpages}
+\pgfpagesuselayout{2 on 1}[letterpaper,landscape]
 
 \usepackage[autocompile,allowdeprecated=false]{gregoriotex}
 \usepackage{gregoriosyms}
@@ -32,19 +33,19 @@
 
 %%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
 
-\setcounter{secnumdepth}{-2}
+\setcounter{secnumdepth}{-1}
 
 \usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
 \titlespacing*{\section}{0pt}{*0}{*1}
 \titlespacing*{\subsubsection}{0pt}{*0}{*0}
 \titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
 \titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
 \titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
 
 \newcommand{\nocontentsline}[3]{}
 \newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
@@ -75,6 +76,7 @@
 \usepackage[latin,english]{babel}
 \usepackage{lettrine}
 
+\usepackage{paracol}
 
 \usepackage{fontspec}
 
@@ -82,12 +84,10 @@
 
 
 %% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
 \grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
 \grechangestyle{commentary}{\textnormal\selectfont}
 \gresetcustosalteration{invisible}
-
-
 
 %\grechangedim{annotationseparation}{0.1cm}{scalable}
 
@@ -103,8 +103,8 @@
 %%Hyperref (rev. August 20, 2011)
 %\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
 \usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2016}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdftitle={Vesperale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
 \hypersetup{pdfsubject={Liturgy}}
 \hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
 
@@ -117,13 +117,22 @@
 \pagestyle{plain}
 
 
-%%%Initial Matter within Body (20 May 2011)
 \raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
 
 
 %%Combination
-\section{Common of Doctors}
 
- \subsubsection{Officium}  \greannotation{VI} \index[Officium]{In medio Ecclesiæ} \label{In medio Ecclesiæ (Officium)} \grecommentary[3pt]{Sir 15:5; \Vbar. 6} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/in--in_medio--dominican--id_6549}  \vspace{5pt} \par{In the midst of the Church he opened his mouth, and the Lord filled him with the spirit of wisdom and understanding; he clothed him with a robe of glory. \textit{T.P.} Alleluia, alleluia, alleluia. \Vbar. Joy and gladness he has lavished upon him.} \newpage \newpage
-\end{document}
+\chapter{The Assumption\\of the Blessed Virgin Mary}
+\section{Second Vespers}
+
+\subsubsection{Antiphona ad Magnificat}  \greannotation{VIII \textsc{g}} \index[Antiphona ad Magnificat]{Hodie Maria Virgo} \label{Hodie Maria Virgo (Antiphona ad Magnificat)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/an--hodie_maria--dominican} \vspace{5pt} \textit{Today the Virgin Mary ascends to heaven; rejoice, for she reigns with Christ for ever.}
+\subsubsection{Canticum Evangelicum} \paragraph{The soul rejoices in the Lord} \greannotation{VIII \textsc{g}} \index[Canticum Evangelicum]{Magnificat 8G} \label{Magnificat 8G (Canticum Evangelicum)} \grecommentary[5pt]{Lc 1:46-55} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/magnificat8G}
+
+
+
+  \end{document}

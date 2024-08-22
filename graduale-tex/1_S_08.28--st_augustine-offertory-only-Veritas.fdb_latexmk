@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1724341430 "1_S_08.28--st_augustine-offertory-only-Veritas.tex" "1_S_08.28--st_augustine-offertory-only-Veritas.pdf" "1_S_08.28--st_augustine-offertory-only-Veritas" 1724341436
+["lualatex"] 1724341664 "1_S_08.28--st_augustine-offertory-only-Veritas.tex" "1_S_08.28--st_augustine-offertory-only-Veritas.pdf" "1_S_08.28--st_augustine-offertory-only-Veritas" 1724341671
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1644158737 715279 79817772617c8366cf9a6867b70d9417 ""
@@ -171,21 +171,21 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1616695599 6652 ca80e6e2fc9736cbccadc9431e849ff0 ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
-  "1_S_08.28--st_augustine-offertory-only-Veritas.aux" 1724341436 1065 65093a3d7baeb2875e1e1c34ff2127ec "lualatex"
-  "1_S_08.28--st_augustine-offertory-only-Veritas.gaux" 1724341209 463 f6af837606dc7cb6db5053830426f696 ""
-  "1_S_08.28--st_augustine-offertory-only-Veritas.out" 1724341436 112 a8ce5fbec8914d4f5ac264196382b404 "lualatex"
-  "1_S_08.28--st_augustine-offertory-only-Veritas.tex" 1724341426 4203 44680953ed5f3999ee9926f75684a91c ""
-  "graduale-chants/of--veritas_mea--dominican--no_alleluia-6_0_0.gtex" 1724340932 13701 ebd908ece36d975b7648cd7ee8e6b61c ""
-  "graduale-chants/of--veritas_mea--dominican--no_alleluia.gabc" 1724340877 508 f26a26cf028b7a95c5553b5578f77b54 ""
-  "incipit.ind" 1724341430 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "1_S_08.28--st_augustine-offertory-only-Veritas.aux" 1724341670 1065 65093a3d7baeb2875e1e1c34ff2127ec "lualatex"
+  "1_S_08.28--st_augustine-offertory-only-Veritas.gaux" 1724341664 463 639f0a7aa980c9ad8863fd1f31e03070 "lualatex"
+  "1_S_08.28--st_augustine-offertory-only-Veritas.out" 1724341670 112 a8ce5fbec8914d4f5ac264196382b404 "lualatex"
+  "1_S_08.28--st_augustine-offertory-only-Veritas.tex" 1724341649 4203 44680953ed5f3999ee9926f75684a91c ""
+  "graduale-chants/of--veritas_mea--dominican--no_alleluia-6_0_0.gtex" 1724341663 13704 67cf6cdce0f7b7be1468fbda8120d1b2 ""
+  "graduale-chants/of--veritas_mea--dominican--no_alleluia.gabc" 1724341642 509 e733333e1fc277b8b4d51a6f3d4ecd2f ""
+  "incipit.ind" 1724341657 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
   "1_S_08.28--st_augustine-offertory-only-Veritas.out"
-  "1_S_08.28--st_augustine-offertory-only-Veritas.pdf"
-  "incipit.idx"
-  "1_S_08.28--st_augustine-offertory-only-Veritas.aux"
   "1_S_08.28--st_augustine-offertory-only-Veritas.log"
-["makeindex incipit.idx"] 1724341430 "incipit.idx" "incipit.ind" "incipit" 1724341436
-  "incipit.idx" 1724341434 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "1_S_08.28--st_augustine-offertory-only-Veritas.aux"
+  "incipit.idx"
+  "1_S_08.28--st_augustine-offertory-only-Veritas.pdf"
+["makeindex incipit.idx"] 1724341657 "incipit.idx" "incipit.ind" "incipit" 1724341671
+  "incipit.idx" 1724341669 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

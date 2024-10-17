@@ -1,125 +1,6 @@
-\documentclass[11pt,twoside]{book}
+\input{000_header}
 
-%%Page Size (rev. 08/19/2016)
-%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-%% width of textblock = 324 pt / 4.5in
-%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
-
-
-%%Header (rev. 4/11/2011)
-\usepackage{fancyhdr}
- \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
- \fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
- \fancypagestyle{plain}{ %
-\fancyhf{} % remove everything
-\renewcommand{\headrulewidth}{0pt} % remove lines as well
-\renewcommand{\footrulewidth}{0pt}}
-
-
-
-\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
-\usepackage{gregoriosyms}
-\gresetgregoriofont[op]{greciliae}
-
-
-
-
-%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
-
-\setcounter{secnumdepth}{-2}
-
-\usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
-\titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsubsection}{0pt}{*0}{*0}
-\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
-\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
-
-\newcommand{\nocontentsline}[3]{}
-\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
-
-
-%%%
-
-%%Index (rev. December 11, 2013)
-\usepackage[noautomatic,nonewpage]{imakeidx}
-
-
-\makeindex[name=incipit,title=Index]
-\indexsetup{level=\section,toclevel=section,noclearpage}
-
-\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
-
-
-%%Table of Contents (rev. May 16, 2011)
-
-%\usepackage{multicol}
-%\usepackage{ifthen}
-%\usepackage[toc]{multitoc}
-
-%% General settings (rev. January 19, 2015)
-
-\usepackage{ulem}
-
-\usepackage[latin,english]{babel}
-\usepackage{lettrine}
-
-
-\usepackage{fontspec}
-
-\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
-
-
-%% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
-\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
-\grechangestyle{commentary}{\textnormal\selectfont}
-\gresetcustosalteration{invisible}
-
-
-
-%\grechangedim{annotationseparation}{0.1cm}{scalable}
-
-%\GreLoadSpaceConf{smith-four}
-
-\frenchspacing
-
-\usepackage{indentfirst} %%%indents first line after a section
-
-\usepackage{graphicx}
-%\usepackage{tocloft}
-
-%%Hyperref (rev. August 20, 2011)
-%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
-\usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2016}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
-\hypersetup{pdfsubject={Liturgy}}
-\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
-
-\newlength{\drop}
-
-
-
-\begin{document}
-
-
-%%%Initial Matter within Body (20 May 2011)
-\raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
-
-\chapter[November 1]{Graduale O.P.}
+\chapter[November 1]{Graduale Novum\\Ordinis Prædicatorum}
 \subsection{November 1}
 \section{All Saints}
 \subsection{Solemnity}
@@ -130,7 +11,7 @@
 
 %%Combination
 
-\subsubsection{Officium}  \greannotation{I} \index[Officium]{Gaudeamus... Sanctorum omnium} \label{Gaudeamus... Sanctorum omnium (Officium)} \grecommentary[5pt]{Ecclesia \Vbar. Ps 32:1} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{Let us all rejoice in the Lord, celebrating a feast day in honor of all the saints, in whose solemnity the angels rejoice, and give praise to the Son of God. \Vbar. Rejoice in the Lord, you just; praise befits the upright.} \newpage
+ \subsubsection{Officium}  \greannotation{I} \index[Officium]{Gaudeamus... Sanctorum omnium} \label{Gaudeamus... Sanctorum omnium (Officium)} \grecommentary[5pt]{Ecclesia \Vbar. Ps 32:1} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--gaudeamus_sanctorum_omnium--dominican--id_4288} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{Let us all rejoice in the Lord, as we celebrate the feast day in honor of all the Saints, at whose festival the Angels rejoice and praise the Son of God. \Vbar. Rejoice in the Lord, O you just; praise is fitting for the upright.} \newpage
 \subsubsection{Responsorium}  \greannotation{I} \index[Responsorium]{Timete Dominum} \label{Timete Dominum (Responsorium)} \grecommentary[5pt]{Ps 33:10; \Vbar. 11b} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--timete_dominum--op}  \vspace{5pt} \par{Fear the Lord, all you saints of His; for there is no want among those who fear Him. \Vbar. Those who seek the Lord shall lack no good thing.} \newpage
 \subsubsection{Alleluia}  \greannotation{I} \index[Alleluia]{Iudicabunt} \label{Iudicabunt (Alleluia)} \grecommentary[0pt]{Sap 3:8} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.6cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/al--iudicabunt_sancti--dominican}  \vspace{5pt} \par{The saints shall judge nations, and rule over the peoples; and their King shall reign forever.} \newpage
 \subsubsection{Offertorium}  \greannotation{VIII} \index[Offertorium]{Mirabilis Deus} \label{Mirabilis Deus (Offertorium)} \grecommentary[5pt]{Ps 67:36} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--mirabilis_deus--dominican}  \vspace{5pt} \par{God is wonderful in His saints; the God of Israel Himself will give power and strength to His people: blessed be God.} \newpage

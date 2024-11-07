@@ -1,126 +1,6 @@
-\documentclass[11pt,twoside]{book}
+\input{000_header}
 
-%%Page Size (rev. 08/19/2016)
-%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-%% width of textblock = 324 pt / 4.5in
-%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
-
-
-%%Header (rev. 4/11/2011)
-\usepackage{fancyhdr}
- \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
- \fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
- \fancypagestyle{plain}{ %
-\fancyhf{} % remove everything
-\renewcommand{\headrulewidth}{0pt} % remove lines as well
-\renewcommand{\footrulewidth}{0pt}}
-
-
-
-\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
-\usepackage{gregoriosyms}
-\gresetgregoriofont[op]{greciliae}
-
-
-
-
-%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
-
-\setcounter{secnumdepth}{-2}
-
-\usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
-\titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsubsection}{0pt}{*0}{*0}
-\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
-\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
-
-\newcommand{\nocontentsline}[3]{}
-\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
-
-
-%%%
-
-%%Index (rev. December 11, 2013)
-\usepackage[noautomatic,nonewpage]{imakeidx}
-
-
-\makeindex[name=incipit,title=Index]
-\indexsetup{level=\section,toclevel=section,noclearpage}
-
-\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
-
-
-%%Table of Contents (rev. May 16, 2011)
-
-%\usepackage{multicol}
-%\usepackage{ifthen}
-%\usepackage[toc]{multitoc}
-
-%% General settings (rev. January 19, 2015)
-
-\usepackage{ulem}
-
-\usepackage[latin,english]{babel}
-\usepackage{lettrine}
-
-
-\usepackage{fontspec}
-
-\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
-
-
-%% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
-\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
-\grechangestyle{commentary}{\textnormal\selectfont}
-\gresetcustosalteration{invisible}
-
-
-
-%\grechangedim{annotationseparation}{0.1cm}{scalable}
-
-%\GreLoadSpaceConf{smith-four}
-
-\frenchspacing
-
-\usepackage{indentfirst} %%%indents first line after a section
-
-\usepackage{graphicx}
-%\usepackage{tocloft}
-
-%%Hyperref (rev. August 20, 2011)
-%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
-\usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2016}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
-\hypersetup{pdfsubject={Liturgy}}
-\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
-
-\newlength{\drop}
-
-
-
-\begin{document}
-
-
-%%%Initial Matter within Body (20 May 2011)
-\raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
-
-
-\chapter[December 8]{Graduale O.P.}
+\chapter[December 8]{Graduale Novum\\Ordinis Prædicatorum}
 \subsection{December 8}
 \section{The Immaculate Conception \\ of the Blessed Virgin Mary}
 \subsection{Solemnity}
@@ -130,10 +10,10 @@
 \newpage
 
 %%Combination
-\subsubsection{Officium}  \greannotation{V} \index[Officium]{Gaudens gaudebo} \label{Gaudens gaudebo (Officium)} \grecommentary[3pt]{Is 61:10; Ps 29:2} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--gaudens_gaudebo--dominican} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{I will greatly rejoice in the Lord, and my soul shall be joyful in my God, for He has clothed me with the garments of salvation, and with the robe of justice He has covered me, as a bride adorned with her jewels. \Vbar. I will extol You, O Lord, for You have upheld me, and have not made my enemies rejoice over me.} \newpage
-\subsubsection{Responsorium}  \greannotation{V} \index[Responsorium]{Benedicta es tu} \label{Benedicta es tu (Responsorium)} \grecommentary[0pt]{Iudith 13:23; \Vbar. 15:10} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--benedicta_es--dominican}  \vspace{5pt} \par{Blessed are you, O virgin Mary, by the Lord the most high God, above all women upon the earth. \Vbar. You are the glory of Jerusalem; you are the joy of Israel, you are the great honor of our people.} \newpage
+\subsubsection{Officium}  \greannotation{V} \index[Officium]{Gaudens gaudebo} \label{Gaudens gaudebo (Officium)} \grecommentary[3pt]{Is 61:10; \Vbar. Ps 29:2} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--gaudens_gaudebo--dominican} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{Rejoicing I will rejoice in the Lord, an my soul will exult in my God; for he has clothed me with the robes of salvation, and wrapped me in a mantle of justice, like a bride adorned with her jewels. \Vbar. I will extol You, O Lord, for you have lifted me up, and have not let my enemies rejoice over me.} \newpage
+\subsubsection{Responsorium}  \greannotation{V} \index[Responsorium]{Benedicta es tu} \label{Benedicta es tu (Responsorium)} \grecommentary[0pt]{Iudith 13:23; \Vbar. 15:10} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--benedicta_es--dominican}  \vspace{5pt} \par{Blessed are you, O virgin Mary, by the Lord, the most high God, above all women upon the earth. \Vbar. You are the glory of Jerusalem; you are the joy of Israel, you are the great honor of our people.} \newpage
 \subsubsection{Alleluia}  \greannotation{I} \index[Alleluia]{Tota pulchra es} \label{Tota pulchra es (Alleluia)} \grecommentary[0pt]{Cant 4:7} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/al--tota_pulchra_es--dominican}  \vspace{5pt} \par{You are all fair, O Mary, and the stain of original sin is not in you.} \newpage
-\subsubsection{Offertorium}  \greannotation{I} \index[Offertorium]{Ave Maria [In Conceptione Immaculata B.M.V.]} \label{Ave Maria [In Conceptione Immaculata B.M.V.] (Offertorium)} \grecommentary[3pt]{Lc 1:28} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--ave_maria--dominican}  \vspace{5pt} \par{Hail, Mary, full of grace, the Lord is with you. Blessed are you among women, alleluia.} \newpage
-\subsubsection{Communio}  \greannotation{III} \index[Communio]{Gloriosa} \label{Gloriosa (Communio)} \grecommentary[3pt]{Ps 86:3; Lc 1:49} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--gloriosa--dominican}  \vspace{5pt} \par{Glorious things are told of you, O Mary, for He who is mighty has done great things to you.} \newpage
+\subsubsection{Offertorium}  \greannotation{I} \index[Offertorium]{Ave Maria [In Conceptione Immaculata B.M.V.]} \label{Ave Maria [In Conceptione Immaculata B.M.V.] (Offertorium)} \grecommentary[3pt]{Lc 1:28} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--ave_maria--dominican}  \vspace{5pt} \par{Hail Mary, full of grace, the Lord is with you. Blessed are you among women, alleluia.} \newpage
+\subsubsection{Communio}  \greannotation{III} \index[Communio]{Gloriosa} \label{Gloriosa (Communio)} \grecommentary[3pt]{Ps 86:3; Lc 1:49} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--gloriosa--dominican}  \vspace{5pt} \par{Glorious things are said of you, O Mary, for he who is mighty has done great things for you.} \newpage
 
 \end{document}

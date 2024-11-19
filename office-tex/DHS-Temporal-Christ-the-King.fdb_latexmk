@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1731617736 "DHS-Temporal-Christ-the-King.tex" "DHS-Temporal-Christ-the-King.pdf" "DHS-Temporal-Christ-the-King" 1731617743
+["lualatex"] 1732050030 "DHS-Temporal-Christ-the-King.tex" "DHS-Temporal-Christ-the-King.pdf" "DHS-Temporal-Christ-the-King" 1732050036
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
@@ -173,21 +173,21 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/tex/generic/config/language.dat" 1616695599 6652 ca80e6e2fc9736cbccadc9431e849ff0 ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
-  "DHS-Temporal-Christ-the-King.aux" 1731617743 1178 8dc1b593520e4819add4d2d4614e08fa "lualatex"
-  "DHS-Temporal-Christ-the-King.gaux" 1731617683 607 01e29e5bd62ef35171a7c97bd13b2de7 ""
-  "DHS-Temporal-Christ-the-King.out" 1731617743 125 8fecaeebd28cee29b5faa905eedb04d6 "lualatex"
-  "DHS-Temporal-Christ-the-King.tex" 1731617724 4767 062dd9548b6823b568eb27fc1f1c445a ""
-  "chants/rp--tua_est_potentia--dominican-6_0_0.gtex" 1731617679 39442 513c6657ecf72a2a0a474244ae58ac92 ""
-  "chants/rp--tua_est_potentia--dominican.gabc" 1731617421 1025 fe5474976ab70d3220dee9eeddf2eb84 ""
-  "incipit.ind" 1731617728 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "DHS-Temporal-Christ-the-King.aux" 1732050036 1178 8dc1b593520e4819add4d2d4614e08fa "lualatex"
+  "DHS-Temporal-Christ-the-King.gaux" 1732050029 376 ead8b6a45f3cb0ac1d5858d99a94cc0b "lualatex"
+  "DHS-Temporal-Christ-the-King.out" 1732050036 125 8fecaeebd28cee29b5faa905eedb04d6 "lualatex"
+  "DHS-Temporal-Christ-the-King.tex" 1732050017 4765 9ecb9461b13b0272f35eef1ee333e932 ""
+  "chants/rp--tua_est_potentia--dominican-6_0_0.gtex" 1732050027 37922 f06aabe08a7757dbe53177e3829b95e7 ""
+  "chants/rp--tua_est_potentia--dominican.gabc" 1732050015 993 06c31263bb811270ddaba4753dbfd6bf ""
+  "incipit.ind" 1732050023 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "DHS-Temporal-Christ-the-King.aux"
-  "DHS-Temporal-Christ-the-King.log"
-  "DHS-Temporal-Christ-the-King.pdf"
   "DHS-Temporal-Christ-the-King.out"
+  "DHS-Temporal-Christ-the-King.aux"
+  "DHS-Temporal-Christ-the-King.pdf"
+  "DHS-Temporal-Christ-the-King.log"
   "incipit.idx"
-["makeindex incipit.idx"] 1731617727 "incipit.idx" "incipit.ind" "incipit" 1731617743
-  "incipit.idx" 1731617740 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1732050023 "incipit.idx" "incipit.ind" "incipit" 1732050036
+  "incipit.idx" 1732050033 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

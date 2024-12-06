@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1727029273 "1_C_02_Common.of.Pastors.tex" "1_C_02_Common.of.Pastors.pdf" "1_C_02_Common.of.Pastors" 1727029284
+["lualatex"] 1732554874 "1_C_02_Common.of.Pastors.tex" "1_C_02_Common.of.Pastors.pdf" "1_C_02_Common.of.Pastors" 1732554882
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1644158738 720491 476494577a47e861f16494a71a6d1008 ""
@@ -174,24 +174,24 @@
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1644156684 3313488 f3923c3d0513f8c658b52dfd82ca54da ""
   "000_header.tex" 1706019923 3630 591593034f6be8d1c064d4e89a368dcc ""
   "001_edited.tex" 1706019609 231 173003f10d10d033a7dc55f3463c92c9 ""
-  "1_C_02_Common.of.Pastors.aux" 1727029284 1421 c9e2ff967ad8455c8eaa9f3787522423 "lualatex"
-  "1_C_02_Common.of.Pastors.gaux" 1727020309 960 84c3706c0d27c2e0d9c2a75cb2897b31 ""
-  "1_C_02_Common.of.Pastors.out" 1727029284 280 51bbe96a6471d14ad659687746e44cb6 "lualatex"
-  "1_C_02_Common.of.Pastors.tex" 1727029268 1426 ca00b55dcf9158424008a0bee1d6f60a ""
-  "graduale-chants/co--fidelis_servus_alleluia--dominican--id_6516-6_0_0.gtex" 1727020307 17528 98fdafa8384cda73063bfe8f06241ce2 ""
-  "graduale-chants/co--fidelis_servus_alleluia--dominican--id_6516.gabc" 1727020291 586 05df08e197acdef8ec13833ac79fea7b ""
+  "1_C_02_Common.of.Pastors.aux" 1732554882 1421 c9e2ff967ad8455c8eaa9f3787522423 "lualatex"
+  "1_C_02_Common.of.Pastors.gaux" 1732554874 960 5c99877f7f7907ee80440294785e892c "lualatex"
+  "1_C_02_Common.of.Pastors.out" 1732554882 280 51bbe96a6471d14ad659687746e44cb6 "lualatex"
+  "1_C_02_Common.of.Pastors.tex" 1732554862 1435 de48bed233ccac6d55c9fc3c17ef3f72 ""
+  "graduale-chants/co--fidelis_servus_all_alleluia--dominican--id_6615-6_0_0.gtex" 1732554873 17542 aff1bcf0149fbed3f9a33e542090d8af ""
+  "graduale-chants/co--fidelis_servus_all_alleluia--dominican--id_6615.gabc" 1732545045 591 dff2b420a5173b5f1f849b7ec5b4d69b ""
   "graduale-chants/in--os_iusti--dominican--id_5885-6_0_0.gtex" 1727020220 36048 03ae77c37c56d574a41c23e9075fbb0d ""
   "graduale-chants/in--os_iusti--dominican--id_5885.gabc" 1727014537 1020 a38a39d68abd87af4e3075af4e807e12 ""
-  "incipit.ind" 1727020378 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1732554866 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "op-shield.jpg" 1623870065 194719 a40c79a2467af8b379120132a7ed896e ""
   (generated)
-  "1_C_02_Common.of.Pastors.pdf"
-  "1_C_02_Common.of.Pastors.aux"
-  "incipit.idx"
-  "1_C_02_Common.of.Pastors.log"
   "1_C_02_Common.of.Pastors.out"
-["makeindex incipit.idx"] 1727020378 "incipit.idx" "incipit.ind" "incipit" 1727029284
-  "incipit.idx" 1727029278 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "1_C_02_Common.of.Pastors.aux"
+  "1_C_02_Common.of.Pastors.log"
+  "incipit.idx"
+  "1_C_02_Common.of.Pastors.pdf"
+["makeindex incipit.idx"] 1732554866 "incipit.idx" "incipit.ind" "incipit" 1732554882
+  "incipit.idx" 1732554878 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
-  "incipit.ilg"
   "incipit.ind"
+  "incipit.ilg"

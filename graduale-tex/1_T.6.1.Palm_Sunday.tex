@@ -1,129 +1,6 @@
-\documentclass[11pt,twoside]{book}
+\input{000_header}
 
-%%Page Size (rev. 08/19/2016)
-%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-%% width of textblock = 324 pt / 4.5in
-%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
-
-
-%%Header (rev. 4/11/2011)
-\usepackage{fancyhdr}
- \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
- \fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
- \fancypagestyle{plain}{ %
-\fancyhf{} % remove everything
-\renewcommand{\headrulewidth}{0pt} % remove lines as well
-\renewcommand{\footrulewidth}{0pt}}
-
-
-
-
-
-
-
-%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
-
-\setcounter{secnumdepth}{-2}
-
-\usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
-\titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsubsection}{0pt}{*0}{*0}
-\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
-\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
-
-\newcommand{\nocontentsline}[3]{}
-\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
-
-
-%%%
-
-%%Index (rev. December 11, 2013)
-\usepackage[noautomatic,nonewpage]{imakeidx}
-
-
-\makeindex[name=incipit,title=Index]
-\indexsetup{level=\section,toclevel=section,noclearpage}
-
-\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
-
-
-%%Table of Contents (rev. May 16, 2011)
-
-%\usepackage{multicol}
-%\usepackage{ifthen}
-%\usepackage[toc]{multitoc}
-
-%% General settings (rev. January 19, 2015)
-
-\usepackage{ulem}
-
-\usepackage[latin,english]{babel}
-\usepackage{lettrine}
-
-
-\usepackage{fontspec}
-
-\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
-
-
-\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
-\usepackage{gregoriosyms}
-\gresetgregoriofont[op]{greciliae}
-
-
-
-%% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
-\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
-\grechangestyle{commentary}{\textnormal\selectfont}
-\gresetcustosalteration{invisible}
-
-
-
-%\grechangedim{annotationseparation}{0.1cm}{scalable}
-
-%\GreLoadSpaceConf{smith-four}
-
-\frenchspacing
-
-\usepackage{indentfirst} %%%indents first line after a section
-
-\usepackage{graphicx}
-%\usepackage{tocloft}
-
-%%Hyperref (rev. August 20, 2011)
-%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
-\usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2017}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
-\hypersetup{pdfsubject={Liturgy}}
-\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
-
-\newlength{\drop}
-
-
-
-\begin{document}
-
-
-%%%Initial Matter within Body (20 May 2011)
-\raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
-
-
-\chapter[Palm Sunday of the Lord's Passion]{Graduale O.P.}
+\chapter[Palm Sunday of the Lord's Passion]{Graduale Novum\\Ordinis Prædicatorum}
 \section{Palm Sunday of the Lord's Passion}
 
 \input{001_edited}
@@ -132,32 +9,31 @@
 \newpage
 
 \subsection{Commemoratio ingressus Domini in Ierusalem}
-\subsubsection{Antiphona} \textit{Dum celebrans principalis accedit, cantatur:} \vspace{5pt} \greannotation{VII a} \index[Antiphona]{Hosanna filio David} \label{Hosanna filio David (Antiphona)} \grecommentary[4pt]{Mt 21:9; \Vbar. Ps 117:1, 22, 23, 27, 28} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/an--hosanna_filio_david--dominican--id_5587-with-psalm} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{Hosanna to the Son of David; blessed is He who comes in the name of the Lord. \par\Vbar.\textsuperscript{1} Give praise to the Lord, for He is good: for His mercy endures for ever. \par\Vbar.\textsuperscript{22} The stone which the builders rejected, the same has become the head of the corner. \par\Vbar.\textsuperscript{23} This is the Lord's doing, and it is wonderful in our eyes.\par\Vbar.\textsuperscript{27} The Lord is God, and He has shone upon us. Appoint a solemn day, with shady boughs, even to the horn of the altar. \par\Vbar.\textsuperscript{28} You are my God, and I will praise You; You are my God, and I will extol You.} \newpage
-\subsubsection{Antiphona} \textit{Vel:} \greannotation{IV} \index[Antiphona]{Turba multa} \label{Turba multa (Antiphona)} \grecommentary[0pt]{Io 12:12-13} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--turba_multa--dominican--id_7036}  \vspace{5pt} \par{A great crowd that was gathering for the feast day was crying out to the Lord: ``Blessed is He who comes in the name of the Lord: Hosanna in the highest.”} \newpage
+\subsubsection{Antiphona} \textit{Dum celebrans principalis accedit, cantatur:} \vspace{5pt} \greannotation{VII a} \index[Antiphona]{Hosanna filio David} \label{Hosanna filio David (Antiphona)} \grecommentary[4pt]{Mt 21:9; \Vbar. Ps 117:1, 22, 23, 27, 28} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/an--hosanna_filio_david--dominican--id_5587-with-psalm} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{Hosanna to the Son of David; blessed is he who comes in the name of the Lord. \par\Vbar.\textsuperscript{1} Give praise to the Lord, for he is good: for his mercy endures for ever. \par\Vbar.\textsuperscript{22} The stone which the builders rejected, the same has become the head of the corner. \par\Vbar.\textsuperscript{23} This is the Lord's doing, and it is wonderful in our eyes.\par\Vbar.\textsuperscript{27} The Lord is God, and he has shone upon us. Appoint a solemn day, with shady boughs, even to the horn of the altar. \par\Vbar.\textsuperscript{28} You are my God, and I will praise you; you are my God, and I will extol you.} \newpage
+\subsubsection{Antiphona} \textit{Vel:} \greannotation{IV} \index[Antiphona]{Turba multa} \label{Turba multa (Antiphona)} \grecommentary[0pt]{Io 12:12–13} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--turba_multa--dominican--id_7036}  \vspace{5pt} \par{A great crowd that was gathering for the feast day was crying out to the Lord: ``Blessed is he who comes in the name of the Lord: Hosanna in the highest.”} \newpage
 \subsubsection{Antiphona} \textit{Vel:} \greannotation{VII} \index[Antiphona]{Cum angelis} \label{Cum angelis (Antiphona)} \grecommentary[0pt]{Cf. Mc 11:10} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--cum_angelis--dominican--id_5865}  \vspace{5pt} \par{Together with the angels and the children, let us be found faithful, crying out to the one who conquers death: ``Hosanna in the highest.”} \newpage
-\subsubsection{Antiphona} \textit{Dum rami distribuuntur, cantatur:} \greannotation{VIII \textsc{g}} \index[Antiphona]{Omnes collaudant} \label{Omnes collaudant (Antiphona)} \grecommentary[0pt]{Cf. Mt 21:9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--omnes_collaudant--dominican}  \vspace{5pt} \par{All together will praise your name, and say: ``Blessed is He who comes in the name of the Lord: Hosanna in the highest.”}
+\subsubsection{Antiphona} \textit{Dum rami distribuuntur, cantatur:} \greannotation{VIII \textsc{g}} \index[Antiphona]{Omnes collaudant} \label{Omnes collaudant (Antiphona)} \grecommentary[0pt]{Cf. Mt 21:9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--omnes_collaudant--dominican}  \vspace{5pt} \par{All together will praise your name, and say: ``Blessed is he who comes in the name of the Lord: Hosanna in the highest.”}
 \subsubsection{Psalmus 147}   \index[Psalmus 147]{Psalmus 147}        \input{graduale-chants/ps--147-mode8-incipit_and_psalm}   \newpage
 \subsubsection{Psalm 147}   \index[Psalm 147]{Psalm 147}        \input{graduale-chants/ps--147-mode8-incipit_and_psalm-english.tex}   \newpage
 \subsection{Ad processionem}
-\subsubsection{Antiphona} \textit{Progrediente processione, canuntur a schola et populo cantus sequentes (vel alii apti):} \greannotation{I g} \index[Antiphona]{Pueri Hebræorum tollentes} \label{Pueri Hebræorum tollentes (Antiphona)} \grecommentary[0pt]{Cf. Io 12:13} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--pueri_hebraeorum_tollentes--dominican--id_6640}  \vspace{5pt} \par{The Hebrew children, taking up olive branches, met the Lord, crying out and saying: ``Hosanna in the highest."}
+\subsubsection{Antiphona} \textit{Progrediente processione, canuntur a schola et populo cantus sequentes (vel alii apti):} \greannotation{I g} \index[Antiphona]{Pueri Hebræorum tollentes} \label{Pueri Hebræorum tollentes (Antiphona)} \grecommentary[0pt]{Cf. Io 12:13} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--pueri_hebraeorum_tollentes--dominican--id_6640}  \vspace{5pt} \par{The children of the Hebrews, taking up olive branches, met the Lord, crying out and saying: ``Hosanna in the highest."}
 \subsubsection{Psalmus 23}   \index[Psalmus 23]{Psalmus 23}        \input{graduale-chants/ps--023-mode1g-incipit_and_psalm.tex}
 \subsubsection{Psalm 23}   \index[Psalm 23]{Psalm 23}        \input{graduale-chants/ps--023-mode1g-incipit_and_psalm-english.tex}   \newpage
-\subsubsection{Antiphona}  \greannotation{I g} \index[Antiphona]{Pueri Hebræorum vestimenta} \label{Pueri Hebræorum vestimenta (Antiphona)} \grecommentary[0pt]{Cf. Mt 21:15, 8, 9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--pueri_hebraeorum_vestimenta--dominican--id_6173}  \vspace{5pt} \par{The Hebrew children spread their garments in the way, and cried out, saying: ``Hosanna to the son of David; blessed is He who comes in the name of the Lord."}
+\subsubsection{Antiphona}  \greannotation{I g} \index[Antiphona]{Pueri Hebræorum vestimenta} \label{Pueri Hebræorum vestimenta (Antiphona)} \grecommentary[0pt]{Cf. Mt 21:15, 8, 9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--pueri_hebraeorum_vestimenta--dominican--id_6173}  \vspace{5pt} \par{The children of the Hebrews spread their garments in the way, and cried out, saying: ``Hosanna to the son of David; blessed is he who comes in the name of the Lord."}
 \subsubsection{Psalmus 46}   \index[Psalmus 46]{Psalmus 46}        \input{graduale-chants/ps--046-mode1g-incipit_and_psalm.tex}   \newpage
 \subsubsection{Psalm 46}   \index[Psalm 46]{Psalm 46}        \input{graduale-chants/ps--046-mode1g-incipit_and_psalm-english.tex}   \newpage
-\subsubsection{Antiphona} \textit{Vel:} \greannotation{VIII} \index[Antiphona]{Occurrunt} \label{Occurrunt (Antiphona)} \grecommentary[5pt]{Cf. Io 12:12, 13} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--occurunt--dominican--id_5518}  \vspace{5pt} \par{The crowds run with flowers and palms to meet the Redeemer and give worthy worship to the triumphant victor: the nations proclaim Him to be the Son of God with the mouth, and in praise of Christ their voices thunder through the clouds: ``Hosanna.”} \newpage
+\subsubsection{Antiphona} \textit{Vel:} \greannotation{VIII} \index[Antiphona]{Occurrunt} \label{Occurrunt (Antiphona)} \grecommentary[5pt]{Cf. Io 12:12, 13} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--occurunt--dominican--id_5518}  \vspace{5pt} \par{The crowds run with flowers and palms to meet the Redeemer and give worthy worship to the triumphant victor: the nations proclaim him to be the Son of God with the mouth, and in praise of Christ their voices thunder through the clouds: ``Hosanna.”} \newpage
 \subsubsection{Antiphona} \textit{Vel:} \greannotation{I} \index[Antiphona]{Cœperunt} \label{Cœperunt (Antiphona)} \grecommentary[0pt]{Cf. Lc 19:37, 38} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--coeperunt--dominican--id_4800}  \vspace{5pt} \par{All the crowds at the descent joyfully began to praise God with a loud voice for all the mighty works they had seen, saying: ``Blessed is the King who comes in the name of the Lord; peace in heaven and glory in the highest."} \newpage
 \subsubsection{Antiphona} \textit{Vel:} \greannotation{VIII} \index[Antiphona]{Fulgentibus palmis} \label{Fulgentibus palmis (Antiphona)} \grecommentary[3pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--fulgentibus_palmis--dominican}  \vspace{5pt} \par{With resplendent palms let us be prostrate for the coming of the Lord. We do all this with hymns and canticles, praising and saying ``Blessed be the Lord.”} \newpage
 
-\subsubsection{Hymnus}  \greannotation{I} \index[Hymnus]{Gloria laus et honor} \label{Gloria laus et honor (Hymnus)} \grecommentary[10pt]{Theodulphus, episcopus Aurelianensis († 821)} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/hy--gloria_laus_et_honor-no-rubrics}  \vspace{5pt} \par{Glory, laud, and honor be to You, O King, Christ, the Redeemer: to whom children pour forth the fitting and loving ``Hosanna.” \par \Vbar. You are the King of Israel and David's royal son, who comes in the Lord's name, the King and Blessed One. \par \Vbar. The company of angels praises you on high, and mortal men and all created things do likewise. \par \Vbar. The people of the Hebrews come on the way with palms; behold, we come before you with prayers, vows, and hymns.} \newpage
+\subsubsection{Hymnus}  \greannotation{I} \index[Hymnus]{Gloria laus et honor} \label{Gloria laus et honor (Hymnus)} \grecommentary[10pt]{Theodulphus, episcopus Aurelianensis († 821)} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/hy--gloria_laus_et_honor-no-rubrics}  \vspace{5pt} \par{Glory, laud, and honor be to you, O King, Christ, the Redeemer: to whom children pour forth the fitting and loving ``Hosanna.” \par \Vbar. You are the King of Israel and David's royal son, who comes in the Lord's name, the King and Blessed One. \par \Vbar. The company of angels praises you on high, and mortal men and all created things do likewise. \par \Vbar. The people of the Hebrews come on the way with palms; behold, we come before you with prayers, vows, and hymns.} \newpage
 \subsubsection{Antiphona} \textit{Ad ingressum ecclesiæ:} \vspace{5pt} \greannotation{II} \index[Antiphona]{Ave Rex noster} \label{Ave Rex noster (Antiphona)} \grecommentary[10pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--ave_rex_noster--dominican--id_4606}  \vspace{5pt} \par{Hail, our King, Son of David, Redeemer of the world, whom the prophets did foretell as the Savior to come of the house of Israel. You, as victim for salvation, were sent by the Father into the world, whom all the saints awaited from the beginning of the world. And now: ``Hosanna to the son of David; blessed is he who comes in the name of the Lord. Hosanna in the highest."} \newpage
 \subsubsection{Responsorium} \textit{Postea:} \greannotation{II} \index[Responsorium]{Ingrediente Domino} \label{Ingrediente Domino (Responsorium)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/re--ingrediente_domino--dominican}  \vspace{5pt} \par{As the Lord entered the holy city, the children of the Hebrews, declaring the resurrection of life, with palm branches, cried out: ``Hosanna in the highest." \Vbar. When they heard that Jesus was coming to Jerusalem, they went forth to meet him with palm branches, and cried out: ``Hosanna in the highest."} \newpage
 \subsection{Ad Missam} \vspace{-5pt}
-\subsubsection{Officium} \vspace{-6pt} \greannotation{VIII} \index[Officium]{Domine ne longe} \label{Domine ne longe (Officium)} \grecommentary[3pt]{Ps 21:20, 22; \Vbar. 2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.45cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/in--domine_ne_longe--dominican--id_6256}  \vspace{5pt} \par{O Lord, let not Your help be far from me. Look to my defense; deliver me from the lion's mouth, and my lowliness from the horns of the unicorns. \Vbar. O God, my God, look on me; why have You forsaken me?} \newpage
-\subsubsection{Responsorium} \textit{Post lectionem I:} \greannotation{IV} \index[Responsorium]{Tenuisti manum} \label{Tenuisti manum (Responsorium)} \grecommentary[0pt]{Ps 72:23, 24; \Vbar. 1-3} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--tenuisti_manum--dominican--id_4872}  \vspace{5pt} \par{You have held me by the right hand, and by your will you have conducted me, and with glory you have assumed me. \Vbar. How good is God to Israel, to those of an upright heart. But my feet were almost moved, my steps had almost slipped, because I was zealous on account of sinners, seeing the peace of sinners.} \newpage
-\subsubsection{Tractus} \textit{Post lectionem II:} \greannotation{II} \index[Tractus]{Deus Deus meus} \label{Deus Deus meus (Tractus)} \grecommentary[3pt]{Ps 21:2-9, 18, 19, 22, 24, 32} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--deus_deus_meus--dominican}  \vspace{5pt} \par{O God, my God, look on me; why have You forsaken me? \par \Vbar. The voice of my sins keeps salvation far from me. \par \Vbar. My God, I shall cry by day, and You will not hear; in the night, and it shall not be my folly. \par \Vbar. But You dwell in the holy place, the praise of Israel. \par \Vbar. In You have our fathers hoped; they have hoped, and You have delivered them. \par \Vbar. They cried to You, and they were saved; they hoped in You, and were not confounded. \par \Vbar. But I am a worm, and no man: the reproach of men and the outcast of the people. \par \Vbar. All who saw me have laughed me to scorn; they have spoken with the lips and wagged the head. \par \Vbar. He hoped in the Lord, let Him deliver him; let Him save him, because He loves him. \par \Vbar. And they have looked and stared at me; they divided me garments among them, and upon my vesture they cast lots. \par \Vbar. Deliver me from the lion’s mouth, and my lowliness from the horns of the unicorns. \par \Vbar. You who fear the Lord, praise Him; all you the seed of Jacob, magnify Him. \par \Vbar. There shall be declared to the Lord a generation to come; and the heavens shall show forth His justice. \par \Vbar. To a people who shall be born, which the Lord has made.} \newpage
-\subsubsection{Responsorium} \textit{Ad libitum, post lectionem II:} \greannotation{V} \index[Responsorium]{Christus factus est} \label{Christus factus est (Responsorium)} \grecommentary[5pt]{Phil 2:8; \Vbar. 9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--christus_factus_est--dominican--id_6737}  \vspace{5pt} \par{Christ became for us obedient unto death, even to death on a cross. \Vbar. Therefore God also has exalted Him and has given Him the name that is above every name.} \newpage
+\subsubsection{Officium} \vspace{-6pt} \greannotation{VIII} \index[Officium]{Domine ne longe} \label{Domine ne longe (Officium)} \grecommentary[3pt]{Ps 21:20, 22; \Vbar. 2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.45cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/in--domine_ne_longe--dominican--id_6256}  \vspace{5pt} \par{O Lord, let not your help be far from me. Look to my defense; deliver me from the lion's mouth, and my lowliness from the horns of the unicorns. \Vbar. O God, my God, look on me; why have you forsaken me?} \newpage
+\subsubsection{Responsorium} \textit{Post lectionem I:} \greannotation{IV} \index[Responsorium]{Tenuisti manum} \label{Tenuisti manum (Responsorium)} \grecommentary[0pt]{Ps 72:23, 24; \Vbar. 1–3} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--tenuisti_manum--dominican--id_4872}  \vspace{5pt} \par{You have held me by the right hand, and by your will you have conducted me, and with glory you have assumed me. \Vbar. How good is God to Israel, to those of an upright heart. But my feet were almost moved, my steps had almost slipped, because I was zealous on account of sinners, seeing the peace of sinners.} \newpage
+\subsubsection{Tractus} \textit{Post lectionem II:} \greannotation{II} \index[Tractus]{Deus Deus meus} \label{Deus Deus meus (Tractus)} \grecommentary[3pt]{Ps 21:2–9, 18, 19, 22, 24, 32} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--deus_deus_meus--dominican}  \vspace{5pt} \par{O God, my God, look on me; why have you forsaken me? \par \Vbar. The voice of my sins keeps salvation far from me. \par \Vbar. My God, I shall cry by day, and you will not hear; in the night, and it shall not be my folly. \par \Vbar. But you dwell in the holy place, the praise of Israel. \par \Vbar. In you have our fathers hoped; they have hoped, and you have delivered them. \par \Vbar. They cried to you, and they were saved; they hoped in you, and were not confounded. \par \Vbar. But I am a worm, and no man: the reproach of men and the outcast of the people. \par \Vbar. All who saw me have laughed me to scorn; they have spoken with the lips and wagged the head. \par \Vbar. He hoped in the Lord, let him deliver him; let him save him, because he loves him. \par \Vbar. And they have looked and stared at me; they divided my garments among them, and upon my vesture they cast lots. \par \Vbar. Deliver me from the lion’s mouth, and my lowliness from the horns of the unicorns. \par \Vbar. You who fear the Lord, praise him; all you the seed of Jacob, magnify him. \par \Vbar. There shall be declared to the Lord a generation to come; and the heavens shall show forth his justice. \par \Vbar. To a people who shall be born, which the Lord has made.} \newpage
+\subsubsection{Responsorium} \textit{Ad libitum, post lectionem II:} \greannotation{V} \index[Responsorium]{Christus factus est} \label{Christus factus est (Responsorium)} \grecommentary[5pt]{Phil 2:8; \Vbar. 9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--christus_factus_est--dominican--id_6737}  \vspace{5pt} \par{Christ became obedient for us unto death, even death on a Cross. \Vbar. Therefore God also has exalted him and has given him the name that is above every name.} \newpage
 \subsubsection{Offertorium}  \greannotation{VIII} \index[Offertorium]{Improperium exspectavit} \label{Improperium exspectavit (Offertorium)} \grecommentary[0pt]{Ps 68:21, 22} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--improperium_simul_contristaretur--dominican--id_5089}  \vspace{5pt} \par{My heart expected reproach and misery, and I looked for one who would grieve together with me, but there was none. I sought for one who would comfort me, and I found none; and they gave me gall for my food, and in my thirst they gave me vinegar to drink.} \newpage
-\subsubsection{Communio}  \greannotation{VIII} \index[Communio]{Pater si non potest} \label{Pater si non potest (Communio)} \grecommentary[0pt]{Mt 26:42} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--pater_si_non_potest--dominican--id_4841}  \vspace{5pt} \par{Father, if this cup cannot pass away unless I drink it, Your will be done.} \newpage
-
+\subsubsection{Communio}  \greannotation{VIII} \index[Communio]{Pater si non potest} \label{Pater si non potest (Communio)} \grecommentary[0pt]{Mt 26:42} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--pater_si_non_potest--dominican--id_4841}  \vspace{5pt} \par{Father, if this cup cannot pass away unless I drink it, your will be done.} \newpage
 \end{document}

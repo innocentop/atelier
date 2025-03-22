@@ -1,126 +1,6 @@
-\documentclass[11pt,twoside]{book}
+\input{000_header}
 
-%%Page Size (rev. 08/19/2016)
-%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-%% width of textblock = 324 pt / 4.5in
-%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
-
-
-%%Header (rev. 4/11/2011)
-\usepackage{fancyhdr}
- \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
- \fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
- \fancypagestyle{plain}{ %
-\fancyhf{} % remove everything
-\renewcommand{\headrulewidth}{0pt} % remove lines as well
-\renewcommand{\footrulewidth}{0pt}}
-
-
-
-\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
-\usepackage{gregoriosyms}
-\gresetgregoriofont[op]{greciliae}
-
-
-
-
-%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
-
-\setcounter{secnumdepth}{-2}
-
-\usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
-\titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsubsection}{0pt}{*0}{*0}
-\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
-\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
-
-\newcommand{\nocontentsline}[3]{}
-\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
-
-
-%%%
-
-%%Index (rev. December 11, 2013)
-\usepackage[noautomatic,nonewpage]{imakeidx}
-
-
-\makeindex[name=incipit,title=Index]
-\indexsetup{level=\section,toclevel=section,noclearpage}
-
-\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
-
-
-%%Table of Contents (rev. May 16, 2011)
-
-%\usepackage{multicol}
-%\usepackage{ifthen}
-%\usepackage[toc]{multitoc}
-
-%% General settings (rev. January 19, 2015)
-
-\usepackage{ulem}
-
-\usepackage[latin,english]{babel}
-\usepackage{lettrine}
-
-
-\usepackage{fontspec}
-
-\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
-
-
-%% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
-\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
-\grechangestyle{commentary}{\textnormal\selectfont}
-\gresetcustosalteration{invisible}
-
-
-
-%\grechangedim{annotationseparation}{0.1cm}{scalable}
-
-%\GreLoadSpaceConf{smith-four}
-
-\frenchspacing
-
-\usepackage{indentfirst} %%%indents first line after a section
-
-\usepackage{graphicx}
-%\usepackage{tocloft}
-
-%%Hyperref (rev. August 20, 2011)
-%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
-\usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2017}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
-\hypersetup{pdfsubject={Liturgy}}
-\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
-
-\newlength{\drop}
-
-
-
-\begin{document}
-
-
-%%%Initial Matter within Body (20 May 2011)
-\raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
-
-
-\chapter[Holy Thursday]{Graduale O.P.}
+\chapter[Holy Thursday]{Graduale Novum\\Ordinis Prædicatorum}
 \section{Holy Thursday\\Mass of the Lord's Supper}
 
 \input{001_edited}
@@ -128,13 +8,13 @@
 \newpage
 
 \subsection{Ad liturgiam verbi}
-\subsubsection{Officium}  \greannotation{IV} \index[Officium]{Nos autem gloriari} \label{Nos autem gloriari (Officium)} \grecommentary[3pt]{Cf. Gal 6:14; \Vbar. Ps 66:2} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--nos_autem--dominican--id_6834-two-line} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{We should glory in the cross of our Lord Jesus Christ, in whom is our salvation, life, and resurrection; by whom we are saved and delivered. \Vbar. May God have mercy on us, and bless us; may He let His face shine upon us, and have mercy on us.} \newpage
+\subsubsection{Officium}  \greannotation{IV} \index[Officium]{Nos autem gloriari} \label{Nos autem gloriari (Officium)} \grecommentary[3pt]{Cf. Gal 6:14; \Vbar. Ps 66:2} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel} \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--nos_autem--dominican--id_6834-two-line} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{We should glory in the Cross of our Lord Jesus Christ, in whom is our salvation, life, and resurrection; through whom we are saved and delivered. \Vbar. May God have mercy on us, and bless us; may he let his face shine upon us, and have mercy on us.} \newpage
 
-\subsubsection{Responsorium}  \greannotation{VII} \index[Responsorium]{Oculi omnium} \label{Oculi omnium (Responsorium)} \grecommentary[0pt]{Ps 144:15; \Vbar. 16} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--oculi_omnium--dominican--id_5738}  \vspace{5pt} \par{The eyes of all hope in You, O Lord; and You give them meat in due season. \Vbar. You open Your hand, and fill every living creature with Your blessing.} \newpage
+\subsubsection{Responsorium}  \greannotation{VII} \index[Responsorium]{Oculi omnium} \label{Oculi omnium (Responsorium)} \grecommentary[0pt]{Ps 144:15; \Vbar. 16} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--oculi_omnium--dominican--id_5738}  \vspace{5pt} \par{The eyes of all hope in you, O Lord; and you give them food in due season. \Vbar. You open your hand, and fill every living creature with your blessing.} \newpage
 \subsubsection{Tractus}  \greannotation{VIII} \index[Tractus]{Ab ortu solis} \label{Ab ortu solis (Tractus)} \grecommentary[7pt]{Mal 1:11, Prov 9:5 [GR]} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--ab_ortu_solis--vatican-op}  \vspace{5pt} \par{From the rising of the sun to its setting, my name is great among the nations. \Vbar. And in every place a pure oblation is sacrified and offered to my name, for my name is truly great among the nations. \Vbar. Come, eat my bread and drink the wine I have prepared for you.} \newpage
 \subsection{Ad lotionem pedum}
-\subsubsection{Antiphona I}  \greannotation{II} \index[Antiphona I]{Dominus Iesus postquam} \label{Dominus Iesus postquam (Antiphona I)} \grecommentary[2pt]{Io 13:12, 13, 15; \Vbar. Ps 66:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--dominus_iesus--dominican}  \vspace{5pt} \par{The Lord Jesus, after He had dined with His disciples, washed their feet and said to them, ``Do you know what I have done to you, I, your Lord and Master? I have given you an example, that you should do likewise." \Vbar. May God have mercy on us, and bless us; may He let His face shine upon us, and have mercy on us.} \newpage
-\subsubsection{Antiphona II}  \greannotation{IV} \index[Antiphona II]{Postquam surrexit} \label{Postquam surrexit (Antiphona II)} \grecommentary[9pt]{Cf. Io 13:4, 5, 15; \Vbar. Ps 48:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--postquam_surrexit--dominican}  \vspace{5pt} \par{After the Lord rose from supper, He poured water into a basin, and began to wash the feet of the disciples; this example He left them. \Vbar. Hear this, all you nations; perceive with your ears, all you who dwell in the world.} \newpage
+\subsubsection{Antiphona I}  \greannotation{II} \index[Antiphona I]{Dominus Iesus postquam} \label{Dominus Iesus postquam (Antiphona I)} \grecommentary[2pt]{Io 13:12, 13, 15; \Vbar. Ps 66:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--dominus_iesus--dominican}  \vspace{5pt} \par{The Lord Jesus, after he had dined with his disciples, washed their feet and said to them, ``Do you know what I have done to you, I, your Lord and Master? I have given you an example, that you should do likewise." \Vbar. May God have mercy on us, and bless us; may he let his face shine upon us, and have mercy on us.} \newpage
+\subsubsection{Antiphona II}  \greannotation{IV} \index[Antiphona II]{Postquam surrexit} \label{Postquam surrexit (Antiphona II)} \grecommentary[9pt]{Cf. Io 13:4, 5, 15; \Vbar. Ps 48:2} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--postquam_surrexit--dominican}  \vspace{5pt} \par{After the Lord rose from supper, he poured water into a basin, and began to wash the feet of the disciples; this example he left them. \Vbar. Hear this, all you nations; perceive with your ears, all you who dwell in the world.} \newpage
 \subsubsection{Antiphona III}  \greannotation{IV} \index[Antiphona III]{Si ego Dominus} \label{Si ego Dominus (Antiphona III)} \grecommentary[5pt]{Cf. Io 13:14; \Vbar. 15} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--si_ego_dominus--dominican}  \vspace{5pt} \par{If I, your Lord and Master, have washed your feet, how much more should you wash one another's feet? \Vbar. I have given you an example, that you should do likewise.} \newpage
 \subsubsection{Antiphona IV}  \greannotation{II} \index[Antiphona IV]{Vos vocatis me} \label{Vos vocatis me (Antiphona IV)} \grecommentary[5pt]{Io 13:14, 15} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--vos_vocatis--dominican}  \vspace{5pt} \par{You call me Master and Lord, and you speak well, for I am so. If I wash your feet, the Lord and Master, you also ought to wash one another's feet. \Vbar. Jesus said to his disciples: \Abar. You call me Teacher and Lord.} \newpage
 \subsubsection{Antiphona V}  \greannotation{III} \index[Antiphona V]{Mandatum novum} \label{Mandatum novum (Antiphona V)} \grecommentary[5pt]{Io 13:34; \Vbar. Ps 118:1} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--mandatum_novum--dominican}  \vspace{5pt} \par{A new commandment I give you: that you love one another, as I have loved you, says the Lord. \Vbar. Blessed are the undefiled in the way, who walk in the law of the Lord.} \newpage
@@ -147,9 +27,9 @@
 
 \subsection{Ad liturgiam Eucharisticam}
 \subsubsection{Offertorium}  \greannotation{II} \index[Offertorium]{Dextera Domini} \label{Dextera Domini (Offertorium)} \grecommentary[5pt]{Ps 117:16, 17} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--dextera_domini--dominican--id_4758}  \vspace{5pt} \par{The right hand of the Lord has wrought strength; the right hand of the Lord has exalted me. I shall not die, but live, and shall declare the works of the Lord.} \newpage
-\subsubsection{Cantus} \textit{Ad libitum:} \greannotation{VI} \index[Cantus]{Ubi caritas} \label{Ubi caritas (Cantus)} \grecommentary[0pt]{Auctor ignotus in Italia (sæc. IX-X?)} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/misc--ubi_caritas_est_vera--solesmes}  \vspace{5pt} \par{Where love is true, God is there. \par \Vbar. The love of Christ has gathered us into one. Let us rejoice and be glad in Him. Let us fear and love the living God, and let us love one another with a sincere heart. \par \Vbar. Therefore when we are together, let us take heed not to be divided in mind. Let there be an end to spiteful strife, an end to quarrels, and in our midst be Christ our God. \par \Vbar. And, in company with the blessed, may we see your face in glory, Christ our God: joy that is boundless and pure for ever and for ever.} \newpage
+\subsubsection{Cantus} \textit{Ad libitum:} \greannotation{VI} \index[Cantus]{Ubi caritas} \label{Ubi caritas (Cantus)} \grecommentary[0pt]{Auctor ignotus in Italia (sæc. IX–X?)} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/misc--ubi_caritas_est_vera--solesmes}  \vspace{5pt} \par{Where love is true, God is there. \par \Vbar. The love of Christ has gathered us into one. Let us rejoice and be glad in him. Let us fear and love the living God, and let us love one another with a sincere heart. \par \Vbar. Therefore when we are together, let us take heed not to be divided in mind. Let there be an end to spiteful strife, an end to quarrels, and in our midst be Christ our God. \par \Vbar. And, in company with the blessed, may we see your face in glory, Christ our God: joy that is boundless and pure for ever and for ever.} \newpage
 \subsubsection{Communio}  \greannotation{VIII} \index[Communio]{Hoc corpus} \label{Hoc corpus (Communio)} \grecommentary[3pt]{I Cor 11:24, 25} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--hoc_corpus--dominican--id_5947--no_alleluia}  \vspace{5pt} \par{``This is my body which is given up for you; this is the chalice of the new covenant in my blood," says the Lord. ``Do this, as often as you receive it, in memory of me."} \newpage
-\subsubsection{Communio} \textit{Ad libitum:} \greannotation{II} \index[Communio]{Dominus Iesus postquam} \label{Dominus Iesus postquam (Communio)} \grecommentary[0pt]{Io 13:12, 13, 15} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--dominus_iesus--dominican--id_7200}  \vspace{5pt} \par{The Lord Jesus, after He had dined with His disciples, washed their feet and said to them, ``Do you know what I have done to you, I, your Lord and Master? I have given you an example, that you should do likewise."} \newpage
+\subsubsection{Communio} \textit{Ad libitum:} \greannotation{II} \index[Communio]{Dominus Iesus postquam} \label{Dominus Iesus postquam (Communio)} \grecommentary[0pt]{Io 13:12, 13, 15} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--dominus_iesus--dominican--id_7200}  \vspace{5pt} \par{The Lord Jesus, after he had dined with his disciples, washed their feet and said to them, ``Do you know what I have done to you, I, your Lord and Master? I have given you an example, that you should do likewise."} \newpage
 \subsection{Ad translationem Ss.Mi. Sacramenti}
 \subsubsection{Hymnus}  \greannotation{III} \index[Hymnus]{Pange lingua gloriosi Corporis} \label{Pange lingua gloriosi Corporis (Hymnus)} \grecommentary[5pt]{Thomas de Aquino} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/hy--pange_lingua_gloriosi_corporis--latin}  \vspace{5pt} \par{} \newpage
 \subsubsection{Hymn}  \greannotation{III} \index[Hymn]{Pange lingua gloriosi Corporis} \label{Pange lingua gloriosi Corporis (Hymn)} \grecommentary[5pt]{Thomas de Aquino} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \gregorioscore{graduale-chants/hy--pange_lingua_gloriosi_corporis--english}  \vspace{5pt} \par{} \newpage

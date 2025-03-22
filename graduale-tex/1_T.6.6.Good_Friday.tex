@@ -1,126 +1,7 @@
-\documentclass[11pt,twoside]{book}
-
-%%Page Size (rev. 08/19/2016)
-%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-%% width of textblock = 324 pt / 4.5in
-%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+\input{000_header}
 
 
-%%Header (rev. 4/11/2011)
-\usepackage{fancyhdr}
- \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
- \fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
- \fancypagestyle{plain}{ %
-\fancyhf{} % remove everything
-\renewcommand{\headrulewidth}{0pt} % remove lines as well
-\renewcommand{\footrulewidth}{0pt}}
-
-
-
-\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
-\usepackage{gregoriosyms}
-\gresetgregoriofont[op]{greciliae}
-
-
-
-
-%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
-
-\setcounter{secnumdepth}{-2}
-
-\usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
-\titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsubsection}{0pt}{*0}{*0}
-\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
-\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
-
-\newcommand{\nocontentsline}[3]{}
-\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
-
-
-%%%
-
-%%Index (rev. December 11, 2013)
-\usepackage[noautomatic,nonewpage]{imakeidx}
-
-
-\makeindex[name=incipit,title=Index]
-\indexsetup{level=\section,toclevel=section,noclearpage}
-
-\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
-
-
-%%Table of Contents (rev. May 16, 2011)
-
-%\usepackage{multicol}
-%\usepackage{ifthen}
-%\usepackage[toc]{multitoc}
-
-%% General settings (rev. January 19, 2015)
-
-\usepackage{ulem}
-
-\usepackage[latin,english]{babel}
-\usepackage{lettrine}
-
-
-\usepackage{fontspec}
-
-\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
-
-
-%% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
-\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
-\grechangestyle{commentary}{\textnormal\selectfont}
-\gresetcustosalteration{invisible}
-
-
-
-%\grechangedim{annotationseparation}{0.1cm}{scalable}
-
-%\GreLoadSpaceConf{smith-four}
-
-\frenchspacing
-
-\usepackage{indentfirst} %%%indents first line after a section
-
-\usepackage{graphicx}
-%\usepackage{tocloft}
-
-%%Hyperref (rev. August 20, 2011)
-%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
-\usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2017}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
-\hypersetup{pdfsubject={Liturgy}}
-\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
-
-\newlength{\drop}
-
-
-
-\begin{document}
-
-
-%%%Initial Matter within Body (20 May 2011)
-\raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
-
-
-\chapter[Friday of the Passion of the Lord]{Graduale O.P.}
+\chapter[Friday of the Passion of the Lord]{Graduale Novum\\Ordinis Prædicatorum}
 \section{Friday of the Passion of the Lord}
 
 \input{001_edited}
@@ -128,22 +9,22 @@
 \newpage
 
 \subsection{Ad liturgiam verbi}
-\subsubsection{Tractus} \textit{Post lectionem I:} \greannotation{II} \index[Tractus]{Domine audivi auditum} \label{Domine audivi auditum (Tractus)} \grecommentary[0pt]{Hab 3:2-3} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--domine_audivi--dominican--id_5694}  \vspace{5pt} \par{O Lord, I have heard Your hearing and was afraid; I have considered Your works and trembled. \par \Vbar. In the midst of two animals You shall be made known; when the years shall draw near, You shall be known; when the time shall come, You shall be manifested. \par \Vbar. When my soul shall be in trouble, even in Your wrath You will remember mercy. \par \Vbar. God will come from Lebanon, and the Holy One from the shady and thickly covered mountain. \par \Vbar. His majesty covered the heavens: and the earth is full of His praise.} \newpage
-\subsubsection{Tractus} \textit{Ad libitum, post lectionem I:} \greannotation{II} \index[Tractus]{Domine exaudi orationem} \label{Domine exaudi orationem (Tractus)} \grecommentary[0pt]{Ps 101:2-5, 14} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--domine_exaudi--dominican--id_6980}  \vspace{5pt} \par{O Lord, hear my prayer, and let my cry come to You. \par \Vbar. Turn not away Your face from me: in whatever day I am in tribulation, bend Your ear to me. \par \Vbar. On whichever day I call upon You, make haste to hear me. \par \Vbar. For my days pass away like smoke; and my bones burn as if in a furnace. \par \Vbar. I am smitten like grass, and my heart is withered: I have forgotten even to eat my bread. \par \Vbar. You shall arise, O Lord, and have mercy on Zion: for the time has come to have mercy on her.} \newpage
-\subsubsection{Tractus} \textit{Post lectionem II:} \greannotation{II} \index[Tractus]{Eripe me} \label{Eripe me (Tractus)} \grecommentary[0pt]{Ps 139:3-10, 14} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--eripe_me--dominican--id_7143}  \vspace{5pt} \par{Rescue me, O Lord, from the wicked man; from the unjust man deliver me. \par \Vbar. They who thought evil in their heart made war against me all the day. \par \Vbar. They sharpened their tongues like that of a serpent; the venom of asps is under their lips. \par \Vbar. Keep me, O Lord, out of the sinner's hands and from unjust men deliver me. \par \Vbar. Who have designed to supplant my steps. The proud have laid a snare for me. \par \Vbar. And they have stretched out ropes for a snare for my feet; they have made a stumbling-block for me near the way. \par \Vbar. I said to the Lord: ``You are my God, hear, O Lord, the voice of my prayer. \par \Vbar. O Lord, O Lord, the strength of my salvation, overshadow my head in the day of battle. \par \Vbar. Deliver me not to the sinner against my will; they have formed designs against me. Forsake me not, that they may never be exalted. \par \Vbar. The chief of those who are round me; the works of their lips will overwhelm them. \par \Vbar. But the just shall praise Your name and the righteous shall dwell in Your presence."} \newpage
-\subsubsection{Responsorium} \textit{Ad libitum, post lectionem II:} \greannotation{V} \index[Responsorium]{Christus factus est} \label{Christus factus est (Responsorium)} \grecommentary[5pt]{Phil 2:8; \Vbar. 9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--christus_factus_est--dominican--id_6737}  \vspace{5pt} \par{Christ became for us obedient unto death, even to death on a cross. \Vbar. Therefore God also has exalted Him and has given Him the name that is above every name.} \newpage
+\subsubsection{Tractus} \textit{Post lectionem I:} \greannotation{II} \index[Tractus]{Domine audivi auditum} \label{Domine audivi auditum (Tractus)} \grecommentary[0pt]{Hab 3:2–3} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--domine_audivi--dominican--id_5694}  \vspace{5pt} \par{O Lord, I have heard your hearing and was afraid; I have considered your works and trembled. \par \Vbar. In the midst of two animals you shall be made known; when the years shall draw near, you shall be known; when the time shall come, you shall be manifested. \par \Vbar. When my soul shall be in trouble, even in your wrath you will remember mercy. \par \Vbar. God will come from Lebanon, and the Holy One from the shady and thickly covered mountain. \par \Vbar. His majesty covered the heavens: and the earth is full of his praise.} \newpage
+\subsubsection{Tractus} \textit{Ad libitum, post lectionem I:} \greannotation{II} \index[Tractus]{Domine exaudi orationem} \label{Domine exaudi orationem (Tractus)} \grecommentary[0pt]{Ps 101:2–5, 14} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--domine_exaudi--dominican--id_6980}  \vspace{5pt} \par{O Lord, hear my prayer, and let my cry come to you. \par \Vbar. Turn not away your face from me: in whatever day I am in tribulation, bend your ear to me. \par \Vbar. On whichever day I call upon you, make haste to hear me. \par \Vbar. For my days pass away like smoke; and my bones burn as if in a furnace. \par \Vbar. I am smitten like grass, and my heart is withered: I have forgotten even to eat my bread. \par \Vbar. You shall arise, O Lord, and have mercy on Zion: for the time has come to have mercy on her.} \newpage
+\subsubsection{Tractus} \textit{Post lectionem II:} \greannotation{II} \index[Tractus]{Eripe me} \label{Eripe me (Tractus)} \grecommentary[0pt]{Ps 139:3–10, 14} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/tr--eripe_me--dominican--id_7143}  \vspace{5pt} \par{Rescue me, O Lord, from the wicked man; from the unjust man deliver me. \par \Vbar. They who thought evil in their heart made war against me all the day. \par \Vbar. They sharpened their tongues like that of a serpent; the venom of asps is under their lips. \par \Vbar. Keep me, O Lord, out of the sinner's hands and from unjust men deliver me. \par \Vbar. Who have designed to supplant my steps. The proud have laid a snare for me. \par \Vbar. And they have stretched out ropes for a snare for my feet; they have made a stumbling-block for me near the way. \par \Vbar. I said to the Lord: ``You are my God, hear, O Lord, the voice of my prayer. \par \Vbar. O Lord, O Lord, the strength of my salvation, overshadow my head in the day of battle. \par \Vbar. Deliver me not to the sinner against my will; they have formed designs against me. Forsake me not, that they may never be exalted. \par \Vbar. The chief of those who are round me; the works of their lips will overwhelm them. \par \Vbar. But the just shall praise your name and the righteous shall dwell in your presence."} \newpage
+\subsubsection{Responsorium} \textit{Ad libitum, post lectionem II:} \greannotation{V} \index[Responsorium]{Christus factus est} \label{Christus factus est (Responsorium)} \grecommentary[5pt]{Phil 2:8; \Vbar. 9} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--christus_factus_est--dominican--id_6737}  \vspace{5pt} \par{Christ became obedient for us unto death, even death on a Cross. \Vbar. Therefore God also has exalted him and has given him the name that is above every name.} \newpage
 \subsection{Adoratio sanctæ Crucis}
 \subsubsection{Improperia}  \input{graduale-chants/improperia--popule_meus}
 \subsubsection{Invitatio in ostendenda sancta Cruce}  \greannotation{VI} \index[Invitatio in ostendenda sancta Cruce]{Invitatio in ostendenda sancta Cruce} \label{Invitatio in ostendenda sancta Cruce (Invitatio in ostendenda sancta Cruce)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}  \gregorioscore{graduale-chants/an--ecce_lignum--roman_missal--english}  \vspace{5pt} \par{} \newpage
 \subsection{Cantus in adoratione s. Crucis peragendi}
-\subsubsection{Antiphona}  \greannotation{VI} \index[Antiphona]{Ecce lignum Crucis} \label{Ecce lignum Crucis (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--ecce_lignum--dominican--id_6369}  \vspace{5pt} \par{Behold the wood of the Cross, on which the salvation of the world hung; come, let us adore.}
+\subsubsection{Antiphona}  \greannotation{VI} \index[Antiphona]{Ecce lignum Crucis} \label{Ecce lignum Crucis (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--ecce_lignum--dominican--id_6369}  \vspace{5pt} \par{Behold the wood of the Cross, on which hung the salvation of the world; come, let us adore.}
 \subsubsection{Antiphona}  \greannotation{IV} \index[Antiphona]{Tuam Crucem} \label{Tuam Crucem (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--tuam_crucem--dominican--id_6093}  \vspace{5pt} \par{We adore your Cross, O Lord, we recall your glorious passion; have mercy on us, you who suffered for us.} \newpage
 \subsubsection{Antiphona}  \greannotation{IV} \index[Antiphona]{Crucem tuam} \label{Crucem tuam (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--crucem_tuam--dominican--id_5371}  \vspace{5pt} \par{We adore your Cross, O Lord, and we praise and glorify your holy Resurrection: for behold, on account of the Cross joy has come to the whole world.}
-\subsubsection{Antiphona}  \greannotation{IV} \index[Antiphona]{Adoremus Crucis} \label{Adoremus Crucis (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--adoremus--dominican--id_6069}  \vspace{5pt} \par{We adore the sign of the Cross, through which we have received the sacrament of salvation.} \newpage
-\subsubsection{Hymn}  \greannotation{I} \index[Hymn]{Crux fidelis} \label{Crux fidelis (Hymn)} \grecommentary[10pt]{Venantius Fortunatus} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0cm}{scalable} \grechangedim{spaceabovelines}{0.6cm}{scalable} \gresetlyriccentering{syllable}  \gregorioscore{graduale-chants/hy--crux_fidelis--dominican--english}  \vspace{5pt} \par{}
+\subsubsection{Antiphona}  \greannotation{IV} \index[Antiphona]{Adoremus Crucis} \label{Adoremus Crucis (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--adoremus--dominican--id_6069}  \vspace{5pt} \par{Let us adore the sign of the Cross, through which we have received the sacrament of salvation.} \newpage
+\subsubsection{Hymn}  \greannotation{I} \index[Hymn]{Crux fidelis} \label{Crux fidelis (Hymn)} \grecommentary[10pt]{Venantius Fortunatus} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0cm}{scalable} \grechangedim{spaceabovelines}{0.6cm}{scalable} \gresetlyriccentering{syllable}  \gregorioscore{graduale-chants/hy--crux_fidelis--dominican--english-icel}  \vspace{5pt} \par{}
 \subsubsection{Antiphona}  \greannotation{II} \index[Antiphona]{Super omnia ligna} \label{Super omnia ligna (Antiphona)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--super_omnia--dominican--id_6407}  \vspace{5pt} \par{You alone are above all the cedars, you on which hung the life of the world; on which Christ triumphed, and death overcame death forever.} \newpage
 \subsection{Ad sacram communionem}
-\subsubsection{Communio}  \greannotation{I} \index[Communio]{Adoramus te} \label{Adoramus te (Communio)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--adoramus_te--dominican}  \vspace{5pt} \par{We adore You, O Christ, and we bless You, for by Your Cross You have redeemed the world.} \par \vspace{10pt}
+\subsubsection{Communio}  \greannotation{I} \index[Communio]{Adoramus te} \label{Adoramus te (Communio)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--adoramus_te--dominican}  \vspace{5pt} \par{We adore you, O Christ, and we bless you, for by your Cross you have redeemed the world.} \par \vspace{10pt}
 \subsubsection{Communio}  \greannotation{VIII} \index[Communio]{Per lignum} \label{Per lignum (Communio)} \grecommentary[0pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--per_lignum--dominican--id_4990--good-friday}  \vspace{5pt} \par{Through a tree we became slaves, and through the holy Cross we have been set free; the fruit of a tree deceived us, the Son of God redeemed us.} \newpage
 \subsubsection{Communio}  \greannotation{VII} \index[Communio]{Salvator mundi} \label{Salvator mundi (Communio)} \grecommentary[10pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--salvator_mundi--dominican}  \vspace{5pt} \par{Savior of the world, save us, who by your Cross and Blood have redeemed us; help us, we beseech you, our God.} \newpage
 

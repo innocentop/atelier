@@ -1,126 +1,6 @@
-\documentclass[11pt,twoside]{book}
+\input{000_header}
 
-%%Page Size (rev. 08/19/2016)
-%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
-%% width of textblock = 324 pt / 4.5in
-%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
-
-
-%%Header (rev. 4/11/2011)
-\usepackage{fancyhdr}
- \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
- \fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CE]{Graduale O.P.}
-\fancyhead[CO]{\leftmark}
- \fancypagestyle{plain}{ %
-\fancyhf{} % remove everything
-\renewcommand{\headrulewidth}{0pt} % remove lines as well
-\renewcommand{\footrulewidth}{0pt}}
-
-
-
-\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
-\usepackage{gregoriosyms}
-\gresetgregoriofont[op]{greciliae}
-
-
-
-
-%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
-
-\setcounter{secnumdepth}{-2}
-
-\usepackage[compact,nobottomtitles*]{titlesec}
-\titlespacing*{\part}{0pt}{*0}{*1}
-\titlespacing*{\chapter}{0pt}{*0}{*1}
-\titlespacing*{\section}{0pt}{*0}{*1}
-\titlespacing*{\subsubsection}{0pt}{*0}{*0}
-\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
-\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
-\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
-\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
-\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
-
-\newcommand{\nocontentsline}[3]{}
-\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
-
-
-%%%
-
-%%Index (rev. December 11, 2013)
-\usepackage[noautomatic,nonewpage]{imakeidx}
-
-
-\makeindex[name=incipit,title=Index]
-\indexsetup{level=\section,toclevel=section,noclearpage}
-
-\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
-
-
-%%Table of Contents (rev. May 16, 2011)
-
-%\usepackage{multicol}
-%\usepackage{ifthen}
-%\usepackage[toc]{multitoc}
-
-%% General settings (rev. January 19, 2015)
-
-\usepackage{ulem}
-
-\usepackage[latin,english]{babel}
-\usepackage{lettrine}
-
-
-\usepackage{fontspec}
-
-\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
-
-
-%% Style for translation line
-\grechangestyle{translation}{\textnormal\selectfont}
-\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
-\grechangestyle{commentary}{\textnormal\selectfont}
-\gresetcustosalteration{invisible}
-
-
-
-%\grechangedim{annotationseparation}{0.1cm}{scalable}
-
-%\GreLoadSpaceConf{smith-four}
-
-\frenchspacing
-
-\usepackage{indentfirst} %%%indents first line after a section
-
-\usepackage{graphicx}
-%\usepackage{tocloft}
-
-%%Hyperref (rev. August 20, 2011)
-%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
-\usepackage{hyperref}
-\hypersetup{pdftitle={Graduale O.P. 2017}}
-\hypersetup{pdfauthor={Order of Preachers (\today)}}
-\hypersetup{pdfsubject={Liturgy}}
-\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
-
-\newlength{\drop}
-
-
-
-\begin{document}
-
-
-%%%Initial Matter within Body (20 May 2011)
-\raggedbottom
-\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
-
-
-\chapter[Easter Sunday of the Resurrection of the Lord]{Graduale O.P.}
+\chapter[Easter Sunday of the Resurrection of the Lord]{Graduale Novum\\Ordinis Prædicatorum}
 \section{Easter Sunday of the Resurrection of the Lord}
 \subsection{At the Mass during the Day}
 
@@ -128,14 +8,11 @@
 
 \newpage
 
-
-\subsubsection{Officium}  \greannotation{IV} \index[Officium]{Resurrexi} \label{Resurrexi (Officium)} \grecommentary[5pt]{Ps 138:18, 5, 6; \Vbar. 1-2} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{.5cm}{scalable}  \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--resurrexi--dominican--id_6541} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{I have risen, and I am with you still, alleluia. You have laid your hand upon me, alleluia; Your knowledge is become wonderful, alleluia, alleluia. \Vbar. Lord, You have proved me, and known me; You have known my resting and my rising.} \newpage
+ \subsubsection{Officium}  \greannotation{IV} \index[Officium]{Resurrexi} \label{Resurrexi (Officium)} \grecommentary[5pt]{Ps 138:18, 5, 6; \Vbar. 1–2} \gresetinitiallines{2} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{.5cm}{scalable}  \grechangestyle{initial}{\fontsize{120}{120}\selectfont} \gregorioscore{graduale-chants/in--resurrexi--dominican--id_6541} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \vspace{5pt} \par{I have risen, and I am with you still, alleluia. You have laid your hand upon me, alleluia. Your knowledge has become wonderful, alleluia, alleluia. \Vbar. Lord, you have searched me and known me; you have known my resting and my rising.} \newpage
 \subsubsection{Responsorium}  \greannotation{II} \index[Responsorium]{Hæc dies V. Confitemini} \label{Hæc dies V. Confitemini (Responsorium)} \grecommentary[3pt]{Ps 117:24; \Vbar. 1} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/gr--haec_dies_v_confitemini--dominican--id_6471}  \vspace{5pt} \par{This is the day which the Lord has made; let us be glad and rejoice in it. \Vbar. Give praise to the Lord, for He is good, for His mercy endures forever.} \newpage
 \subsubsection{Alleluia}  \greannotation{VII} \index[Alleluia]{Pascha nostrum} \label{Pascha nostrum (Alleluia)} \grecommentary[0pt]{1 Cor 5:7} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/al--pascha_nostrum--dominican--id_7076-c3}  \vspace{5pt} \par{Christ our Passover is sacrificed.} \newpage
-\subsubsection{Sequentia}  \greannotation{I} \index[Sequentia]{Victimæ paschali laudes} \label{Victimæ paschali laudes (Sequentia)} \grecommentary[5pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{.35cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/se--victimae_paschali_laudes--dominican}  \vspace{5pt} \par{To the Paschal Victim let Christians offer their praises. The Lamb has redeemed the sheep; the sinless One has reconciled the sinners to His Father. \par \Vbar. Death and life contend in a wondrous conflict. The Prince of life died, yet living, reigns. \par \Vbar. Tell us, Mary, what did you see on the way? \par \Vbar. I saw the sepulcher of the living Christ and the glory of the Risen Savior; the angelic witnesses, the linen cloth and the clothing. \par \Vbar. Christ my hope has risen; He goes before you into Galilee. \par \Vbar. We know that Christ is truly risen from the dead. O victorious King, have mercy on us. Amen. Alleluia.} \newpage
+\subsubsection{Sequentia}  \greannotation{I} \index[Sequentia]{Victimæ paschali laudes} \label{Victimæ paschali laudes (Sequentia)} \grecommentary[5pt]{Ecclesia} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{.35cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/se--victimae_paschali_laudes--dominican}  \vspace{5pt} \par{To the Paschal Victim let Christians offer their praises. The Lamb has redeemed the sheep; the sinless One has reconciled the sinners to His Father. \par \Vbar. Death and life contend in a wondrous conflict. The Prince of life died, yet living, reigns. \par \Vbar. Tell us, Mary, what did you see on the way? \par \Vbar. I saw the sepulcher of the living Christ and the glory of the Risen Savior; the angelic witnesses, the linen cloth and the clothing. \par \Vbar. Christ my hope has risen; He goes before you into Galilee. \par \Vbar. We know that Christ is truly risen from the dead. O victorious King, have mercy on us. Alleluia.} \newpage
 \subsubsection{Antiphona}  \greannotation{VIII} \index[Antiphona]{Vidi aquam (Haec est dies)} \label{Vidi aquam (Haec est dies) (Antiphona)} \grecommentary[0pt]{Ezech 47:1, 9; \Vbar. Ps 117:24} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies}  \vspace{5pt} \par{I saw water flowing from the right side of the temple, alleluia; and all to whom that water came were saved, and they shall say: Alleluia, alleluia. \Vbar. This is the day the Lord has made; let us exult and rejoice in it.} \newpage
 \subsubsection{Offertorium}  \greannotation{IV} \index[Offertorium]{Terra tremuit} \label{Terra tremuit (Offertorium)} \grecommentary[0pt]{Ps 75:9, 10} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/of--terra_tremuit--dominican--id_5651}  \vspace{5pt} \par{The earth trembled and was still, when God arose in judgment, alleluia.} \newpage
 \subsubsection{Communio}  \greannotation{VI} \index[Communio]{Pascha nostrum} \label{Pascha nostrum (Communio)} \grecommentary[0pt]{1 Cor 5:7} \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{0 cm}{scalable} \grechangedim{spaceabovelines}{.5cm}{scalable} \gresetlyriccentering{vowel}  \gregorioscore{graduale-chants/co--pascha_nostrum--dominican--id_6187}  \vspace{5pt} \par{Christ our Passover is sacrificed, alleluia; therefore, let us feast with the unleavened bread of sincerity and truth, alleluia, alleluia, alleluia.} \newpage
-
-
 \end{document}

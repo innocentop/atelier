@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1742750987.19055 "1_T.7.0.Easter_Vigil.tex" "1_T.7.0.Easter_Vigil.pdf" "1_T.7.0.Easter_Vigil" 1742751006.32578 0
+["lualatex"] 1742774312.62629 "1_T.7.0.Easter_Vigil.tex" "1_T.7.0.Easter_Vigil.pdf" "1_T.7.0.Easter_Vigil" 1742774332.14181 0
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1742568516.36684 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
@@ -170,11 +170,11 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
   "000_header.tex" 1706019923.31644 3630 591593034f6be8d1c064d4e89a368dcc ""
   "001_edited.tex" 1706019609.83206 231 173003f10d10d033a7dc55f3463c92c9 ""
-  "1_T.7.0.Easter_Vigil.aux" 1742751006.18058 1896 7141f928db733225fde086fb500ad7df "lualatex"
+  "1_T.7.0.Easter_Vigil.aux" 1742774331.97881 1896 7141f928db733225fde086fb500ad7df "lualatex"
   "1_T.7.0.Easter_Vigil.gaux" 1742750890.55376 2656 3529c1d7ffdcc977cbb25f32cb0c88b2 ""
-  "1_T.7.0.Easter_Vigil.out" 1742751006.18128 474 534680213d1e49d7b2d6495112f229c4 "lualatex"
-  "1_T.7.0.Easter_Vigil.tex" 1742750984.14484 4862 43748ba65a1f0ca313848aa0c6cdb082 ""
-  "incipit.ind" 1742750803.23973 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "1_T.7.0.Easter_Vigil.out" 1742774331.97942 474 534680213d1e49d7b2d6495112f229c4 "lualatex"
+  "1_T.7.0.Easter_Vigil.tex" 1742774309.03489 4862 f488042df65fa7055746d1aa26bf224b ""
+  "incipit.ind" 1742771757.1824 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "op-shield.jpg" 1623870065.16465 194719 a40c79a2467af8b379120132a7ed896e ""
   "tmp-gre/graduale-chants/al--confitemini_quoniam_sab_sancto--dominican--id_5407--with--laudate_dominum-tract-6_1_0.gtex" 1742740223.97167 43182 ec20d0a7bbcbac276bf01598bfcfea49 ""
   "tmp-gre/graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies-6_1_0.gtex" 1742747185.07231 39297 df140ac8d7593ba2b777e793d48ed7ef ""
@@ -190,8 +190,8 @@
   "1_T.7.0.Easter_Vigil.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1742740131.18402 "incipit.idx" "incipit.ind" "incipit" 1742751006.32564 0
-  "incipit.idx" 1742750991.06179 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1742740131.18402 "incipit.idx" "incipit.ind" "incipit" 1742774332.14163 0
+  "incipit.idx" 1742774316.56937 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

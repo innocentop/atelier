@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1742771802.57396 "1_T.6.5.Holy_Thursday.tex" "1_T.6.5.Holy_Thursday.pdf" "1_T.6.5.Holy_Thursday" 1742771848.37868 0
+["lualatex"] 1743426130.54865 "1_T.6.5.Holy_Thursday.tex" "1_T.6.5.Holy_Thursday.pdf" "1_T.6.5.Holy_Thursday" 1743426175.42567 0
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1742568516.36684 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
@@ -170,11 +170,11 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
   "000_header.tex" 1706019923.31644 3630 591593034f6be8d1c064d4e89a368dcc ""
   "001_edited.tex" 1706019609.83206 231 173003f10d10d033a7dc55f3463c92c9 ""
-  "1_T.6.5.Holy_Thursday.aux" 1742771848.21055 4839 18e0e31414ad2eba21d4eb1354365921 "lualatex"
-  "1_T.6.5.Holy_Thursday.gaux" 1742771802.42268 7554 5be6ed06e3c2fb0cae26a6389885a42b ""
-  "1_T.6.5.Holy_Thursday.out" 1742771848.21148 1103 ab7dd714afcf5b9ab8bb51fcdbbcfc66 "lualatex"
+  "1_T.6.5.Holy_Thursday.aux" 1743426175.27525 4839 18e0e31414ad2eba21d4eb1354365921 "lualatex"
+  "1_T.6.5.Holy_Thursday.gaux" 1743426130.35948 7554 5e623c9e5a0595956902105e60534b0e ""
+  "1_T.6.5.Holy_Thursday.out" 1743426175.27624 1103 ab7dd714afcf5b9ab8bb51fcdbbcfc66 "lualatex"
   "1_T.6.5.Holy_Thursday.tex" 1742771706.936 13031 3fab889852fe8911a7af3e3890beb2b8 ""
-  "incipit.ind" 1742771757.1824 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "incipit.ind" 1743426084.72691 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "op-shield.jpg" 1623870065.16465 194719 a40c79a2467af8b379120132a7ed896e ""
   "tmp-gre/graduale-chants/an--congregavit_nos--dominican-6_1_0.gtex" 1742771735.62093 17830 ede76c1cb63d31613838cfe97d46f0fe ""
   "tmp-gre/graduale-chants/an--diligamus_nos--dominican-6_1_0.gtex" 1742771731.81252 20896 d42082bef95fd453fdd43bab6d838a15 ""
@@ -192,7 +192,7 @@
   "tmp-gre/graduale-chants/gr--oculi_omnium--dominican--id_5738-6_1_0.gtex" 1742771716.25695 35031 c868b078b1c42d06c8f6da4fa4ac9acd ""
   "tmp-gre/graduale-chants/hy--pange_lingua_gloriosi_corporis--english-6_1_0.gtex" 1742771751.56509 80773 bbf30743797c6f5c1437a91d7512fd38 ""
   "tmp-gre/graduale-chants/hy--pange_lingua_gloriosi_corporis--latin-6_1_0.gtex" 1742771745.67514 78409 74eb2c913ac13aa236baf734a03edf23 ""
-  "tmp-gre/graduale-chants/in--nos_autem--dominican--id_6834-6_1_0.gtex" 1742758815.05047 28626 362a51418be0990480953ad4e75edd0b ""
+  "tmp-gre/graduale-chants/in--nos_autem--dominican--id_6834-6_1_0.gtex" 1743426089.46804 28623 863ae558c511727dae11d172b320039f ""
   "tmp-gre/graduale-chants/misc--ubi_caritas_est_vera--solesmes-6_1_0.gtex" 1742758884.20939 47138 667db1bd7e47bffa2508f26ec033751e ""
   "tmp-gre/graduale-chants/of--dextera_domini--dominican--id_4758-6_1_0.gtex" 1742740229.35911 16786 cd0f646fc373a6941d8001e0f8a7d959 ""
   "tmp-gre/graduale-chants/tr--ab_ortu_solis--vatican-op-6_1_0.gtex" 1742771718.24615 48924 64aa4f099d906ff504f0bc1ba7f80e25 ""
@@ -203,8 +203,8 @@
   "1_T.6.5.Holy_Thursday.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1742771757.08892 "incipit.idx" "incipit.ind" "incipit" 1742771848.37855 0
-  "incipit.idx" 1742771806.48209 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1743426084.62815 "incipit.idx" "incipit.ind" "incipit" 1743426175.42556 0
+  "incipit.idx" 1743426134.43941 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

@@ -179,7 +179,7 @@ INPUT ./op-shield.jpg
 INPUT ./op-shield.jpg
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./tmp-gre/graduale-chants/gr--christus_factus_est--dominican--id_6737-6_1_0.gtex
-INPUT ./graduale-chants/improperia--popule_meus.tex
+INPUT ./graduale-chants/improperia--popule_meus--english.tex
 INPUT ./tmp-gre/graduale-chants/an--tuam_crucem--dominican--id_6093-6_1_0.gtex
 INPUT ./tmp-gre/graduale-chants/an--crucem_tuam--dominican--id_5371-6_1_0.gtex
 INPUT ./tmp-gre/graduale-chants/an--adoremus--dominican--id_6069-6_1_0.gtex

@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1743431422.85384 "1_T.6.5.Holy_Thursday-DHS.tex" "1_T.6.5.Holy_Thursday-DHS.pdf" "1_T.6.5.Holy_Thursday-DHS" 1743431434.79439 0
+["lualatex"] 1743449251.37233 "DHS-Temporal-Holy_Saturday-responsory.tex" "DHS-Temporal-Holy_Saturday-responsory.pdf" "DHS-Temporal-Holy_Saturday-responsory" 1743449258.68054 0
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1742568516.36684 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
@@ -91,6 +91,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/lettrine/lettrine.sty" 1738361308 11601 38d9f6d9f3ec07f252ee99f8bad14e28 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/luacolor/luacolor.lua" 1692477832 6497 4dbb1de9edef876ef5f8036d57681aa1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/luacolor/luacolor.sty" 1692477832 7423 c6f5b1e329b4c5ede2d22a7811319d79 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/paracol/paracol.sty" 1729891619 106557 32e9de36b24669ee5b6b58861439b10c ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty" 1687466457 10085 3dececaeed388e31285c366e124c0c4e ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
@@ -168,26 +169,21 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "000_header.tex" 1706019923.31644 3630 591593034f6be8d1c064d4e89a368dcc ""
-  "001_edited.tex" 1706019609.83206 231 173003f10d10d033a7dc55f3463c92c9 ""
-  "1_T.6.5.Holy_Thursday-DHS.aux" 1743431434.65433 1251 e176e82d7174120bc32add20adab500c "lualatex"
-  "1_T.6.5.Holy_Thursday-DHS.gaux" 1743431422.71663 1275 ed2b5e2eac5d74bdf77cb2b3b3dbf489 ""
-  "1_T.6.5.Holy_Thursday-DHS.out" 1743431434.65498 371 43442cca0480d4a5ce2f48c1e23221fa "lualatex"
-  "1_T.6.5.Holy_Thursday-DHS.tex" 1743431407.25855 2718 d8459fc4939e36626063ed9fdc1551a3 ""
-  "incipit.ind" 1743431171.01093 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "op-shield.jpg" 1623870065.16465 194719 a40c79a2467af8b379120132a7ed896e ""
-  "tmp-gre/graduale-chants/in--nos_autem--dominican--id_6834--extra-verses-6_1_0.gtex" 1743425430.07501 42267 d557b562315b31d48ab89cc61c5d130f ""
-  "tmp-gre/graduale-chants/misc--ubi_caritas_est_vera--solesmes-6_1_0.gtex" 1742758884.20939 47138 667db1bd7e47bffa2508f26ec033751e ""
-  "tmp-gre/graduale-chants/of--dextera_domini--dominican--id_4758-6_1_0.gtex" 1742740229.35911 16786 cd0f646fc373a6941d8001e0f8a7d959 ""
+  "DHS-Temporal-Holy_Saturday-responsory.aux" 1743449258.55045 703 a8a6123e6708f4f1bce9fca360ff5e1c "lualatex"
+  "DHS-Temporal-Holy_Saturday-responsory.gaux" 1743448952.63611 486 d8775fb72c4a2165ad4af5957b9b55f8 ""
+  "DHS-Temporal-Holy_Saturday-responsory.out" 1743449258.5511 170 ad511e8a8c4be636e74abf057bd64f90 "lualatex"
+  "DHS-Temporal-Holy_Saturday-responsory.tex" 1743449240.4687 4965 2555764de3bb3d674fca250ee7900d75 ""
+  "incipit.ind" 1743448937.85063 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "tmp-gre/chants/rp--agnus_dei_christus--dominican-6_1_0.gtex" 1743448942.48812 42201 73b6c54b26e79a6fc6a372290848b8bd ""
   (generated)
-  "1_T.6.5.Holy_Thursday-DHS.aux"
-  "1_T.6.5.Holy_Thursday-DHS.log"
-  "1_T.6.5.Holy_Thursday-DHS.out"
-  "1_T.6.5.Holy_Thursday-DHS.pdf"
+  "DHS-Temporal-Holy_Saturday-responsory.aux"
+  "DHS-Temporal-Holy_Saturday-responsory.log"
+  "DHS-Temporal-Holy_Saturday-responsory.out"
+  "DHS-Temporal-Holy_Saturday-responsory.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1743431170.92045 "incipit.idx" "incipit.ind" "incipit" 1743431434.79423 0
-  "incipit.idx" 1743431426.83386 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1743448937.76176 "incipit.idx" "incipit.ind" "incipit" 1743449258.68042 0
+  "incipit.idx" 1743449255.28652 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

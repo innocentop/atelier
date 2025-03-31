@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1742759585.89247 "1_T.6.6.Good_Friday-DHS.tex" "1_T.6.6.Good_Friday-DHS.pdf" "1_T.6.6.Good_Friday-DHS" 1742759612.35314 0
+["lualatex"] 1743430378.91365 "1_T.6.6.Good_Friday-DHS.tex" "1_T.6.6.Good_Friday-DHS.pdf" "1_T.6.6.Good_Friday-DHS" 1743430403.79131 0
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1742568516.36684 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
@@ -170,12 +170,12 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
   "000_header.tex" 1706019923.31644 3630 591593034f6be8d1c064d4e89a368dcc ""
   "001_edited.tex" 1706019609.83206 231 173003f10d10d033a7dc55f3463c92c9 ""
-  "1_T.6.6.Good_Friday-DHS.aux" 1742759612.1831 2159 2e7bdcf1256f1e0405fc80d28589fe51 "lualatex"
-  "1_T.6.6.Good_Friday-DHS.gaux" 1742759468.50164 4579 63450891ae4373a00e6743f962fff346 ""
-  "1_T.6.6.Good_Friday-DHS.out" 1742759612.18377 912 b57fdf07b6ec3c7adfd462d1b08b104d "lualatex"
-  "1_T.6.6.Good_Friday-DHS.tex" 1742759556.40663 3520 62b83961ab25bbcfe9bed7a1efda01b1 ""
-  "graduale-chants/improperia--popule_meus.tex" 1742758293.97814 4361 a7174d3c4d01914b846644823b7a23ca ""
-  "incipit.ind" 1742758986.77048 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "1_T.6.6.Good_Friday-DHS.aux" 1743430403.62312 2159 2e7bdcf1256f1e0405fc80d28589fe51 "lualatex"
+  "1_T.6.6.Good_Friday-DHS.gaux" 1743429513.27936 4578 573092e095e24a346b6e78a2a0bd506c ""
+  "1_T.6.6.Good_Friday-DHS.out" 1743430403.6238 912 b57fdf07b6ec3c7adfd462d1b08b104d "lualatex"
+  "1_T.6.6.Good_Friday-DHS.tex" 1743430376.6464 3530 ecab7c018c9700c06ace85bd5cb5e91d ""
+  "graduale-chants/improperia--popule_meus--english.tex" 1743430345.17505 3575 5fef494921d6bc6519593e361c752312 ""
+  "incipit.ind" 1743429898.89287 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "op-shield.jpg" 1623870065.16465 194719 a40c79a2467af8b379120132a7ed896e ""
   "tmp-gre/graduale-chants/an--adoremus--dominican--id_6069-6_1_0.gtex" 1742571688.29448 7447 d8d05e686f2504185320141873d3b9e0 ""
   "tmp-gre/graduale-chants/an--crucem_tuam--dominican--id_5371-6_1_0.gtex" 1742571687.01269 15704 ae6fb1f44e96695289d9b5fd1f1639d3 ""
@@ -190,8 +190,8 @@
   "1_T.6.6.Good_Friday-DHS.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1742757944.61042 "incipit.idx" "incipit.ind" "incipit" 1742759612.35302 0
-  "incipit.idx" 1742759589.83952 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1743429898.79914 "incipit.idx" "incipit.ind" "incipit" 1743430403.79114 0
+  "incipit.idx" 1743430382.7553 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

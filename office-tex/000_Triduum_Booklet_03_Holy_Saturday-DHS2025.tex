@@ -1,0 +1,164 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+
+\chapter{Holy Saturday}
+\section{Matins}
+              \par \textit{At the Prior’s signal all stand, face the high altar and silently make the Sign of the Cross.}
+ \subsubsection{Invitatory}   \index[Psalmus]{Invitatory} \label{Invitatory (Psalmus)}         \vspace{5pt} \par \input{psalms/psalm094english--holy_saturday-notated}    \newpage
+ \subsubsection{Hymn}  \greannotation{II} \index[Hymn]{Hymn} \label{Hymn (Hymn)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.4cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--tibi_redemptor_omnium--english--to_you_redeemer--icel}   \par \vspace{5pt} Text: \textit{Tibi, Redemptor omnium}, 5–6th c., tr. ICEL 2023. \newpage
+ \subsubsection{Antiphon 1}   \index[Antiphon]{Antiphon 1} \label{Antiphon 1 (Antiphon)}         \noindent In peace, I will lie down and sleep.
+ \subsubsection{Psalm 4} \paragraph{Thanksgiving}  \index[Psalmus]{Psalm 4} \label{Psalm 4 (Psalmus)} \textit{The resurrection of Christ was God’s supreme and wholly marvelous work (Saint Augustine).}        \par \vspace{5pt} \input{psalms/psalm004english}
+ \subsubsection{Antiphon 2}   \index[Antiphon]{Antiphon 2} \label{Antiphon 2 (Antiphon)}         \noindent My body shall rest in hope.
+ \subsubsection{Psalm 16} \paragraph{God is my portion, my heritage}  \index[Psalmus]{Psalm 16} \label{Psalm 16 (Psalmus)} \textit{The Father raised up Jesus from the dead and broke the bonds of death (Acts 2:24).}        \par \vspace{5pt} \input{psalms/psalm015english}
+ \subsubsection{Antiphon 3}   \index[Antiphon]{Antiphon 3} \label{Antiphon 3 (Antiphon)}         \noindent Lift high the ancient portals. The King of glory enters.
+ \subsubsection{Psalm 24} \paragraph{The Lord’s entry into his temple}  \index[Psalmus]{Psalm 24} \label{Psalm 24 (Psalmus)} \textit{Christ opened heaven for us in the humanity he assumed (Saint Irenaeus).}        \par \vspace{5pt} \input{psalms/psalm023english}
+                 \par \vspace{5pt} \Vbar. Take up my cause and rescue me. \par \Rbar. Be true to your word, give me life. \newpage
+ \subsubsection{First Reading}             \input{readings/lectio_prior_Heb.4.1-13--Holy_Saturday.tex}
+ \subsubsection{Responsorium prolixum}  \greannotation{II} \index[Responsorium prolixum]{Agnus Dei Christus} \label{Agnus Dei Christus (Responsorium prolixum)} \grecommentary[5pt]{Cf. Io 1:29; 1 Cor 5:7; \linebreak Venantius Fortunatus, \textit{Pange lingua}} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.4cm}{scalable} \gresetlyriccentering{vowel}  \grechangedim{maxbaroffsettextleft}{0 cm}{scalable} \grechangedim{spaceabovelines}{0.5 cm}{scalable} \gregorioscore{chants/rp--agnus_dei_christus--dominican} \vspace{5pt} \textit{Christ the Lamb of God was sacrificed for the salvation of the world. Grieving over the infidelity of the first-created parent, when by his eating of the fatal fruit he rushed headlong to death, the Creator Himself then designated the tree that it might undo the damage of the tree. \Vbar. And when thirty years had already passed, completing His earthly time, willingly being born for this, He is delivered to His Passion: the Lamb is lifted on the tree of the Cross to be immolated. * That it might undo the damage of the tree.}   \newpage
+ \subsubsection{Second Reading}             \input{readings/lectio_altera--ex_antinqua_homilia_in_sancto_et_magno_Sabbato.tex}
+ \subsubsection{Oratio Ieremiæ}   \index[Oratio Ieremiæ]{Oratio Ieremiæ} \label{Oratio Ieremiæ (Oratio Ieremiæ)}         \input{varia/misc--oratio_ieremiae--translation}    \newpage
+
+\section{Lauds}
+ \subsubsection{Antiphon 1}   \index[Antiphon]{Antiphon 1} \label{Antiphon 1 (Antiphon)}         \noindent Though sinless, the Lord has been put to death. The world is in mourning as for an only son.
+ \subsubsection{Psalm 64} \paragraph{Prayer for help against enemies}  \index[Psalmus]{Psalm 64} \label{Psalm 64 (Psalmus)} \textit{This psalm commemorates most particularly our Lord’s passion (Saint Augustine).}        \par \vspace{5pt} \input{psalms/psalm063english}
+ \subsubsection{Antiphon 2}   \index[Antiphon]{Antiphon 2} \label{Antiphon 2 (Antiphon)}         \noindent From the jaws of hell, Lord, rescue my soul.
+ \subsubsection{Canticle: Isaiah 38:10-14, 17b-20} \paragraph{Anguish of a dying man and joy in his restoration}  \index[Psalmus]{Canticle: Isaiah 38:10-14, 17b-20} \label{Canticle: Isaiah 38:10-14, 17b-20 (Psalmus)} \textit{I was living, I was dead . . . and I hold the keys of death (Revelation 1:17-18).}        \par \vspace{5pt} \input{psalms/is38_10-14.17b-20english}
+ \subsubsection{Antiphon 3}   \index[Antiphon]{Antiphon 3} \label{Antiphon 3 (Antiphon)}         \noindent I was dead, but now I live for ever, and I hold the keys of death and of hell.
+ \subsubsection{Psalm 150} \paragraph{Praise the Lord}  \index[Psalmus]{Psalm 150} \label{Psalm 150 (Psalmus)} \textit{Let mind and heart be in your song: this is to glorify God with your whole self (Hesychius).}        \par \vspace{5pt} \input{psalms/psalm150english}
+ \subsubsection{Reading}     \hfill Hos 5:15b-16:2        \input{readings/lectio_brevis_Hos.5.15b-16.2.tex}
+ \subsubsection{Responsory}  \greannotation{VI} \index[Responsory]{Christus factus est} \label{Christus factus est (Responsory)} \grecommentary[5pt]{Phil 2:8; \Vbar. 9} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/gr--christus_factus_est--dominican--id_6737} \vspace{5pt} \textit{Christ became obedient for us unto death, even death on a Cross. \Vbar. Therefore God has exalted him and bestowed on the name that is above every name.}
+ \subsubsection{Antiphona ad Benedictus}  \greannotation{I \textsc{d}} \index[Antiphona ad Benedictus]{Mulieres sedentes} \label{Mulieres sedentes (Antiphona ad Benedictus)} \grecommentary[3pt]{Cf. Mt 27:61; Lc 23:55} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/an--mulieres_sedentes--dominican}   \vspace{5pt} \textit{The women sitting at the sepulchre were weeping and mourning for the Lord.}
+ \subsubsection{Canticum Evangelicum} \paragraph{The Messiah and his forerunner} \greannotation{I \textsc{d}} \index[Canticum Evangelicum]{Benedictus} \label{Benedictus (Canticum Evangelicum)} \grecommentary[3pt]{Lc 1:46-55} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/Benedictus-solemn1D}
+ \subsubsection{Gospel Canticle}   \index[Antiphon]{Gospel Canticle} \label{Gospel Canticle (Antiphon)}         \noindent The women sitting at the sepulchre were weeping and mourning for the Lord.
+ \subsubsection{Canticle of Zechariah (Luke 1:68-79)} \paragraph{The Messiah and his forerunner}  \index[Psalmus]{Canticle of Zechariah (Luke 1:68-79)} \label{Canticle of Zechariah (Luke 1:68-79) (Psalmus)}         \par \vspace{5pt} \input{psalms/lc1_68-79english}    \newpage
+ \subsubsection{Preces} \textit{For the \textit{Preces} all stand facing the altar. Two friars stand by the Lady Lectern and two friars stand in the middle of the choir.} \par \vspace{5pt} \greannotation{IV} \index[Preces]{Holy Saturday Preces} \label{Holy Saturday Preces (Preces)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/misc.versus_litanici_in_cantu_sabbato_sancto--dominican-dhs}   \vspace{5pt} \textit{Lord have mercy. Lord have mercy. Lord have mercy. Have mercy, Lord. Christ the Lord became obedient unto death. You who came to suffer for us, Christ have mercy. You who with arms outstretched upon the cross have drawn us all to yourself, Christ have mercy. You who said in prophecy: O death, where are your plagues? Christ have mercy. Have mercy, Lord. Christ the Lord became obedient unto death. Lord have mercy. Lord have mercy. Lord have mercy. Have mercy, Lord. Christ the Lord became obedient unto death. Even death on a cross!} \newpage
+ \subsubsection{The Lord's Prayer} \textit{When the \textit{Preces} are concluded all remain standing in silence until the Prior begins the Our Father.} \par \vspace{5pt}  \index[Varia]{The Lord's Prayer} \label{The Lord's Prayer (Varia)}         \input{varia/lords-prayer}
+ \subsubsection{Concluding Prayer} \textit{When the Our Father is concluded the choir turns and kneels for the concluding collect.} \par \vspace{5pt}  \index[Concluding Prayer]{Holy Saturday} \label{Holy Saturday (Concluding Prayer)}         \input{prayers/or-holy-week-7-holy-saturday-morning-prayer}
+              \par \vspace{10pt} \textit{All depart in silence.}    \newpage
+ \subsubsection{Oratio Ieremiæ}  \greannotation{} \index[Oratio Ieremiæ]{Oratio Ieremiæ} \label{Oratio Ieremiæ} \grecommentary[5pt]{Ier 5:1-22} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/misc.oratio.ieremiae-new-flat-system}   \vspace{5pt} \textit{} \newpage
+ \subsubsection{Prayer of Jeremiah}  \greannotation{} \index[Prayer of Jeremiah]{Prayer of Jeremiah} \label{Prayer of Jeremiah} \grecommentary[5pt]{Ier 5:1-22} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/misc.oratio-ieremiae--english}   \vspace{5pt} \textit{} \newpage 
+
+ \end{document}

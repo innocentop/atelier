@@ -1,0 +1,150 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+\usepackage{hanging}
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+\chapter{Holy Saturday}
+
+
+
+\section{Vespers}
+              \par \textit{At the Prior’s signal all stand, face the high altar and silently make the Sign of the Cross.}
+ \subsubsection{Hymn}  \greannotation{VIII} \index[Hymn]{Hymn} \label{Hymn (Hymn)} \grecommentary[0pt]{} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.4cm}{scalable} \gresetlyriccentering{syllable}   \gregorioscore{chants/hy--auctor_salutis_unice--english--sole_author}   \par \vspace{5pt} Text: \textit{Auctor salutis unice}, c. 10th c., tr. ICEL 2023. \par Melody: \textit{Hymnarium O.P.}, Melody 18. \newpage
+ \subsubsection{Antiphon 1}   \index[Antiphon]{Antiphon 1} \label{Antiphon 1 (Antiphon)}         \noindent Death, you shall die in me; hell, you shall be destroyed by me.
+ \subsubsection{Psalm 116:10–19} \paragraph{Thanksgiving in the Temple}  \index[Psalmus]{Psalm 116:10–19} \label{Psalm 116:10–19 (Psalmus)} \textit{Through Christ let us offer God a continual sacrifice of praise (Hebrews 13:15).}        \par \vspace{5pt} \input{psalms/psalm115english}    \newpage
+ \subsubsection{Antiphon 2}   \index[Antiphon]{Antiphon 2} \label{Antiphon 2 (Antiphon)}         \noindent As Jonah was three days and three nights in the belly of the whale, so will the Son of Man be three days and three nights in the heart of the earth.
+ \subsubsection{Psalm 143:1–11} \paragraph{Prayer in distress}  \index[Psalmus]{Psalm 143:1–11} \label{Psalm 143:1–11 (Psalmus)} \textit{A man is not justified by observance of the law but only through faith in Jesus Christ (Galatians 2:16).}        \par \vspace{5pt} \input{psalms/psalm142_1-11english}
+ \subsubsection{Antiphon 3}   \index[Antiphon]{Antiphon 3} \label{Antiphon 3 (Antiphon)}         \noindent Destroy this temple, says the Lord, and in three days I will rebuild it. He was speaking of the temple of his body.
+ \subsubsection{Philippians 2:6–11} \paragraph{Christ, God’s holy servant}  \index[Psalmus]{Philippians 2:6–11} \label{Philippians 2:6–11 (Psalmus)}         \par \vspace{5pt} \input{psalms/phil2_6-11english}
+ \subsubsection{Reading}     \hfill 1 Peter 1:18–21        \input{readings/lectio_brevis_1.Pt.1.18-21.tex}
+ \subsubsection{Responsory}  \greannotation{VI} \index[Responsory]{Christus factus est} \label{Christus factus est (Responsory)} \grecommentary[5pt]{Phil 2:8; \Vbar. 9} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/gr--christus_factus_est--dominican--id_6737} \vspace{5pt} \textit{Christ became obedient for us unto death, even death on a Cross. \Vbar. Therefore God has exalted him and bestowed on the name that is above every name.}
+ \subsubsection{Antiphona ad Magnificat}  \greannotation{I g} \index[Antiphona ad Magnificat]{Clarifica me} \label{Clarifica me (Antiphona ad Magnificat)} \grecommentary[3pt]{Io 17:5} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/an--clarifica_me--dominican}   \vspace{5pt} \textit{Glorify me, Father, with yourself, with the glory that I had before the world was made.}
+ \subsubsection{Canticum Evangelicum} \paragraph{The Messiah and his forerunner} \greannotation{I \textsc{d}} \index[Canticum Evangelicum]{Magnificat} \label{Magnificat (Canticum Evangelicum)} \grecommentary[3pt]{Lc 1:46-55} \gresetinitiallines{1} \grechangestyle{initial}{\fontsize{36}{36}\selectfont} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.5cm}{scalable} \gresetlyriccentering{vowel}   \gregorioscore{chants/magnificat1g}
+ \subsubsection{Gospel Canticle}   \index[Antiphon]{Gospel Canticle} \label{Gospel Canticle (Antiphon)}         \noindent Now the Son of Man has been glorified and God has been glorified in him.
+ \subsubsection{Canticle of Mary (Luke 1:46–55)} \paragraph{The soul rejoices in the Lord}  \index[Canticle]{Canticle of Mary (Luke 1:46–55)} \label{Canticle of Mary (Luke 1:46–55) (Canticle)}         \par \vspace{5pt} \input{psalms/lc1_46-55english}    \newpage
+ \subsubsection{Preces}   \index[Preces]{Holy Saturday} \label{Holy Saturday (Preces)}         \input{intercessions/intercessions-holy-week-6-holy-saturday-vespers}    \newpage
+ \subsubsection{The Lord's Prayer}   \index[Varia]{The Lord's Prayer} \label{The Lord's Prayer (Varia)}         \input{varia/lords-prayer}
+ \subsubsection{Concluding Prayer} \textit{The choir kneels for the concluding collect.} \par \vspace{5pt}  \index[Concluding Prayer]{Holy Saturday} \label{Holy Saturday (Concluding Prayer)}         \input{prayers/or-holy-week-7-holy-saturday-morning-prayer}
+              \par \vspace{10pt} \textit{All depart in silence.}
+
+ \end{document}

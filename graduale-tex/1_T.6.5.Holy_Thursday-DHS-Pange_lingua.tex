@@ -1,0 +1,166 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.3in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Graduale O.P.}
+\fancyhead[CO]{\leftmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-2}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\part}{0pt}{*0}{*1}
+\titlespacing*{\chapter}{0pt}{*0}{*1}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thepart}{1em}{}
+\titleformat{\chapter} {\normalfont\huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\LARGE\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+%% Style for translation line
+\grechangestyle{translation}{\textnormal\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Graduale O.P. 2016}}
+\hypersetup{pdfauthor={Order of Preachers (\today)}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+\pagestyle{plain}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+\grechangedim{maxbaroffsettextleft}{0 cm}{scalable}
+
+ 
+%%Combination
+ \greannotation{III} \index[Hymnus]{Pange lingua gloriosi Corporis} \label{Pange lingua gloriosi Corporis (Hymnus)}  \gresetinitiallines{1} \grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable} \grechangedim{spaceabovelines}{0.3cm}{scalable} \gresetlyriccentering{vowel}  \gabcsnippet{(c2) Pan(d)ge,(d) lin(eXe)gua,(c) glo(f)ri(f)ó(gi)si(i) *(;6)
+Cór(ij)po(i)ris(i) my(h)sté(g)ri(i)um,(hvGF) (:)
+San(f)gui(g)nís(i)que (h)pre(g)ti(f)ó(g)si, (f) (;4)
+Quem(g) in(h) mun(f)di(eYe) pré(d)ti(g)um(gc) (:)
+Fruc(f)tus(f) ven(f)tris(d) ge(f)ne(g)ró(g)si(f) (;4)
+Rex(g) ef(h)fú(f)dit(gf) gén(eXed)ti(c)um.(d) (::)
+2. No(d)bis(d) da(eXe)tus,(c) no(f)bis(f) na(gi)tus(i) (;6)
+Ex(ij) in(i)tác(i)ta(h) Vír(g)gi(i)ne,(hvGF) (:)
+Et(f) in(g) mun(i)do(h) con(g)ver(f)sá(g)tus,(f) (;4)
+Spar(g)so(h) ver(f)bi(eYe) sé(d)mi(g)ne,(gc) (:)
+Su(f)i(f) mo(f)ras(d) in(f)co(g)lá(g)tus(f) (;4)
+Mi(g)ro(h) clau(f)sit(gf) ór(eXed)di(c)ne.(d) (::)
+3. In(d) su(d)pré(eXe)mæ(c) noc(f)te(f) ce(gi)næ(i) (;6)
+Re(ij)cúm(i)bens(i) cum(h) frá(g)tri(i)bus,(hvGF) (:)
+Ob(f)ser(g)vá(i)ta(h) Le(g)ge(f) ple(g)ne(f) (;4)
+Ci(g)bis(h) in(f) le(eYe)gá(d)li(g)bus,(gc) (:)
+Ci(f)bum(f) tur(f)bæ(d) du(f)o(g)dé(g)næ(f) (;4)
+Se(g) dat(h) su(f)is(gf) má(eXed)ni(c)bus.(d) (::)
+4. Ver(d)bum(d) ca(eXe)ro(c) pa(f)nem(f) ve(gi)rum(i) (;6)
+Ver(ij)bo(i) car(i)nem(h) éf(g)fi(i)cit,(hvGF) (:)
+Fit(f)que(g) san(i)guis(h) Chri(g)sti(f) me(g)rum,(f) (;4)
+Et(g) si(h) sen(f)sus(eYe) dé(d)fi(g)cit,(gc) (:)
+Ad(f) fir(f)mán(f)dum(d) cor(f) sin(g)cé(g)rum(f) (;4)
+So(g)la(h) fi(f)des(gf) súf(eXed)fi(c)cit.(d) (::)}
+
+\newpage
+\gabcsnippet{Tan(d)tum(d) er(eXe)go(c) Sa(f)cra(f)mén(gi)tum(i) (;6)
+Ve(ij)ne(i)ré(i)mur(h) cér(g)nu(i)i:(hvGF) (:)
+Et(f) an(g)tí(i)quum(h) do(g)cu(f)mén(g)tum(f) (;4)
+No(g)vo(h) ce(f)dat(eYe) rí(d)tu(g)i:(gc) (:)
+Præ(f)stet(f) fi(f)des(d) sup(f)ple(g)mén(g)tum(f) (;4)
+Sén(g)su(h)um(f) de(gf)féc(eXed)tu(c)i.(d) (::)
+6. Ge(d)ni(d)tó(eXe)ri,(c) Ge(f)ni(f)tó(gi)que(i) (;6)
+Laus(ij) et(i) iu(i)bi(h)lá(g)ti(i)o,(hvGF) (:)
+Sa(f)lus,(g) ho(i)nor,(h) vir(g)tus(f) quo(g)que(f) (;4)
+Sit(g) et(h) be(f)ne(eYe)díc(d)ti(g)o:(gc) (:)
+Pro(f)ce(f)dén(f)ti(d) ab(f) u(g)tró(g)que(f) (;4)
+Com(g)par(h) sit(f) lau(gf)dá(eXed)ti(c)o.(d) (::)
+A(ded)men.(cd) (::)}
+
+\end{document}

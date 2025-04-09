@@ -88,9 +88,9 @@
 \contentsline {subsubsection}{Antiphona ad Benedictus}{54}{subsubsection*.88}%
 \contentsline {subsubsection}{Canticum Evangelicum}{54}{subsubsection*.89}%
 \contentsline {paragraph}{The Messiah and his forerunner}{54}{paragraph*.90}%
-\contentsline {subsubsection}{Gospel Canticle}{56}{subsubsection*.91}%
-\contentsline {subsubsection}{Canticle of Zechariah (Luke 1:68–79)}{56}{subsubsection*.92}%
-\contentsline {paragraph}{The Messiah and his forerunner}{56}{paragraph*.93}%
+\contentsline {subsubsection}{Gospel Canticle}{57}{subsubsection*.91}%
+\contentsline {subsubsection}{Canticle of Zechariah (Luke 1:68–79)}{57}{subsubsection*.92}%
+\contentsline {paragraph}{The Messiah and his forerunner}{57}{paragraph*.93}%
 \contentsline {subsubsection}{Preces}{58}{subsubsection*.94}%
 \contentsline {subsubsection}{The Lord's Prayer}{61}{subsubsection*.95}%
 \contentsline {subsubsection}{Concluding Prayer}{61}{subsubsection*.96}%

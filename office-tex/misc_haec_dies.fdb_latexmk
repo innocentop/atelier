@@ -1,5 +1,6 @@
 # Fdb version 4
-["lualatex"] 1744763910.49352 "1_T.7.1.Easter_Sunday-DHS.tex" "1_T.7.1.Easter_Sunday-DHS.pdf" "1_T.7.1.Easter_Sunday-DHS" 1744763924.11001 0
+["lualatex"] 1744763511.00736 "misc_haec_dies.tex" "misc_haec_dies.pdf" "misc_haec_dies" 1744763516.31562 0
+  "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1742568516.36684 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
   "/Users/vitruvius/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1742568516.2791 715133 1a5fb7052cba232d7d19d02f93ded16d ""
@@ -90,6 +91,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/lettrine/lettrine.sty" 1738361308 11601 38d9f6d9f3ec07f252ee99f8bad14e28 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/luacolor/luacolor.lua" 1692477832 6497 4dbb1de9edef876ef5f8036d57681aa1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/luacolor/luacolor.sty" 1692477832 7423 c6f5b1e329b4c5ede2d22a7811319d79 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/paracol/paracol.sty" 1729891619 106557 32e9de36b24669ee5b6b58861439b10c ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty" 1687466457 10085 3dececaeed388e31285c366e124c0c4e ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
@@ -167,26 +169,21 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "000_header.tex" 1706019923.31644 3630 591593034f6be8d1c064d4e89a368dcc ""
-  "001_edited.tex" 1706019609.83206 231 173003f10d10d033a7dc55f3463c92c9 ""
-  "1_T.7.1.Easter_Sunday-DHS.aux" 1744763923.98086 1423 2dbcef58043bfc256b6fecb48ea14461 "lualatex"
-  "1_T.7.1.Easter_Sunday-DHS.gaux" 1744763910.36474 1634 d716116afe58b937cfff9ff76de164cd ""
-  "1_T.7.1.Easter_Sunday-DHS.out" 1744763923.98147 784 867ec63aba31548cd381f710b2664b3b "lualatex"
-  "1_T.7.1.Easter_Sunday-DHS.tex" 1744763893.15218 2786 f1f0665ec14589bb31bf6308a98ef1c8 ""
-  "incipit.ind" 1744763896.90143 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "op-shield.jpg" 1623870065.16465 194719 a40c79a2467af8b379120132a7ed896e ""
-  "tmp-gre/graduale-chants/an--vidi_aquam--dominican--id_7348--haec_est_dies-6_1_0.gtex" 1742747185.07231 39297 df140ac8d7593ba2b777e793d48ed7ef ""
-  "tmp-gre/graduale-chants/in--resurrexi--dominican--id_6541-6_1_0.gtex" 1744763852.47703 41303 1d1b8c53174dd7dfa8cbc767c67f9af3 ""
-  "tmp-gre/graduale-chants/se--victimae_paschali_laudes--dominican-6_1_0.gtex" 1742753582.69982 44145 a3204e991fb9e0929928c3077686f357 ""
+  "incipit.ind" 1744763511.00514 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "misc_haec_dies.aux" 1744763516.17607 646 2f0e41951a0193543d745e42876989f8 "lualatex"
+  "misc_haec_dies.gaux" 1744763380.66543 425 6b9622143a5c09e20d1336fa5bb42402 ""
+  "misc_haec_dies.out" 1744763516.17658 313 a57926f6f4a4c09f680ba6625713a744 "lualatex"
+  "misc_haec_dies.tex" 1744763505.30665 4464 53c5db5a649fe0980bc011b4acccedb9 ""
+  "tmp-gre/chants/rp--haec_dies--dominican-6_1_0.gtex" 1744763379.79998 14868 0e74023598bb7910b9c03143a77e07da ""
   (generated)
-  "1_T.7.1.Easter_Sunday-DHS.aux"
-  "1_T.7.1.Easter_Sunday-DHS.log"
-  "1_T.7.1.Easter_Sunday-DHS.out"
-  "1_T.7.1.Easter_Sunday-DHS.pdf"
   "incipit.idx"
+  "misc_haec_dies.aux"
+  "misc_haec_dies.log"
+  "misc_haec_dies.out"
+  "misc_haec_dies.pdf"
   (rewritten before read)
-["makeindex incipit.idx"] 1744763896.81006 "incipit.idx" "incipit.ind" "incipit" 1744763924.10989 0
-  "incipit.idx" 1744763914.38801 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1744763510.91445 "incipit.idx" "incipit.ind" "incipit" 1744763516.31553 0
+  "incipit.idx" 1744763514.9107 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

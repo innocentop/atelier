@@ -174,3 +174,5 @@ INPUT ./Easter_Resurrexi.out
 OUTPUT Easter_Resurrexi.pdf
 OUTPUT Easter_Resurrexi.out
 INPUT ./tmp-gre/graduale-chants/in--resurrexi--dominican--id_6541-6_1_0.gtex
+INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Easter_Resurrexi.aux

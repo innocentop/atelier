@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1744764020.33007 "Easter_Resurrexi.tex" "Easter_Resurrexi.pdf" "Easter_Resurrexi" 1744764027.67595 0
+["lualatex"] 1744764090.54014 "Easter_Resurrexi.tex" "Easter_Resurrexi.pdf" "Easter_Resurrexi" 1744764098.50995 0
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1742568516.36684 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
   "/Users/vitruvius/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1742568516.2791 715133 1a5fb7052cba232d7d19d02f93ded16d ""
@@ -167,12 +167,12 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "Easter_Resurrexi.aux" 1744764027.54381 589 29660f1470b904078552ecbb523084aa "lualatex"
-  "Easter_Resurrexi.gaux" 1744764020.19636 729 ec64bd18bf0f7bcc147550071c6ee74b ""
-  "Easter_Resurrexi.out" 1744764027.54443 199 6a47c4182bf3625ef95b3095f640b930 "lualatex"
-  "Easter_Resurrexi.tex" 1744763995.60786 4434 723056e765b0ea28b881448e03e74dad ""
-  "incipit.ind" 1744764013.02233 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "tmp-gre/graduale-chants/in--resurrexi--dominican--id_6541-6_1_0.gtex" 1744763852.47703 41303 1d1b8c53174dd7dfa8cbc767c67f9af3 ""
+  "Easter_Resurrexi.aux" 1744764098.3896 589 29660f1470b904078552ecbb523084aa "lualatex"
+  "Easter_Resurrexi.gaux" 1744764090.39029 729 7b4bfaa0ff4c4a1f30e867bfd7ca346f ""
+  "Easter_Resurrexi.out" 1744764098.3902 199 6a47c4182bf3625ef95b3095f640b930 "lualatex"
+  "Easter_Resurrexi.tex" 1744764079.76412 4435 c37e6e36bce3cabcd206391ca7a33e09 ""
+  "incipit.ind" 1744764082.66511 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "tmp-gre/graduale-chants/in--resurrexi--dominican--id_6541-6_1_0.gtex" 1744764087.4324 41303 11c7c0fd14cff4cbb8941082a7978cb7 ""
   (generated)
   "Easter_Resurrexi.aux"
   "Easter_Resurrexi.log"
@@ -180,8 +180,8 @@
   "Easter_Resurrexi.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1744764012.93095 "incipit.idx" "incipit.ind" "incipit" 1744764027.67581 0
-  "incipit.idx" 1744764024.23355 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1744764082.56937 "incipit.idx" "incipit.ind" "incipit" 1744764098.50981 0
+  "incipit.idx" 1744764094.5525 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

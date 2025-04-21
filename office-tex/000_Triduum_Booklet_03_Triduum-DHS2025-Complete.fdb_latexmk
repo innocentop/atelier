@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1744222616.94341 "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.tex" "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.pdf" "000_Triduum_Booklet_03_Triduum-DHS2025-Complete" 1744222703.90676 2
+["lualatex"] 1745096566.77122 "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.tex" "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.pdf" "000_Triduum_Booklet_03_Triduum-DHS2025-Complete" 1745096656.97481 2
   "/Users/vitruvius/Library/Fonts/MinionPro-Bold.otf" 1349117977 217028 b70a58eede7e7b52af9bcbf1969861ed ""
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
@@ -183,12 +183,12 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.aux" 1744222703.5706 21429 1b08ad7cc374c13bd7376ce70ccc5e47 "lualatex"
-  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.gaux" 1744222616.61612 12524 7563eacd5fffde3e462a2abea852cdd8 ""
-  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.out" 1744222703.57286 789 b5d73eb84a5792d151e7842c77cdce49 "lualatex"
-  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.tex" 1744222353.07546 35448 69c404ff1ff22b5aa4555878d31d1c0c ""
-  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.toc" 1744222703.57309 9085 91619c8932d3939ed4cfcac34887883c "lualatex"
-  "incipit.ind" 1744222356.13454 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.aux" 1745096656.59792 21429 1b08ad7cc374c13bd7376ce70ccc5e47 "lualatex"
+  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.gaux" 1745096566.40196 12524 9e8f6b2cb0f5dfffac1aacac335d2748 ""
+  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.out" 1745096656.60041 789 b5d73eb84a5792d151e7842c77cdce49 "lualatex"
+  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.tex" 1745096472.73203 35448 f0b3cd228c27baabc4fbbcc339fd51c5 ""
+  "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.toc" 1745096656.60076 9085 91619c8932d3939ed4cfcac34887883c "lualatex"
+  "incipit.ind" 1745096475.71163 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "intercessions/intercessions-holy-week-6-holy-saturday-vespers.tex" 1744219169.31068 1146 ace6d4e6b2a67a0cbe0a8c5ce9a8938e ""
   "op-shield.jpg" 1623870065.89734 194719 a40c79a2467af8b379120132a7ed896e ""
   "prayers/or-holy-week-6-good-friday-midday-prayer.tex" 1744208592.93079 328 bf892b58c687f7e66783640a32a0505e ""
@@ -235,13 +235,13 @@
   "tmp-gre/chants/gr--christus_factus_est--dominican--id_6737-6_1_0.gtex" 1743522717.7784 28265 eb0bc61eb2ce06554fe959b6f82dd0d6 ""
   "tmp-gre/chants/gr--christus_factus_est--dominican--id_6737-respond_only-6_1_0.gtex" 1743691198.31939 12852 1869a9d329eae3241b534857d785ead1 ""
   "tmp-gre/chants/hy--auctor_salutis_unice--english--sole_author-6_1_0.gtex" 1744043438.7157 58582 a56402df1e3704a37fb15285b03806d7 ""
-  "tmp-gre/chants/hy--crux_mundi_benedictio--english--o_cross_true_blessing-6_1_0.gtex" 1744074308.46097 29231 85a32ca3b1d53104b023a795b59b7710 ""
+  "tmp-gre/chants/hy--crux_mundi_benedictio--english--o_cross_true_blessing-6_1_0.gtex" 1745096504.79957 29271 0813d131ac79116c878a73f32751b04c ""
   "tmp-gre/chants/hy--pange_lingua_gloriosi_proelium--english-icel-6_1_0.gtex" 1743520309.67516 81283 304226819da3238c63392b59cd98c2a6 ""
   "tmp-gre/chants/hy--tibi_redemptor_omnium--english--to_you_redeemer--icel-6_1_0.gtex" 1743709707.80196 56631 83782594f3c4af9425c749c622527fa1 ""
   "tmp-gre/chants/magnificat1g-6_1_0.gtex" 1744046023.65341 72755 7d810606b40c03358f1f805e7fd0d150 ""
   "tmp-gre/chants/misc.oratio-ieremiae--english-6_1_0.gtex" 1744222421.25015 143753 8b39ecdf0225a68aa10147e22cbbe0b1 ""
   "tmp-gre/chants/misc.oratio.ieremiae-new-flat-system-6_1_0.gtex" 1743788860.53809 196591 13a0111dd858ec85756f7e90078b096a ""
-  "tmp-gre/chants/misc.versus_litanici_in_cantu_feria_vi--dominican-dhs-6_1_0.gtex" 1743691890.04464 64453 536755b8d0c6a97893172ea2967de4c4 ""
+  "tmp-gre/chants/misc.versus_litanici_in_cantu_feria_vi--dominican-dhs-6_1_0.gtex" 1745096500.32443 64460 5c5c80677a54abce2e2da89aa87a36db ""
   "tmp-gre/chants/misc.versus_litanici_in_cantu_sabbato_sancto--dominican-dhs-6_1_0.gtex" 1743791471.82781 62322 f1e100ac1db203911cbc51265d3439c3 ""
   "tmp-gre/chants/rp--agnus_dei_christus--dominican-6_1_0.gtex" 1743448942.48812 42201 73b6c54b26e79a6fc6a372290848b8bd ""
   "tmp-gre/chants/rp--barabbas--dominican-6_1_0.gtex" 1743443827.81969 37340 68ee35f118c36d8222b72b0a38b07577 ""
@@ -256,8 +256,8 @@
   "000_Triduum_Booklet_03_Triduum-DHS2025-Complete.toc"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1744222356.04087 "incipit.idx" "incipit.ind" "incipit" 1744222703.90664 0
-  "incipit.idx" 1744222620.88767 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1745096475.58001 "incipit.idx" "incipit.ind" "incipit" 1745096656.9747 0
+  "incipit.idx" 1745096570.74146 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

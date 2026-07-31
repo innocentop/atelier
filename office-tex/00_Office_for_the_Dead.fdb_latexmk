@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1785373310.01846 "00_Office_of_the_Dead.tex" "00_Office_of_the_Dead.pdf" "00_Office_of_the_Dead" 1785373319.78801 0
+["lualatex"] 1785512251.72916 "00_Office_for_the_Dead.tex" "00_Office_for_the_Dead.pdf" "00_Office_for_the_Dead" 1785512258.38966 0
   "/Users/psmith13/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/psmith13/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/psmith13/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1785371356.01087 719546 c82e52486828bd472c0e2a31a2185c57 ""
@@ -178,22 +178,24 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1785370392 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/tex/generic/config/language.dat" 1774209518 6843 b47da19a8f71adfd0d5f143e53e45276 ""
   "/usr/local/texlive/2026/texmf-var/web2c/luahbtex/lualatex.fmt" 1774209566 5656314 899e889479224af2498ffb6faace451f ""
-  "00_Office_of_the_Dead.aux" 1785373319.5518 932 e848931dacce0a29793149bca2367314 "lualatex"
-  "00_Office_of_the_Dead.gaux" 1785373309.7471 844 850d7a637ff2ddb4df5ff818a1e40928 ""
-  "00_Office_of_the_Dead.out" 1785373319.55284 232 f1fd62a01ff521ebed33a5ee74a5868d "lualatex"
-  "00_Office_of_the_Dead.tex" 1785373058.09599 5106 eb8570ac72cf00e5cb4225e96d8d3437 ""
-  "incipit.ind" 1785373299.41387 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "00_Office_for_the_Dead.aux" 1785512258.25189 1318 442bb1bfd39c95ff7bb3f6bcb31c7e5b "lualatex"
+  "00_Office_for_the_Dead.gaux" 1785512251.47583 1280 c4031b01dfa449f154df8072acb5e952 ""
+  "00_Office_for_the_Dead.out" 1785512258.25238 237 c5873f0d4438ea9a52fff97bf9a3b857 "lualatex"
+  "00_Office_for_the_Dead.tex" 1785512242.26245 6386 c0025cdbb37d9b6111d57478696bcd91 ""
+  "incipit.ind" 1785512251.72681 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "tmp-gre/chants/an--audivi_vocem_de_caelo--dominican-6_1_0.gtex" 1785511526.98712 8785 8833c7830ca6e417a0f67f52937a212d ""
   "tmp-gre/chants/an--dominus_custodit_te--dominican-6_1_0.gtex" 1785373307.57063 9708 5cfa7f58206a1228a3dd231ef2765025 ""
   "tmp-gre/chants/an--si_iniquitates--dominican-6_1_0.gtex" 1785373308.80813 8862 26563cf69fbd3f1671d3ddbb2b88f982 ""
+  "tmp-gre/chants/an--sicut_pater--solesmes-op-6_1_0.gtex" 1785511844.80577 10138 28b25dba5b46677d02b99e2ab11d9712 ""
   (generated)
-  "00_Office_of_the_Dead.aux"
-  "00_Office_of_the_Dead.log"
-  "00_Office_of_the_Dead.out"
-  "00_Office_of_the_Dead.pdf"
+  "00_Office_for_the_Dead.aux"
+  "00_Office_for_the_Dead.log"
+  "00_Office_for_the_Dead.out"
+  "00_Office_for_the_Dead.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1785373299.19449 "incipit.idx" "incipit.ind" "incipit" 1785373319.78783 0
-  "incipit.idx" 1785373316.68128 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1785512251.63859 "incipit.idx" "incipit.ind" "incipit" 1785512258.38915 0
+  "incipit.idx" 1785512255.62969 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

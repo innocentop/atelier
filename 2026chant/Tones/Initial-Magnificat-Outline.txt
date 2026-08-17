@@ -1,0 +1,5 @@
+initial-style: 1;
+%%
+(c4) (f gh hr f ,3 hr ixgi h h[ocb:1;18mm]/g gh ; hr g f g[ocb:1;18mm]/f d) (::) (Z)
+(f3) (e f hr g h i[ocb:1;18mm]/h h ; hr h g ef f) (::) (Z)
+()

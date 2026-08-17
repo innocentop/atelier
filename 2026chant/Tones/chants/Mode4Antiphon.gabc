@@ -1,0 +1,7 @@
+name: Magnificat-1D;
+initial-style: 1;
+annotation: 1.D;
+user-notes: Magnificat.;
+centering-scheme: english;
+%%
+(c4) (gr e f ; gr f e) (::)

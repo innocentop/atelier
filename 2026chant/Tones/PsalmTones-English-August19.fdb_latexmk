@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1786993310.27471 "PsalmTones-English-August17.tex" "PsalmTones-English-August17.pdf" "PsalmTones-English-August17" 1786993316.03295 0
+["lualatex"] 1787154262.57759 "PsalmTones-English-August19.tex" "PsalmTones-English-August19.pdf" "PsalmTones-English-August19" 1787154268.97323 0
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1786908769.63839 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
   "/Users/vitruvius/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1786908769.57842 715133 1a5fb7052cba232d7d19d02f93ded16d ""
@@ -177,20 +177,20 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "PsalmTones-English-August17.aux" 1786993315.91942 1518 7691a173f68cb60194069e073ab1031b "lualatex"
-  "PsalmTones-English-August17.gaux" 1786993310.15769 2596 12aae97891cf113224f648078779d02a ""
-  "PsalmTones-English-August17.out" 1786993315.91999 102 b8bf8ddfda68f5b55abe24a254946750 "lualatex"
-  "PsalmTones-English-August17.tex" 1786993301.55672 5018 b5929d608738451b59263d441f2b1225 ""
-  "incipit.ind" 1786993304.44071 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "PsalmTones-English-August19.aux" 1787154268.85188 1859 4faf14f8cc94ca80d09dc8344dd26cf7 "lualatex"
+  "PsalmTones-English-August19.gaux" 1787154262.43406 3208 68e0be4720c4a1be5c7d687f47973a1a ""
+  "PsalmTones-English-August19.out" 1787154268.85245 102 b8bf8ddfda68f5b55abe24a254946750 "lualatex"
+  "PsalmTones-English-August19.tex" 1787154252.2579 5323 1ae7c3f3e2cc70764ce91414a298e53f ""
+  "incipit.ind" 1787154256.08828 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   (generated)
-  "PsalmTones-English-August17.aux"
-  "PsalmTones-English-August17.log"
-  "PsalmTones-English-August17.out"
-  "PsalmTones-English-August17.pdf"
+  "PsalmTones-English-August19.aux"
+  "PsalmTones-English-August19.log"
+  "PsalmTones-English-August19.out"
+  "PsalmTones-English-August19.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1786993304.35827 "incipit.idx" "incipit.ind" "incipit" 1786993316.03285 0
-  "incipit.idx" 1786993313.30332 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1787154256.02029 "incipit.idx" "incipit.ind" "incipit" 1787154268.97314 0
+  "incipit.idx" 1787154265.65765 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

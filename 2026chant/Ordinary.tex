@@ -1,0 +1,208 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\subsubsectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\subsubsection} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsubsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\subsubsection,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+%%%Initial Matter within Body (20 May 2011)
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+%%Combination
+\chapter{Ordinary}
+\section{Invitatory}
+
+\subsection{Option A}
+\gabcsnippet{(f3)O(h) Lord,(h) (,3) o(h)pen(g) my(g) lips.(h) (::)
+<sp>R/</sp>. And(h) my(h) mouth(h) shall(h) pro(h)claim(g) your(g) praise.(h) (::)}
+
+\subsection{Option B}
+\gabcsnippet{(f3)O(h) Lord,(h) (,3) o(h)pen(h) my(g) lips.(h) (::)
+<sp>R/</sp>. And(h) my(h) mouth(h) shall(h) pro(h)claim(h) your(g) praise.(h) (::)}
+
+\section{O God, come to my assistance}
+\gabcsnippet{(f3)O(h) God,(h) (,3) come(i) to(h) my(h) as(h)sis(g)tance.(h) (::)
+<sp>R/</sp>. O(h) Lord,(h) (,3) make(h) haste(h) to(h) help(g) me.(h) (:)
+Glo(h)ry(h) be(h) to(h) the(h) Fa(h)ther,(h) and(h) to(h) the(h) Son,(g) (;)
+and(g) to(g) the(g) Ho(g)ly(g) Spir(g)it,(h) (:)
+as(h) it(h) was(h) in(h) the(h) be(h)gin(h)ning,(h) is(h) now,(h) and(h) ev(h)er(h) shall(h) be,(g) (;)
+world(g) with(g)out(g) end.(h) A(h)men.(g) (::) Al(h)le(hi)lu(hg~)ia.(g) (::)}
+
+\section{Versicle and Response}
+\textit{This tone is used for the versicle and response before the readings at Office of Readings and after the reading at Midday Prayer.}
+
+\subsection{Tone}
+\gabcsnippet{(f3) (hr f :: hr f :: )}
+
+\subsection{Example 1}
+
+\gabcsnippet{(f3)Re(h)turn(h) to(h) me(h) and(h) do(h) pen(f)ance.(f) (::)
+<sp>R/</sp>. Make(h) for(h) your(h)selves(h) a(h) new(h) heart(h) and(h) a(h) new(h) spir(f)it.(f) (::)}
+
+\subsection{Example 2}
+
+\gabcsnippet{(f3)Cre(h)ate(h) a(h) pure(h) heart(h) for(h) me,(h) O(h) God.(f) (::)
+<sp>R/</sp>. Re(h)new(h) a(h) stead(h)fast(h) spir(h)it(h) with(h)in(f) me.(f) (::)}
+
+\section{Dismissal (Office of Readings and Midday Prayer)}
+%This is modelled on the ferial OP tone.
+\gabcsnippet{(f3)Let(h) us(i) bless(i) the(i) Lord.(ivHG) (::)
+<sp>R/</sp>. Thanks(hi) be(i) to(i) God.(ivHG) (::)}
+
+\section{Dismissal (Lauds and Vespers}
+
+\subsection{Roman Missal Solemn Tone}
+
+\gabcsnippet{(c4)The(h) Lord(h) be(g) with(h) you.(h) (::)
+<sp>R/</sp>. And(h) with(h) your(g) spir(h)it.(h) (::)
+
+May(g) al(h)might(h)y(h) God(h) bless(h) you,(g) (;)
+the(h) Fa(h)ther,(h) and(g) the(h) Son,(i) (,3) and(h) the(h) Ho(g)ly(h) Spir(hg)it.(g) (::)
+<sp>R/</sp>. A(g)men.(gh) (::)
+
+Go(ji) in(hi) peace.(hg) (::)
+<sp>R/</sp>. Thanks(ji) be(h) to(i) God.(hg) (::)}
+
+\subsection{Roman Missal Simple Tone}
+
+\gabcsnippet{(c3)The(h) Lord(h) be(h) with(h) you.(f) (::)
+
+<sp>R/</sp>. And(h) with(h) your(h) spir(h)it.(f) (::)
+May(h) al(h)might(h)y(g) God(f) bless(h) you,(h) (;)
+the(h) Fa(h)ther,(h) and(g) the(f) Son,(h) (;) and(h) the(h) Ho(h)ly(h) Spir(h)it.(f) (::)
+
+<sp>R/</sp>. A(h)men.(h) (::)
+
+Go(hg) in(fg) peace.(fe) (::)
+<sp>R/</sp>. Thanks(hg) be(f) to(g) God.(fe) (::)}
+
+\subsection{In the absence of a Priest or Deacon}
+
+%This is modelled on Antiphonale Romanum II, p. 763
+\gabcsnippet{(c3 )May(h) the(h) Lord(h) bless(h) us,(h) (,3)
+pro(h)tect(h) us(h) from(g) all(f) e(h)vil(h) (;)
+and(h) lead(h) us(h) to(h) ev(h)er(h)last(h)ing(h) life.(f) (::)
+<sp>R/</sp>. A(h)men.(h) (::)}
+
+\section{Blessing (Compline)}
+
+\gabcsnippet{(f3)May(h) the(h) al(h)might(h)y(h) Lord(f) (;)
+grant(h) us(h) a(h) qui(h)et(h) night(h) and(h) a(h) per(h)fect(h) end.(f) (::)
+<sp>R/</sp>. A(g)men.(h) (::)}
+
+
+  \end{document}

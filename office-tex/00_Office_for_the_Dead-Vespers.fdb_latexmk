@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1789045027.59536 "00_Office_for_the_Dead-Vespers.tex" "00_Office_for_the_Dead-Vespers.pdf" "00_Office_for_the_Dead-Vespers" 1789045037.34612 0
+["lualatex"] 1789047529.68616 "00_Office_for_the_Dead-Vespers.tex" "00_Office_for_the_Dead-Vespers.pdf" "00_Office_for_the_Dead-Vespers" 1789047539.22925 0
   "/Users/psmith13/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/psmith13/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/psmith13/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1785371356.01087 719546 c82e52486828bd472c0e2a31a2185c57 ""
@@ -178,15 +178,16 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1785370392 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/tex/generic/config/language.dat" 1774209518 6843 b47da19a8f71adfd0d5f143e53e45276 ""
   "/usr/local/texlive/2026/texmf-var/web2c/luahbtex/lualatex.fmt" 1774209566 5656314 899e889479224af2498ffb6faace451f ""
-  "00_Office_for_the_Dead-Vespers.aux" 1789045037.20944 1318 9094c8c0c0220e8381d78cc7619f8200 "lualatex"
-  "00_Office_for_the_Dead-Vespers.gaux" 1789045027.43439 1660 f6f8107669946ed615f358c94aabcbfd ""
-  "00_Office_for_the_Dead-Vespers.out" 1789045037.21003 237 c5873f0d4438ea9a52fff97bf9a3b857 "lualatex"
-  "00_Office_for_the_Dead-Vespers.tex" 1789045012.43764 8200 a5c398f2f0ce30b800c751d67edfa626 ""
-  "incipit.ind" 1785512430.52669 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "tmp-gre/chants/an--audivi_vocem_de_caelo--dominican-6_1_0.gtex" 1785511526.98712 8785 8833c7830ca6e417a0f67f52937a212d ""
+  "00_Office_for_the_Dead-Vespers.aux" 1789047539.0866 1527 d986456af6a7f33ad3ce431af64fd6c5 "lualatex"
+  "00_Office_for_the_Dead-Vespers.gaux" 1789047149.07985 1660 6e9ae2ef087c190e219fda2dee2dabbf ""
+  "00_Office_for_the_Dead-Vespers.out" 1789047539.08717 237 c5873f0d4438ea9a52fff97bf9a3b857 "lualatex"
+  "00_Office_for_the_Dead-Vespers.tex" 1789047517.00498 6931 41890a70302bbd7ac2068e16d6ad9e57 ""
+  "incipit.ind" 1789047520.21722 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "tmp-gre/chants/an--audivi_vocem_de_caelo--dominican-6_1_0.gtex" 1789045503.0536 8846 0f7f4b9afea680d114e9c25f479e9ec1 ""
   "tmp-gre/chants/an--dominus_custodit_te--dominican-6_1_0.gtex" 1785373307.57063 9708 5cfa7f58206a1228a3dd231ef2765025 ""
   "tmp-gre/chants/an--si_iniquitates--dominican-6_1_0.gtex" 1785373308.80813 8862 26563cf69fbd3f1671d3ddbb2b88f982 ""
   "tmp-gre/chants/an--sicut_pater--solesmes-op-6_1_0.gtex" 1785511844.80577 10138 28b25dba5b46677d02b99e2ab11d9712 ""
+  "tmp-gre/chants/magnificat-english-2-6_1_0.gtex" 1789047145.81184 63045 fb59350fd8377a8dc14cdb18fb6ae6fe ""
   (generated)
   "00_Office_for_the_Dead-Vespers.aux"
   "00_Office_for_the_Dead-Vespers.log"
@@ -194,8 +195,8 @@
   "00_Office_for_the_Dead-Vespers.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1788697797.15376 "incipit.idx" "incipit.ind" "incipit" 1789045037.34602 0
-  "incipit.idx" 1789045031.02016 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1789047520.11475 "incipit.idx" "incipit.ind" "incipit" 1789047539.22916 0
+  "incipit.idx" 1789047533.06816 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

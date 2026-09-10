@@ -1,6 +1,5 @@
 # Fdb version 4
-["lualatex"] 1789047025.58461 "00_Office_for_the_Dead-Lauds.tex" "00_Office_for_the_Dead-Lauds.pdf" "00_Office_for_the_Dead-Lauds" 1789047035.48298 0
-  "/Users/psmith13/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
+["lualatex"] 1789046244.09059 "Benedictus-test.tex" "Benedictus-test.pdf" "Benedictus-test" 1789046252.06975 0
   "/Users/psmith13/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/psmith13/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1785371356.01087 719546 c82e52486828bd472c0e2a31a2185c57 ""
   "/Users/psmith13/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1785371355.89206 715137 bffdcdd8e71bcbf004cab949c2caf3bf ""
@@ -18,8 +17,6 @@
   "/Users/psmith13/Library/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1785371824.37853 1047 f11a1e9c9b6340b4e51af9445a4d36fc ""
   "/Users/psmith13/Library/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1785371576.57257 432908 23db27cefd53d5c848712724500511c9 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/truetype/public/gregoriotex/greciliae-op-hole.ttf" 1740780507 1063184 c19031fd406ded403fdd1837a0a657ec ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/truetype/public/gregoriotex/greciliae-op-hollow.ttf" 1740780507 1855468 00779874acd6a068055418f3d2954e5c ""
   "/usr/local/texlive/2026/texmf-dist/fonts/truetype/public/gregoriotex/greciliae-op.ttf" 1740780507 1168580 2a6dfdf82ece022e6e11a92c3cbb5fa4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf" 1739394318 24916 5ff517a922c8002a5d3f2784ce456a0e ""
   "/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -178,25 +175,21 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1785370392 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/tex/generic/config/language.dat" 1774209518 6843 b47da19a8f71adfd0d5f143e53e45276 ""
   "/usr/local/texlive/2026/texmf-var/web2c/luahbtex/lualatex.fmt" 1774209566 5656314 899e889479224af2498ffb6faace451f ""
-  "00_Office_for_the_Dead-Lauds.aux" 1789047035.3393 1545 f10e594105b53a174bc0b20aa15c206c "lualatex"
-  "00_Office_for_the_Dead-Lauds.gaux" 1789045950.8788 1630 810f09229f491097f16a25dd768c604e ""
-  "00_Office_for_the_Dead-Lauds.out" 1789047035.33992 227 ea904ea1f8e61d877e6f518d283ca722 "lualatex"
-  "00_Office_for_the_Dead-Lauds.tex" 1789047022.89865 6979 d9a01a478fbdac77550968a0565fb791 ""
+  "Benedictus-test.aux" 1789046251.95957 676 031313f23c74ff89bccd50463895e789 "lualatex"
+  "Benedictus-test.gaux" 1789046243.81597 614 695a5711851f3ac5af6598219113fffa ""
+  "Benedictus-test.out" 1789046251.96017 94 837944a1590ba3f1d3aa925a32340c88 "lualatex"
+  "Benedictus-test.tex" 1789046232.68099 4377 0c27cda90e78b4e70a4717b64b88b99d ""
   "incipit.ind" 1789046244.08777 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "tmp-gre/chants/an--a_porta_inferi--dominican-6_1_0.gtex" 1789045328.47516 7808 f7c8b98b3fda76c950bc8fad3b30bd63 ""
-  "tmp-gre/chants/an--ego_sum_resurrectio--dominican-6_1_0.gtex" 1789045329.43045 14791 298c50ac122bf63c73ac5a7185f8aa22 ""
-  "tmp-gre/chants/an--exultabunt_domino--dominican-6_1_0.gtex" 1789045327.95587 7207 39db79ec0359a793a3315a57447b363b ""
-  "tmp-gre/chants/an--omnis_spiritus--dominican-6_1_0.gtex" 1789045328.99585 5970 5f6ab4ece1b4d1f1c77385bf1c212246 ""
   "tmp-gre/chants/benedictus-english-2-6_1_0.gtex" 1789045946.84143 78600 d029d7e35c5ef10f4f00e9526b4d7e77 ""
   (generated)
-  "00_Office_for_the_Dead-Lauds.aux"
-  "00_Office_for_the_Dead-Lauds.log"
-  "00_Office_for_the_Dead-Lauds.out"
-  "00_Office_for_the_Dead-Lauds.pdf"
+  "Benedictus-test.aux"
+  "Benedictus-test.log"
+  "Benedictus-test.out"
+  "Benedictus-test.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1788697162.7882 "incipit.idx" "incipit.ind" "incipit" 1789047035.48288 0
-  "incipit.idx" 1789047028.88187 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1789046243.98852 "incipit.idx" "incipit.ind" "incipit" 1789046252.06964 0
+  "incipit.idx" 1789046247.44265 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

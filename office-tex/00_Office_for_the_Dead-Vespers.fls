@@ -193,10 +193,6 @@ INPUT ./tmp-gre/chants/an--dominus_custodit_te--dominican-6_1_0.gtex
 INPUT ./tmp-gre/chants/an--si_iniquitates--dominican-6_1_0.gtex
 INPUT ./tmp-gre/chants/an--sicut_pater--solesmes-op-6_1_0.gtex
 INPUT ./tmp-gre/chants/an--audivi_vocem_de_caelo--dominican-6_1_0.gtex
-OUTPUT 00_Office_for_the_Dead-Vespers.gsnippet
-OUTPUT 00_Office_for_the_Dead-Vespers.test.gsnippet
-INPUT 00_Office_for_the_Dead-Vespers.gtmp
-INPUT 00_Office_for_the_Dead-Vespers.gtmp
-INPUT 00_Office_for_the_Dead-Vespers.gsniplog
+INPUT ./tmp-gre/chants/magnificat-english-2-6_1_0.gtex
 INPUT ./00_Office_for_the_Dead-Vespers.aux
 INPUT ./00_Office_for_the_Dead-Vespers.out

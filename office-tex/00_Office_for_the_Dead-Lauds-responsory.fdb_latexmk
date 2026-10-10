@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1791561483.73691 "00_Office_for_the_Dead-Lauds-responsory.tex" "00_Office_for_the_Dead-Lauds-responsory.pdf" "00_Office_for_the_Dead-Lauds-responsory" 1791561493.51815 0
+["lualatex"] 1791631521.75424 "00_Office_for_the_Dead-Lauds-responsory.tex" "00_Office_for_the_Dead-Lauds-responsory.pdf" "00_Office_for_the_Dead-Lauds-responsory" 1791631526.64378 0
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1786908769.63839 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
   "/Users/vitruvius/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1786908769.57842 715133 1a5fb7052cba232d7d19d02f93ded16d ""
@@ -175,12 +175,12 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "00_Office_for_the_Dead-Lauds-responsory.aux" 1791561493.32494 775 c355fd4a4a1a44415a918c818300d239 "lualatex"
-  "00_Office_for_the_Dead-Lauds-responsory.gaux" 1791561483.20759 420 9ef67e5b216c443b83d86ab2385e645e ""
-  "00_Office_for_the_Dead-Lauds-responsory.out" 1791561493.32573 227 ea904ea1f8e61d877e6f518d283ca722 "lualatex"
+  "00_Office_for_the_Dead-Lauds-responsory.aux" 1791631526.5427 775 c355fd4a4a1a44415a918c818300d239 "lualatex"
+  "00_Office_for_the_Dead-Lauds-responsory.gaux" 1791631521.63685 444 3ec1ab3c1c7a2559ec212a12ea30a655 ""
+  "00_Office_for_the_Dead-Lauds-responsory.out" 1791631526.54316 227 ea904ea1f8e61d877e6f518d283ca722 "lualatex"
   "00_Office_for_the_Dead-Lauds-responsory.tex" 1791561455.03494 4419 b1b5194bd393279e63c3f9f9495ba6f6 ""
-  "incipit.ind" 1791561483.73136 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "tmp-gre/chants/english--rb--i-will-extol-officium-defunctorum-6_1_0.gtex" 1791561481.14852 18012 7cde398d3fc057565028a2e1ebff4c42 ""
+  "incipit.ind" 1791631516.61642 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "tmp-gre/chants/english--rb--i-will-extol-officium-defunctorum-6_1_0.gtex" 1791631520.54379 22425 94577899d8b48f8b179f42c029201740 ""
   (generated)
   "00_Office_for_the_Dead-Lauds-responsory.aux"
   "00_Office_for_the_Dead-Lauds-responsory.log"
@@ -188,8 +188,8 @@
   "00_Office_for_the_Dead-Lauds-responsory.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1791561483.54449 "incipit.idx" "incipit.ind" "incipit" 1791561493.51801 0
-  "incipit.idx" 1791561490.67707 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1791631516.53452 "incipit.idx" "incipit.ind" "incipit" 1791631526.64368 0
+  "incipit.idx" 1791631524.98657 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

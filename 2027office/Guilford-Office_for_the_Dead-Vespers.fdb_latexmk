@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1791644841.27546 "Guilford-Office_for_the_Dead-Vespers.tex" "Guilford-Office_for_the_Dead-Vespers.pdf" "Guilford-Office_for_the_Dead-Vespers" 1791644852.61344 0
+["lualatex"] 1791645499.66572 "Guilford-Office_for_the_Dead-Vespers.tex" "Guilford-Office_for_the_Dead-Vespers.pdf" "Guilford-Office_for_the_Dead-Vespers" 1791645511.06115 0
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1786908769.63839 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
@@ -178,18 +178,18 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "Guilford-Office_for_the_Dead-Vespers.aux" 1791644852.49104 1963 e5444b4da7cb3ea28f00178d5dc15126 "lualatex"
-  "Guilford-Office_for_the_Dead-Vespers.gaux" 1791644626.91479 2203 c78537cb1512af746520b56e6710d7da ""
-  "Guilford-Office_for_the_Dead-Vespers.out" 1791644852.49166 237 c5873f0d4438ea9a52fff97bf9a3b857 "lualatex"
-  "Guilford-Office_for_the_Dead-Vespers.tex" 1791644826.62597 8123 270ed26e13ece5bebd101c2ae75e84fa ""
-  "incipit.ind" 1791644829.97741 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "Guilford-Office_for_the_Dead-Vespers.aux" 1791645510.93393 1963 e5444b4da7cb3ea28f00178d5dc15126 "lualatex"
+  "Guilford-Office_for_the_Dead-Vespers.gaux" 1791645316.44574 2203 5a35f6229f05ccacc57668e0f6538491 ""
+  "Guilford-Office_for_the_Dead-Vespers.out" 1791645510.93456 237 c5873f0d4438ea9a52fff97bf9a3b857 "lualatex"
+  "Guilford-Office_for_the_Dead-Vespers.tex" 1791645485.33381 8132 894e2b2182df952ae2bd8504388acc02 ""
+  "incipit.ind" 1791645499.66356 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
   "tmp-gre/chants/an--audivi_vocem_de_caelo--dominican-6_1_0.gtex" 1791644623.05804 8846 0f7f4b9afea680d114e9c25f479e9ec1 ""
   "tmp-gre/chants/an--dominus_custodit_te--dominican-6_1_0.gtex" 1791644618.52943 9708 5cfa7f58206a1228a3dd231ef2765025 ""
   "tmp-gre/chants/an--si_iniquitates--dominican-6_1_0.gtex" 1791644619.14555 8862 26563cf69fbd3f1671d3ddbb2b88f982 ""
   "tmp-gre/chants/an--sicut_pater--solesmes-op-6_1_0.gtex" 1791644619.727 10138 28b25dba5b46677d02b99e2ab11d9712 ""
   "tmp-gre/chants/english--magnificat-mode2-6_1_0.gtex" 1791644623.65066 63045 fb59350fd8377a8dc14cdb18fb6ae6fe ""
-  "tmp-gre/chants/english--rb--in_you_o_lord-mode4-6_1_0.gtex" 1791644620.35651 27340 6b4c7c82abb3f49275d0a3d51eca51d2 ""
-  "tmp-gre/chants/english--rb--in_your_mercy-mode6-6_1_0.gtex" 1791644621.75675 24035 ab0ed0edfdec8f07f911358ecf0661d1 ""
+  "tmp-gre/chants/english--rb--in_you_o_lord-mode4-6_1_0.gtex" 1791645310.22953 27324 9b046f31819824e5891ef5e35602e84d ""
+  "tmp-gre/chants/english--rb--in_your_mercy-mode6-6_1_0.gtex" 1791645311.62338 24079 96e2874fee33a1c93a6a6ff059621551 ""
   (generated)
   "Guilford-Office_for_the_Dead-Vespers.aux"
   "Guilford-Office_for_the_Dead-Vespers.log"
@@ -197,8 +197,8 @@
   "Guilford-Office_for_the_Dead-Vespers.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1791644829.91235 "incipit.idx" "incipit.ind" "incipit" 1791644852.61334 0
-  "incipit.idx" 1791644844.3617 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1791645499.59 "incipit.idx" "incipit.ind" "incipit" 1791645511.06105 0
+  "incipit.idx" 1791645502.79774 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1793447257.16509 "Compline-Psalms.tex" "Compline-Psalms.pdf" "Compline-Psalms" 1793447261.63132 0
+["lualatex"] 1793498192.3762 "Compline-Psalms.tex" "Compline-Psalms.pdf" "Compline-Psalms" 1793498201.06157 0
   "/Users/vitruvius/Library/Fonts/MinionPro-It.otf" 1349117977 258056 8a95f9e772b95db44900d873454df194 ""
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1786908769.63839 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
@@ -176,15 +176,29 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "Compline-Psalms.aux" 1793447261.52098 1320 6d4f56d518b0fa23b7e8c6560d4e392d "lualatex"
-  "Compline-Psalms.gaux" 1793447257.05825 1029 c19c82093afdcf535742e01b8c761b0f ""
-  "Compline-Psalms.out" 1793447261.52152 472 a2131eb59b4bf58827dd085ed340aed4 "lualatex"
-  "Compline-Psalms.tex" 1793447245.57236 6111 470f70a60fdc3acd64ecfbcf50a79e85 ""
-  "incipit.ind" 1793447248.51862 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "tmp-gre/chants/an--in_noctibus--dominican-antiphon-only-6_1_0.gtex" 1793447143.04903 4395 947ef32d331ac4902a9696e0e334720d ""
-  "tmp-gre/chants/an--miserere_mihi--dominican-6_1_0.gtex" 1793447251.99749 7030 5dc129913d978fc010d93f6117549b42 ""
-  "tmp-gre/chants/english--an--have-mercy-6_1_0.gtex" 1793447142.784 4096 2496346db99620a4e1d86b5d70860497 ""
-  "tmp-gre/chants/english--an--o_bless-6_1_0.gtex" 1793447143.38725 3071 1b87bc0bbe9841199034f031277621c5 ""
+  "Compline-Psalms.aux" 1793498200.9541 4407 0322e7f51c9f1cbbd95d95110f17b069 "lualatex"
+  "Compline-Psalms.gaux" 1793498132.76597 4315 aad3b37913f4c773506740c24908f9a8 ""
+  "Compline-Psalms.out" 1793498200.95481 1234 96e4646b56330bedd48a73b36e49aeff "lualatex"
+  "Compline-Psalms.tex" 1793498181.31229 14298 86a09d45350724de0c163227655aecc0 ""
+  "incipit.ind" 1793498183.72233 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "tmp-gre/chants/an--caro_mea--dominican-6_1_0.gtex" 1793493088.46736 4025 a4cb1b1620a2e20feb967802c679e4db ""
+  "tmp-gre/chants/an--de_profundis--dominican-antiphon-only-6_1_0.gtex" 1793493087.8303 4413 02fefab6ec79c9ff39b33f4619fb5b58 ""
+  "tmp-gre/chants/an--domine_deus_salutis--dominican-adapted-6_1_0.gtex" 1793496800.84716 7552 e110009083d5fb85d199cbecd36bc161 ""
+  "tmp-gre/chants/an--esto_mihi--dominican-antiphon-only-6_1_0.gtex" 1793497227.6209 5447 4940db0a512680266e19b3a467dab6a9 ""
+  "tmp-gre/chants/an--in_noctibus--dominican-antiphon-only-6_1_0.gtex" 1793493080.90388 4432 f14109807bf538a743b32a6480f31e7c ""
+  "tmp-gre/chants/an--intende_voci_orationis--dominican-adapted-6_1_0.gtex" 1793496797.74978 4465 cfe590ea22fae229ac1c3253dc9a1dbd ""
+  "tmp-gre/chants/an--miserere_mihi--dominican-6_1_0.gtex" 1793493080.43221 7069 c251c7f0fa15d1f3621770e92780661e ""
+  "tmp-gre/chants/an--ne_intres_in--dominican-adapted-6_1_0.gtex" 1793493699.03536 5648 f184708646cac89a402eeac80109da15 ""
+  "tmp-gre/chants/an--qui_habitat--dominican-antiphon-only-6_1_0.gtex" 1793493081.51946 9216 84d9275e0b0be5f80b3fdf35df16e548 ""
+  "tmp-gre/chants/english--an--be_a_rock-6_1_0.gtex" 1793497845.2773 4733 950a435f6ffaf615a2847cd3de7dbdf6 ""
+  "tmp-gre/chants/english--an--do_not_hide-mode8-6_1_0.gtex" 1793497844.64096 5059 02d25af9740b3f4c0c030af811e43d1b ""
+  "tmp-gre/chants/english--an--have-mercy-6_1_0.gtex" 1793493080.61852 4110 8a1ef1b691b1ac9fee35f9cf4a02cd3e ""
+  "tmp-gre/chants/english--an--he_will_conceal-version1-6_1_0.gtex" 1793498020.32275 6259 c30f2ee2bc58001cdf9b99ed6495ff8c ""
+  "tmp-gre/chants/english--an--i_cry_before-6_1_0.gtex" 1793497847.03108 3947 c7e64e49a94c7ae762a6f58f7bc95bca ""
+  "tmp-gre/chants/english--an--my_flesh-6_1_0.gtex" 1793497846.36895 2993 3fdb92934b29f7aee3222286b6008855 ""
+  "tmp-gre/chants/english--an--o_bless-6_1_0.gtex" 1793498128.4466 3117 282433a62bf213c0086d83c154e9701d ""
+  "tmp-gre/chants/english--an--out_of_the_depths-6_1_0.gtex" 1793497845.85622 4016 c50f3df2d2b2c802d203d88e83a1303c ""
+  "tmp-gre/chants/english--an--you_lord_god--mode3-6_1_0.gtex" 1793498021.13293 5587 b2cf7cf88bd568dc5d300bd82c167dac ""
   (generated)
   "Compline-Psalms.aux"
   "Compline-Psalms.log"
@@ -192,8 +206,8 @@
   "Compline-Psalms.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1793447248.4491 "incipit.idx" "incipit.ind" "incipit" 1793447261.63122 0
-  "incipit.idx" 1793447260.21897 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1793498183.6423 "incipit.idx" "incipit.ind" "incipit" 1793498201.06147 0
+  "incipit.idx" 1793498195.51512 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

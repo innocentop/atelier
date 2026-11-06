@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1793999101.02466 "Gospel_canticles.tex" "Gospel_canticles.pdf" "Gospel_canticles" 1793999164.66228 0
+["lualatex"] 1794000739.34501 "Gospel_canticles.tex" "Gospel_canticles.pdf" "Gospel_canticles" 1794000803.34003 0
   "/Users/vitruvius/Library/Fonts/MinionPro-Regular-Modified.otf" 1467987590 223372 0c6371826096254eb5b7a4e1f234a155 ""
   "/Users/vitruvius/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1786908769.63839 719542 544e2d9e4e0d5e3576cd82be9e21c75b ""
   "/Users/vitruvius/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1786908769.57842 715133 1a5fb7052cba232d7d19d02f93ded16d ""
@@ -175,26 +175,26 @@
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.lua" 1740755419 2169 1a5ea99207ccce7b4fc1a5e8b40476f9 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex-symbols.tex" 1740755419 8175 669047636f082431750e5f63cf34b573 ""
   "/usr/local/texlive/texmf-local/tex/luatex/gregoriotex/gregoriotex.lua" 1740755419 68213 4ed1bb219adf6e45c2f148ed3192e4c8 ""
-  "Gospel_canticles.aux" 1793999164.46787 5258 4d3cefef10ae89f96f33845b3a16305e "lualatex"
-  "Gospel_canticles.gaux" 1793999100.46712 9743 041e8082339868d219f17fbbd9698a6a ""
-  "Gospel_canticles.out" 1793999164.46867 1700 a12346b282884d26b50438f315d0da29 "lualatex"
-  "Gospel_canticles.tex" 1793999032.20992 12998 9476382a71b6a5a7268eda57e10bc87f ""
-  "incipit.ind" 1793999101.02211 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
-  "tmp-gre/chants/english--benedictus--Mode1-6_1_0.gtex" 1793999039.2642 79522 ded4f44ea6c47d85bcdf4121b0ccf572 ""
+  "Gospel_canticles.aux" 1794000803.17313 5252 2b680e45e575e93013994ba134904eb6 "lualatex"
+  "Gospel_canticles.gaux" 1794000739.1538 9744 9f31d9fca4562f3acfe4878aa920e235 ""
+  "Gospel_canticles.out" 1794000803.17386 1700 a12346b282884d26b50438f315d0da29 "lualatex"
+  "Gospel_canticles.tex" 1794000670.25774 12834 328acdfd88be58cfa6a712b7be247e5f ""
+  "incipit.ind" 1794000673.79997 0 d41d8cd98f00b204e9800998ecf8427e "makeindex incipit.idx"
+  "tmp-gre/chants/english--benedictus--Mode1-6_1_0.gtex" 1794000677.43545 79522 13ac91ef5d8791b67da265831e228631 ""
   "tmp-gre/chants/english--benedictus--Mode2-6_1_0.gtex" 1793999044.32797 78605 c087a8795964313cb126d9fba612ac6a ""
   "tmp-gre/chants/english--benedictus--Mode3-6_1_0.gtex" 1793999048.59141 79079 3fee11b8717c23e7e47273c7c5a8c075 ""
   "tmp-gre/chants/english--benedictus--Mode4-6_1_0.gtex" 1793999052.66907 78748 7e2ff65bd9a1fe216928ed312d9bf78c ""
   "tmp-gre/chants/english--benedictus--Mode5-6_1_0.gtex" 1793999056.78866 78751 2bbb0e1d9446e41b84392afa635bbe7f ""
   "tmp-gre/chants/english--benedictus--Mode6-6_1_0.gtex" 1793999060.98556 79572 facdb242e16a8a7a5fcada3ab7d57a1f ""
-  "tmp-gre/chants/english--benedictus--Mode7-6_1_0.gtex" 1793999065.12323 79666 633c1a440907776cb3832bd084675f98 ""
+  "tmp-gre/chants/english--benedictus--Mode7-6_1_0.gtex" 1794000702.40708 79400 bdbf866cccf0d2b220ae174ed7e2da3e ""
   "tmp-gre/chants/english--benedictus--Mode8-6_1_0.gtex" 1793999069.26303 78907 958636e81aa50b9a35a681c82bf6d3eb ""
-  "tmp-gre/chants/english--magnificat--Mode1-6_1_0.gtex" 1793999073.48239 63893 8f1dad8aa8f891105b7c5c52f996a31f ""
+  "tmp-gre/chants/english--magnificat--Mode1-6_1_0.gtex" 1794000711.46879 63893 9e2d3a158a71c853b0e9b5f4d37eae08 ""
   "tmp-gre/chants/english--magnificat--Mode2-6_1_0.gtex" 1793999077.0166 63177 c383a8bf1ae71e7d478989736a7759af ""
   "tmp-gre/chants/english--magnificat--Mode3-6_1_0.gtex" 1793999080.35179 63546 079314f5cd7b0bf5662fe1bc9c96022a ""
   "tmp-gre/chants/english--magnificat--Mode4-6_1_0.gtex" 1793999083.73839 63296 709b818741a90f066b6712429ea427d2 ""
   "tmp-gre/chants/english--magnificat--Mode5-6_1_0.gtex" 1793999087.08419 63311 e9138076a0c7e3bace1207beff59abbb ""
   "tmp-gre/chants/english--magnificat--Mode6-6_1_0.gtex" 1793999090.42752 63931 bf5a7fd00eff368f0ee336873797d861 ""
-  "tmp-gre/chants/english--magnificat--Mode7-6_1_0.gtex" 1793999093.80704 64052 e4b3cba6457c0350ee6f6a8c7f2ed164 ""
+  "tmp-gre/chants/english--magnificat--Mode7-6_1_0.gtex" 1794000732.3462 63786 3987cad45ecd3f2e7b650774830fd36a ""
   "tmp-gre/chants/english--magnificat--Mode8-6_1_0.gtex" 1793999097.18516 63434 49ea8fc63b6891516f9e6f9e21850862 ""
   (generated)
   "Gospel_canticles.aux"
@@ -203,8 +203,8 @@
   "Gospel_canticles.pdf"
   "incipit.idx"
   (rewritten before read)
-["makeindex incipit.idx"] 1793999100.91935 "incipit.idx" "incipit.ind" "incipit" 1793999164.66213 0
-  "incipit.idx" 1793999104.2635 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex incipit.idx"] 1794000673.72746 "incipit.idx" "incipit.ind" "incipit" 1794000803.33976 0
+  "incipit.idx" 1794000742.5904 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "incipit.ilg"
   "incipit.ind"

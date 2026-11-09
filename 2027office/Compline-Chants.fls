@@ -188,9 +188,13 @@ INPUT ./Compline-Chants.out
 OUTPUT Compline-Chants.pdf
 INPUT ./Compline-Chants.out
 OUTPUT Compline-Chants.out
+INPUT ./tmp-gre/chants/rb--in_manus-6_1_0.gtex
+INPUT ./tmp-gre/chants/english--rb--into_your_hands-6_1_0.gtex
+INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./tmp-gre/chants/rb--in_manus_alleluia-6_1_0.gtex
+INPUT ./tmp-gre/chants/english--rb--into_your_hands_alleluia-6_1_0.gtex
 INPUT ./tmp-gre/chants/an--salva_nos--dominican-6_1_0.gtex
 INPUT ./tmp-gre/chants/nunc_dimittis3a-6_1_0.gtex
-INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./tmp-gre/chants/english--an--protect_us_lord-6_1_0.gtex
 INPUT ./tmp-gre/chants/english--nunc_dimitis--Mode3-6_1_0.gtex
 INPUT ./Compline-Chants.aux

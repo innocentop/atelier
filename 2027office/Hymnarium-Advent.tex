@@ -1,0 +1,160 @@
+\documentclass[11pt,twoside]{book}
+
+%%Page Size (rev. 08/19/2016)
+%\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={6in,9in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+\usepackage[inner=0.5in, outer=0.5in, top=0.5in, bottom=0.5in, papersize={5.5in,8.5in}, head=12pt, headheight=30pt, headsep=5pt]{geometry}
+%% width of textblock = 324 pt / 4.5in
+%% A5 = 5.8 x 8.3 inches -- if papersize is A5, then margins should be [inner=0.75in, outer=0.55in, top=0.4in, bottom=0.4in]
+
+
+%%Header (rev. 4/11/2011)
+\usepackage{fancyhdr}
+ \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+ \fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+ \fancypagestyle{plain}{ %
+\fancyhf{} % remove everything
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}}
+
+
+
+\usepackage[autocompile,allowdeprecated=false]{gregoriotex}
+\usepackage{gregoriosyms}
+\gresetgregoriofont[op]{greciliae}
+
+
+
+
+%%Titles (rev. 9/4/2011) -- TOCLESS --- lets you have sections that don't appear in the table of contents
+
+\setcounter{secnumdepth}{-1}
+
+\usepackage[compact,nobottomtitles*]{titlesec}
+\titlespacing*{\chapter}{0pt}{-30pt}{0pt}
+\titlespacing*{\section}{0pt}{*0}{*1}
+\titlespacing*{\subsubsection}{0pt}{*0}{*0}
+\titlespacing*{\subsubsubsection}{0pt}{10pt}{*0}
+\titleformat{\part} {\normalfont\Huge\sc\center}{\thechapter}{1em}{}
+\titleformat{\chapter} {\normalfont\LARGE\sc\center}{\thechapter}{1em}{}
+\titleformat{\section} {\normalfont\Large\sc\center}{\thesection}{1em}{}
+\titleformat{\subsection} {\normalfont\Large\sc\center}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\large\sc\center}{\thesubsubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\sc\center}{\thesubsubsubsection}{1em}{}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} %% lets you have sections that don't appear in the table of contents
+
+
+%%%
+
+%%Index (rev. December 11, 2013)
+\usepackage[noautomatic,nonewpage]{imakeidx}
+
+
+\makeindex[name=incipit,title=Index]
+\indexsetup{level=\section,toclevel=section,noclearpage}
+
+\usepackage[indentunit=8pt,rule=.5pt,columns=2]{idxlayout}
+
+
+%%Table of Contents (rev. May 16, 2011)
+
+%\usepackage{multicol}
+%\usepackage{ifthen}
+%\usepackage[toc]{multitoc}
+
+%% General settings (rev. January 19, 2015)
+
+\usepackage{ulem}
+
+\usepackage[latin,english]{babel}
+\usepackage{lettrine}
+
+\usepackage{paracol}
+
+\usepackage{fontspec}
+
+\setmainfont[Ligatures=TeX,BoldFont=MinionPro-Bold,ItalicFont=MinionPro-It, BoldItalicFont=MinionPro-BoldIt]{MinionPro-Regular-Modified.otf}
+
+
+%% Style for translation line
+\grechangestyle{translation}{\fontsize{10}{10}\it\selectfont}
+\grechangestyle{annotation}{\fontsize{10}{10}\selectfont}
+\grechangestyle{commentary}{\textnormal\selectfont}
+\gresetcustosalteration{invisible}
+
+%\grechangedim{annotationseparation}{0.1cm}{scalable}
+
+%\GreLoadSpaceConf{smith-four}
+
+\frenchspacing
+
+\usepackage{indentfirst} %%%indents first line after a section
+
+\usepackage{graphicx}
+%\usepackage{tocloft}
+
+%%Hyperref (rev. August 20, 2011)
+%\usepackage[colorlinks=false,hyperindex=true,bookmarks=true]{hyperref}
+\usepackage{hyperref}
+\hypersetup{pdftitle={Vesperale O.P. 2017}}
+\hypersetup{pdfauthor={Order of Preachers}}
+\hypersetup{pdfsubject={Liturgy}}
+\hypersetup{pdfkeywords={Dominican, Liturgy, Order of Preachers, Dominican Rite, Liturgia Horarum, Divine Office}}
+
+\newlength{\drop}
+
+
+
+\begin{document}
+
+
+\raggedbottom
+
+\newcommand{\lectio}[3]{%
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\normalsize{\textnormal{#3}}}}
+
+
+%%Combination
+
+\pagestyle{fancy}
+
+\chapter{Proper of Time}
+\section{Advent through December 16}
+\subsection{Vespers}\greannotation{IV}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--O_loving_Maker_of_the_stars}\vspace{5pt} Text: \textit{Conditor alme siderum}, 9th c.; Melody 1.
+\subsection{Office of Readings}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--O_Word_proceeding_from_on_high}\vspace{5pt} Text: \textit{Verbum supernum prodiens a Patre}, 10th c.; Melody 2.
+\subsection{Lauds}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Behold_a_voice_resounding_clear}\vspace{5pt} Text: \textit{Vox clara ecce intonat}, 10th c.; Melody 2.
+\section{Advent from December 17}
+\subsection{Vespers}\greannotation{IV}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Receive_O_Mary_Virgin_pure}\vspace{5pt} Text: \textit{Verbum salutis omnium}, c. 10th c.; Melody 1.
+\subsection{Office of Readings}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Redeemer_of_the_nations_come}\vspace{5pt} Text: \textit{Veni redemptor}, St. Ambrose, 340–397; Melody 2.
+\subsection{Lauds}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--With_mighty_voice_the_prophets_cry}\vspace{5pt} Text: \textit{Magnis prophetæ}, Unknown author; Melody 2.
+\section{Christmas Time before Epiphany}
+\subsection{Vespers}\greannotation{III}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--O_Christ_Redeemer_of_us_all}\vspace{5pt} Text: \textit{Christe redemptor omnium ex Patre}, 6th c.; Melody 3.
+\subsection{Office of Readings}\greannotation{II}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Loving_eternal_splendor_of_the_Godhead}\vspace{5pt} Text: \textit{Candor æternæ}, Anselmo Lentini, O.S.B., 1901–1989; Melody 33.
+\subsection{Lauds}\greannotation{III}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--From_lands_beneath_the_rising_sun}\vspace{5pt} Text: \textit{A solis ortus}, Sedulius, c. 5th c.; Melody 3.
+\section{The Holy Family of Jesus, Mary and Joseph}
+\subsection{Vespers}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--O_blessed_Light_of_saints_above}\vspace{5pt} Text: \textit{O lux beata caelitum}, Pope Leo XIII, 1810–1903; Melody 4.
+\subsection{Office of Readings}\greannotation{II}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Sweet_is_the_memory}\vspace{5pt} Text: \textit{Dulce fit nobis}, Pope Leo XIII, 1810–1903; Melody 33.
+\subsection{Lauds}\greannotation{VIII}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Christ_the_Fathers_Splendor}\vspace{5pt} Text: \textit{Christe splendor}, Anselmo Lentini, O.S.B., 1901–1989; Melody 112 (DOH).
+\section{Solemnity of Mary, the Holy Mother of God}
+\subsection{Vespers}\greannotation{II}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Of_the_Fathers_heart_begotten}\vspace{5pt} Text: \textit{Corde natus}, Prudentius, c. 348–405; Melody 49.
+\subsection{Office of Readings}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--From_Jesses_stock_a_bloom_has_sprung}\vspace{5pt} Text: \textit{Radix Iesse}, 7–8th c.; Melody 4.
+\subsection{Lauds}\greannotation{III}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--The_gate_for_Christ_so_full_of_grace}\vspace{5pt} Text: \textit{Fit porta Christi}, 9th c.; Melody 3.
+\section{Epiphany to Baptism of the Lord}
+\subsection{Vespers}\greannotation{III}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Why_wicked_Herod_should_you_fear}\vspace{5pt} Text: \textit{Hostis Herodes}, Sedulius, c. 5th c.; Melody 3.
+\subsection{Office of Readings}\greannotation{III}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--The_Magi_when_they_see_the_child}\vspace{5pt} Text: \textit{Magi videntes}, Prudentius, c. 348–405; Melody 3.
+\subsection{Lauds}\greannotation{III}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--All_you_who_long_to_see_the_Christ}\vspace{5pt} Text: \textit{Quicumque Christum}, Prudentius, c. 348–405; Melody 3.
+\section{The Baptism of the Lord}
+\subsection{First Vespers}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--The_Fathers_Sole-begotten_Son}\vspace{5pt} Text: \textit{A Patre Unigenite}, c. 10th c.; Melody 4.
+\subsection{Office of Readings and Second Vespers}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--As_John_fulfilled_his_sacred_charge}\vspace{5pt} Text: \textit{Implente munus}, c. 10th c.; Melody 4.
+\subsection{Lauds}\greannotation{I}\gresetinitiallines{1}\grechangestyle{initial}{\fontsize{36}{36}\selectfont}\grechangedim{maxbaroffsettextleft@nobar}{12 cm}{scalable}\grechangedim{spaceabovelines}{0.5cm}{scalable}\gresetlyriccentering{syllable}\gregorioscore{chants/english--hymn--Christ_Jesus_clothed_in_splendid_light}\vspace{5pt} Text: \textit{Iesus refulsit}, Unknown author; Melody 4.
+
+
+  \end{document}

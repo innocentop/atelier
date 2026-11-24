@@ -190,8 +190,8 @@ INPUT ./Ordinary.out
 OUTPUT Ordinary.out
 INPUT ./tmp-gre/chants/english--ordinary--o_lord-6_1_0.gtex
 INPUT ./tmp-gre/chants/ordinary--domine_labia-6_1_0.gtex
-INPUT ./tmp-gre/chants/english--ordinary--o_god-6_1_0.gtex
 INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./tmp-gre/chants/english--ordinary--o_god-6_1_0.gtex
 INPUT ./tmp-gre/chants/ordinary--deus_in_adiutorium-6_1_0.gtex
 INPUT ./tmp-gre/chants/english--ordinary--short_reading-formula-6_1_0.gtex
 INPUT ./tmp-gre/chants/english--ordinary--short_responsory-6_1_0.gtex
@@ -200,5 +200,9 @@ INPUT ./tmp-gre/chants/english--ordinary--short_responsory_lent-6_1_0.gtex
 INPUT ./tmp-gre/chants/english--ordinary--intercessions-formula-6_1_0.gtex
 INPUT ./tmp-gre/chants/english--ordinary--our_father--roman_missal-6_1_0.gtex
 INPUT ./tmp-gre/chants/ordinary--pater_noster--solesmes-op-6_1_0.gtex
+INPUT ./tmp-gre/chants/english--ordinary--collect-solemn-6_1_0.gtex
+INPUT ./tmp-gre/chants/english--ordinary--final_blessing_roman_missal--solemn-6_1_0.gtex
+INPUT ./tmp-gre/chants/english--ordinary--dismissal_in_absence_of_a_priest-6_1_0.gtex
+INPUT ./tmp-gre/chants/english--ordinary--let_us_bless--icel-6_1_0.gtex
 INPUT ./Ordinary.aux
 INPUT ./Ordinary.out
